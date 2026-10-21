@@ -1,0 +1,749 @@
+{
+  "nota": "El umbral para declarar una ocupación como emergente todavía NO está definido. Estos 20 anuncios recorren la distribución del índice para poder calibrarlo.",
+  "distribucion": {
+    "n": 5999,
+    "min": 0.0,
+    "max": 0.795,
+    "promedio": 0.24,
+    "p10": 0.076,
+    "p25": 0.104,
+    "p50": 0.185,
+    "p75": 0.34,
+    "p90": 0.526,
+    "p95": 0.584,
+    "histograma": [
+      {
+        "desde": 0.0,
+        "hasta": 0.05,
+        "n": 234
+      },
+      {
+        "desde": 0.05,
+        "hasta": 0.1,
+        "n": 1130
+      },
+      {
+        "desde": 0.1,
+        "hasta": 0.15,
+        "n": 1162
+      },
+      {
+        "desde": 0.15,
+        "hasta": 0.2,
+        "n": 679
+      },
+      {
+        "desde": 0.2,
+        "hasta": 0.25,
+        "n": 616
+      },
+      {
+        "desde": 0.25,
+        "hasta": 0.3,
+        "n": 420
+      },
+      {
+        "desde": 0.3,
+        "hasta": 0.35,
+        "n": 319
+      },
+      {
+        "desde": 0.35,
+        "hasta": 0.4,
+        "n": 264
+      },
+      {
+        "desde": 0.4,
+        "hasta": 0.45,
+        "n": 197
+      },
+      {
+        "desde": 0.45,
+        "hasta": 0.5,
+        "n": 248
+      },
+      {
+        "desde": 0.5,
+        "hasta": 0.55,
+        "n": 267
+      },
+      {
+        "desde": 0.55,
+        "hasta": 0.6,
+        "n": 230
+      },
+      {
+        "desde": 0.6,
+        "hasta": 0.65,
+        "n": 145
+      },
+      {
+        "desde": 0.65,
+        "hasta": 0.7,
+        "n": 60
+      },
+      {
+        "desde": 0.7,
+        "hasta": 0.75,
+        "n": 23
+      },
+      {
+        "desde": 0.75,
+        "hasta": 0.8,
+        "n": 5
+      },
+      {
+        "desde": 0.8,
+        "hasta": 0.85,
+        "n": 0
+      },
+      {
+        "desde": 0.85,
+        "hasta": 0.9,
+        "n": 0
+      },
+      {
+        "desde": 0.9,
+        "hasta": 0.95,
+        "n": 0
+      },
+      {
+        "desde": 0.95,
+        "hasta": 1.0,
+        "n": 0
+      }
+    ]
+  },
+  "ejemplos": [
+    {
+      "percentil": 0,
+      "indice": 0.0,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.04,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.027
+      },
+      "titulo_anuncio": "Promotor de Servicios Bancarios",
+      "familia_ocupacional": "Servicios bancarios de ventanilla",
+      "sinco_4d": "3212",
+      "sinco_4d_nombre": "Cajeros, taquilleros y receptores de pagos",
+      "tareas": [
+        "Cuadrar la caja al cierre del día",
+        "Atender solicitudes internas",
+        "Promover productos financieros"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 13000,
+        "max_mxn": 14500,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 5,
+      "indice": 0.058,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.048,
+        "crecimiento_reciente": 0.013,
+        "dispersion_sectorial": 0.661
+      },
+      "titulo_anuncio": "Auxiliar de Enfermería",
+      "familia_ocupacional": "Enfermería",
+      "sinco_4d": "2221",
+      "sinco_4d_nombre": "Enfermeras profesionales",
+      "tareas": [
+        "Preparar material y equipo de curación",
+        "Registrar la evolución clínica de los pacientes",
+        "Comunicarse con el equipo médico tratante",
+        "Registrar la información del paciente"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 11,
+      "indice": 0.077,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.063,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.897
+      },
+      "titulo_anuncio": "Cocinero",
+      "familia_ocupacional": "Servicios de alimentos",
+      "sinco_4d": "5111",
+      "sinco_4d_nombre": "Cocineros y preparadores de alimentos",
+      "tareas": [
+        "Preparar los alimentos conforme a recetas y estándares",
+        "Controlar insumos y mermas",
+        "Cuidar la higiene y la inocuidad en la cocina",
+        "Cumplir con los protocolos de higiene y seguridad",
+        "Reportar incidencias al supervisor"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 16,
+      "indice": 0.087,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.117,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.969
+      },
+      "titulo_anuncio": "Auxiliar Administrativo",
+      "familia_ocupacional": "Apoyo administrativo",
+      "sinco_4d": "3111",
+      "sinco_4d_nombre": "Auxiliares y asistentes administrativos",
+      "tareas": [
+        "Gestionar documentación y archivos de la oficina",
+        "Atender llamadas y correspondencia",
+        "Apoyar en la elaboración de reportes",
+        "Controlar agendas y logística de reuniones",
+        "Mantener actualizados los registros del área"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 17500,
+        "max_mxn": 20500,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 21,
+      "indice": 0.096,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.08,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.479
+      },
+      "titulo_anuncio": "Promotor de Ventas",
+      "familia_ocupacional": "Ventas en piso",
+      "sinco_4d": "4221",
+      "sinco_4d_nombre": "Vendedores y dependientes en establecimientos",
+      "tareas": [
+        "Realizar cortes de caja",
+        "Mantener el acomodo y la limpieza del área",
+        "Apoyar en el control de inventario del piso",
+        "Registrar las operaciones del día",
+        "Mantener el orden del área de trabajo",
+        "Atender y asesorar a los clientes en el punto de venta"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 9000,
+        "max_mxn": 10000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 26,
+      "indice": 0.107,
+      "componentes": {
+        "novedad_tareas": 0.3,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.109,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.0
+      },
+      "titulo_anuncio": "Cajero Bancario",
+      "familia_ocupacional": "Servicios bancarios de ventanilla",
+      "sinco_4d": "3212",
+      "sinco_4d_nombre": "Cajeros, taquilleros y receptores de pagos",
+      "tareas": [
+        "Elaborar reportes de actividades",
+        "Atender solicitudes internas",
+        "Cuadrar la caja al cierre del día",
+        "Realizar operaciones de depósito, retiro y pago de servicios",
+        "Acompañar al cliente en el uso de la banca en línea",
+        "Promover productos financieros"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 10500,
+        "max_mxn": 13000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 32,
+      "indice": 0.12,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.019,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.979
+      },
+      "titulo_anuncio": "Asistente Administrativo",
+      "familia_ocupacional": "Apoyo administrativo",
+      "sinco_4d": "3111",
+      "sinco_4d_nombre": "Auxiliares y asistentes administrativos",
+      "tareas": [
+        "Mantener actualizados los registros del área",
+        "Atender llamadas y correspondencia",
+        "Elaborar reportes de actividades",
+        "Apoyar en la elaboración de reportes"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 11000,
+        "max_mxn": 13000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 37,
+      "indice": 0.133,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.013,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 1.0
+      },
+      "titulo_anuncio": "Anfitrión de Recepción",
+      "familia_ocupacional": "Recepción y atención al público",
+      "sinco_4d": "3221",
+      "sinco_4d_nombre": "Recepcionistas y telefonistas",
+      "tareas": [
+        "Elaborar reportes de actividades",
+        "Recibir y canalizar a visitantes y llamadas",
+        "Atender solicitudes internas",
+        "Apoyar en tareas administrativas de la recepción",
+        "Registrar citas y controlar agendas"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 42,
+      "indice": 0.149,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.136,
+        "crecimiento_reciente": 0.016,
+        "dispersion_sectorial": 0.938
+      },
+      "titulo_anuncio": "Operador de Camión",
+      "familia_ocupacional": "Transporte y reparto",
+      "sinco_4d": "8322",
+      "sinco_4d_nombre": "Conductores de camiones y camionetas de carga",
+      "tareas": [
+        "Reportar incidencias durante el trayecto",
+        "Reportar incidencias al supervisor",
+        "Realizar entregas conforme a la ruta asignada",
+        "Verificar la carga y la documentación de embarque"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 20500,
+        "max_mxn": 23000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 47,
+      "indice": 0.174,
+      "componentes": {
+        "novedad_tareas": 0.3,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.126,
+        "crecimiento_reciente": 0.016,
+        "dispersion_sectorial": 0.901
+      },
+      "titulo_anuncio": "Chofer Repartidor",
+      "familia_ocupacional": "Transporte y reparto",
+      "sinco_4d": "8322",
+      "sinco_4d_nombre": "Conductores de camiones y camionetas de carga",
+      "tareas": [
+        "Verificar la carga y la documentación de embarque",
+        "Cumplir con las normas de seguridad en el trabajo",
+        "Realizar entregas conforme a la ruta asignada",
+        "Reportar incidencias durante el trayecto",
+        "Reportar incidencias al supervisor",
+        "Comprobar entregas con evidencia fotográfica en la aplicación"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 19000,
+        "max_mxn": 21000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 53,
+      "indice": 0.197,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.233,
+        "ajuste_sinco": 0.209,
+        "crecimiento_reciente": 0.047,
+        "dispersion_sectorial": 0.877
+      },
+      "titulo_anuncio": "Ingeniero de Software",
+      "familia_ocupacional": "Desarrollo de software",
+      "sinco_4d": "2151",
+      "sinco_4d_nombre": "Desarrolladores y analistas de software y multimedia",
+      "tareas": [
+        "Escribir pruebas automatizadas",
+        "Documentar componentes y servicios",
+        "Escribir y revisar código",
+        "Participar en revisiones de código",
+        "Estimar tiempos de entrega con el equipo",
+        "Desarrollar y mantener aplicaciones web"
+      ],
+      "habilidades_nuevas": [
+        "integración de sistemas mediante API"
+      ],
+      "modalidad": "remoto",
+      "salario": {
+        "min_mxn": 38500,
+        "max_mxn": 45000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 58,
+      "indice": 0.218,
+      "componentes": {
+        "novedad_tareas": 0.36,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.104,
+        "crecimiento_reciente": 0.016,
+        "dispersion_sectorial": 0.925
+      },
+      "titulo_anuncio": "Chofer Repartidor",
+      "familia_ocupacional": "Transporte y reparto",
+      "sinco_4d": "8322",
+      "sinco_4d_nombre": "Conductores de camiones y camionetas de carga",
+      "tareas": [
+        "Cumplir con las normas de seguridad en el trabajo",
+        "Llevar el registro de la operación",
+        "Comprobar entregas con evidencia fotográfica en la aplicación",
+        "Verificar la carga y la documentación de embarque",
+        "Realizar entregas conforme a la ruta asignada"
+      ],
+      "habilidades_nuevas": [],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": 19500,
+        "max_mxn": 23000,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 63,
+      "indice": 0.246,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.56,
+        "ajuste_sinco": 0.224,
+        "crecimiento_reciente": 0.047,
+        "dispersion_sectorial": 0.851
+      },
+      "titulo_anuncio": "Programador Backend",
+      "familia_ocupacional": "Desarrollo de software",
+      "sinco_4d": "2151",
+      "sinco_4d_nombre": "Desarrolladores y analistas de software y multimedia",
+      "tareas": [
+        "Documentar componentes y servicios",
+        "Documentar los desarrollos realizados",
+        "Participar en revisiones de código",
+        "Estimar tiempos de entrega con el equipo"
+      ],
+      "habilidades_nuevas": [
+        "integración de sistemas mediante API",
+        "orquestación de contenedores"
+      ],
+      "modalidad": "remoto",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 68,
+      "indice": 0.281,
+      "componentes": {
+        "novedad_tareas": 0.0,
+        "novedad_habilidades": 0.56,
+        "ajuste_sinco": 0.127,
+        "crecimiento_reciente": 0.047,
+        "dispersion_sectorial": 0.838
+      },
+      "titulo_anuncio": "Ingeniero de Software",
+      "familia_ocupacional": "Desarrollo de software",
+      "sinco_4d": "2151",
+      "sinco_4d_nombre": "Desarrolladores y analistas de software y multimedia",
+      "tareas": [
+        "Desarrollar y mantener aplicaciones web",
+        "Escribir pruebas automatizadas",
+        "Estimar tiempos de entrega con el equipo",
+        "Escribir y revisar código",
+        "Participar en revisiones de código"
+      ],
+      "habilidades_nuevas": [
+        "orquestación de contenedores",
+        "integración de sistemas mediante API"
+      ],
+      "modalidad": "hibrido",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 74,
+      "indice": 0.327,
+      "componentes": {
+        "novedad_tareas": 0.36,
+        "novedad_habilidades": 0.28,
+        "ajuste_sinco": 0.245,
+        "crecimiento_reciente": 0.047,
+        "dispersion_sectorial": 0.816
+      },
+      "titulo_anuncio": "Desarrollador Frontend",
+      "familia_ocupacional": "Desarrollo de software",
+      "sinco_4d": "2151",
+      "sinco_4d_nombre": "Desarrolladores y analistas de software y multimedia",
+      "tareas": [
+        "Escribir pruebas automatizadas",
+        "Desarrollar y mantener aplicaciones web",
+        "Integrar asistentes de código y componentes de IA en el flujo de desarrollo",
+        "Estimar tiempos de entrega con el equipo",
+        "Documentar componentes y servicios"
+      ],
+      "habilidades_nuevas": [
+        "integración de sistemas mediante API"
+      ],
+      "modalidad": "presencial",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 79,
+      "indice": 0.383,
+      "componentes": {
+        "novedad_tareas": 0.36,
+        "novedad_habilidades": 0.467,
+        "ajuste_sinco": 0.211,
+        "crecimiento_reciente": 0.05,
+        "dispersion_sectorial": 0.993
+      },
+      "titulo_anuncio": "Analista de Business Intelligence",
+      "familia_ocupacional": "Inteligencia de negocios",
+      "sinco_4d": "2511",
+      "sinco_4d_nombre": "Analistas de sistemas y de información",
+      "tareas": [
+        "Levantar requerimientos de información",
+        "Documentar los procesos del área",
+        "Modelar y depurar fuentes de datos",
+        "Presentar resultados a los solicitantes",
+        "Habilitar consultas en lenguaje natural sobre los tableros"
+      ],
+      "habilidades_nuevas": [
+        "integración de sistemas mediante API",
+        "analítica de producto digital"
+      ],
+      "modalidad": "hibrido",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 84,
+      "indice": 0.457,
+      "componentes": {
+        "novedad_tareas": 0.514,
+        "novedad_habilidades": 0.7,
+        "ajuste_sinco": 0.436,
+        "crecimiento_reciente": 0.055,
+        "dispersion_sectorial": 0.875
+      },
+      "titulo_anuncio": "Especialista en Comercio Electrónico",
+      "familia_ocupacional": "Mercadotecnia digital y crecimiento",
+      "sinco_4d": "2431",
+      "sinco_4d_nombre": "Especialistas en mercadotecnia y publicidad",
+      "tareas": [
+        "Documentar el trabajo realizado",
+        "Planear y ejecutar campañas en medios digitales",
+        "Automatizar la generación de contenido con herramientas de IA",
+        "Analizar el desempeño de las campañas",
+        "Operar catálogos en mercados en línea internacionales",
+        "Gestionar el calendario de contenidos",
+        "Participar en reuniones de seguimiento"
+      ],
+      "habilidades_nuevas": [
+        "experimentación A/B a escala",
+        "automatización de mercadotecnia",
+        "gestión de mercados en línea (marketplaces)"
+      ],
+      "modalidad": "hibrido",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 89,
+      "indice": 0.521,
+      "componentes": {
+        "novedad_tareas": 0.6,
+        "novedad_habilidades": 0.35,
+        "ajuste_sinco": 0.536,
+        "crecimiento_reciente": 0.358,
+        "dispersion_sectorial": 0.919
+      },
+      "titulo_anuncio": "Especialista en DevSecOps",
+      "familia_ocupacional": "Ciberseguridad en la nube",
+      "sinco_4d": "2153",
+      "sinco_4d_nombre": "Especialistas en seguridad informática",
+      "tareas": [
+        "Realizar evaluaciones de vulnerabilidades",
+        "Monitorear y responder a incidentes de seguridad",
+        "Modelar amenazas sobre arquitecturas de microservicios",
+        "Asegurar contenedores y cargas de trabajo distribuidas en varias nubes",
+        "Participar en reuniones de seguimiento",
+        "Documentar el trabajo realizado"
+      ],
+      "habilidades_nuevas": [
+        "respuesta a incidentes en entornos híbridos"
+      ],
+      "modalidad": "remoto",
+      "salario": {
+        "min_mxn": 88500,
+        "max_mxn": 112500,
+        "periodicidad": "mensual",
+        "declarado": true
+      }
+    },
+    {
+      "percentil": 95,
+      "indice": 0.581,
+      "componentes": {
+        "novedad_tareas": 0.675,
+        "novedad_habilidades": 0.28,
+        "ajuste_sinco": 0.633,
+        "crecimiento_reciente": 0.667,
+        "dispersion_sectorial": 0.905
+      },
+      "titulo_anuncio": "Especialista en IA Generativa",
+      "familia_ocupacional": "Ingeniería de prompts e IA generativa",
+      "sinco_4d": "2151",
+      "sinco_4d_nombre": "Desarrolladores y analistas de software y multimedia",
+      "tareas": [
+        "Colaborar con equipos de producto para definir casos de uso de IA",
+        "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+        "Construir bancos de evaluación para comparar versiones de modelos",
+        "Documentar los criterios de evaluación de las respuestas del modelo",
+        "Definir barreras de seguridad para las respuestas generadas",
+        "Medir el desempeño y el costo de las soluciones implementadas",
+        "Estimar tiempos de entrega con el equipo",
+        "Escribir y revisar código"
+      ],
+      "habilidades_nuevas": [
+        "evaluación de modelos de lenguaje"
+      ],
+      "modalidad": "hibrido",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    },
+    {
+      "percentil": 100,
+      "indice": 0.795,
+      "componentes": {
+        "novedad_tareas": 0.9,
+        "novedad_habilidades": 0.7,
+        "ajuste_sinco": 0.79,
+        "crecimiento_reciente": 0.667,
+        "dispersion_sectorial": 0.877
+      },
+      "titulo_anuncio": "Ingeniero de Prompts",
+      "familia_ocupacional": "Ingeniería de prompts e IA generativa",
+      "sinco_4d": "2151",
+      "sinco_4d_nombre": "Desarrolladores y analistas de software y multimedia",
+      "tareas": [
+        "Definir barreras de seguridad para las respuestas generadas",
+        "Integrar modelos mediante interfaces de programación",
+        "Estimar tiempos de entrega con el equipo",
+        "Construir bancos de evaluación para comparar versiones de modelos",
+        "Documentar los criterios de evaluación de las respuestas del modelo",
+        "Diseñar cadenas de agentes que resuelven tareas de varios pasos"
+      ],
+      "habilidades_nuevas": [
+        "diseño de flujos con agentes de IA",
+        "generación aumentada por recuperación (RAG)",
+        "ingeniería de instrucciones (prompting)"
+      ],
+      "modalidad": "remoto",
+      "salario": {
+        "min_mxn": null,
+        "max_mxn": null,
+        "periodicidad": "mensual",
+        "declarado": false
+      }
+    }
+  ]
+}

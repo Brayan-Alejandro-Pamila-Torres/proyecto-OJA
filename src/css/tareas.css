@@ -1,0 +1,138 @@
+/* ============================================================================
+   Escena 2 — la clasificación se basa en tareas
+   Dos columnas de tareas, una por ocupación. Las comunes se marcan en jade y se
+   unen con un hilo; las nuevas se encienden en lavanda y al final se separan.
+   ========================================================================= */
+
+.tareas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.tareas__escala {
+  position: relative;
+  width: 980px;
+  height: 470px;
+  transform: translate(var(--dx, 0px), var(--dy, 0px)) scale(var(--k, 1));
+  transform-origin: center;
+  transition: transform var(--dur-escena) var(--ease-mueve);
+}
+
+/* ---- encabezado de cada columna ------------------------------------------ */
+
+.columna__cabeza {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid var(--c-catalogo);
+  color: var(--c-catalogo);
+  transition: opacity var(--dur-mueve) var(--ease-mueve),
+              border-color var(--dur-mueve) var(--ease-mueve),
+              color var(--dur-mueve) var(--ease-mueve);
+}
+.columna__cabeza svg { width: 26px; height: 26px; flex-shrink: 0; }
+.columna__titulo { font-size: 16px; font-weight: var(--peso-fuerte); line-height: 1.15; }
+.columna__dato { font-size: 12.5px; font-weight: var(--peso-normal); color: var(--tinta-suave); }
+
+.columna__cabeza[data-lado='derecha'] { border-color: var(--c-emergente); color: var(--c-emergente-fuerte); }
+
+/* ---- fichas de tarea ------------------------------------------------------ */
+
+.tarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 260px;
+  padding: 8px 11px;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-left: 3px solid var(--gris-400);
+  border-radius: var(--radio);
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--tinta);
+  opacity: 0;
+  transform: translate(var(--x, 0), var(--y, 0)) scale(0.96);
+  transition:
+    transform 800ms var(--ease-mueve) var(--dd, 0ms),
+    opacity 420ms var(--ease-mueve) var(--dd, 0ms),
+    border-color var(--dur-mueve) var(--ease-mueve),
+    background var(--dur-mueve) var(--ease-mueve),
+    color var(--dur-mueve) var(--ease-mueve);
+}
+
+.tarea--visible { opacity: 1; transform: translate(var(--x, 0), var(--y, 0)) scale(1); }
+
+.tarea__texto {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* comunes */
+.tareas[data-beat='1'] .tarea[data-comun='si'],
+.tareas[data-beat='2'] .tarea[data-comun='si'] {
+  border-left-color: var(--jade-500);
+  background: #e2efea;
+}
+
+/* nuevas: se encienden dentro del beat 1, ya vistas las comunes */
+.tareas--nuevas .tarea[data-nueva='si'],
+.tareas[data-beat='2'] .tarea[data-nueva='si'] {
+  border-left-color: var(--c-emergente);
+  border-color: var(--c-emergente);
+  background: #f2eeff;
+  color: var(--tinta-fuerte);
+}
+
+/* al separar lo nuevo, lo demás se apaga */
+.tareas[data-beat='2'] .tarea[data-nueva='no'],
+.tareas[data-beat='2'] .columna__cabeza { opacity: 0.14; }
+
+/* ---- hilos entre tareas comunes ------------------------------------------ */
+
+.capa--hilos { opacity: 0; transition: opacity var(--dur-escena) var(--ease-mueve); pointer-events: none; }
+.tareas[data-beat='1'] .capa--hilos { opacity: 1; }
+.hilo { fill: none; stroke: var(--jade-500); stroke-width: 1.4; stroke-dasharray: 4 4; }
+
+/* ---- el bloque de lo nuevo ----------------------------------------------- */
+
+.marco-nuevo {
+  position: absolute;
+  border: 1.5px dashed var(--c-emergente);
+  border-radius: var(--radio-l);
+  background: color-mix(in srgb, var(--c-emergente) 5%, transparent);
+  opacity: 0;
+  transition: opacity var(--dur-escena) var(--ease-mueve);
+  pointer-events: none;
+}
+.marco-nuevo__etiqueta {
+  position: absolute;
+  top: -11px;
+  left: 14px;
+  padding: 0 8px;
+  background: var(--fondo);
+  font-size: 12px;
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-emergente-fuerte);
+  white-space: nowrap;
+}
+.tareas[data-beat='2'] .marco-nuevo { opacity: 1; }
+
+@media (max-width: 760px) {
+  .tareas { place-items: start center; }
+  .tarea { width: 164px; font-size: 10.5px; line-height: 1.3; padding: 6px 8px; }
+  .tarea__texto { -webkit-line-clamp: 3; }
+  .columna__cabeza { gap: 6px; padding-bottom: 6px; }
+  .columna__cabeza svg { width: 20px; height: 20px; }
+  .columna__dato { font-size: 10.5px; }
+  .columna__titulo { font-size: 13px; }
+}

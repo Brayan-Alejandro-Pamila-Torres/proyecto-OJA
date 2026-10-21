@@ -1,0 +1,333 @@
+/* ============================================================================
+   Escena de apertura — la pregunta, las respuestas y el catálogo
+   El tablero vive en un espacio de coordenadas fijo (980 × 540) que se escala
+   para caber en pantalla, así los cálculos de posición no dependen del tamaño.
+   ========================================================================= */
+
+.apertura {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+/* ---- beat 0: la pregunta ------------------------------------------------- */
+
+.apertura__pregunta {
+  grid-area: 1 / 1;
+  text-align: center;
+  max-width: 40rem;
+  transition: opacity var(--dur-escena) var(--ease-mueve),
+              transform var(--dur-escena) var(--ease-mueve);
+}
+
+.apertura__ante {
+  font-size: var(--t-detalle);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--c-anuncio);
+  margin-bottom: var(--e4);
+}
+
+.apertura__titulo {
+  font-size: clamp(2rem, 5.2vw, 3.6rem);
+  font-weight: var(--peso-negro);
+  letter-spacing: -0.02em;
+  color: var(--tinta-fuerte);
+}
+
+.apertura[data-beat='0'] .apertura__tablero { opacity: 0; pointer-events: none; }
+.apertura:not([data-beat='0']) .apertura__pregunta {
+  opacity: 0;
+  transform: translateY(-2rem) scale(0.96);
+  pointer-events: none;
+}
+
+/* ---- el tablero ---------------------------------------------------------- */
+
+.apertura__tablero {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  transition: opacity var(--dur-escena) var(--ease-mueve);
+}
+
+.tablero__escala {
+  position: relative;
+  width: 980px;
+  height: 540px;
+  transform:
+    translate(var(--dx, 0px), var(--dy, 0px)) scale(var(--k, 1))
+    translate(var(--zx, 0px), var(--zy, 0px)) scale(var(--zk, 1));
+  transform-origin: center;
+  transition: transform var(--dur-escena) var(--ease-mueve);
+}
+
+.capa { position: absolute; inset: 0; }
+
+.capa--renglones,
+.capa--tiempo,
+.capa--cierre {
+  opacity: 0;
+  transition: opacity var(--dur-escena) var(--ease-mueve);
+  pointer-events: none;
+}
+
+.apertura[data-beat='2'] .capa--renglones,
+.apertura[data-beat='3'] .capa--renglones,
+.apertura[data-beat='4'] .capa--renglones { opacity: 1; }
+
+.apertura[data-beat='3'] .capa--tiempo { opacity: 1; }
+.apertura[data-beat='3'] .capa--renglones,
+.apertura[data-beat='3'] .capa--respuestas { opacity: 0.07; }
+
+/* segundo tiempo del último beat: la respuesta suelta se archiva y el tablero
+   se apaga entero menos el renglón que acaba de recibir dos trabajos */
+.apertura.apertura--cajon .capa--cierre { opacity: 1; }
+.apertura--cajon .renglon { opacity: 0.06; }
+.apertura--cajon .renglon[data-resaltado='si'] { opacity: 1; }
+.apertura--cajon .respuesta.respuesta--visible { opacity: 0.06; }
+.apertura--cajon .respuesta.respuesta--visible[data-enfoque='si'] { opacity: 1; }
+
+.capa--respuestas { transition: opacity var(--dur-escena) var(--ease-mueve); }
+
+/* ---- renglones del catálogo ---------------------------------------------- */
+
+.renglon {
+  position: absolute;
+  left: 0;
+  padding-left: var(--sangria, 0px);
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  border-top: 1px solid var(--linea);
+  transition:
+    opacity var(--dur-escena) var(--ease-mueve),
+    border-color var(--dur-mueve) var(--ease-mueve);
+}
+.renglon:last-child { border-bottom: 1px solid var(--linea); }
+
+.renglon__codigo {
+  font-size: 14.5px;
+  font-weight: var(--peso-fuerte);
+  color: var(--c-catalogo);
+  width: 42px;
+  flex-shrink: 0;
+}
+
+.renglon__nombre {
+  font-size: 14.5px;
+  font-weight: var(--peso-ligero);
+  color: var(--tinta-suave);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+
+.renglon[data-resaltado='si'] { border-color: var(--c-emergente); }
+.renglon[data-resaltado='si'] .renglon__codigo { color: var(--c-emergente-fuerte); }
+
+/* ---- respuestas ---------------------------------------------------------- */
+
+.respuesta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 9px;
+  background: var(--blanco);
+  border: 1px solid var(--linea-fuerte);
+  border-radius: 999px;
+  white-space: nowrap;
+  color: var(--c-catalogo);
+  box-shadow: 0 1px 2px rgba(0, 48, 87, 0.06);
+  opacity: 0;
+  /* caen desde arriba, ladeadas: --caida y --giro vuelven a cero al posarse */
+  transform:
+    translate(var(--x, 0), calc(var(--y, 0) + var(--caida, -280px)))
+    rotate(var(--giro-vivo, 0deg))
+    scale(var(--escala-ficha, 0.92));
+  transition:
+    transform 1050ms cubic-bezier(0.2, 0.9, 0.25, 1) var(--dd, 0ms),
+    opacity 420ms var(--ease-mueve) var(--dd, 0ms),
+    border-color var(--dur-mueve) var(--ease-mueve),
+    color var(--dur-mueve) var(--ease-mueve),
+    box-shadow var(--dur-mueve) var(--ease-mueve);
+}
+
+/* mientras están cayendo van ladeadas; al llegar a la lista se enderezan */
+.apertura[data-beat='0'] .respuesta,
+.apertura[data-beat='1'] .respuesta { --giro-vivo: var(--giro, 0deg); }
+
+.respuesta--visible {
+  opacity: 1;
+  --caida: 0px;
+  --escala-ficha: 1;
+}
+
+.respuesta__icono {
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.respuesta__titulo {
+  font-size: 15.5px;
+  font-weight: var(--peso-medio);
+  letter-spacing: -0.005em;
+}
+
+/* la que no encuentra renglón */
+.respuesta[data-suelta='si'] {
+  border-color: var(--c-emergente);
+  color: var(--c-emergente-fuerte);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-emergente) 18%, transparent);
+}
+.apertura[data-beat='4']:not(.apertura--cajon) .respuesta[data-suelta='si'] { animation: latido 1.4s var(--ease-mueve) infinite; }
+
+@keyframes latido {
+  0%, 100% { box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-emergente) 18%, transparent); }
+  50%      { box-shadow: 0 0 0 11px color-mix(in srgb, var(--c-emergente) 6%, transparent); }
+}
+
+/* ---- capa de tiempo ------------------------------------------------------
+   Dos grafías distintas y deliberadas: el catálogo en azul bajo el eje (es una
+   serie real) y el mundo en gris sobre el eje (son acontecimientos, no datos
+   nuestros). El corpus no aparece: este beat es sobre el desfase. */
+
+.tiempo__svg { width: 100%; height: 100%; overflow: visible; }
+.tiempo__eje { stroke: var(--linea-fuerte); stroke-width: 1; }
+
+.tiempo__anio {
+  font-family: var(--fuente);
+  font-size: 15px;
+  font-weight: var(--peso-fuerte);
+  fill: var(--c-catalogo);
+}
+.tiempo__nota {
+  font-family: var(--fuente);
+  font-size: 12.5px;
+  font-weight: var(--peso-normal);
+  fill: var(--tinta-suave);
+}
+
+/* las versiones del catálogo */
+.hito--catalogo line { stroke: var(--c-catalogo); stroke-width: 2.5; stroke-linecap: round; }
+
+/* Los acontecimientos del mundo van en el mismo color que el hueco vivo: son las
+   dos mitades del mismo argumento. La línea punteada y la cursiva siguen
+   distinguiéndolos de las versiones del catálogo, que sí son una serie nuestra. */
+.hito--mundo line { stroke: var(--c-emergente); stroke-width: 1; stroke-dasharray: 2 3; }
+.hito--mundo circle { fill: var(--fondo); stroke: var(--c-emergente); stroke-width: 1.5; }
+.hito--mundo .tiempo__anio { fill: var(--c-emergente-fuerte); font-weight: var(--peso-fuerte); }
+.hito--mundo .tiempo__nota { fill: var(--c-emergente-fuerte); font-style: italic; }
+
+/* los huecos entre versiones */
+.hueco path { fill: none; stroke: var(--linea-fuerte); stroke-width: 1; }
+.hueco text {
+  font-family: var(--fuente);
+  font-size: 13px;
+  font-weight: var(--peso-medio);
+  fill: var(--tinta-suave);
+}
+.hueco--vivo path { stroke: var(--c-emergente); }
+.hueco--vivo text { fill: var(--c-emergente-fuerte); font-weight: var(--peso-fuerte); font-size: 15px; }
+
+/* ---- el cajón compartido ------------------------------------------------- */
+
+.marco-cajon {
+  position: absolute;
+  border: 1.5px dashed var(--c-emergente);
+  border-radius: 999px;
+  background: rgba(216, 206, 255, 0.12);
+  pointer-events: none;
+}
+
+/* el remate se apoya sobre el tablero apagado: un velo del color del fondo le
+   despeja el renglón sin convertirlo en otra caja */
+.remate {
+  position: absolute;
+  padding: 9px 16px 11px 0;
+  background: linear-gradient(
+    to right,
+    rgba(251, 252, 252, 0.93) 0%,
+    rgba(251, 252, 252, 0.93) 89%,
+    rgba(251, 252, 252, 0) 100%
+  );
+}
+
+.remate__titulo {
+  margin: 0 0 6px;
+  font-size: 21px;
+  font-weight: var(--peso-negro);
+  letter-spacing: -0.012em;
+  color: var(--tinta-fuerte);
+}
+
+.remate__texto b {
+  font-weight: var(--peso-negro);
+  color: var(--c-emergente-fuerte);
+}
+
+.remate__texto {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--tinta-suave);
+}
+
+/* ---- posiciones de la tarjeta -------------------------------------------- */
+
+.beat[data-pos='izquierda'] { justify-content: flex-start; }
+.beat[data-pos='derecha']   { justify-content: flex-end; }
+.beat[data-pos='centro']    { justify-content: center; }
+.beat[data-pos='pie']       { justify-content: center; }
+.beat[data-pos='sin'] .tarjeta,
+.beat[data-pos='sin']       { pointer-events: none; }
+
+@media (max-width: 900px) {
+  .beat[data-pos] { justify-content: center; }
+}
+
+/* ---- traza de lista, para pantallas angostas ----------------------------- */
+
+.apertura[data-traza='lista'] .marco-cajon { border-radius: var(--radio-l); }
+
+.apertura[data-traza='lista'] .renglon--lista {
+  height: 17px;
+  gap: 7px;
+  border-top: 0;
+  border-bottom: 1px solid var(--linea);
+}
+.apertura[data-traza='lista'] .renglon--lista .renglon__codigo { width: 34px; font-size: 11px; }
+.apertura[data-traza='lista'] .renglon--lista .renglon__nombre { font-size: 10.5px; max-width: 285px; }
+.apertura[data-traza='lista'] .renglon:last-child { border-bottom: 1px solid var(--linea); }
+
+.apertura[data-traza='lista'] .respuesta { padding: 3px 9px 3px 6px; }
+.apertura[data-traza='lista'] .respuesta__titulo { font-size: 11.5px; }
+.apertura[data-traza='lista'] .respuesta__icono { width: 15px; height: 15px; }
+
+@media (max-width: 760px) {
+  .apertura { place-items: start center; }
+  .apertura__pregunta { max-width: min(40rem, 86vw); }
+  .tiempo__anio { font-size: 11px; }
+  .tiempo__nota { font-size: 8.5px; }
+  .hueco text { font-size: 9.5px; }
+  .hueco--vivo text { font-size: 10.5px; }
+
+  .apertura__titulo { font-size: clamp(1.75rem, 8vw, 2.5rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .respuesta { --caida: 0px; --giro-vivo: 0deg; }
+}

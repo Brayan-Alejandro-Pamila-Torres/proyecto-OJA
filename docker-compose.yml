@@ -1,0 +1,12 @@
+
+services:
+  oja-web:
+    image: python:3.12-slim
+    container_name: proyecto-oja-web
+    working_dir: /app
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app:ro
+    command: ["python", "-m", "http.server", "5173", "--bind", "0.0.0.0"]
+    restart: unless-stopped

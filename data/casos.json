@@ -1,0 +1,738 @@
+{
+  "nota": "Datos sintéticos de prueba. Ver data/README.md.",
+  "total_anuncios": 5999,
+  "senales": [
+    {
+      "clave": "novedad_tareas",
+      "nombre": "Pide tareas que antes no existían",
+      "ejemplos": [
+        {
+          "texto": "«Integrar asistentes de código y componentes de IA en el flujo de desarrollo»",
+          "fuente": "Desarrollo de software"
+        },
+        {
+          "texto": "«Definir barreras de seguridad para las respuestas generadas»",
+          "fuente": "Ingeniería de prompts e IA generativa"
+        },
+        {
+          "texto": "«Diseñar cadenas de agentes que resuelven tareas de varios pasos»",
+          "fuente": "Ingeniería de prompts e IA generativa"
+        }
+      ]
+    },
+    {
+      "clave": "novedad_habilidades",
+      "nombre": "Pide saberes que antes no se pedían",
+      "ejemplos": [
+        {
+          "texto": "«integración de sistemas mediante API»",
+          "fuente": "598 anuncios la piden"
+        },
+        {
+          "texto": "«orquestación de contenedores»",
+          "fuente": "403 anuncios la piden"
+        },
+        {
+          "texto": "«diseño instruccional para entornos digitales»",
+          "fuente": "288 anuncios la piden"
+        }
+      ]
+    },
+    {
+      "clave": "ajuste_sinco",
+      "nombre": "No encaja del todo en ningún renglón",
+      "ejemplos": [
+        {
+          "texto": "«Ingeniero de Prompts»",
+          "fuente": "cae en 2151, junto con desarrollo de software"
+        },
+        {
+          "texto": "«Coordinador de Telemedicina»",
+          "fuente": "cae en 2221, junto con enfermería"
+        }
+      ]
+    },
+    {
+      "clave": "crecimiento_reciente",
+      "nombre": "Ya no es un caso aislado",
+      "ejemplos": [
+        {
+          "texto": "«Ingeniería de prompts e IA generativa»",
+          "fuente": "160 anuncios en la ventana observada"
+        },
+        {
+          "texto": "«Ciberseguridad en la nube»",
+          "fuente": "133 anuncios en la ventana observada"
+        },
+        {
+          "texto": "«Instalación de sistemas fotovoltaicos»",
+          "fuente": "124 anuncios en la ventana observada"
+        }
+      ]
+    },
+    {
+      "clave": "dispersion_sectorial",
+      "nombre": "Aparece en sectores muy distintos",
+      "ejemplos": [
+        {
+          "texto": "«Sostenibilidad y reporteo ESG»",
+          "fuente": "5 sectores: servicios financieros, consultoría…"
+        },
+        {
+          "texto": "«Ingeniería de prompts e IA generativa»",
+          "fuente": "5 sectores: servicios de tecnologías de la información, comercio electrónico…"
+        },
+        {
+          "texto": "«Operación de modelos en producción (MLOps)»",
+          "fuente": "4 sectores: servicios de tecnologías de la información, servicios financieros…"
+        }
+      ]
+    }
+  ],
+  "galeria": [
+    {
+      "familia": "Ingeniería de prompts e IA generativa",
+      "titulo": "Especialista en IA Generativa",
+      "mundo": "Tecnología",
+      "icono": "cerebro",
+      "n_anuncios": 160,
+      "indice": 0.617,
+      "sinco": {
+        "codigo_4d": "2151",
+        "nombre_4d": "Desarrolladores y analistas de software y multimedia",
+        "comparte_con": [
+          "Desarrollo de software"
+        ]
+      },
+      "tareas_nuevas": [
+        "Definir barreras de seguridad para las respuestas generadas",
+        "Diseñar cadenas de agentes que resuelven tareas de varios pasos"
+      ],
+      "habilidades_nuevas": [
+        {
+          "label": "generación aumentada por recuperación (RAG)",
+          "grupo": "S5",
+          "n": 80
+        },
+        {
+          "label": "ingeniería de instrucciones (prompting)",
+          "grupo": "S5",
+          "n": 60
+        },
+        {
+          "label": "afinamiento de modelos fundacionales",
+          "grupo": "S5",
+          "n": 60
+        }
+      ],
+      "habilidades_pedidas": [
+        {
+          "label": "aprendizaje automático",
+          "n": 112,
+          "pct": 70
+        },
+        {
+          "label": "inglés de negocios",
+          "n": 112,
+          "pct": 70
+        },
+        {
+          "label": "pensamiento crítico",
+          "n": 108,
+          "pct": 68
+        }
+      ],
+      "modalidad": {
+        "remoto": 53.1,
+        "hibrido": 37.5,
+        "presencial": 9.4
+      },
+      "salario_mediano": 71750
+    },
+    {
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "titulo": "Técnico en Energía Solar Fotovoltaica",
+      "mundo": "Energía y oficios",
+      "icono": "casa",
+      "n_anuncios": 124,
+      "indice": 0.471,
+      "sinco": {
+        "codigo_4d": "7411",
+        "nombre_4d": "Electricistas y trabajadores en instalaciones eléctricas",
+        "comparte_con": []
+      },
+      "tareas_nuevas": [
+        "Dimensionar sistemas de almacenamiento en baterías para autoconsumo",
+        "Gestionar el trámite de interconexión a la red eléctrica"
+      ],
+      "habilidades_nuevas": [
+        {
+          "label": "dimensionamiento de sistemas de almacenamiento de energía",
+          "grupo": "S7",
+          "n": 100
+        },
+        {
+          "label": "instalación de sistemas fotovoltaicos",
+          "grupo": "S7",
+          "n": 93
+        }
+      ],
+      "habilidades_pedidas": [
+        {
+          "label": "trabajo en equipo",
+          "n": 115,
+          "pct": 93
+        },
+        {
+          "label": "lectura de planos",
+          "n": 108,
+          "pct": 87
+        },
+        {
+          "label": "instalaciones eléctricas residenciales",
+          "n": 106,
+          "pct": 85
+        }
+      ],
+      "modalidad": {
+        "remoto": 2.4,
+        "hibrido": 8.9,
+        "presencial": 88.7
+      },
+      "salario_mediano": 22750
+    },
+    {
+      "familia": "Coordinación de telemedicina",
+      "titulo": "Especialista en Salud Digital",
+      "mundo": "Salud",
+      "icono": "estetoscopio",
+      "n_anuncios": 42,
+      "indice": 0.526,
+      "sinco": {
+        "codigo_4d": "2221",
+        "nombre_4d": "Enfermeras profesionales",
+        "comparte_con": [
+          "Enfermería"
+        ]
+      },
+      "tareas_nuevas": [
+        "Realizar triage y acompañamiento clínico por videoconsulta",
+        "Monitorear a distancia signos vitales enviados por dispositivos"
+      ],
+      "habilidades_nuevas": [
+        {
+          "label": "gestión de expedientes clínicos electrónicos",
+          "grupo": "S5",
+          "n": 33
+        },
+        {
+          "label": "teleconsulta y acompañamiento remoto de pacientes",
+          "grupo": "S3",
+          "n": 32
+        }
+      ],
+      "habilidades_pedidas": [
+        {
+          "label": "atención a clientes",
+          "n": 39,
+          "pct": 93
+        },
+        {
+          "label": "comunicación efectiva",
+          "n": 37,
+          "pct": 88
+        },
+        {
+          "label": "cuidados de enfermería",
+          "n": 37,
+          "pct": 88
+        }
+      ],
+      "modalidad": {
+        "remoto": 64.3,
+        "hibrido": 19.0,
+        "presencial": 16.7
+      },
+      "salario_mediano": 41250
+    },
+    {
+      "familia": "Auditoría algorítmica y ética de IA",
+      "titulo": "Auditor de Algoritmos",
+      "mundo": "Regulación y riesgo",
+      "icono": "documento-lupa",
+      "n_anuncios": 48,
+      "indice": 0.665,
+      "sinco": {
+        "codigo_4d": "2634",
+        "nombre_4d": "Especialistas en ciencias sociales y afines",
+        "comparte_con": []
+      },
+      "tareas_nuevas": [
+        "Diseñar políticas internas de uso de sistemas generativos",
+        "Documentar la trazabilidad de los datos de entrenamiento"
+      ],
+      "habilidades_nuevas": [
+        {
+          "label": "documentación de riesgos de IA",
+          "grupo": "S1",
+          "n": 27
+        },
+        {
+          "label": "auditoría algorítmica",
+          "grupo": "S2",
+          "n": 24
+        },
+        {
+          "label": "evaluación de sesgos en sistemas automatizados",
+          "grupo": "S2",
+          "n": 23
+        }
+      ],
+      "habilidades_pedidas": [
+        {
+          "label": "estadística aplicada",
+          "n": 44,
+          "pct": 92
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 38,
+          "pct": 79
+        },
+        {
+          "label": "pensamiento crítico",
+          "n": 37,
+          "pct": 77
+        }
+      ],
+      "modalidad": {
+        "remoto": 43.8,
+        "hibrido": 45.8,
+        "presencial": 10.4
+      },
+      "salario_mediano": 77250
+    },
+    {
+      "familia": "Curación y etiquetado de datos para IA",
+      "titulo": "Especialista en Calidad de Datos de Entrenamiento",
+      "mundo": "Apoyo administrativo",
+      "icono": "portapapeles",
+      "n_anuncios": 73,
+      "indice": 0.548,
+      "sinco": {
+        "codigo_4d": "3113",
+        "nombre_4d": "Capturistas y operadores de equipo de cómputo",
+        "comparte_con": []
+      },
+      "tareas_nuevas": [
+        "Validar la calidad de respuestas producidas por modelos generativos",
+        "Proponer mejoras a las guías de anotación a partir de casos límite"
+      ],
+      "habilidades_nuevas": [
+        {
+          "label": "etiquetado y curación de datos de entrenamiento",
+          "grupo": "S2",
+          "n": 48
+        },
+        {
+          "label": "gobernanza de datos para IA",
+          "grupo": "S2",
+          "n": 48
+        },
+        {
+          "label": "verificación de respuestas generadas por IA",
+          "grupo": "S2",
+          "n": 45
+        }
+      ],
+      "habilidades_pedidas": [
+        {
+          "label": "comunicación efectiva",
+          "n": 63,
+          "pct": 86
+        },
+        {
+          "label": "pensamiento crítico",
+          "n": 62,
+          "pct": 85
+        },
+        {
+          "label": "captura de datos",
+          "n": 62,
+          "pct": 85
+        }
+      ],
+      "modalidad": {
+        "remoto": 80.8,
+        "hibrido": 15.1,
+        "presencial": 4.1
+      },
+      "salario_mediano": 23500
+    },
+    {
+      "familia": "Coordinación de última milla",
+      "titulo": "Supervisor de Operaciones de Reparto",
+      "mundo": "Logística",
+      "icono": "bicicleta",
+      "n_anuncios": 106,
+      "indice": 0.493,
+      "sinco": {
+        "codigo_4d": "1324",
+        "nombre_4d": "Jefes de departamento de abastecimiento, distribución y afines",
+        "comparte_con": []
+      },
+      "tareas_nuevas": [
+        "Optimizar rutas mediante plataformas de asignación dinámica",
+        "Coordinar redes de repartidores con esquemas de trabajo por aplicación"
+      ],
+      "habilidades_nuevas": [
+        {
+          "label": "integración de sistemas mediante API",
+          "grupo": "S5",
+          "n": 75
+        },
+        {
+          "label": "coordinación de operaciones con repartidores independientes",
+          "grupo": "S4",
+          "n": 68
+        },
+        {
+          "label": "optimización de ruta de última milla",
+          "grupo": "S4",
+          "n": 60
+        }
+      ],
+      "habilidades_pedidas": [
+        {
+          "label": "gestión de inventarios",
+          "n": 88,
+          "pct": 83
+        },
+        {
+          "label": "atención a clientes",
+          "n": 86,
+          "pct": 81
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 82,
+          "pct": 77
+        }
+      ],
+      "modalidad": {
+        "remoto": 11.3,
+        "hibrido": 38.7,
+        "presencial": 50.0
+      },
+      "salario_mediano": 33250
+    }
+  ],
+  "casos": [
+    {
+      "familia": "Ingeniería de prompts e IA generativa",
+      "titulo": "Ingeniero de Prompts",
+      "mundo": "Tecnología",
+      "icono": "cerebro",
+      "n_anuncios": 160,
+      "indice": 0.617,
+      "senales": {
+        "novedad_tareas": 0.584,
+        "novedad_habilidades": 0.453,
+        "ajuste_sinco": 0.68,
+        "crecimiento_reciente": 0.665,
+        "dispersion_sectorial": 0.877
+      },
+      "sinco": {
+        "codigo_4d": "2151",
+        "nombre_4d": "Desarrolladores y analistas de software y multimedia",
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "comparte_con": [
+          "Desarrollo de software"
+        ]
+      },
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 2,
+        "ultimo_anio": 2026,
+        "n_ultimo": 54,
+        "multiplicador": 27.0
+      },
+      "tarea_estrella": "Definir barreras de seguridad para las respuestas generadas",
+      "tareas_nuevas": [
+        {
+          "texto": "Definir barreras de seguridad para las respuestas generadas",
+          "n": 125
+        },
+        {
+          "texto": "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+          "n": 117
+        },
+        {
+          "texto": "Construir bancos de evaluación para comparar versiones de modelos",
+          "n": 115
+        }
+      ],
+      "n_tareas_distintas": 11,
+      "habilidades_nuevas": [
+        {
+          "label": "generación aumentada por recuperación (RAG)",
+          "grupo": "S5",
+          "n": 80
+        },
+        {
+          "label": "ingeniería de instrucciones (prompting)",
+          "grupo": "S5",
+          "n": 60
+        },
+        {
+          "label": "afinamiento de modelos fundacionales",
+          "grupo": "S5",
+          "n": 60
+        },
+        {
+          "label": "diseño de flujos con agentes de IA",
+          "grupo": "S5",
+          "n": 57
+        }
+      ],
+      "n_habilidades_distintas": 11,
+      "modalidad": {
+        "remoto": 53.1,
+        "hibrido": 37.5,
+        "presencial": 9.4
+      },
+      "salario": {
+        "mediana": 71000,
+        "declara_pct": 52.5
+      }
+    },
+    {
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "titulo": "Técnico Instalador de Paneles Solares",
+      "mundo": "Energía y oficios",
+      "icono": "casa",
+      "n_anuncios": 124,
+      "indice": 0.471,
+      "senales": {
+        "novedad_tareas": 0.455,
+        "novedad_habilidades": 0.425,
+        "ajuste_sinco": 0.501,
+        "crecimiento_reciente": 0.312,
+        "dispersion_sectorial": 0.916
+      },
+      "sinco": {
+        "codigo_4d": "7411",
+        "nombre_4d": "Electricistas y trabajadores en instalaciones eléctricas",
+        "codigo_2d": "74",
+        "nombre_2d": "Trabajadores en instalaciones y mantenimiento eléctrico",
+        "comparte_con": []
+      },
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 4,
+        "ultimo_anio": 2026,
+        "n_ultimo": 26,
+        "multiplicador": 6.5
+      },
+      "tarea_estrella": "Dimensionar sistemas de almacenamiento en baterías para autoconsumo",
+      "tareas_nuevas": [
+        {
+          "texto": "Dimensionar sistemas de almacenamiento en baterías para autoconsumo",
+          "n": 92
+        },
+        {
+          "texto": "Gestionar el trámite de interconexión a la red eléctrica",
+          "n": 84
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "habilidades_nuevas": [
+        {
+          "label": "dimensionamiento de sistemas de almacenamiento de energía",
+          "grupo": "S7",
+          "n": 100
+        },
+        {
+          "label": "instalación de sistemas fotovoltaicos",
+          "grupo": "S7",
+          "n": 93
+        }
+      ],
+      "n_habilidades_distintas": 6,
+      "modalidad": {
+        "presencial": 88.7,
+        "hibrido": 8.9,
+        "remoto": 2.4
+      },
+      "salario": {
+        "mediana": 22750,
+        "declara_pct": 74.2
+      }
+    },
+    {
+      "familia": "Coordinación de telemedicina",
+      "titulo": "Coordinador de Telemedicina",
+      "mundo": "Salud",
+      "icono": "estetoscopio",
+      "n_anuncios": 42,
+      "indice": 0.526,
+      "senales": {
+        "novedad_tareas": 0.491,
+        "novedad_habilidades": 0.423,
+        "ajuste_sinco": 0.673,
+        "crecimiento_reciente": 0.439,
+        "dispersion_sectorial": 0.734
+      },
+      "sinco": {
+        "codigo_4d": "2221",
+        "nombre_4d": "Enfermeras profesionales",
+        "codigo_2d": "22",
+        "nombre_2d": "Profesionistas en ciencias de la salud",
+        "comparte_con": [
+          "Enfermería"
+        ]
+      },
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 2,
+        "ultimo_anio": 2026,
+        "n_ultimo": 12,
+        "multiplicador": 6.0
+      },
+      "tarea_estrella": "Realizar triage y acompañamiento clínico por videoconsulta",
+      "tareas_nuevas": [
+        {
+          "texto": "Realizar triage y acompañamiento clínico por videoconsulta",
+          "n": 34
+        },
+        {
+          "texto": "Monitorear a distancia signos vitales enviados por dispositivos",
+          "n": 32
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "habilidades_nuevas": [
+        {
+          "label": "gestión de expedientes clínicos electrónicos",
+          "grupo": "S5",
+          "n": 33
+        },
+        {
+          "label": "teleconsulta y acompañamiento remoto de pacientes",
+          "grupo": "S3",
+          "n": 32
+        }
+      ],
+      "n_habilidades_distintas": 6,
+      "modalidad": {
+        "remoto": 64.3,
+        "hibrido": 19.0,
+        "presencial": 16.7
+      },
+      "salario": {
+        "mediana": 41250,
+        "declara_pct": 59.5
+      }
+    }
+  ],
+  "panorama": [
+    {
+      "familia": "Auditoría algorítmica y ética de IA",
+      "indice": 0.665,
+      "n_anuncios": 48,
+      "codigo_2d": "26",
+      "nombre_2d": "Profesionistas en ciencias sociales y humanidades",
+      "icono": "documento-lupa"
+    },
+    {
+      "familia": "Ingeniería de prompts e IA generativa",
+      "indice": 0.617,
+      "n_anuncios": 160,
+      "codigo_2d": "21",
+      "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+      "icono": "cerebro"
+    },
+    {
+      "familia": "Curación y etiquetado de datos para IA",
+      "indice": 0.548,
+      "n_anuncios": 73,
+      "codigo_2d": "31",
+      "nombre_2d": "Trabajadores auxiliares en actividades administrativas",
+      "icono": "portapapeles"
+    },
+    {
+      "familia": "Sostenibilidad y reporteo ESG",
+      "indice": 0.537,
+      "n_anuncios": 76,
+      "codigo_2d": "21",
+      "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+      "icono": "planta"
+    },
+    {
+      "familia": "Electromovilidad y vehículos eléctricos",
+      "indice": 0.532,
+      "n_anuncios": 68,
+      "codigo_2d": "72",
+      "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+      "icono": "controles"
+    },
+    {
+      "familia": "Operación de modelos en producción (MLOps)",
+      "indice": 0.528,
+      "n_anuncios": 116,
+      "codigo_2d": "21",
+      "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+      "icono": "nube"
+    },
+    {
+      "familia": "Coordinación de telemedicina",
+      "indice": 0.526,
+      "n_anuncios": 42,
+      "codigo_2d": "22",
+      "nombre_2d": "Profesionistas en ciencias de la salud",
+      "icono": "estetoscopio"
+    },
+    {
+      "familia": "Ciberseguridad en la nube",
+      "indice": 0.507,
+      "n_anuncios": 133,
+      "codigo_2d": "21",
+      "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+      "icono": "candado"
+    },
+    {
+      "familia": "Ingeniería de plataformas y confiabilidad",
+      "indice": 0.503,
+      "n_anuncios": 119,
+      "codigo_2d": "21",
+      "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+      "icono": "red"
+    },
+    {
+      "familia": "Coordinación de última milla",
+      "indice": 0.493,
+      "n_anuncios": 106,
+      "codigo_2d": "13",
+      "nombre_2d": "Coordinadores y jefes de área en producción, servicios y actividades administrativas",
+      "icono": "bicicleta"
+    },
+    {
+      "familia": "Prevención de fraude digital",
+      "indice": 0.485,
+      "n_anuncios": 67,
+      "codigo_2d": "24",
+      "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+      "icono": "dinero"
+    },
+    {
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "indice": 0.471,
+      "n_anuncios": 124,
+      "codigo_2d": "74",
+      "nombre_2d": "Trabajadores en instalaciones y mantenimiento eléctrico",
+      "icono": "casa"
+    }
+  ],
+  "subgrupos_distintos": 8
+}

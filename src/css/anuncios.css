@@ -1,0 +1,471 @@
+/* ============================================================================
+   Escena 3 — de dónde salen los anuncios
+   Tres capas que se relevan por beat: la lluvia de ofertas, la extracción de
+   campos y la composición del corpus.
+   ========================================================================= */
+
+.anuncios { position: relative; width: 100%; height: 100%; display: grid; place-items: center; }
+
+.anuncios__escala {
+  position: relative;
+  width: 980px;
+  height: 470px;
+  transform: translate(var(--dx, 0px), var(--dy, 0px)) scale(var(--k, 1));
+  transform-origin: center;
+  transition: transform var(--dur-escena) var(--ease-mueve);
+}
+
+.capa--extraccion,
+.capa--composicion {
+  opacity: 0;
+  transition: opacity var(--dur-escena) var(--ease-mueve);
+  pointer-events: none;
+}
+
+.anuncios[data-beat='1'] .capa--extraccion { opacity: 1; }
+.anuncios[data-beat='2'] .capa--composicion { opacity: 1; }
+
+.capa--lluvia { transition: opacity var(--dur-escena) var(--ease-mueve); }
+.anuncios[data-beat='1'] .capa--lluvia,
+.anuncios[data-beat='2'] .capa--lluvia { opacity: 0; }
+
+/* ---- la lluvia: tarjetas de oferta --------------------------------------- */
+
+.oferta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 222px;
+  padding: 9px 11px 10px;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-top: 3px solid var(--c-emergente);
+  border-radius: var(--radio);
+  box-shadow: 0 1px 3px rgba(0, 48, 87, 0.07);
+  color: var(--tinta);
+  opacity: 0;
+  /* caen desde arriba, ladeadas: --caida y la escala vuelven a cero al posarse */
+  transform:
+    translate(var(--x, 0), calc(var(--y, 0) + var(--caida, -64px)))
+    rotate(var(--giro, 0deg)) scale(0.94);
+  transition:
+    transform 760ms cubic-bezier(0.2, 0.9, 0.25, 1) var(--dd, 0ms),
+    opacity 380ms var(--ease-mueve) var(--dd, 0ms);
+}
+.oferta--visible {
+  opacity: 1;
+  --caida: 0px;
+  transform: translate(var(--x, 0), var(--y, 0)) rotate(var(--giro, 0deg)) scale(1);
+}
+
+.oferta__titulo {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0 0 3px;
+  font-size: 14px;
+  font-weight: var(--peso-fuerte);
+  line-height: 1.25;
+  color: var(--tinta-fuerte);
+}
+.oferta__titulo svg { width: 15px; height: 15px; flex-shrink: 0; color: var(--c-anuncio); margin-top: 1px; }
+
+.oferta__quien {
+  margin: 0 0 7px;
+  font-size: 11.5px;
+  line-height: 1.3;
+  color: var(--tinta-suave);
+}
+
+.oferta__pastillas { display: flex; flex-wrap: wrap; gap: 4px; }
+
+.oferta__pastilla {
+  padding: 2px 7px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--tinta-suave);
+  white-space: nowrap;
+}
+.oferta__pastilla--hueca { border-style: dashed; }
+
+@media (max-width: 760px) {
+  /* en dos columnas angostas sólo caben el puesto, dónde y lo esencial */
+  .oferta { width: 166px; padding: 7px 8px 8px; }
+  .oferta__titulo { font-size: 11.5px; }
+  .oferta__titulo svg { width: 13px; height: 13px; }
+  .oferta__quien { font-size: 9.5px; margin-bottom: 6px; }
+  .oferta__pastilla { font-size: 9px; padding: 2px 6px; }
+  .oferta__pastilla:nth-child(n+3) { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* se conserva el orden de entrada, se suprime la caída */
+  .oferta { --caida: 0px; transform: translate(var(--x, 0), var(--y, 0)); }
+  .oferta--visible { transform: translate(var(--x, 0), var(--y, 0)); }
+}
+
+/* ---- plataformas --------------------------------------------------------- */
+
+/* ---- extracción ---------------------------------------------------------- */
+
+.crudo {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  width: 360px;
+  padding: var(--e4);
+  background: var(--gris-100);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  overflow: hidden;
+}
+
+/* el barrido: alguien leyendo el anuncio por primera vez */
+.barrido {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 64px;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(to bottom,
+    rgba(0, 191, 179, 0) 0%,
+    rgba(0, 191, 179, 0.13) 55%,
+    rgba(0, 191, 179, 0) 100%);
+}
+.barrido--corre { animation: barre var(--dur-barrido, 1900ms) linear forwards; }
+
+@keyframes barre {
+  0%   { transform: translateY(var(--inicio, -64px)); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { transform: translateY(var(--fin, 420px)); opacity: 0; }
+}
+
+/* los tramos del texto que sí están escritos */
+.marca {
+  background: transparent;
+  color: inherit;
+  border-radius: 2px;
+  box-shadow: 0 0 0 0 transparent;
+  transition:
+    background 380ms var(--ease-mueve),
+    box-shadow 380ms var(--ease-mueve),
+    color 380ms var(--ease-mueve);
+}
+.marca--viva { color: var(--tinta-fuerte); }
+.marca--viva[data-grupo='tareas']      { background: rgba(0, 191, 179, 0.34); box-shadow: 0 0 0 2px rgba(0, 191, 179, 0.22); }
+.marca--viva[data-grupo='habilidades'] { background: rgba(65, 145, 119, 0.32); box-shadow: 0 0 0 2px rgba(65, 145, 119, 0.2); }
+.marca--viva[data-grupo='condiciones'] { background: rgba(255, 172, 0, 0.36); box-shadow: 0 0 0 2px rgba(255, 172, 0, 0.24); }
+
+/* la copia que viaja del texto a su casilla */
+.volante {
+  position: absolute;
+  z-index: 5;
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--tinta-fuerte);
+  pointer-events: none;
+  opacity: 1;
+  box-shadow: 0 6px 18px rgba(0, 48, 87, 0.16);
+  transition: transform 850ms var(--ease-mueve), opacity 850ms ease-in;
+}
+/* colores planos, sin color-mix: hay navegadores en uso que no lo soportan y
+   ahí el recuadro volador se quedaba sin fondo, o sea invisible */
+.volante[data-grupo='tareas']      { background: #9fe6e0; }
+.volante[data-grupo='habilidades'] { background: #a9d3c6; }
+.volante[data-grupo='condiciones'] { background: #ffdf9e; }
+.volante[data-grupo='sinco']       { background: #bcd4e6; }
+.crudo__titulo { font-size: 15px; font-weight: var(--peso-fuerte); color: var(--tinta-fuerte); margin-bottom: var(--e2); }
+.crudo__texto { font-size: 10.5px; line-height: 1.5; color: var(--tinta-suave); }
+
+.flecha {
+  position: absolute;
+  left: 424px;
+  top: 210px;
+  width: 46px;
+  color: var(--c-anuncio);
+}
+
+.campos { position: absolute; left: 512px; top: 24px; width: 458px; }
+.campos__marca {
+  font-size: 10px;
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+  margin-bottom: var(--e3);
+}
+
+.extraidos { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+
+/* ---- la lente: quién hace la extracción -----------------------------------
+   Vive en el corredor entre el anuncio y el panel, que es por donde ya cruzan
+   volando los fragmentos: así la figura no decora, está en el sitio donde ocurre
+   el trabajo. Un haz gris entra —texto plano, indiferenciado— y sale en tres
+   rayos enfocados, con el MISMO código de color que las casillas. La lente no
+   inventa un lenguaje: vuelve legible el que la escena ya usa.
+
+   Sustituyó a un prisma de alambre que quedaba pobre. El argumento óptico es el
+   mismo; lo que cambió es que la forma es curva y tiene cuerpo.
+
+   Se dibuja sin color propio a propósito. Toda la paleta ya significa algo aquí
+   —azul catálogo, turquesa anuncio, lavanda emergente— y darle un color al
+   proceso habría metido un sexto significado. */
+
+.lente {
+  position: absolute;
+  left: 372px;
+  top: 78px;
+  width: 140px;
+  height: 116px;
+  overflow: visible;
+}
+
+.lente__cuerpo {
+  fill: var(--tinta-suave); fill-opacity: 0.07;
+  stroke: var(--tinta-suave); stroke-width: 1.2; stroke-linejoin: round;
+}
+.lente__cara { fill: none; stroke: var(--tinta-suave); stroke-width: 1; opacity: 0.5; }
+.lente__haz { stroke: var(--linea-fuerte); stroke-width: 5; stroke-linecap: round; }
+
+.lente__rayo {
+  fill: none;
+  stroke-width: 2.6;
+  stroke-linecap: round;
+  stroke-dasharray: 9 7;
+  animation: viaja-rayo 1600ms linear infinite;
+}
+.lente__rayo[data-grupo='tareas']      { stroke: var(--c-anuncio); }
+.lente__rayo[data-grupo='habilidades'] { stroke: var(--jade-500); animation-delay: -260ms; }
+.lente__rayo[data-grupo='condiciones'] { stroke: var(--ambar-500); animation-delay: -530ms; }
+
+@keyframes viaja-rayo { to { stroke-dashoffset: -32; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .lente__rayo { animation: none; stroke-dasharray: none; }
+}
+
+/* El rótulo, pegado a la lente. Antes era un párrafo a media pantalla de
+   distancia y el lector no lo relacionaba con la figura que estaba mirando. */
+.marca-ia {
+  position: absolute;
+  left: 372px;
+  top: 58px;
+  width: 140px;
+  margin: 0;
+  text-align: center;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--tinta-fuerte);
+}
+.marca-ia::before {
+  content: '';
+  position: absolute;
+  inset: -3px 34px;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  z-index: -1;
+}
+
+/* el relevo: el primer anuncio se retira y entra el segundo por el mismo sitio */
+.capa--extraccion .crudo,
+.capa--extraccion .campos,
+.capa--extraccion .lente,
+.capa--extraccion .marca-ia,
+.capa--extraccion .turno {
+  transition: opacity 380ms var(--ease-mueve), transform 380ms var(--ease-mueve);
+}
+.capa--extraccion.capa--relevo .crudo,
+.capa--extraccion.capa--relevo .campos,
+.capa--extraccion.capa--relevo .turno {
+  opacity: 0;
+  transform: translateY(-14px);
+}
+
+.turno {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  margin: 0;
+  font-size: 9.5px;
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+}
+
+/* Cada dato espera su turno con el hueco ya reservado: así la lista no salta
+   cuando llegan. */
+.campo {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  gap: 8px;
+  align-items: baseline;
+  padding: 2px 8px;
+  border-radius: var(--radio);
+  border: 1px dashed var(--linea-fuerte);
+  border-left-width: 3px;
+  background: transparent;
+  opacity: 0.32;
+  transition:
+    opacity 340ms var(--ease-mueve),
+    border-color 340ms var(--ease-mueve),
+    background 340ms var(--ease-mueve),
+    transform 420ms var(--ease-mueve);
+}
+.campo__tipo {
+  font-size: 9.5px; font-weight: var(--peso-fuerte);
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--tinta-suave); text-align: right;
+}
+.campo__valor { font-size: 11.5px; line-height: 1.28; color: transparent; transition: color 340ms var(--ease-mueve); }
+.campo__valor b { color: var(--tinta-suave); }
+.campo b { visibility: hidden; }
+
+.campo--puesto {
+  opacity: 1;
+  border-style: solid;
+  border-color: var(--linea);
+  background: var(--blanco);
+}
+.campo--puesto .campo__valor { color: var(--tinta); }
+.campo--puesto b { visibility: visible; }
+
+.campo--puesto[data-grupo='tareas']      { border-left-color: var(--c-anuncio); }
+.campo--puesto[data-grupo='habilidades'] { border-left-color: var(--jade-500); }
+.campo--puesto[data-grupo='condiciones'] { border-left-color: var(--ambar-500); }
+
+/* ---- qué ocupaciones llegan a un anuncio ----------------------------------
+   Un muestrario de oficios repartidos al azar sobre el tablero. La posición y el
+   tamaño los calcula anuncios.js —cada ícono trae los suyos en --x, --y y --t—
+   porque el reparto tiene que garantizar que dos no se encimen, y eso es
+   aritmética, no maquetación. Aquí sólo se dice cómo se ven y en qué orden
+   llegan. */
+
+.ocupaciones {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.ocupaciones__marca {
+  margin: 0;
+  font-size: 17px;
+  font-weight: var(--peso-fuerte);
+  line-height: 1.35;
+  color: var(--tinta-fuerte);
+}
+
+.ocupaciones__campo { position: relative; height: var(--alto, 280px); }
+
+.oficio {
+  position: absolute;
+  left: var(--x, 0px);
+  top: var(--y, 0px);
+  width: var(--t, 40px);
+  height: var(--t, 40px);
+  /* --x/--y son el centro: el ícono se cuelga de ahí, no de su esquina */
+  margin: calc(var(--t, 40px) / -2) 0 0 calc(var(--t, 40px) / -2);
+  color: #c3cbce;
+  opacity: 0;
+  transform: scale(0.82);
+  transition:
+    color 520ms var(--ease-mueve),
+    opacity 320ms var(--ease-mueve),
+    transform 420ms var(--ease-mueve);
+}
+.oficio svg { width: 100%; height: 100%; display: block; }
+
+/* entran en el orden en que se sembraron, que es el orden del azar */
+.capa--composicion .oficio { transition-delay: calc(var(--i, 0) * 18ms); }
+.anuncios[data-beat='2'] .oficio { opacity: 1; transform: none; }
+
+/* los que sí se anuncian se rellenan después: el morado es el del anuncio */
+.ocupaciones--encendida .oficio[data-visible='si'] {
+  color: var(--c-emergente);
+  transition-delay: calc(var(--i, 0) * 12ms);
+}
+
+.ocupaciones__pie {
+  display: flex;
+  align-items: baseline;
+  gap: var(--e5);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 380ms var(--ease-mueve), transform 420ms var(--ease-mueve);
+}
+.ocupaciones--nombrada .ocupaciones__pie { opacity: 1; transform: none; }
+
+.clave { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; flex-shrink: 0; }
+.clave__caso {
+  position: relative;
+  padding-left: 17px;
+  font-size: 12.5px;
+  line-height: 1.3;
+  color: var(--tinta);
+  white-space: nowrap;
+}
+.clave__caso::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.32em;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: #c3cbce;
+}
+.clave__caso[data-visible='si']::before { background: var(--c-emergente); }
+
+.ocupaciones__nota {
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: var(--tinta-suave);
+  max-width: 62ch;
+}
+
+@media (max-width: 760px) {
+  .ocupaciones { gap: 10px; padding-top: 26px; }
+  .ocupaciones__marca { font-size: 13px; }
+  .ocupaciones__pie { flex-direction: column; gap: var(--e3); }
+  .clave { flex-direction: row; gap: var(--e4); }
+  .clave__caso { font-size: 10.5px; padding-left: 14px; }
+  .clave__caso::before { width: 8px; height: 8px; }
+  .ocupaciones__nota { font-size: 9.5px; line-height: 1.4; }
+  /* cabe una frase: se queda la que advierte que el dibujo no mide nada */
+  .ocupaciones__quienes { display: none; }
+}
+
+/* ---- riqueza -------------------------------------------------------------- */
+
+@media (max-width: 760px) {
+  .anuncios { place-items: start center; }
+  .vacante { width: 156px; font-size: 9.5px; }
+  .crudo { position: static; width: 100%; margin-bottom: 6px; padding: var(--e2) var(--e3); }
+  /* en angosto no hay corredor donde poner la lente: se acuesta entre los dos
+     bloques, y el rótulo va debajo en vez de encima */
+  .lente { position: static; width: 108px; height: 62px; margin: 2px auto 0; display: block; }
+  .marca-ia { position: static; width: 100%; margin: 2px 0 4px; font-size: 9px; }
+  .marca-ia::before { inset: -2px 32%; }
+  .crudo__texto { font-size: 9.8px; line-height: 1.45; }
+  .campos__grupo { margin-bottom: 6px; }
+  .campos__rotulo { margin-bottom: 3px; }
+  .campo { font-size: 9.5px; }
+  .campos { position: static; width: 100%; }
+  .flecha { display: none; }
+  .composicion { inset: 8px 6px; gap: 6px; }
+  .barra__etiqueta { font-size: 9.5px; }
+}

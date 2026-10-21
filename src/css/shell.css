@@ -1,0 +1,175 @@
+/* ============================================================================
+  Shell — el libro de secciones y sus lomos verticales
+  ========================================================================= */
+
+.libro {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--fondo);
+}
+
+/* Cada sección es una hoja: se desplaza con transform —no con left, que obliga a
+  recalcular el layout de una columna de 21 000 px en cada cuadro— y arrastra una
+  sombra en su borde de ataque para que se lea encima de las anteriores. */
+.seccion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--ancho, 100%);
+  height: 100%;
+  z-index: var(--z, 1);
+  display: flex;
+  background: var(--fondo);
+  border-left: 1px solid var(--linea);
+  transform: translate3d(var(--x, 0px), 0, 0);
+}
+
+.seccion--transicion {
+  transition: transform var(--dur-hoja) var(--ease-hoja);
+  will-change: transform;
+}
+
+/* la sombra del canto: es lo que convierte el deslizamiento en una hoja */
+.seccion::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  transform: translateX(-100%);
+  background: linear-gradient(to left, rgba(0, 48, 87, 0.14), rgba(0, 48, 87, 0));
+  opacity: calc(var(--sombra, 1) * 0.55);
+  transition: opacity var(--dur-hoja) var(--ease-hoja);
+  pointer-events: none;
+}
+
+/* mientras la hoja viaja, la sombra se levanta */
+.libro--moviendo .seccion::before { opacity: var(--sombra, 1); }
+
+/* la hoja de abajo acusa el paso de la de arriba y vuelve a su sitio */
+.seccion--empujada { animation: hoja-empuje var(--dur-hoja) var(--ease-hoja); }
+
+@keyframes hoja-empuje {
+  0%, 100% { transform: translate3d(var(--x, 0px), 0, 0); }
+  50%      { transform: translate3d(calc(var(--x, 0px) + var(--empuje, -20px)), 0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seccion--empujada { animation: none; }
+}
+
+.seccion__cuerpo {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+
+.seccion__cuerpo::-webkit-scrollbar { display: none; }
+.seccion__cuerpo:focus { outline: none; }
+
+/* ---- lomo ---------------------------------------------------------------- */
+
+.lomo {
+  width: var(--lomo);
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: var(--e9);
+  background: var(--gris-100);
+  border-right: 1px solid var(--linea);
+  color: var(--tinta-suave);
+  transition: background var(--dur-trazo) ease, color var(--dur-trazo) ease;
+}
+
+.lomo__txt {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: var(--t-cuerpo);
+  font-weight: var(--peso-medio);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+/* Estado de cada cinta. El azul marino queda a la izquierda —lo ya recorrido— y
+  el turquesa claro a la derecha —lo que falta—, así la posición se entiende sin
+  leer. Sólo se usan los dos colores de identidad que le tocan: la lavanda está
+  reservada a lo emergente. */
+.seccion--previa .lomo,
+.seccion--proxima .lomo { cursor: pointer; }
+
+.seccion--previa .lomo {
+  background: var(--azul-900);
+  color: var(--blanco);
+  border-right-color: var(--azul-900);
+}
+
+.seccion--proxima .lomo {
+  background: var(--azul-900);
+  color: var(--blanco);
+  border-right-color: var(--azul-900);
+}
+.seccion--previa .lomo:hover,
+.seccion--proxima .lomo:hover {
+  background: var(--turquesa-700);
+  color: var(--blanco);
+  border-right-color: var(--turquesa-700);
+}
+
+.seccion--activa .lomo {
+  background: var(--fondo);
+  color: var(--tinta-fuerte);
+  border-right-color: var(--linea);
+  box-shadow: inset -2px 0 0 var(--turquesa-500);
+  cursor: default;
+}
+
+/* la cinta de la sección abierta no navega a ninguna parte */
+.seccion--activa .lomo { pointer-events: none; }
+
+.lomo:focus-visible {
+  outline: 2px solid var(--c-emergente-fuerte);
+  outline-offset: -4px;
+}
+
+/* ---- barra superior en pantallas angostas -------------------------------- */
+
+.barra-movil {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--fondo);
+  border-bottom: 1px solid var(--linea);
+}
+
+.barra-movil__btn {
+  flex: 1;
+  padding: var(--e3) var(--e4);
+  font-size: var(--t-detalle);
+  font-weight: var(--peso-medio);
+  color: var(--tinta-suave);
+  border-bottom: 2px solid transparent;
+}
+
+.barra-movil__btn[aria-current='true'] {
+  color: var(--tinta-fuerte);
+  border-bottom-color: var(--c-anuncio);
+}
+
+body.es-movil .barra-movil { display: flex; }
+body.es-movil .lomo { display: none; }
+body.es-movil .seccion { border-left: 0; }
+body.es-movil .seccion__cuerpo { padding-top: 44px; }
+
+@media (max-width: 900px) {
+  :root { --lomo: 0px; }
+}

@@ -1,0 +1,199 @@
+/* ============================================================================
+   Scrolly — escenario pegajoso + tarjetas de texto que lo recorren
+   Estructura:  .scrolly > .scrolly__fijo (sticky, 100vh)  +  .beats
+   ========================================================================= */
+
+.progreso { position: relative; }
+
+.progreso__pista {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  height: 6px;
+  background: var(--gris-200);
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 160ms var(--ease-mueve);
+}
+.progreso--visible .progreso__pista { opacity: 1; }
+
+.progreso__relleno {
+  height: 100%;
+  width: 100%;
+  background: var(--c-anuncio);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+}
+
+.scrolly { position: relative; }
+
+.scrolly__fijo {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: clip;
+}
+
+.scrolly__lienzo {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--e5);
+  transform: scale(var(--escala, 1));
+  transition: transform var(--dur-escena) var(--ease-mueve);
+}
+
+.lienzo__etiqueta {
+  font-size: var(--t-micro);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+  border-bottom: 1px solid var(--linea);
+  padding-bottom: var(--e2);
+  transition: color var(--dur-mueve) var(--ease-mueve);
+}
+.lienzo__etiqueta[data-beat='3'] { color: var(--c-emergente-fuerte); }
+.lienzo__etiqueta[data-beat='2'] { color: var(--turquesa-800); }
+
+/* ---- beats --------------------------------------------------------------- */
+
+.beats {
+  position: relative;
+  z-index: 2;
+  margin-top: -58vh;
+  padding: 0 var(--e6);
+  pointer-events: none;
+}
+
+.beat {
+  min-height: 112vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* La tarjeta viaja con el scroll —nunca se clava en un punto— y su opacidad
+   depende de qué tan cerca está de la línea de lectura, no de un umbral. El
+   motor escribe --vis y --deriva en cada cuadro; el CSS sólo los aplica.
+   Como los beats se separan más que el radio de desvanecido, nunca coinciden. */
+.beat .tarjeta {
+  opacity: var(--vis, 0);
+  transform: translateY(var(--deriva, 0px));
+  pointer-events: none;
+  will-change: opacity, transform;
+}
+
+.beat[data-pos='sin'] .tarjeta { display: none; }
+
+.beats__cola { height: 70vh; }
+
+.tarjeta {
+  pointer-events: auto;
+  width: min(var(--ancho-tarjeta), 100%);
+  padding: var(--e5) var(--e6);
+  background: color-mix(in srgb, var(--fondo) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--linea);
+  border-left: 3px solid var(--c-anuncio);
+  border-radius: var(--radio);
+  box-shadow: 0 1px 2px rgba(0, 48, 87, 0.05), 0 10px 30px rgba(0, 48, 87, 0.07);
+}
+
+.tarjeta h2 {
+  font-size: var(--t-titulo-s);
+  color: var(--tinta-fuerte);
+  margin-bottom: var(--e3);
+  letter-spacing: -0.01em;
+}
+
+.tarjeta p {
+  font-size: var(--t-cuerpo-s);
+  font-weight: var(--peso-ligero);
+  color: var(--tinta-suave);
+}
+
+.tarjeta p + p { margin-top: var(--e3); }
+
+/* la salvedad va en voz más baja que la invitación que la precede */
+.tarjeta__nota {
+  font-size: 12.5px;
+  line-height: 1.45;
+  padding-top: var(--e3);
+  border-top: 1px solid var(--linea);
+}
+
+.tarjeta p b { font-weight: var(--peso-fuerte); color: var(--tinta); }
+
+@media (max-width: 760px) {
+  /* el escenario se pega arriba y la tarjeta viaja abajo: así no se tapan */
+  .scrolly__fijo { place-items: start center; padding-top: 52px; }
+  .apertura, .tareas { place-items: start center; }
+  .beats { margin-top: -50vh; padding: 0 var(--e4); }
+  .beat { min-height: 105vh; justify-content: center; }
+  .tarjeta { width: 100%; }
+}
+
+/* ============================================================================
+   Anclaje de scroll
+   `scroll-snap-stop: always` impide que la inercia de un trackpad se salte un
+   beat: un golpe entrega entre 1 500 y 4 000 px y un beat mide ~1 010 px, así
+   que sin esto un solo gesto se llevaba de dos a cuatro beats. `proximity` deja
+   seguir descansando entre dos, que es lo que mantiene viva la animación
+   continua; con `mandatory` la página sería una diapositiva por gesto.
+
+   El desplazamiento hasta el **sitio de lectura** de cada beat —que no es su
+   borde, y que difiere entre las tarjetas centradas y las de pie— lo pone
+   `src/js/anclaje.js` con `scroll-margin-top`.
+   ========================================================================= */
+
+.seccion[data-seccion='intro'] [data-raiz-scroll] {
+  scroll-snap-type: y proximity;
+}
+[data-escena] .beat {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Los beats SIN TARJETA no llevan punto de anclaje. Un anclaje marca un sitio
+   donde hay algo que leer y en el que conviene detenerse; en un beat sin tarjeta
+   lo que hay es una animación continua, y su punto de reposo cae justo a mitad
+   de esa animación. El resultado era que el scroll se quedaba pegado a media
+   llegada y hacía falta un empujón fuerte para seguir.
+
+   No se pierde la protección contra el salto: los beats con tarjeta —diez de los
+   trece— siguen anclados, así que un golpe de trackpad se sigue deteniendo en el
+   siguiente que tenga algo que leer. */
+[data-escena] .beat[data-pos='sin'] { scroll-snap-align: none; }
+
+/* ---- Resultados: un solo anclaje, en el mapa -------------------------------
+   El vuelo de R1 a R2 es lo único de esta sección que se puede uno saltar
+   entero con un golpe de trackpad: el tramo mide unos 1 900 px y un golpe
+   fuerte entrega hasta 4 000. `scroll-snap-stop: always` obliga a que ese
+   gesto se detenga aquí; a partir de ahí, un segundo golpe sigue de largo.
+
+   Va sólo en el mapa, no en cada módulo: un anclaje por sección es lo que hace
+   falta para no saltarse la lluvia, y sembrar la página de puntos pegajosos
+   convertiría Resultados en una diapositiva por gesto. `proximity` permite
+   además descansar entre dos sitios, que es lo que deja viva la caída.
+
+   El margen coloca el punto de reposo en el MISMO sitio donde el vuelo termina
+   —el mapa al 16 % de la altura de la ventana, ver `calcularVentana()` en
+   mapa.js—, así que quien llega de un golpe se queda justo donde la lluvia
+   acaba de arrancar y la ve caer entera. */
+.seccion[data-seccion='resultados'] [data-raiz-scroll] {
+  scroll-snap-type: y proximity;
+}
+.seccion[data-seccion='resultados'] .lienzo--mapa {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  scroll-margin-top: 16vh;
+}
+/* Y el contador necesita el suyo, aunque nadie se lo salte. Con un único punto
+   de anclaje en la sección, al abrirla el navegador la encuentra «entre dos» y
+   la arrastra al más cercano —el mapa—, saltándose el contador entero. Un punto
+   en el arranque hace que la posición inicial ya esté anclada y nada se mueva. */
+.seccion[data-seccion='resultados'] #acervo { scroll-snap-align: start; }

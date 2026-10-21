@@ -1,0 +1,729 @@
+{
+  "nota": "Datos sintéticos de prueba. Ver data/README.md.",
+  "pregunta": "¿En qué trabaja usted?",
+  "actualizaciones_catalogo": [
+    {
+      "anio": 2011,
+      "etiqueta": "SINCO 2011"
+    },
+    {
+      "anio": 2019,
+      "etiqueta": "SINCO 2019"
+    }
+  ],
+  "hitos": [
+    {
+      "anio": 2020,
+      "etiqueta": "Pandemia"
+    },
+    {
+      "anio": 2022,
+      "etiqueta": "IA generativa de uso masivo"
+    }
+  ],
+  "periodo_anuncios": {
+    "desde": "2021-01",
+    "hasta": "2026-08",
+    "meses": 68,
+    "total": 5999
+  },
+  "serie_mensual": [
+    {
+      "mes": "2021-01",
+      "total": 49
+    },
+    {
+      "mes": "2021-02",
+      "total": 53
+    },
+    {
+      "mes": "2021-03",
+      "total": 68
+    },
+    {
+      "mes": "2021-04",
+      "total": 67
+    },
+    {
+      "mes": "2021-05",
+      "total": 70
+    },
+    {
+      "mes": "2021-06",
+      "total": 68
+    },
+    {
+      "mes": "2021-07",
+      "total": 73
+    },
+    {
+      "mes": "2021-08",
+      "total": 64
+    },
+    {
+      "mes": "2021-09",
+      "total": 68
+    },
+    {
+      "mes": "2021-10",
+      "total": 60
+    },
+    {
+      "mes": "2021-11",
+      "total": 60
+    },
+    {
+      "mes": "2021-12",
+      "total": 57
+    },
+    {
+      "mes": "2022-01",
+      "total": 56
+    },
+    {
+      "mes": "2022-02",
+      "total": 63
+    },
+    {
+      "mes": "2022-03",
+      "total": 73
+    },
+    {
+      "mes": "2022-04",
+      "total": 76
+    },
+    {
+      "mes": "2022-05",
+      "total": 72
+    },
+    {
+      "mes": "2022-06",
+      "total": 88
+    },
+    {
+      "mes": "2022-07",
+      "total": 79
+    },
+    {
+      "mes": "2022-08",
+      "total": 72
+    },
+    {
+      "mes": "2022-09",
+      "total": 72
+    },
+    {
+      "mes": "2022-10",
+      "total": 68
+    },
+    {
+      "mes": "2022-11",
+      "total": 71
+    },
+    {
+      "mes": "2022-12",
+      "total": 66
+    },
+    {
+      "mes": "2023-01",
+      "total": 65
+    },
+    {
+      "mes": "2023-02",
+      "total": 77
+    },
+    {
+      "mes": "2023-03",
+      "total": 73
+    },
+    {
+      "mes": "2023-04",
+      "total": 94
+    },
+    {
+      "mes": "2023-05",
+      "total": 91
+    },
+    {
+      "mes": "2023-06",
+      "total": 95
+    },
+    {
+      "mes": "2023-07",
+      "total": 93
+    },
+    {
+      "mes": "2023-08",
+      "total": 93
+    },
+    {
+      "mes": "2023-09",
+      "total": 86
+    },
+    {
+      "mes": "2023-10",
+      "total": 70
+    },
+    {
+      "mes": "2023-11",
+      "total": 78
+    },
+    {
+      "mes": "2023-12",
+      "total": 81
+    },
+    {
+      "mes": "2024-01",
+      "total": 84
+    },
+    {
+      "mes": "2024-02",
+      "total": 90
+    },
+    {
+      "mes": "2024-03",
+      "total": 86
+    },
+    {
+      "mes": "2024-04",
+      "total": 107
+    },
+    {
+      "mes": "2024-05",
+      "total": 104
+    },
+    {
+      "mes": "2024-06",
+      "total": 105
+    },
+    {
+      "mes": "2024-07",
+      "total": 105
+    },
+    {
+      "mes": "2024-08",
+      "total": 103
+    },
+    {
+      "mes": "2024-09",
+      "total": 92
+    },
+    {
+      "mes": "2024-10",
+      "total": 81
+    },
+    {
+      "mes": "2024-11",
+      "total": 81
+    },
+    {
+      "mes": "2024-12",
+      "total": 82
+    },
+    {
+      "mes": "2025-01",
+      "total": 92
+    },
+    {
+      "mes": "2025-02",
+      "total": 104
+    },
+    {
+      "mes": "2025-03",
+      "total": 98
+    },
+    {
+      "mes": "2025-04",
+      "total": 106
+    },
+    {
+      "mes": "2025-05",
+      "total": 127
+    },
+    {
+      "mes": "2025-06",
+      "total": 122
+    },
+    {
+      "mes": "2025-07",
+      "total": 129
+    },
+    {
+      "mes": "2025-08",
+      "total": 118
+    },
+    {
+      "mes": "2025-09",
+      "total": 102
+    },
+    {
+      "mes": "2025-10",
+      "total": 100
+    },
+    {
+      "mes": "2025-11",
+      "total": 93
+    },
+    {
+      "mes": "2025-12",
+      "total": 107
+    },
+    {
+      "mes": "2026-01",
+      "total": 104
+    },
+    {
+      "mes": "2026-02",
+      "total": 115
+    },
+    {
+      "mes": "2026-03",
+      "total": 113
+    },
+    {
+      "mes": "2026-04",
+      "total": 121
+    },
+    {
+      "mes": "2026-05",
+      "total": 125
+    },
+    {
+      "mes": "2026-06",
+      "total": 124
+    },
+    {
+      "mes": "2026-07",
+      "total": 149
+    },
+    {
+      "mes": "2026-08",
+      "total": 121
+    }
+  ],
+  "respuestas": [
+    {
+      "titulo": "Analista de Sostenibilidad",
+      "icono": "planta",
+      "familia": "Sostenibilidad y reporteo ESG",
+      "perfil": "emergente",
+      "codigo": "2143",
+      "nombre_codigo": "Ingenieros en ecología y ambientales",
+      "codigo_2d": "21",
+      "n_anuncios": 76,
+      "indice": 0.537,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Desarrollador Full Stack",
+      "icono": "monitor",
+      "familia": "Desarrollo de software",
+      "perfil": "transicion",
+      "codigo": "2151",
+      "nombre_codigo": "Desarrolladores y analistas de software y multimedia",
+      "codigo_2d": "21",
+      "n_anuncios": 413,
+      "indice": 0.251,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Ingeniero de Prompts",
+      "icono": "cerebro",
+      "familia": "Ingeniería de prompts e IA generativa",
+      "perfil": "emergente",
+      "codigo": "2151",
+      "nombre_codigo": "Desarrolladores y analistas de software y multimedia",
+      "codigo_2d": "21",
+      "n_anuncios": 160,
+      "indice": 0.617,
+      "sin_renglon": true
+    },
+    {
+      "titulo": "Ingeniero de Plataformas",
+      "icono": "red",
+      "familia": "Ingeniería de plataformas y confiabilidad",
+      "perfil": "emergente",
+      "codigo": "2152",
+      "nombre_codigo": "Administradores de sistemas y de bases de datos",
+      "codigo_2d": "21",
+      "n_anuncios": 119,
+      "indice": 0.503,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Ingeniero MLOps",
+      "icono": "nube",
+      "familia": "Operación de modelos en producción (MLOps)",
+      "perfil": "emergente",
+      "codigo": "2152",
+      "nombre_codigo": "Administradores de sistemas y de bases de datos",
+      "codigo_2d": "21",
+      "n_anuncios": 116,
+      "indice": 0.528,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Enfermera General",
+      "icono": "hospital",
+      "familia": "Enfermería",
+      "perfil": "consolidada",
+      "codigo": "2221",
+      "nombre_codigo": "Enfermeras profesionales",
+      "codigo_2d": "22",
+      "n_anuncios": 322,
+      "indice": 0.11,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Coordinador de Telemedicina",
+      "icono": "estetoscopio",
+      "familia": "Coordinación de telemedicina",
+      "perfil": "emergente",
+      "codigo": "2221",
+      "nombre_codigo": "Enfermeras profesionales",
+      "codigo_2d": "22",
+      "n_anuncios": 42,
+      "indice": 0.526,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Docente de Primaria",
+      "icono": "escuela",
+      "familia": "Docencia básica",
+      "perfil": "consolidada",
+      "codigo": "2341",
+      "nombre_codigo": "Profesores de educación primaria",
+      "codigo_2d": "23",
+      "n_anuncios": 288,
+      "indice": 0.184,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Contador General",
+      "icono": "calculadora",
+      "familia": "Contabilidad",
+      "perfil": "consolidada",
+      "codigo": "2411",
+      "nombre_codigo": "Contadores y auditores",
+      "codigo_2d": "24",
+      "n_anuncios": 375,
+      "indice": 0.133,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Community Manager",
+      "icono": "megafono",
+      "familia": "Mercadotecnia digital y crecimiento",
+      "perfil": "transicion",
+      "codigo": "2431",
+      "nombre_codigo": "Especialistas en mercadotecnia y publicidad",
+      "codigo_2d": "24",
+      "n_anuncios": 223,
+      "indice": 0.345,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Analista de Business Intelligence",
+      "icono": "barras",
+      "familia": "Inteligencia de negocios",
+      "perfil": "transicion",
+      "codigo": "2511",
+      "nombre_codigo": "Analistas de sistemas y de información",
+      "codigo_2d": "25",
+      "n_anuncios": 193,
+      "indice": 0.287,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Especialista en RPA",
+      "icono": "crecimiento",
+      "familia": "Automatización de procesos",
+      "perfil": "transicion",
+      "codigo": "2511",
+      "nombre_codigo": "Analistas de sistemas y de información",
+      "codigo_2d": "25",
+      "n_anuncios": 112,
+      "indice": 0.355,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Auditor de Algoritmos",
+      "icono": "documento-lupa",
+      "familia": "Auditoría algorítmica y ética de IA",
+      "perfil": "emergente",
+      "codigo": "2634",
+      "nombre_codigo": "Especialistas en ciencias sociales y afines",
+      "codigo_2d": "26",
+      "n_anuncios": 48,
+      "indice": 0.665,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Auxiliar Administrativo",
+      "icono": "archivero",
+      "familia": "Apoyo administrativo",
+      "perfil": "consolidada",
+      "codigo": "3111",
+      "nombre_codigo": "Auxiliares y asistentes administrativos",
+      "codigo_2d": "31",
+      "n_anuncios": 495,
+      "indice": 0.136,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Vendedor de Piso",
+      "icono": "acuerdo",
+      "familia": "Ventas en piso",
+      "perfil": "consolidada",
+      "codigo": "4221",
+      "nombre_codigo": "Vendedores y dependientes en establecimientos",
+      "codigo_2d": "42",
+      "n_anuncios": 463,
+      "indice": 0.091,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Cocinero",
+      "icono": "comida",
+      "familia": "Servicios de alimentos",
+      "perfil": "consolidada",
+      "codigo": "5111",
+      "nombre_codigo": "Cocineros y preparadores de alimentos",
+      "codigo_2d": "51",
+      "n_anuncios": 241,
+      "indice": 0.128,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Soldador",
+      "icono": "rompecabezas",
+      "familia": "Soldadura",
+      "perfil": "consolidada",
+      "codigo": "7212",
+      "nombre_codigo": "Soldadores y oxicortadores",
+      "codigo_2d": "72",
+      "n_anuncios": 192,
+      "indice": 0.127,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Mecánico Automotriz",
+      "icono": "auto",
+      "familia": "Mecánica automotriz",
+      "perfil": "consolidada",
+      "codigo": "7231",
+      "nombre_codigo": "Mecánicos y ajustadores de vehículos de motor",
+      "codigo_2d": "72",
+      "n_anuncios": 210,
+      "indice": 0.136,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Técnico en Vehículos Eléctricos",
+      "icono": "controles",
+      "familia": "Electromovilidad y vehículos eléctricos",
+      "perfil": "emergente",
+      "codigo": "7231",
+      "nombre_codigo": "Mecánicos y ajustadores de vehículos de motor",
+      "codigo_2d": "72",
+      "n_anuncios": 68,
+      "indice": 0.532,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Técnico Instalador de Paneles Solares",
+      "icono": "casa",
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "perfil": "emergente",
+      "codigo": "7411",
+      "nombre_codigo": "Electricistas y trabajadores en instalaciones eléctricas",
+      "codigo_2d": "74",
+      "n_anuncios": 124,
+      "indice": 0.471,
+      "sin_renglon": false
+    },
+    {
+      "titulo": "Chofer Repartidor",
+      "icono": "avion",
+      "familia": "Transporte y reparto",
+      "perfil": "consolidada",
+      "codigo": "8322",
+      "nombre_codigo": "Conductores de camiones y camionetas de carga",
+      "codigo_2d": "83",
+      "n_anuncios": 412,
+      "indice": 0.139,
+      "sin_renglon": false
+    }
+  ],
+  "renglones": [
+    {
+      "codigo": "2143",
+      "nombre": "Ingenieros en ecología y ambientales",
+      "codigo_2d": "21",
+      "ocupaciones": [
+        "Analista de Sostenibilidad"
+      ],
+      "n_anuncios": 76
+    },
+    {
+      "codigo": "2151",
+      "nombre": "Desarrolladores y analistas de software y multimedia",
+      "codigo_2d": "21",
+      "ocupaciones": [
+        "Desarrollador Full Stack",
+        "Ingeniero de Prompts"
+      ],
+      "n_anuncios": 573
+    },
+    {
+      "codigo": "2152",
+      "nombre": "Administradores de sistemas y de bases de datos",
+      "codigo_2d": "21",
+      "ocupaciones": [
+        "Ingeniero de Plataformas",
+        "Ingeniero MLOps"
+      ],
+      "n_anuncios": 235
+    },
+    {
+      "codigo": "2221",
+      "nombre": "Enfermeras profesionales",
+      "codigo_2d": "22",
+      "ocupaciones": [
+        "Enfermera General",
+        "Coordinador de Telemedicina"
+      ],
+      "n_anuncios": 364
+    },
+    {
+      "codigo": "2341",
+      "nombre": "Profesores de educación primaria",
+      "codigo_2d": "23",
+      "ocupaciones": [
+        "Docente de Primaria"
+      ],
+      "n_anuncios": 288
+    },
+    {
+      "codigo": "2411",
+      "nombre": "Contadores y auditores",
+      "codigo_2d": "24",
+      "ocupaciones": [
+        "Contador General"
+      ],
+      "n_anuncios": 375
+    },
+    {
+      "codigo": "2431",
+      "nombre": "Especialistas en mercadotecnia y publicidad",
+      "codigo_2d": "24",
+      "ocupaciones": [
+        "Community Manager"
+      ],
+      "n_anuncios": 223
+    },
+    {
+      "codigo": "2511",
+      "nombre": "Analistas de sistemas y de información",
+      "codigo_2d": "25",
+      "ocupaciones": [
+        "Analista de Business Intelligence",
+        "Especialista en RPA"
+      ],
+      "n_anuncios": 305
+    },
+    {
+      "codigo": "2634",
+      "nombre": "Especialistas en ciencias sociales y afines",
+      "codigo_2d": "26",
+      "ocupaciones": [
+        "Auditor de Algoritmos"
+      ],
+      "n_anuncios": 48
+    },
+    {
+      "codigo": "3111",
+      "nombre": "Auxiliares y asistentes administrativos",
+      "codigo_2d": "31",
+      "ocupaciones": [
+        "Auxiliar Administrativo"
+      ],
+      "n_anuncios": 495
+    },
+    {
+      "codigo": "4221",
+      "nombre": "Vendedores y dependientes en establecimientos",
+      "codigo_2d": "42",
+      "ocupaciones": [
+        "Vendedor de Piso"
+      ],
+      "n_anuncios": 463
+    },
+    {
+      "codigo": "5111",
+      "nombre": "Cocineros y preparadores de alimentos",
+      "codigo_2d": "51",
+      "ocupaciones": [
+        "Cocinero"
+      ],
+      "n_anuncios": 241
+    },
+    {
+      "codigo": "7212",
+      "nombre": "Soldadores y oxicortadores",
+      "codigo_2d": "72",
+      "ocupaciones": [
+        "Soldador"
+      ],
+      "n_anuncios": 192
+    },
+    {
+      "codigo": "7231",
+      "nombre": "Mecánicos y ajustadores de vehículos de motor",
+      "codigo_2d": "72",
+      "ocupaciones": [
+        "Mecánico Automotriz",
+        "Técnico en Vehículos Eléctricos"
+      ],
+      "n_anuncios": 278
+    },
+    {
+      "codigo": "7411",
+      "nombre": "Electricistas y trabajadores en instalaciones eléctricas",
+      "codigo_2d": "74",
+      "ocupaciones": [
+        "Técnico Instalador de Paneles Solares"
+      ],
+      "n_anuncios": 124
+    },
+    {
+      "codigo": "8322",
+      "nombre": "Conductores de camiones y camionetas de carga",
+      "codigo_2d": "83",
+      "ocupaciones": [
+        "Chofer Repartidor"
+      ],
+      "n_anuncios": 412
+    }
+  ],
+  "cajon": {
+    "codigo": "2151",
+    "nombre": "Desarrolladores y analistas de software y multimedia",
+    "ocupaciones": [
+      {
+        "titulo": "Desarrollador Full Stack",
+        "icono": "monitor",
+        "familia": "Desarrollo de software",
+        "n_anuncios": 413,
+        "indice": 0.251
+      },
+      {
+        "titulo": "Ingeniero de Prompts",
+        "icono": "cerebro",
+        "familia": "Ingeniería de prompts e IA generativa",
+        "n_anuncios": 160,
+        "indice": 0.617
+      }
+    ]
+  }
+}

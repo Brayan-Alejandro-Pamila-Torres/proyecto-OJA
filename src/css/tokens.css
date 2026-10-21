@@ -1,0 +1,170 @@
+/* ============================================================================
+   Viz_OJA — tokens de diseño
+   Paleta y tipografía tomadas del Sistema Visual INEGI 2025 (sistema_visual.pdf).
+   Regla del manual: azul marino, turquesa y lavanda son los colores de identidad;
+   el resto sólo se usa en visualización de datos, cuidando el balance.
+   ========================================================================= */
+
+:root {
+  /* ---- Identidad: turquesa ---------------------------------------------- */
+  --turquesa-900: #105061;
+  --turquesa-800: #0d717e;
+  --turquesa-700: #08989c;
+  --turquesa-500: #00bfb3;   /* base */
+  --turquesa-400: #40cfc6;
+  --turquesa-300: #80dfd9;
+  --turquesa-200: #bfefec;
+
+  /* ---- Identidad: azul marino ------------------------------------------- */
+  --azul-900: #003057;       /* base */
+  --azul-800: #275aa3;
+  --azul-600: #4183cd;
+  --azul-500: #60aee9;
+  --azul-400: #8ac3f3;
+  --azul-300: #b7dafa;
+  --azul-200: #d2ecfe;
+
+  /* ---- Identidad: lavanda ----------------------------------------------- */
+  --lavanda-900: #3f27b5;
+  --lavanda-700: #6342ff;
+  --lavanda-600: #8568ff;
+  --lavanda-500: #967dff;    /* base */
+  --lavanda-400: #a590ff;
+  --lavanda-300: #c2b3ff;
+  --lavanda-200: #d8ceff;
+
+  /* ---- Rampas para visualización de datos ------------------------------- */
+  --jade-800: #215649;  --jade-600: #2c7d68;  --jade-500: #419177;
+  --jade-400: #5fa48c;  --jade-300: #80b7a4;  --jade-200: #a4ccbe;
+
+  --ambar-800: #aa5c00; --ambar-600: #d08200; --ambar-500: #ffac00;
+  --ambar-400: #ffc644; --ambar-300: #ffcf75; --ambar-200: #fbea9b;
+
+  --naranja-800: #b72f05; --naranja-600: #e26c3b; --naranja-500: #f08242;
+  --naranja-400: #f8a774; --naranja-300: #fdcca8; --naranja-200: #ffe7d8;
+
+  --magenta-800: #75124d; --magenta-600: #9f2578; --magenta-500: #c143b4;
+  --magenta-400: #d160c7; --magenta-300: #e18ad7; --magenta-200: #eeb7e7;
+
+  --vino-800: #9f2a53; --vino-600: #c12a53; --vino-500: #d14b5d;
+  --vino-400: #e56d6f; --vino-300: #eb908c; --vino-200: #f3bbb9;
+
+  --verde-800: #1c5f50; --verde-600: #337a59; --verde-500: #3e9654;
+  --verde-400: #72ce69; --verde-300: #9ee58d; --verde-200: #c9ecaf;
+
+  --purpura-800: #300048; --purpura-600: #500083; --purpura-500: #8906b5;
+  --purpura-400: #9e32c2; --purpura-300: #ba72d6; --purpura-200: #e4d0ef;
+
+  /* ---- Neutros del manual ------------------------------------------------ */
+  --gris-900: #000000; --gris-800: #3c3c3b; --gris-700: #575756;
+  --gris-600: #828281; --gris-500: #989898; --gris-400: #c0c0c0;
+  --gris-300: #dcdcdc; --gris-200: #ececec; --gris-100: #f5f7f7;
+  --blanco: #ffffff;
+
+  /* ======================================================================
+     Roles semánticos. Los tres colores de identidad son los tres actores
+     de la historia: el catálogo, los anuncios y lo que apenas emerge.
+     ====================================================================== */
+  --c-catalogo: var(--azul-900);        /* SINCO: la estructura oficial       */
+  --c-catalogo-suave: var(--azul-300);
+  --c-catalogo-hueco: var(--gris-300);  /* lo que el catálogo no alcanza a ver */
+  --c-anuncio: var(--turquesa-500);     /* los OJA: la señal viva del mercado  */
+  --c-anuncio-suave: var(--turquesa-200);
+  --c-emergente: var(--lavanda-500);    /* tarea u ocupación nueva             */
+  --c-emergente-fuerte: var(--lavanda-700);
+
+  /* modalidad de trabajo */
+  /* Colores de modalidad elegidos por el usuario; los tres existen ya en la
+     paleta del manual. Los tres son claros, así que el porcentaje escrito
+     encima va en tinta oscura: sobre estos tonos el blanco no llega al
+     contraste mínimo. */
+  --c-presencial: var(--ambar-400);    /* #ffc644 */
+  --c-hibrido: var(--vino-300);        /* #eb908c */
+  --c-remoto: var(--azul-500);         /* #60aee9 */
+  --c-presencial-tinta: var(--gris-900);
+  --c-hibrido-tinta: var(--gris-900);
+  --c-remoto-tinta: var(--gris-900);
+
+  /* ---- Superficies -------------------------------------------------------- */
+  --fondo: #fbfcfc;
+  --fondo-2: var(--gris-100);
+  --fondo-hondo: var(--azul-900);       /* escenas a fondo oscuro              */
+  --tinta: var(--gris-800);
+  --tinta-fuerte: var(--gris-900);
+  --tinta-suave: var(--gris-600);
+  --tinta-invertida: var(--blanco);
+  --linea: var(--gris-300);
+  --linea-fuerte: var(--gris-400);
+
+  /* ---- Tipografía --------------------------------------------------------
+     El manual exige Helvetica (o Arial en su defecto) en todas las variantes. */
+  --fuente: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --fuente-datos: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --num: "tabular-nums" 1;
+
+  --t-micro: 0.75rem;     /* 12px */
+  --t-detalle: 0.875rem;  /* 14px */
+  --t-cuerpo-s: 1.0625rem;
+  --t-cuerpo: 1.1875rem;
+  --t-cuerpo-l: 1.375rem;
+  --t-titulo-s: 1.75rem;
+  --t-titulo: 2.25rem;
+  --t-titulo-l: 3rem;
+  --t-display: clamp(2.5rem, 6vw, 5rem);
+
+  --peso-ligero: 300; --peso-normal: 400; --peso-medio: 500;
+  --peso-fuerte: 700; --peso-negro: 900;
+
+  --interlinea-apretada: 1.05;
+  --interlinea: 1.5;
+
+  /* ---- Espaciado y ritmo -------------------------------------------------- */
+  --e1: 4px;  --e2: 8px;  --e3: 12px; --e4: 16px; --e5: 24px;
+  --e6: 32px; --e7: 48px; --e8: 64px; --e9: 96px; --e10: 128px;
+
+  --lomo: 56px;              /* ancho de las barras laterales de sección      */
+  --ancho-texto: 42rem;
+  --ancho-tarjeta: 27rem;
+  --ancho-max: 1400px;
+
+  /* ---- Movimiento --------------------------------------------------------- */
+  --ease-trazo: cubic-bezier(0.33, 1, 0.68, 1);   /* rellenos y trazos        */
+  --ease-mueve: cubic-bezier(0.32, 0.72, 0, 1);   /* desplazamientos          */
+  --dur-trazo: 240ms;
+  --dur-mueve: 600ms;
+  --dur-escena: 900ms;
+  --dur-hoja: 1000ms;                                 /* el cambio de sección   */
+  --ease-hoja: cubic-bezier(0.32, 0.72, 0, 1);
+
+  --radio-s: 2px; --radio: 4px; --radio-l: 8px;
+}
+
+/* Escenas sobre fondo oscuro: se invierten los roles, no los colores. */
+[data-fondo="hondo"] {
+  --fondo: var(--azul-900);
+  --fondo-2: #002544;
+  --tinta: var(--blanco);
+  --tinta-fuerte: var(--blanco);
+  --tinta-suave: var(--azul-300);
+  --linea: rgba(255, 255, 255, 0.22);
+  --linea-fuerte: rgba(255, 255, 255, 0.4);
+  --c-catalogo: var(--azul-400);
+  --c-catalogo-hueco: rgba(255, 255, 255, 0.18);
+}
+
+/* La subida de escala es para pantallas grandes: en móvil el texto ya ocupaba
+   todo el ancho y crecer sólo empujaba la tarjeta sobre el escenario. */
+@media (max-width: 760px) {
+  :root {
+    --t-micro: 0.6875rem;
+    --t-detalle: 0.8125rem;
+    --t-cuerpo-s: 0.9375rem;
+    --t-cuerpo: 1.0625rem;
+    --t-titulo-s: 1.375rem;
+    --t-titulo: 1.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-trazo: 0.01ms; --dur-mueve: 0.01ms; --dur-escena: 0.01ms; --dur-hoja: 1ms; }
+}

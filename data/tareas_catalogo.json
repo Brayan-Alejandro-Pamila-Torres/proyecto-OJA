@@ -1,0 +1,2202 @@
+[
+  {
+    "texto": "Acompañar al cliente en el uso de la banca en línea",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3212"
+    ]
+  },
+  {
+    "texto": "Administrar la agenda desde plataformas en línea",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Recepción y atención al público"
+    ],
+    "codigos": [
+      "3221"
+    ]
+  },
+  {
+    "texto": "Administrar la infraestructura de cómputo para cargas de aprendizaje automático",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de modelos en producción (MLOps)"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Administrar medicamentos según indicación médica",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Agendar y dar seguimiento a consultas a distancia",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de telemedicina"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Ajustar modelos automáticos de puntaje de riesgo",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Prevención de fraude digital"
+    ],
+    "codigos": [
+      "2412"
+    ]
+  },
+  {
+    "texto": "Analizar el desempeño de las campañas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mercadotecnia digital y crecimiento"
+    ],
+    "codigos": [
+      "2431"
+    ]
+  },
+  {
+    "texto": "Analizar patrones de transacciones sospechosas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Prevención de fraude digital"
+    ],
+    "codigos": [
+      "2412"
+    ]
+  },
+  {
+    "texto": "Aplicar guías de anotación y reportar casos ambiguos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Curación y etiquetado de datos para IA"
+    ],
+    "codigos": [
+      "3113"
+    ]
+  },
+  {
+    "texto": "Apoyar en el control de inventario del piso",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Apoyar en la elaboración de reportes",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Apoyo administrativo"
+    ],
+    "codigos": [
+      "3111"
+    ]
+  },
+  {
+    "texto": "Apoyar en tareas administrativas de la recepción",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Recepción y atención al público"
+    ],
+    "codigos": [
+      "3221"
+    ]
+  },
+  {
+    "texto": "Asegurar contenedores y cargas de trabajo distribuidas en varias nubes",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ciberseguridad en la nube"
+    ],
+    "codigos": [
+      "2153"
+    ]
+  },
+  {
+    "texto": "Atender a los clientes",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Ventas en piso",
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "4221",
+      "5111"
+    ]
+  },
+  {
+    "texto": "Atender auditorías internas y externas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Contabilidad"
+    ],
+    "codigos": [
+      "2411"
+    ]
+  },
+  {
+    "texto": "Atender el primer contacto por canales digitales",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Recepción y atención al público"
+    ],
+    "codigos": [
+      "3221"
+    ]
+  },
+  {
+    "texto": "Atender guardias de soporte",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Operación de modelos en producción (MLOps)",
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Atender incidencias con clientes y transportistas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Atender incidentes de disponibilidad de los servicios",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Atender llamadas y correspondencia",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Apoyo administrativo"
+    ],
+    "codigos": [
+      "3111"
+    ]
+  },
+  {
+    "texto": "Atender pedidos en línea para recolección en tienda",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Atender solicitudes internas",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Curación y etiquetado de datos para IA",
+      "Apoyo administrativo",
+      "Recepción y atención al público",
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3113",
+      "3111",
+      "3221",
+      "3212"
+    ]
+  },
+  {
+    "texto": "Atender solicitudes por chat y mensajería institucional",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Apoyo administrativo"
+    ],
+    "codigos": [
+      "3111"
+    ]
+  },
+  {
+    "texto": "Atender y asesorar a los clientes en el punto de venta",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Automatizar el ciclo de entrenamiento y despliegue de modelos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de modelos en producción (MLOps)"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Automatizar la generación de contenido con herramientas de IA",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Mercadotecnia digital y crecimiento"
+    ],
+    "codigos": [
+      "2431"
+    ]
+  },
+  {
+    "texto": "Brindar cuidados a pacientes hospitalizados",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Calcular la huella de carbono de alcance 1, 2 y 3",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Sostenibilidad y reporteo ESG"
+    ],
+    "codigos": [
+      "2143"
+    ]
+  },
+  {
+    "texto": "Capacitar a las áreas de negocio en uso responsable de IA",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Auditoría algorítmica y ética de IA"
+    ],
+    "codigos": [
+      "2634"
+    ]
+  },
+  {
+    "texto": "Capacitar a personal de nuevo ingreso",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Auditoría algorítmica y ética de IA",
+      "Ciberseguridad en la nube",
+      "Sostenibilidad y reporteo ESG",
+      "Prevención de fraude digital",
+      "Ciencia de datos",
+      "Diseño de experiencia de usuario",
+      "Mercadotecnia digital y crecimiento",
+      "Contabilidad",
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2634",
+      "2153",
+      "2143",
+      "2412",
+      "2120",
+      "2711",
+      "2431",
+      "2411",
+      "2341"
+    ]
+  },
+  {
+    "texto": "Cargar y depurar programas de maquinado generados por software CAM",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7223"
+    ]
+  },
+  {
+    "texto": "Colaborar con equipos de producto para definir casos de uso de IA",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Comprobar entregas con evidencia fotográfica en la aplicación",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Transporte y reparto"
+    ],
+    "codigos": [
+      "8322"
+    ]
+  },
+  {
+    "texto": "Comunicar hallazgos a áreas de negocio",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciencia de datos"
+    ],
+    "codigos": [
+      "2120"
+    ]
+  },
+  {
+    "texto": "Comunicarse con el equipo médico tratante",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Coordinación de telemedicina",
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Comunicarse con madres, padres y tutores",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2341"
+    ]
+  },
+  {
+    "texto": "Conciliar información con sistemas contables en la nube",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Contabilidad"
+    ],
+    "codigos": [
+      "2411"
+    ]
+  },
+  {
+    "texto": "Construir bancos de evaluación para comparar versiones de modelos",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Construir modelos predictivos a partir de datos históricos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciencia de datos"
+    ],
+    "codigos": [
+      "2120"
+    ]
+  },
+  {
+    "texto": "Construir prototipos interactivos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Diseño de experiencia de usuario"
+    ],
+    "codigos": [
+      "2711"
+    ]
+  },
+  {
+    "texto": "Construir tableros e informes para las áreas de negocio",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Inteligencia de negocios"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Construir y mantener la infraestructura de despliegue continuo",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Construir y mantener robots de software",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Consultar boletines técnicos en línea del fabricante",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Consultar existencias en tiempo real desde una aplicación",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Controlar agendas y logística de reuniones",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Apoyo administrativo"
+    ],
+    "codigos": [
+      "3111"
+    ]
+  },
+  {
+    "texto": "Controlar insumos y mermas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "5111"
+    ]
+  },
+  {
+    "texto": "Coordinar al personal a su cargo",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Coordinar la investigación de casos con áreas legales",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Prevención de fraude digital"
+    ],
+    "codigos": [
+      "2412"
+    ]
+  },
+  {
+    "texto": "Coordinar pedidos que llegan por varias aplicaciones",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "5111"
+    ]
+  },
+  {
+    "texto": "Coordinar proveedores creativos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mercadotecnia digital y crecimiento"
+    ],
+    "codigos": [
+      "2431"
+    ]
+  },
+  {
+    "texto": "Coordinar redes de repartidores con esquemas de trabajo por aplicación",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Cuadrar la caja al cierre del día",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3212"
+    ]
+  },
+  {
+    "texto": "Cuidar la higiene y la inocuidad en la cocina",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "5111"
+    ]
+  },
+  {
+    "texto": "Cumplir con las normas de seguridad en el trabajo",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos",
+      "Transporte y reparto",
+      "Soldadura",
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7411",
+      "8322",
+      "7212",
+      "7223"
+    ]
+  },
+  {
+    "texto": "Cumplir con los protocolos de higiene y seguridad",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "5111"
+    ]
+  },
+  {
+    "texto": "Dar seguimiento a indicadores de servicio y de costo",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Dar seguimiento a indicadores del área",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Dar seguimiento a metas de sostenibilidad",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Sostenibilidad y reporteo ESG"
+    ],
+    "codigos": [
+      "2143"
+    ]
+  },
+  {
+    "texto": "Dar servicio a baterías de tracción y sistemas de alto voltaje",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Definir barreras de seguridad para las respuestas generadas",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Definir estándares de operación para los equipos de desarrollo",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Definir políticas de acceso y cifrado",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciberseguridad en la nube"
+    ],
+    "codigos": [
+      "2153"
+    ]
+  },
+  {
+    "texto": "Definir reglas de detección y umbrales de alerta",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Prevención de fraude digital"
+    ],
+    "codigos": [
+      "2412"
+    ]
+  },
+  {
+    "texto": "Desarrollar plataformas internas de autoservicio para equipos de producto",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Desarrollar y mantener aplicaciones web",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Detectar y remediar la deriva de datos y de modelos en producción",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Operación de modelos en producción (MLOps)"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Diagnosticar fallas en el vehículo",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos",
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Diagnosticar fallas en sistemas eléctricos y electrónicos vehiculares",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Diagnosticar y reparar fallas mecánicas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Digitalizar expedientes y archivarlos en la nube",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Apoyo administrativo"
+    ],
+    "codigos": [
+      "3111"
+    ]
+  },
+  {
+    "texto": "Dimensionar sistemas de almacenamiento en baterías para autoconsumo",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos"
+    ],
+    "codigos": [
+      "7411"
+    ]
+  },
+  {
+    "texto": "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Diseñar experimentos para evaluar intervenciones",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciencia de datos"
+    ],
+    "codigos": [
+      "2120"
+    ]
+  },
+  {
+    "texto": "Diseñar flujos e interfaces para productos digitales",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Diseño de experiencia de usuario"
+    ],
+    "codigos": [
+      "2711"
+    ]
+  },
+  {
+    "texto": "Diseñar interacciones con asistentes conversacionales",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Diseño de experiencia de usuario"
+    ],
+    "codigos": [
+      "2711"
+    ]
+  },
+  {
+    "texto": "Diseñar políticas internas de uso de sistemas generativos",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Auditoría algorítmica y ética de IA"
+    ],
+    "codigos": [
+      "2634"
+    ]
+  },
+  {
+    "texto": "Diseñar y probar instrucciones para modelos de lenguaje en casos de negocio",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Documentar componentes y servicios",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Documentar el trabajo realizado",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Auditoría algorítmica y ética de IA",
+      "Ciberseguridad en la nube",
+      "Sostenibilidad y reporteo ESG",
+      "Prevención de fraude digital",
+      "Ciencia de datos",
+      "Diseño de experiencia de usuario",
+      "Mercadotecnia digital y crecimiento",
+      "Contabilidad",
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2634",
+      "2153",
+      "2143",
+      "2412",
+      "2120",
+      "2711",
+      "2431",
+      "2411",
+      "2341"
+    ]
+  },
+  {
+    "texto": "Documentar la configuración de la infraestructura",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Operación de modelos en producción (MLOps)",
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Documentar la trazabilidad de los datos de entrenamiento",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Auditoría algorítmica y ética de IA"
+    ],
+    "codigos": [
+      "2634"
+    ]
+  },
+  {
+    "texto": "Documentar los criterios de evaluación de las respuestas del modelo",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Documentar los desarrollos realizados",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Ingeniería de prompts e IA generativa",
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Documentar los procesos del área",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Inteligencia de negocios",
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Documentar y rediseñar procesos administrativos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Elaborar estados financieros mensuales",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Contabilidad"
+    ],
+    "codigos": [
+      "2411"
+    ]
+  },
+  {
+    "texto": "Elaborar reportes de actividades",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Curación y etiquetado de datos para IA",
+      "Apoyo administrativo",
+      "Recepción y atención al público",
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3113",
+      "3111",
+      "3221",
+      "3212"
+    ]
+  },
+  {
+    "texto": "Elaborar reportes de instalación y mantenimiento",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos"
+    ],
+    "codigos": [
+      "7411"
+    ]
+  },
+  {
+    "texto": "Elaborar reportes de riesgo para comités internos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Auditoría algorítmica y ética de IA"
+    ],
+    "codigos": [
+      "2634"
+    ]
+  },
+  {
+    "texto": "Elaborar reportes para inversionistas y autoridades",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Sostenibilidad y reporteo ESG"
+    ],
+    "codigos": [
+      "2143"
+    ]
+  },
+  {
+    "texto": "Elaborar reportes para la dirección",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Escribir pruebas automatizadas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Escribir y revisar código",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Ingeniería de prompts e IA generativa",
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Estimar tiempos de entrega con el equipo",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Ingeniería de prompts e IA generativa",
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Evaluar el avance de los alumnos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2341"
+    ]
+  },
+  {
+    "texto": "Evaluar sesgos y desempeño diferenciado de modelos por grupo poblacional",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Auditoría algorítmica y ética de IA"
+    ],
+    "codigos": [
+      "2634"
+    ]
+  },
+  {
+    "texto": "Explicar al cliente el trabajo realizado",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Explicar indicaciones al paciente y su familia",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Coordinación de telemedicina",
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Gestionar documentación y archivos de la oficina",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Apoyo administrativo"
+    ],
+    "codigos": [
+      "3111"
+    ]
+  },
+  {
+    "texto": "Gestionar el calendario de contenidos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mercadotecnia digital y crecimiento"
+    ],
+    "codigos": [
+      "2431"
+    ]
+  },
+  {
+    "texto": "Gestionar el trámite de interconexión a la red eléctrica",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos"
+    ],
+    "codigos": [
+      "7411"
+    ]
+  },
+  {
+    "texto": "Habilitar consultas en lenguaje natural sobre los tableros",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Inteligencia de negocios"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Implementar tableros de monitoreo del desempeño de los modelos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de modelos en producción (MLOps)"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Incorporar agentes de IA en procesos con pasos no estructurados",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Inspeccionar visualmente los cordones de soldadura",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Soldadura"
+    ],
+    "codigos": [
+      "7212"
+    ]
+  },
+  {
+    "texto": "Instalar y conectar módulos fotovoltaicos en techos y estructuras",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos"
+    ],
+    "codigos": [
+      "7411"
+    ]
+  },
+  {
+    "texto": "Instrumentar trazas distribuidas y objetivos de nivel de servicio",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Integrar asistentes de código y componentes de IA en el flujo de desarrollo",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Integrar componentes de IA generativa en flujos analíticos",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ciencia de datos"
+    ],
+    "codigos": [
+      "2120"
+    ]
+  },
+  {
+    "texto": "Integrar modelos mediante interfaces de programación",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Levantar requerimientos con las áreas usuarias",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Inteligencia de negocios",
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Levantar requerimientos de información",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Inteligencia de negocios"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Llevar el registro de la operación",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Transporte y reparto"
+    ],
+    "codigos": [
+      "8322"
+    ]
+  },
+  {
+    "texto": "Mantener actualizados los registros del área",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Curación y etiquetado de datos para IA",
+      "Apoyo administrativo",
+      "Recepción y atención al público",
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3113",
+      "3111",
+      "3221",
+      "3212"
+    ]
+  },
+  {
+    "texto": "Mantener el acomodo y la limpieza del área",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Mantener el orden del área de trabajo",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Mantener el sistema de diseño",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Diseño de experiencia de usuario"
+    ],
+    "codigos": [
+      "2711"
+    ]
+  },
+  {
+    "texto": "Mantener herramienta y equipo en buen estado",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos",
+      "Soldadura",
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7411",
+      "7212",
+      "7223"
+    ]
+  },
+  {
+    "texto": "Medir el desempeño y el costo de las soluciones implementadas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ingeniería de prompts e IA generativa"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Medir los ahorros generados por la automatización",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Modelar amenazas sobre arquitecturas de microservicios",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Ciberseguridad en la nube"
+    ],
+    "codigos": [
+      "2153"
+    ]
+  },
+  {
+    "texto": "Modelar y depurar fuentes de datos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Inteligencia de negocios"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Monitorear a distancia signos vitales enviados por dispositivos",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de telemedicina"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Monitorear y responder a incidentes de seguridad",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciberseguridad en la nube"
+    ],
+    "codigos": [
+      "2153"
+    ]
+  },
+  {
+    "texto": "Operar aplicaciones de seguimiento de entregas en tiempo real",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Transporte y reparto"
+    ],
+    "codigos": [
+      "8322"
+    ]
+  },
+  {
+    "texto": "Operar catálogos en mercados en línea internacionales",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Mercadotecnia digital y crecimiento"
+    ],
+    "codigos": [
+      "2431"
+    ]
+  },
+  {
+    "texto": "Operar la facturación y los complementos digitales ante la autoridad fiscal",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Contabilidad"
+    ],
+    "codigos": [
+      "2411"
+    ]
+  },
+  {
+    "texto": "Operar y ajustar máquinas de control numérico",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7223"
+    ]
+  },
+  {
+    "texto": "Optimizar costos de procesamiento en la nube",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de modelos en producción (MLOps)"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Optimizar rutas mediante plataformas de asignación dinámica",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Orientar a clientes en el uso de la banca digital",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3212"
+    ]
+  },
+  {
+    "texto": "Orientar a pacientes sobre el uso de las plataformas de atención",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de telemedicina"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Participar en reuniones de seguimiento",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Auditoría algorítmica y ética de IA",
+      "Ciberseguridad en la nube",
+      "Sostenibilidad y reporteo ESG",
+      "Prevención de fraude digital",
+      "Ciencia de datos",
+      "Diseño de experiencia de usuario",
+      "Mercadotecnia digital y crecimiento",
+      "Contabilidad",
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2634",
+      "2153",
+      "2143",
+      "2412",
+      "2120",
+      "2711",
+      "2431",
+      "2411",
+      "2341"
+    ]
+  },
+  {
+    "texto": "Participar en revisiones de código",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Desarrollo de software"
+    ],
+    "codigos": [
+      "2151"
+    ]
+  },
+  {
+    "texto": "Planear y conducir las sesiones de clase",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2341"
+    ]
+  },
+  {
+    "texto": "Planear y ejecutar campañas en medios digitales",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mercadotecnia digital y crecimiento"
+    ],
+    "codigos": [
+      "2431"
+    ]
+  },
+  {
+    "texto": "Preparar declaraciones fiscales",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Contabilidad"
+    ],
+    "codigos": [
+      "2411"
+    ]
+  },
+  {
+    "texto": "Preparar la divulgación bajo estándares internacionales de sostenibilidad",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Sostenibilidad y reporteo ESG"
+    ],
+    "codigos": [
+      "2143"
+    ]
+  },
+  {
+    "texto": "Preparar los alimentos conforme a recetas y estándares",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "5111"
+    ]
+  },
+  {
+    "texto": "Preparar material y equipo de curación",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Preparar materiales y actividades para plataformas educativas en línea",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2341"
+    ]
+  },
+  {
+    "texto": "Preparar pedidos para plataformas de entrega a domicilio",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "5111"
+    ]
+  },
+  {
+    "texto": "Preparar y depurar conjuntos de datos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciencia de datos"
+    ],
+    "codigos": [
+      "2120"
+    ]
+  },
+  {
+    "texto": "Preparar y habilitar material",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Soldadura"
+    ],
+    "codigos": [
+      "7212"
+    ]
+  },
+  {
+    "texto": "Presentar resultados a los solicitantes",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Inteligencia de negocios",
+      "Automatización de procesos"
+    ],
+    "codigos": [
+      "2511"
+    ]
+  },
+  {
+    "texto": "Programar la operación de la infraestructura de carga",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Programar y supervisar rutas de entrega",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de última milla"
+    ],
+    "codigos": [
+      "1324"
+    ]
+  },
+  {
+    "texto": "Promover productos financieros",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3212"
+    ]
+  },
+  {
+    "texto": "Proponer mejoras a las guías de anotación a partir de casos límite",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Curación y etiquetado de datos para IA"
+    ],
+    "codigos": [
+      "3113"
+    ]
+  },
+  {
+    "texto": "Realizar cortes de caja",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Realizar entregas conforme a la ruta asignada",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Transporte y reparto"
+    ],
+    "codigos": [
+      "8322"
+    ]
+  },
+  {
+    "texto": "Realizar evaluaciones de vulnerabilidades",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Ciberseguridad en la nube"
+    ],
+    "codigos": [
+      "2153"
+    ]
+  },
+  {
+    "texto": "Realizar mantenimiento preventivo y correctivo",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Realizar operaciones de depósito, retiro y pago de servicios",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Servicios bancarios de ventanilla"
+    ],
+    "codigos": [
+      "3212"
+    ]
+  },
+  {
+    "texto": "Realizar pruebas de funcionamiento y puesta en marcha",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos"
+    ],
+    "codigos": [
+      "7411"
+    ]
+  },
+  {
+    "texto": "Realizar pruebas de usabilidad",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Diseño de experiencia de usuario"
+    ],
+    "codigos": [
+      "2711"
+    ]
+  },
+  {
+    "texto": "Realizar servicios de mantenimiento programado",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Realizar triage y acompañamiento clínico por videoconsulta",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de telemedicina"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Realizar uniones soldadas conforme a especificación",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Soldadura"
+    ],
+    "codigos": [
+      "7212"
+    ]
+  },
+  {
+    "texto": "Recibir y canalizar a visitantes y llamadas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Recepción y atención al público"
+    ],
+    "codigos": [
+      "3221"
+    ]
+  },
+  {
+    "texto": "Recopilar información ambiental y social de las operaciones",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Sostenibilidad y reporteo ESG"
+    ],
+    "codigos": [
+      "2143"
+    ]
+  },
+  {
+    "texto": "Registrar citas y controlar agendas",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Recepción y atención al público"
+    ],
+    "codigos": [
+      "3221"
+    ]
+  },
+  {
+    "texto": "Registrar el avance de obra en tableta o teléfono",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Soldadura"
+    ],
+    "codigos": [
+      "7212"
+    ]
+  },
+  {
+    "texto": "Registrar el servicio realizado",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos",
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Registrar evaluaciones en plataformas educativas",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Docencia básica"
+    ],
+    "codigos": [
+      "2341"
+    ]
+  },
+  {
+    "texto": "Registrar historiales de servicio de la flota",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Registrar la atención en el expediente clínico electrónico",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Registrar la evolución clínica de los pacientes",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Registrar la información clínica en sistemas electrónicos",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Coordinación de telemedicina"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Registrar la información del paciente",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Coordinación de telemedicina",
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Registrar la producción por turno",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7223"
+    ]
+  },
+  {
+    "texto": "Registrar las operaciones del día",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Ventas en piso"
+    ],
+    "codigos": [
+      "4221"
+    ]
+  },
+  {
+    "texto": "Registrar operaciones contables y conciliaciones",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Contabilidad"
+    ],
+    "codigos": [
+      "2411"
+    ]
+  },
+  {
+    "texto": "Reportar avances al supervisor",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Instalación de sistemas fotovoltaicos",
+      "Soldadura",
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7411",
+      "7212",
+      "7223"
+    ]
+  },
+  {
+    "texto": "Reportar incidencias al supervisor",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Transporte y reparto",
+      "Servicios de alimentos"
+    ],
+    "codigos": [
+      "8322",
+      "5111"
+    ]
+  },
+  {
+    "texto": "Reportar incidencias durante el trayecto",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Transporte y reparto"
+    ],
+    "codigos": [
+      "8322"
+    ]
+  },
+  {
+    "texto": "Reportar la producción en el sistema de planta",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7223"
+    ]
+  },
+  {
+    "texto": "Revisar el cumplimiento normativo de sistemas automatizados de decisión",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Auditoría algorítmica y ética de IA"
+    ],
+    "codigos": [
+      "2634"
+    ]
+  },
+  {
+    "texto": "Revisar y clasificar grandes volúmenes de texto e imágenes",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Curación y etiquetado de datos para IA"
+    ],
+    "codigos": [
+      "3113"
+    ]
+  },
+  {
+    "texto": "Solicitar refacciones al almacén",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Electromovilidad y vehículos eléctricos",
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Trabajar con procedimientos de soldadura certificados digitalmente",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Soldadura"
+    ],
+    "codigos": [
+      "7212"
+    ]
+  },
+  {
+    "texto": "Usar dispositivos de monitoreo conectados",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Enfermería"
+    ],
+    "codigos": [
+      "2221"
+    ]
+  },
+  {
+    "texto": "Usar equipos de diagnóstico electrónico conectados a plataformas del fabricante",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Mecánica automotriz"
+    ],
+    "codigos": [
+      "7231"
+    ]
+  },
+  {
+    "texto": "Validar la calidad de respuestas producidas por modelos generativos",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Curación y etiquetado de datos para IA"
+    ],
+    "codigos": [
+      "3113"
+    ]
+  },
+  {
+    "texto": "Validar procesos de identidad digital y verificación biométrica",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Prevención de fraude digital"
+    ],
+    "codigos": [
+      "2412"
+    ]
+  },
+  {
+    "texto": "Verificar dimensiones con instrumentos de medición",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Operación de máquinas herramienta"
+    ],
+    "codigos": [
+      "7223"
+    ]
+  },
+  {
+    "texto": "Verificar la carga y la documentación de embarque",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Transporte y reparto"
+    ],
+    "codigos": [
+      "8322"
+    ]
+  },
+  {
+    "texto": "Verificar la consistencia entre anotadores",
+    "es_nueva": false,
+    "clase": "propia",
+    "familias": [
+      "Curación y etiquetado de datos para IA"
+    ],
+    "codigos": [
+      "3113"
+    ]
+  },
+  {
+    "texto": "Versionar conjuntos de datos y artefactos de entrenamiento",
+    "es_nueva": true,
+    "clase": "propia",
+    "familias": [
+      "Operación de modelos en producción (MLOps)"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  },
+  {
+    "texto": "Vigilar la disponibilidad de los servicios",
+    "es_nueva": false,
+    "clase": "comun",
+    "familias": [
+      "Operación de modelos en producción (MLOps)",
+      "Ingeniería de plataformas y confiabilidad"
+    ],
+    "codigos": [
+      "2152"
+    ]
+  }
+]

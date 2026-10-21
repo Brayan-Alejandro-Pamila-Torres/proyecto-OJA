@@ -1,0 +1,132 @@
+{
+  "nota": "Datos sintéticos de prueba. Ver data/README.md.",
+  "codigo": "2151",
+  "nombre": "Desarrolladores y analistas de software y multimedia",
+  "columnas": {
+    "izquierda": {
+      "titulo": "Desarrollador Full Stack",
+      "icono": "monitor",
+      "familia": "Desarrollo de software",
+      "n_anuncios": 413
+    },
+    "derecha": {
+      "titulo": "Ingeniero de Prompts",
+      "icono": "cerebro",
+      "familia": "Ingeniería de prompts e IA generativa",
+      "n_anuncios": 160
+    }
+  },
+  "tareas": [
+    {
+      "texto": "Participar en revisiones de código",
+      "lado": "izquierda",
+      "nueva": false,
+      "frecuencia": 0.775
+    },
+    {
+      "texto": "Escribir pruebas automatizadas",
+      "lado": "izquierda",
+      "nueva": false,
+      "frecuencia": 0.746
+    },
+    {
+      "texto": "Desarrollar y mantener aplicaciones web",
+      "lado": "izquierda",
+      "nueva": false,
+      "frecuencia": 0.741
+    },
+    {
+      "texto": "Documentar componentes y servicios",
+      "lado": "izquierda",
+      "nueva": false,
+      "frecuencia": 0.726
+    },
+    {
+      "texto": "Integrar asistentes de código y componentes de IA en el flujo de desarrollo",
+      "lado": "izquierda",
+      "nueva": true,
+      "frecuencia": 0.366
+    },
+    {
+      "texto": "Documentar los desarrollos realizados",
+      "lado": "ambas",
+      "nueva": false,
+      "frecuencia": 0.5
+    },
+    {
+      "texto": "Escribir y revisar código",
+      "lado": "ambas",
+      "nueva": false,
+      "frecuencia": 0.472
+    },
+    {
+      "texto": "Estimar tiempos de entrega con el equipo",
+      "lado": "ambas",
+      "nueva": false,
+      "frecuencia": 0.515
+    },
+    {
+      "texto": "Definir barreras de seguridad para las respuestas generadas",
+      "lado": "derecha",
+      "nueva": true,
+      "frecuencia": 0.781
+    },
+    {
+      "texto": "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+      "lado": "derecha",
+      "nueva": true,
+      "frecuencia": 0.731
+    },
+    {
+      "texto": "Construir bancos de evaluación para comparar versiones de modelos",
+      "lado": "derecha",
+      "nueva": true,
+      "frecuencia": 0.719
+    },
+    {
+      "texto": "Integrar modelos mediante interfaces de programación",
+      "lado": "derecha",
+      "nueva": false,
+      "frecuencia": 0.644
+    },
+    {
+      "texto": "Medir el desempeño y el costo de las soluciones implementadas",
+      "lado": "derecha",
+      "nueva": false,
+      "frecuencia": 0.625
+    }
+  ],
+  "conteo": {
+    "izquierda": 5,
+    "derecha": 5,
+    "ambas": 3,
+    "nuevas_derecha": 3,
+    "universo_izquierda": 8,
+    "universo_derecha": 11,
+    "universo_comunes": 3
+  },
+  "anuncio_ejemplo": {
+    "titulo": "Ingeniero de IA Generativa",
+    "tareas": [
+      "Medir el desempeño y el costo de las soluciones implementadas",
+      "Diseñar y probar instrucciones para modelos de lenguaje en casos de negocio",
+      "Definir barreras de seguridad para las respuestas generadas",
+      "Estimar tiempos de entrega con el equipo"
+    ],
+    "habilidades": [
+      "cómputo en la nube",
+      "análisis de requerimientos",
+      "pensamiento crítico",
+      "evaluación de modelos de lenguaje"
+    ],
+    "modalidad": "remoto",
+    "salario": {
+      "min_mxn": 43500,
+      "max_mxn": 52000,
+      "periodicidad": "mensual",
+      "declarado": true
+    },
+    "escolaridad": "Licenciatura",
+    "experiencia_anios": 1
+  }
+}

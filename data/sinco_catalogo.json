@@ -1,0 +1,314 @@
+[
+  {
+    "gran_grupo": "1",
+    "nombre": "Funcionarios, directores y jefes",
+    "subgrupos": [
+      {
+        "codigo_2d": "13",
+        "nombre": "Coordinadores y jefes de área en producción, servicios y actividades administrativas",
+        "unitarios": [
+          {
+            "codigo_4d": "1324",
+            "nombre": "Jefes de departamento de abastecimiento, distribución y afines",
+            "familias_oja": [
+              "Coordinación de última milla"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gran_grupo": "2",
+    "nombre": "Profesionistas y técnicos",
+    "subgrupos": [
+      {
+        "codigo_2d": "21",
+        "nombre": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "unitarios": [
+          {
+            "codigo_4d": "2120",
+            "nombre": "Matemáticos, actuarios y estadísticos",
+            "familias_oja": [
+              "Ciencia de datos"
+            ]
+          },
+          {
+            "codigo_4d": "2143",
+            "nombre": "Ingenieros en ecología y ambientales",
+            "familias_oja": [
+              "Sostenibilidad y reporteo ESG"
+            ]
+          },
+          {
+            "codigo_4d": "2151",
+            "nombre": "Desarrolladores y analistas de software y multimedia",
+            "familias_oja": [
+              "Ingeniería de prompts e IA generativa",
+              "Desarrollo de software"
+            ]
+          },
+          {
+            "codigo_4d": "2152",
+            "nombre": "Administradores de sistemas y de bases de datos",
+            "familias_oja": [
+              "Operación de modelos en producción (MLOps)",
+              "Ingeniería de plataformas y confiabilidad"
+            ]
+          },
+          {
+            "codigo_4d": "2153",
+            "nombre": "Especialistas en seguridad informática",
+            "familias_oja": [
+              "Ciberseguridad en la nube"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "22",
+        "nombre": "Profesionistas en ciencias de la salud",
+        "unitarios": [
+          {
+            "codigo_4d": "2221",
+            "nombre": "Enfermeras profesionales",
+            "familias_oja": [
+              "Coordinación de telemedicina",
+              "Enfermería"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "23",
+        "nombre": "Profesionistas en educación",
+        "unitarios": [
+          {
+            "codigo_4d": "2341",
+            "nombre": "Profesores de educación primaria",
+            "familias_oja": [
+              "Docencia básica"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "24",
+        "nombre": "Profesionistas en ciencias económico-administrativas",
+        "unitarios": [
+          {
+            "codigo_4d": "2411",
+            "nombre": "Contadores y auditores",
+            "familias_oja": [
+              "Contabilidad"
+            ]
+          },
+          {
+            "codigo_4d": "2412",
+            "nombre": "Especialistas en finanzas y análisis de riesgo",
+            "familias_oja": [
+              "Prevención de fraude digital"
+            ]
+          },
+          {
+            "codigo_4d": "2431",
+            "nombre": "Especialistas en mercadotecnia y publicidad",
+            "familias_oja": [
+              "Mercadotecnia digital y crecimiento"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "25",
+        "nombre": "Profesionistas en análisis de sistemas y de información",
+        "unitarios": [
+          {
+            "codigo_4d": "2511",
+            "nombre": "Analistas de sistemas y de información",
+            "familias_oja": [
+              "Inteligencia de negocios",
+              "Automatización de procesos"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "26",
+        "nombre": "Profesionistas en ciencias sociales y humanidades",
+        "unitarios": [
+          {
+            "codigo_4d": "2634",
+            "nombre": "Especialistas en ciencias sociales y afines",
+            "familias_oja": [
+              "Auditoría algorítmica y ética de IA"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "27",
+        "nombre": "Profesionistas en artes, diseño y comunicación",
+        "unitarios": [
+          {
+            "codigo_4d": "2711",
+            "nombre": "Diseñadores gráficos, multimedia y de producto",
+            "familias_oja": [
+              "Diseño de experiencia de usuario"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gran_grupo": "3",
+    "nombre": "Trabajadores auxiliares en actividades administrativas",
+    "subgrupos": [
+      {
+        "codigo_2d": "31",
+        "nombre": "Trabajadores auxiliares en actividades administrativas",
+        "unitarios": [
+          {
+            "codigo_4d": "3111",
+            "nombre": "Auxiliares y asistentes administrativos",
+            "familias_oja": [
+              "Apoyo administrativo"
+            ]
+          },
+          {
+            "codigo_4d": "3113",
+            "nombre": "Capturistas y operadores de equipo de cómputo",
+            "familias_oja": [
+              "Curación y etiquetado de datos para IA"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "32",
+        "nombre": "Trabajadores de apoyo en atención al público y manejo de valores",
+        "unitarios": [
+          {
+            "codigo_4d": "3212",
+            "nombre": "Cajeros, taquilleros y receptores de pagos",
+            "familias_oja": [
+              "Servicios bancarios de ventanilla"
+            ]
+          },
+          {
+            "codigo_4d": "3221",
+            "nombre": "Recepcionistas y telefonistas",
+            "familias_oja": [
+              "Recepción y atención al público"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gran_grupo": "4",
+    "nombre": "Comerciantes, empleados en ventas y agentes de ventas",
+    "subgrupos": [
+      {
+        "codigo_2d": "42",
+        "nombre": "Empleados de ventas en establecimientos",
+        "unitarios": [
+          {
+            "codigo_4d": "4221",
+            "nombre": "Vendedores y dependientes en establecimientos",
+            "familias_oja": [
+              "Ventas en piso"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gran_grupo": "5",
+    "nombre": "Trabajadores en servicios personales y vigilancia",
+    "subgrupos": [
+      {
+        "codigo_2d": "51",
+        "nombre": "Trabajadores en la preparación y el servicio de alimentos",
+        "unitarios": [
+          {
+            "codigo_4d": "5111",
+            "nombre": "Cocineros y preparadores de alimentos",
+            "familias_oja": [
+              "Servicios de alimentos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gran_grupo": "7",
+    "nombre": "Trabajadores artesanales, en la construcción y otros oficios",
+    "subgrupos": [
+      {
+        "codigo_2d": "72",
+        "nombre": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+        "unitarios": [
+          {
+            "codigo_4d": "7212",
+            "nombre": "Soldadores y oxicortadores",
+            "familias_oja": [
+              "Soldadura"
+            ]
+          },
+          {
+            "codigo_4d": "7223",
+            "nombre": "Operadores de máquinas herramienta",
+            "familias_oja": [
+              "Operación de máquinas herramienta"
+            ]
+          },
+          {
+            "codigo_4d": "7231",
+            "nombre": "Mecánicos y ajustadores de vehículos de motor",
+            "familias_oja": [
+              "Electromovilidad y vehículos eléctricos",
+              "Mecánica automotriz"
+            ]
+          }
+        ]
+      },
+      {
+        "codigo_2d": "74",
+        "nombre": "Trabajadores en instalaciones y mantenimiento eléctrico",
+        "unitarios": [
+          {
+            "codigo_4d": "7411",
+            "nombre": "Electricistas y trabajadores en instalaciones eléctricas",
+            "familias_oja": [
+              "Instalación de sistemas fotovoltaicos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "gran_grupo": "8",
+    "nombre": "Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte",
+    "subgrupos": [
+      {
+        "codigo_2d": "83",
+        "nombre": "Conductores de transporte terrestre",
+        "unitarios": [
+          {
+            "codigo_4d": "8322",
+            "nombre": "Conductores de camiones y camionetas de carga",
+            "familias_oja": [
+              "Transporte y reparto"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

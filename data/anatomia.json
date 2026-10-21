@@ -1,0 +1,292 @@
+{
+  "nota": "Datos sintéticos de prueba. Ver data/README.md.",
+  "total_anuncios": 5999,
+  "anuncio": {
+    "titulo": "Ingeniero de Seguridad de la Información",
+    "icono": "candado",
+    "plataforma": "Plataforma E",
+    "fecha": "2025-05-25",
+    "entidad": "Nacional (remoto)",
+    "sector": "Servicios de tecnologías de la información",
+    "descripcion": "Empresa del sector servicios de tecnologías de la información solicita Ingeniero de Seguridad de la Información para su operación en Nacional (remoto). Responsabilidades: definir políticas de acceso y cifrado; modelar amenazas sobre arquitecturas de microservicios; capacitar a personal de nuevo ingreso; monitorear y responder a incidentes de seguridad. Requisitos: técnico superior universitario concluida, 3 años de experiencia en posiciones similares, inglés intermedio o avanzado, conocimientos en cómputo en la nube, inglés de negocios, seguridad de la información. Ofrecemos: esquema totalmente remoto, sueldo mensual de 47,000 a 57,000 pesos, prestaciones de ley, capacitación continua.",
+    "tareas": [
+      {
+        "texto": "Definir políticas de acceso y cifrado",
+        "nueva": false
+      },
+      {
+        "texto": "Modelar amenazas sobre arquitecturas de microservicios",
+        "nueva": true
+      },
+      {
+        "texto": "Capacitar a personal de nuevo ingreso",
+        "nueva": false
+      },
+      {
+        "texto": "Monitorear y responder a incidentes de seguridad",
+        "nueva": false
+      },
+      {
+        "texto": "Asegurar contenedores y cargas de trabajo distribuidas en varias nubes",
+        "nueva": true
+      }
+    ],
+    "habilidades": [
+      {
+        "label": "cómputo en la nube",
+        "grupo": "S5",
+        "nombre_grupo": "Trabajo con computadoras",
+        "nueva": false
+      },
+      {
+        "label": "inglés de negocios",
+        "grupo": "S1",
+        "nombre_grupo": "Comunicación, colaboración y creatividad",
+        "nueva": false
+      },
+      {
+        "label": "seguridad de la información",
+        "grupo": "S5",
+        "nombre_grupo": "Trabajo con computadoras",
+        "nueva": false
+      },
+      {
+        "label": "cumplimiento normativo",
+        "grupo": "S2",
+        "nombre_grupo": "Habilidades de información",
+        "nueva": false
+      },
+      {
+        "label": "administración de servidores Linux",
+        "grupo": "S5",
+        "nombre_grupo": "Trabajo con computadoras",
+        "nueva": false
+      }
+    ],
+    "modalidad": "remoto",
+    "salario": {
+      "min_mxn": 47000,
+      "max_mxn": 57000,
+      "periodicidad": "mensual",
+      "declarado": true
+    },
+    "requisitos": {
+      "escolaridad": "Técnico superior universitario",
+      "experiencia_anios": 3,
+      "ingles": true
+    },
+    "sinco": {
+      "codigo_4d": "2153",
+      "nombre_4d": "Especialistas en seguridad informática"
+    }
+  },
+  "agregados": {
+    "tareas": {
+      "promedio": 4.8,
+      "pct_con_tarea_nueva": 44.5,
+      "top_nuevas": [
+        {
+          "texto": "Integrar asistentes de código y componentes de IA en el flujo de desarrollo",
+          "n": 151
+        },
+        {
+          "texto": "Definir barreras de seguridad para las respuestas generadas",
+          "n": 125
+        },
+        {
+          "texto": "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+          "n": 117
+        },
+        {
+          "texto": "Construir bancos de evaluación para comparar versiones de modelos",
+          "n": 115
+        }
+      ]
+    },
+    "habilidades": {
+      "promedio": 4.5,
+      "por_grupo": [
+        {
+          "grupo": "S5",
+          "nombre": "Trabajo con computadoras",
+          "n": 7978,
+          "porcentaje": 29.6
+        },
+        {
+          "grupo": "S2",
+          "nombre": "Habilidades de información",
+          "n": 6562,
+          "porcentaje": 24.4
+        },
+        {
+          "grupo": "S1",
+          "nombre": "Comunicación, colaboración y creatividad",
+          "n": 4427,
+          "porcentaje": 16.4
+        },
+        {
+          "grupo": "S3",
+          "nombre": "Asistencia y cuidado",
+          "n": 3120,
+          "porcentaje": 11.6
+        },
+        {
+          "grupo": "S8",
+          "nombre": "Maquinaria y equipo especializado",
+          "n": 1506,
+          "porcentaje": 5.6
+        },
+        {
+          "grupo": "S4",
+          "nombre": "Gestión",
+          "n": 1412,
+          "porcentaje": 5.2
+        },
+        {
+          "grupo": "S7",
+          "nombre": "Construcción",
+          "n": 1146,
+          "porcentaje": 4.3
+        },
+        {
+          "grupo": "S6",
+          "nombre": "Manipulación y movimiento",
+          "n": 793,
+          "porcentaje": 2.9
+        }
+      ],
+      "top_nuevas": [
+        {
+          "label": "integración de sistemas mediante API",
+          "n": 598
+        },
+        {
+          "label": "orquestación de contenedores",
+          "n": 403
+        },
+        {
+          "label": "diseño instruccional para entornos digitales",
+          "n": 288
+        },
+        {
+          "label": "analítica de producto digital",
+          "n": 282
+        }
+      ]
+    },
+    "modalidad": {
+      "reparto": [
+        {
+          "clave": "presencial",
+          "nombre": "Presencial",
+          "n": 3739,
+          "porcentaje": 62.3
+        },
+        {
+          "clave": "hibrido",
+          "nombre": "Híbrido",
+          "n": 1143,
+          "porcentaje": 19.1
+        },
+        {
+          "clave": "remoto",
+          "nombre": "Remoto",
+          "n": 1117,
+          "porcentaje": 18.6
+        }
+      ],
+      "por_gran_grupo": [
+        {
+          "nombre": "Profesionistas y técnicos",
+          "remoto": 32.2,
+          "hibrido": 30.0,
+          "presencial": 37.8,
+          "total": 3062
+        },
+        {
+          "nombre": "Funcionarios, directores y jefes",
+          "remoto": 11.3,
+          "hibrido": 38.7,
+          "presencial": 50.0,
+          "total": 106
+        },
+        {
+          "nombre": "Trabajadores auxiliares en actividades administrativas",
+          "remoto": 11.3,
+          "hibrido": 11.9,
+          "presencial": 76.8,
+          "total": 938
+        },
+        {
+          "nombre": "Comerciantes, empleados en ventas y agentes de ventas",
+          "remoto": 1.7,
+          "hibrido": 7.3,
+          "presencial": 90.9,
+          "total": 463
+        },
+        {
+          "nombre": "Trabajadores artesanales, en la construcción y otros oficios",
+          "remoto": 0.6,
+          "hibrido": 3.2,
+          "presencial": 96.1,
+          "total": 777
+        },
+        {
+          "nombre": "Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte",
+          "remoto": 0.0,
+          "hibrido": 2.2,
+          "presencial": 97.8,
+          "total": 412
+        },
+        {
+          "nombre": "Trabajadores en servicios personales y vigilancia",
+          "remoto": 0.0,
+          "hibrido": 0.8,
+          "presencial": 99.2,
+          "total": 241
+        }
+      ]
+    },
+    "salario": {
+      "pct_declara": 63.3,
+      "mediana": 20750,
+      "por_modalidad": [
+        {
+          "clave": "remoto",
+          "nombre": "Remoto",
+          "mediana": 46750,
+          "n": 633
+        },
+        {
+          "clave": "hibrido",
+          "nombre": "Híbrido",
+          "mediana": 41750,
+          "n": 667
+        },
+        {
+          "clave": "presencial",
+          "nombre": "Presencial",
+          "mediana": 17250,
+          "n": 2495
+        }
+      ],
+      "por_perfil": [
+        {
+          "perfil": "emergente",
+          "mediana": 50250,
+          "n": 667
+        },
+        {
+          "perfil": "transicion",
+          "mediana": 45000,
+          "n": 750
+        },
+        {
+          "perfil": "consolidada",
+          "mediana": 16500,
+          "n": 2378
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,416 @@
+/* ============================================================================
+   Sección de Resultados — exploración, no narración
+   Aquí no hay escenas pegajosas: se lee de corrido y el lector elige qué mirar.
+   ========================================================================= */
+
+.resultados { max-width: var(--ancho-max); margin: 0 auto; padding-bottom: var(--e10); }
+
+.progreso--seccion .progreso__pista { opacity: 1; }
+
+/* ---- portada de la sección ----------------------------------------------- */
+
+.resultados__portada { max-width: 44rem; padding: var(--e9) var(--e6) var(--e7); }
+.resultados__ante {
+  font-size: var(--t-detalle); font-weight: var(--peso-fuerte);
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--c-anuncio);
+  margin-bottom: var(--e3);
+}
+.resultados__titulo { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: var(--peso-negro); letter-spacing: -0.025em; }
+.resultados__bajada {
+  font-size: var(--t-cuerpo-l); font-weight: var(--peso-ligero);
+  color: var(--tinta-suave); margin-top: var(--e5); max-width: 38rem;
+}
+.aviso {
+  display: inline-block; margin-top: var(--e6);
+  font-size: var(--t-detalle); color: var(--tinta-suave);
+  border-left: 3px solid var(--ambar-500); padding: var(--e2) var(--e4);
+  background: color-mix(in srgb, var(--ambar-200) 22%, transparent);
+}
+
+/* ---- índice de la sección ------------------------------------------------ */
+
+.resultados__indice {
+  position: sticky; top: 6px; z-index: 20;
+  display: flex; flex-wrap: wrap; gap: var(--e2);
+  padding: var(--e3) var(--e6);
+  background: color-mix(in srgb, var(--fondo) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--linea);
+}
+.resultados__indice a {
+  font-size: var(--t-detalle); color: var(--tinta-suave); text-decoration: none;
+  padding: 4px 10px; border: 1px solid var(--linea); border-radius: 999px;
+}
+.resultados__indice a:hover { border-color: var(--c-anuncio); color: var(--turquesa-800); }
+
+/* ---- módulos -------------------------------------------------------------- */
+
+.modulo { padding: var(--e10) var(--e6) 0; scroll-margin-top: 64px; }
+/* R2 arranca más abajo a propósito: el vuelo de los globos necesita recorrido
+   de scroll, y lo único que se lo da es la distancia entre las dos retículas. */
+#reparto { padding-top: calc(var(--e10) + var(--e10)); }
+/* R1 abre la sección y no necesita tanto aire arriba. Va por id y no por
+   :first-of-type porque ahora vive dentro del envoltorio del vuelo, y
+   :first-of-type habría pasado a señalar a R3. */
+#acervo { padding-top: var(--e8); }
+.modulo__titulo { font-size: var(--t-titulo); color: var(--tinta-fuerte); }
+
+/* ---- explorador ----------------------------------------------------------- */
+
+.explorador { display: grid; grid-template-columns: 340px 1fr; gap: var(--e6); margin-top: var(--e6); align-items: start; }
+
+.filtros { display: flex; flex-direction: column; gap: var(--e3); }
+
+/* El buscador dejó de vivir en la columna de la lista y subió a pegarse al
+   título del módulo: es lo primero que alguien intenta al llegar a treinta
+   renglones. No se estira de lado a lado —un campo de texto a todo el ancho de
+   la página no se lee como un buscador— y la nota de la lista queda donde
+   estaba el filtro de gran grupo, explicando qué hay debajo. */
+.filtro--buscar { max-width: 24rem; margin-top: var(--e4); }
+.filtro--buscar input { width: 100%; }
+
+.lista__nota {
+  font-size: var(--t-detalle); line-height: 1.45; color: var(--gris-700);
+  margin-bottom: var(--e3);
+}
+.lista__nota b { color: var(--azul-900); font-weight: var(--peso-fuerte); }
+.filtro { display: flex; flex-direction: column; gap: 4px; }
+.filtro__et {
+  font-size: var(--t-micro); font-weight: var(--peso-fuerte);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--tinta-suave);
+}
+/* un <select> se estira hasta su opción más larga si no se le pone freno, y las
+   del gran grupo son larguísimas */
+.filtro input, .filtro select {
+  font: inherit; font-size: var(--t-cuerpo-s);
+  width: 100%; max-width: 100%; min-width: 0;
+  padding: 7px 10px; border: 1px solid var(--linea-fuerte);
+  border-radius: var(--radio); background: var(--blanco); color: var(--tinta);
+}
+.filtro select { text-overflow: ellipsis; }
+
+/* sin esto, un hijo ancho revienta la rejilla en vez de encogerse */
+.explorador > *, .detalle__rejilla > *, .fila > * { min-width: 0; }
+.fila__nombre, .lista-simple li > span:first-child { overflow-wrap: anywhere; }
+.filtro input:focus-visible, .filtro select:focus-visible { outline: 2px solid var(--c-anuncio); outline-offset: 1px; }
+
+.lista__conteo { font-size: var(--t-micro); color: var(--tinta-suave); margin: var(--e4) 0 var(--e2); }
+.lista { list-style: none; margin: 0; padding: 0; max-height: 62vh; overflow-y: auto; border-top: 1px solid var(--linea); }
+.lista li { border-bottom: 1px solid var(--linea); }
+
+.fila {
+  display: grid; grid-template-columns: 22px 1fr auto; gap: 9px; align-items: center;
+  width: 100%; padding: 9px 6px; text-align: left; cursor: pointer;
+  transition: background var(--dur-trazo) ease;
+}
+.fila:hover { background: var(--gris-100); }
+.fila svg { width: 20px; height: 20px; color: var(--c-catalogo); }
+.fila__nombre { font-size: var(--t-detalle); line-height: 1.25; color: var(--tinta); }
+.fila__indice { font-size: var(--t-detalle); font-weight: var(--peso-fuerte); color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+.fila__barra { grid-column: 2 / -1; height: 4px; background: var(--gris-200); border-radius: 2px; overflow: hidden; }
+.fila__relleno { display: block; height: 100%; background: var(--c-catalogo); transform-origin: 0 50%; }
+
+.fila[aria-current='true'] { background: color-mix(in srgb, var(--c-anuncio) 10%, transparent); }
+.fila[aria-current='true'] svg { color: var(--c-emergente); }
+.fila[aria-current='true'] .fila__relleno { background: var(--c-emergente); }
+.fila[aria-current='true'] .fila__nombre { font-weight: var(--peso-fuerte); color: var(--tinta-fuerte); }
+
+/* ---- ficha del explorador -------------------------------------------------- */
+
+.detalle {
+  background: var(--blanco); border: 1px solid var(--linea-fuerte);
+  border-top: 4px solid var(--c-emergente); border-radius: var(--radio-l);
+  padding: var(--e5);
+}
+.detalle__cabeza { display: flex; align-items: flex-start; gap: var(--e3); }
+.detalle__cabeza svg { width: 34px; height: 34px; color: var(--c-emergente); flex-shrink: 0; }
+.detalle__titulo { font-size: var(--t-titulo-s); font-weight: var(--peso-negro); color: var(--tinta-fuerte); line-height: 1.15; }
+.detalle__sub { font-size: var(--t-detalle); color: var(--tinta-suave); margin-top: 3px; }
+
+.detalle__cifras { display: flex; flex-wrap: wrap; gap: var(--e5); margin: var(--e5) 0; padding: var(--e4) 0; border-top: 1px solid var(--linea); border-bottom: 1px solid var(--linea); }
+.cifra__n { font-size: 26px; font-weight: 900; color: var(--turquesa-800); line-height: 1; }
+.cifra__et { font-size: var(--t-micro); color: var(--tinta-suave); margin-top: 3px; }
+
+.detalle__rejilla { display: grid; grid-template-columns: 1fr 1fr; gap: var(--e5); }
+.bloque__rotulo {
+  font-size: var(--t-micro); font-weight: var(--peso-fuerte);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--tinta-suave);
+  margin-bottom: var(--e3);
+}
+
+.lista-simple { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+.lista-simple li { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: baseline; font-size: var(--t-detalle); line-height: 1.3; }
+.lista-simple .pct { font-size: var(--t-micro); color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+.lista-simple li[data-nueva='si'] > span:first-child { color: var(--c-emergente-fuerte); font-weight: var(--peso-medio); }
+.lista-simple li[data-nueva='si'] > span:first-child::after { content: ' ·nueva'; font-size: var(--t-micro); letter-spacing: 0.06em; }
+
+.esco { font-size: var(--t-micro); color: var(--tinta-suave); font-weight: var(--peso-fuerte); }
+
+.barritas { display: flex; flex-direction: column; gap: 6px; }
+.barrita { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: baseline; font-size: var(--t-detalle); }
+.barrita__pista { grid-column: 1 / -1; height: 8px; background: var(--gris-200); border-radius: 2px; overflow: hidden; }
+.barrita__relleno { display: block; height: 100%; transform-origin: 0 50%; background: var(--c-catalogo); transition: transform var(--dur-mueve) var(--ease-trazo); }
+.barrita[data-tono='remoto'] .barrita__relleno { background: var(--c-remoto); }
+.barrita[data-tono='hibrido'] .barrita__relleno { background: var(--c-hibrido); }
+.barrita[data-tono='presencial'] .barrita__relleno { background: var(--c-presencial); }
+.barrita[data-tono='senal'] .barrita__relleno { background: var(--c-emergente); }
+.barrita__val { font-size: var(--t-micro); color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+
+.serie-anual { display: flex; align-items: flex-end; gap: 4px; height: 68px; }
+.serie-anual__col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 3px; }
+.serie-anual__barra { width: 100%; background: var(--c-anuncio); border-radius: 2px 2px 0 0; min-height: 2px; }
+.serie-anual__et { font-size: 9px; color: var(--tinta-suave); }
+
+.detalle__nota { font-size: var(--t-micro); color: var(--tinta-suave); margin-top: var(--e5); }
+
+.resultados__pie { padding: var(--e9) var(--e6) 0; font-size: var(--t-detalle); color: var(--tinta-suave); max-width: 40rem; }
+
+@media (max-width: 900px) {
+  .explorador { grid-template-columns: 1fr; }
+  .lista { max-height: 42vh; }
+  .detalle__rejilla { grid-template-columns: 1fr; }
+  .modulo, .resultados__portada, .resultados__indice, .resultados__pie { padding-left: var(--e4); padding-right: var(--e4); }
+}
+
+/* ============================================================================
+   Módulos de panorama — R1 acervo · R2 mapa · R3 tablero por entidad
+   El texto ya no va en tarjeta: entra como párrafo de la propia página, arriba
+   de la visualización o a su izquierda, según lo que la gráfica tenga que hacer
+   mientras se lee.
+   ========================================================================= */
+
+.entrada { max-width: 38rem; }
+
+/* R1 abre la sección: va centrado y su texto entra DESPUÉS del contador, que es
+   lo primero que se ve al llegar. */
+.modulo--centro { text-align: center; }
+.modulo--centro .acervo__campo { margin-inline: auto; }
+.entrada--debajo {
+  margin: var(--e8) auto 0;
+  text-align: left;
+  padding-top: var(--e6);
+  border-top: 1px solid var(--linea);
+}
+.entrada--debajo .modulo__titulo { margin-bottom: var(--e2); }
+.entrada p { font-size: var(--t-cuerpo); color: var(--gris-700); margin-top: var(--e3); }
+.entrada p b { color: var(--azul-900); font-weight: var(--peso-fuerte); }
+.entrada--arriba { margin-bottom: var(--e6); }
+.entrada__pie {
+  font-size: var(--t-detalle); color: var(--gris-600);
+  border-left: 2px solid var(--c-anuncio); padding-left: var(--e3);
+  margin-top: var(--e5) !important;
+}
+
+/* el módulo con texto al lado: la columna se queda quieta mientras llueve */
+.modulo--lado { display: grid; gap: var(--e6); grid-template-columns: 22rem 1fr; align-items: start; }
+.modulo--lado .entrada--lado { position: sticky; top: var(--e6); }
+
+.lienzo { margin-top: var(--e2); }
+.lienzo__pie {
+  margin-top: var(--e4); font-size: var(--t-detalle); line-height: 1.5;
+  color: var(--gris-600); max-width: 46rem;
+}
+.lienzo__pie b { color: var(--gris-800); font-weight: var(--peso-fuerte); }
+
+/* ---- R1 · el acervo ------------------------------------------------------ */
+
+.acervo__cifra {
+  font-size: clamp(3rem, 11vw, 6.5rem); font-weight: var(--peso-negro);
+  line-height: 1; letter-spacing: -0.04em; color: var(--azul-900);
+  font-variant-numeric: tabular-nums;
+}
+.acervo__rotulo {
+  font-size: var(--t-cuerpo); color: var(--gris-600); margin-top: var(--e2);
+}
+/* El «+» acompaña a la cifra sin competir con ella: algo menor y separado.
+   Vive en su propio elemento porque el contador reescribe el texto del otro
+   en cada cuadro y se lo llevaría por delante. */
+.acervo__mas {
+  font-size: .62em; vertical-align: .34em; margin-right: .04em;
+  color: var(--c-emergente);
+}
+.acervo__campo {
+  display: grid; grid-template-columns: repeat(25, 1fr);
+  gap: 3px 2px; margin-top: var(--e6); max-width: 46rem;
+  /* El mismo morado de la introducción, donde significa «ocupación nueva».
+     Amarra la sección entera con el tema: lo que traen los anuncios. */
+  color: var(--c-emergente);
+}
+.acervo__campo .globo {
+  display: block; opacity: 0; transform: translateY(-10px);
+  transition: opacity .32s ease, transform .32s cubic-bezier(.2,.8,.3,1);
+}
+.acervo__campo .globo[data-on='si'] { opacity: 1; transform: none; }
+
+/* ---- R2 · el mapa -------------------------------------------------------- */
+
+.mapa__escala { position: relative; transform-origin: 0 0; }
+.mapa__escala > * { transform: scale(var(--k, 1)); transform-origin: 0 0; }
+.mapa__svg { display: block; }
+.ent { stroke: var(--blanco); stroke-width: 0.8; }
+
+.mapa__lluvia, .mapa__marcas, .mapa__guias { position: absolute; inset: 0; pointer-events: none; }
+
+/* las líneas guía sacan la etiqueta del amontonamiento del centro del país */
+.mapa__guias { --m: 0; opacity: var(--m); overflow: visible; }
+.guia { stroke: var(--c-emergente); stroke-width: 1; stroke-dasharray: 3 2; }
+.guia__punto { fill: var(--azul-900); }
+
+.mapa__lluvia { --p: 0; color: var(--c-emergente); }
+.gota {
+  --d: 0; --ox: 0px; --oy: -150px;
+  --t: clamp(0, calc((var(--p) - var(--d)) / var(--dur-vuelo, .34)), 1);
+  position: absolute; left: var(--x); top: var(--y);
+  /* La figura se ancla por la punta de la cola: de ahí el -100% en y.
+     --ox/--oy son el punto de partida —un globo del contador de R1— expresado
+     como desplazamiento respecto del punto de llegada. Multiplicar una longitud
+     por un número sí es válido en calc(), y así la interpolación entera la
+     hace el navegador con una sola variable escrita por cuadro. */
+  transform:
+    translate(
+      calc(-50% + var(--ox) * (1 - var(--t))),
+      calc(-100% + var(--oy) * (1 - var(--t)))
+    )
+    /* en vuelo son más chicos y crecen al llegar: así pesan menos mientras
+       cruzan por encima del texto, que en pantalla angosta era ilegible */
+    scale(calc(.5 + .5 * var(--t)));
+  /* cuadrática: sale de cero —en reposo no se ve nada— y sube tarde, así
+     que a media travesía van tenues y no compiten con el texto */
+  opacity: calc(var(--t) * var(--t));
+}
+.gota svg { display: block; }
+
+.mapa__marcas { --m: 0; }
+.marca-mapa {
+  position: absolute; transform: translate(-50%, -50%) scale(calc(.9 + var(--m) * .1));
+  opacity: var(--m);
+  background: var(--blanco); border: 1px solid var(--c-emergente);
+  padding: 2px 6px; text-align: center; line-height: 1.15;
+  box-shadow: 0 1px 4px rgb(0 0 0 / .08);
+}
+.marca-mapa b { display: block; font-size: .9rem; font-weight: var(--peso-negro); color: var(--azul-900); }
+.marca-mapa span { display: block; font-size: .6rem; color: var(--gris-600); white-space: nowrap; }
+
+.bandeja {
+  --p: 0;
+  margin-top: var(--e5); padding-top: var(--e4);
+  border-top: 1px solid var(--gris-300);
+  display: grid; gap: var(--e5); grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  max-width: 46rem;
+}
+.bandeja__titulo {
+  grid-column: 1 / -1; font-size: var(--t-detalle); font-weight: var(--peso-fuerte);
+  letter-spacing: .1em; text-transform: uppercase; color: var(--gris-600);
+}
+.bandeja__globos { display: flex; flex-wrap: wrap; gap: 2px; color: var(--gris-500); min-height: 1.2rem; }
+.gota--fuera {
+  position: static; transform: none;
+  opacity: clamp(0, calc((var(--p) - var(--d)) / .3), 1);
+}
+.bandeja__rotulo { font-size: var(--t-cuerpo); margin-top: var(--e2); color: var(--gris-800); }
+.bandeja__rotulo b { font-weight: var(--peso-negro); color: var(--azul-900); }
+.bandeja__nota { font-size: var(--t-detalle); color: var(--gris-600); margin-top: 2px; }
+
+/* ---- R3 · el tablero por entidad -----------------------------------------
+   La ficha reutiliza tal cual las clases `.gficha*` del cierre de la
+   introducción (src/css/casos.css): el usuario pidió «una tabla muy similar» y
+   dos copias de lo mismo se separan a la primera modificación. Aquí sólo va lo
+   que el tablero añade: el selector, el sello de la abreviatura y el destape.
+   ========================================================================= */
+
+.tablero { display: flex; flex-direction: column; gap: var(--e5); }
+
+/* Las 32 abreviaturas, en el orden alfabético del INEGI. Van todas a la vista y
+   no en un menú: cambiar de entidad tiene que costar un clic, sin abrir ni
+   cerrar nada, porque lo que hace útil un tablero es poder recorrerlo
+   comparando. */
+.tablero__selector { display: flex; flex-wrap: wrap; gap: 5px; }
+
+.ent-ficha {
+  font: inherit;
+  font-size: var(--t-detalle);
+  font-variant-numeric: tabular-nums;
+  padding: 5px 11px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: var(--blanco);
+  color: var(--tinta);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+.ent-ficha:hover { border-color: var(--c-emergente); color: var(--c-emergente-fuerte); }
+.ent-ficha:focus-visible { outline: 2px solid var(--c-emergente-fuerte); outline-offset: 2px; }
+.ent-ficha[aria-pressed='true'] {
+  background: var(--c-emergente);
+  border-color: var(--c-emergente);
+  color: var(--blanco);
+  font-weight: var(--peso-fuerte);
+}
+
+/* Las 12 que el corpus agrupa: apagadas y no elegibles. Se quedan en su sitio
+   —son 32 entidades y el lector tiene que verlas— pero sin prometer una ficha
+   que no existe. El pie del módulo dice por qué. */
+.ent-ficha[data-dato='no'] {
+  background: transparent;
+  border-color: var(--gris-200);
+  color: var(--gris-400);
+  cursor: default;
+}
+
+/* El sello repite la abreviatura elegida dentro de la ficha: ata lo que se
+   pulsó arriba con lo que se lee abajo, que en un tablero de 32 botones es
+   justo lo que se pierde. Ocupa el hueco del ícono de la ficha del cierre. */
+.ent-sello {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  min-width: 52px;
+  padding: 6px 10px;
+  border: 1.5px solid var(--c-emergente);
+  border-radius: var(--radio);
+  font-size: var(--t-detalle);
+  font-weight: var(--peso-negro);
+  color: var(--c-emergente-fuerte);
+}
+
+/* La ficha del cierre nace invisible y la destapa `.galeria--compuesta`, que
+   aquí no existe: sin esto el panel saldría en blanco. */
+.tablero__panel .gficha > * { opacity: 1; transform: none; transition: none; }
+.tablero__panel .gficha { border: 1px solid var(--linea); }
+
+/* El catálogo lleva su azul también aquí */
+.gficha__lista--catalogo li::before { background: var(--c-catalogo); }
+
+.gficha__flojo { color: var(--ambar-800); }
+
+/* La barra de modalidad de la ficha del cierre tiñe «la que domina» de turquesa
+   y deja el resto en gris: allá la modalidad es un dato de paso. Aquí es el
+   único sitio de la sección donde la modalidad se mide, así que cada tramo se
+   pinta con SU color —ámbar, vino, azul—, venga primero o último. Ése era el
+   código de la gráfica por gran grupo, que se retiró; el tablero lo hereda.
+   Los tres tonos son claros: el número va en tinta oscura. */
+.tablero__panel .gmod__tramo,
+.tablero__panel .gmod__tramo[data-primera='si'] { color: var(--gris-900); }
+.tablero__panel .gmod__tramo[data-clave='presencial'] { background: var(--c-presencial); }
+.tablero__panel .gmod__tramo[data-clave='hibrido']    { background: var(--c-hibrido); }
+.tablero__panel .gmod__tramo[data-clave='remoto']     { background: var(--c-remoto); }
+.tablero__panel .gmod__tramo b { color: var(--gris-900); }
+
+@media (max-width: 760px) {
+  .tablero__selector { gap: 4px; }
+  .ent-ficha { font-size: var(--t-micro); padding: 4px 8px; }
+  .ent-sello { min-width: 44px; padding: 4px 8px; }
+  .tablero__panel .gficha__lista--saberes li:nth-child(n+3) { display: list-item; }
+}
+
+/* ---- angosto ------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+  .modulo--lado { grid-template-columns: 1fr; }
+  .modulo--lado .entrada--lado { position: static; }
+}
+@media (max-width: 760px) {
+  .acervo__campo { grid-template-columns: repeat(20, 1fr); }
+  .bandeja { grid-template-columns: 1fr; }
+}

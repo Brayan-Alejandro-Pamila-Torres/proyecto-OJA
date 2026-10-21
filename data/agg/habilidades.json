@@ -1,0 +1,1488 @@
+{
+  "top": [
+    {
+      "label": "atención a clientes",
+      "n": 1794,
+      "grupo_esco": "S3",
+      "nombre_grupo": "Asistencia y cuidado",
+      "es_nueva": false,
+      "anio_aparicion": 1990
+    },
+    {
+      "label": "comunicación efectiva",
+      "n": 1513,
+      "grupo_esco": "S1",
+      "nombre_grupo": "Comunicación, colaboración y creatividad",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "uso de hojas de cálculo avanzadas",
+      "n": 1084,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 1998
+    },
+    {
+      "label": "trabajo en equipo",
+      "n": 1081,
+      "grupo_esco": "S1",
+      "nombre_grupo": "Comunicación, colaboración y creatividad",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "captura de datos",
+      "n": 787,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 1995
+    },
+    {
+      "label": "elaboración de reportes",
+      "n": 741,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1985
+    },
+    {
+      "label": "cumplimiento normativo",
+      "n": 712,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1995
+    },
+    {
+      "label": "lectura de planos",
+      "n": 679,
+      "grupo_esco": "S7",
+      "nombre_grupo": "Construcción",
+      "es_nueva": false,
+      "anio_aparicion": 1970
+    },
+    {
+      "label": "mantenimiento preventivo de maquinaria",
+      "n": 666,
+      "grupo_esco": "S8",
+      "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+      "es_nueva": false,
+      "anio_aparicion": 1985
+    },
+    {
+      "label": "consultas SQL",
+      "n": 613,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2000
+    },
+    {
+      "label": "integración de sistemas mediante API",
+      "n": 598,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": true,
+      "anio_aparicion": 2018
+    },
+    {
+      "label": "archivo y gestión documental",
+      "n": 593,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "manejo de caja",
+      "n": 541,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1985
+    },
+    {
+      "label": "programación en Python",
+      "n": 513,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2005
+    },
+    {
+      "label": "control de versiones con Git",
+      "n": 467,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2010
+    },
+    {
+      "label": "logística y distribución",
+      "n": 441,
+      "grupo_esco": "S4",
+      "nombre_grupo": "Habilidades de gestión",
+      "es_nueva": false,
+      "anio_aparicion": 1990
+    },
+    {
+      "label": "inglés de negocios",
+      "n": 429,
+      "grupo_esco": "S1",
+      "nombre_grupo": "Comunicación, colaboración y creatividad",
+      "es_nueva": false,
+      "anio_aparicion": 1985
+    },
+    {
+      "label": "orquestación de contenedores",
+      "n": 403,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": true,
+      "anio_aparicion": 2019
+    },
+    {
+      "label": "atención en punto de venta",
+      "n": 402,
+      "grupo_esco": "S3",
+      "nombre_grupo": "Asistencia y cuidado",
+      "es_nueva": false,
+      "anio_aparicion": 1985
+    },
+    {
+      "label": "cómputo en la nube",
+      "n": 398,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2012
+    },
+    {
+      "label": "análisis de requerimientos",
+      "n": 368,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1998
+    },
+    {
+      "label": "conducción de vehículos de carga",
+      "n": 360,
+      "grupo_esco": "S6",
+      "nombre_grupo": "Manipulación y movimiento",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "manejo de montacargas",
+      "n": 360,
+      "grupo_esco": "S8",
+      "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "análisis de métricas web",
+      "n": 337,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 2010
+    },
+    {
+      "label": "elaboración de estados financieros",
+      "n": 335,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "contabilidad financiera",
+      "n": 333,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1980
+    },
+    {
+      "label": "cuidados de enfermería",
+      "n": 327,
+      "grupo_esco": "S3",
+      "nombre_grupo": "Asistencia y cuidado",
+      "es_nueva": false,
+      "anio_aparicion": 1970
+    },
+    {
+      "label": "aprendizaje automático",
+      "n": 327,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2014
+    },
+    {
+      "label": "administración de servidores Linux",
+      "n": 300,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2000
+    },
+    {
+      "label": "gestión de inventarios",
+      "n": 298,
+      "grupo_esco": "S4",
+      "nombre_grupo": "Habilidades de gestión",
+      "es_nueva": false,
+      "anio_aparicion": 1990
+    },
+    {
+      "label": "estadística aplicada",
+      "n": 289,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 1990
+    },
+    {
+      "label": "diseño instruccional para entornos digitales",
+      "n": 288,
+      "grupo_esco": "S1",
+      "nombre_grupo": "Comunicación, colaboración y creatividad",
+      "es_nueva": true,
+      "anio_aparicion": 2020
+    },
+    {
+      "label": "administración de medicamentos",
+      "n": 285,
+      "grupo_esco": "S3",
+      "nombre_grupo": "Asistencia y cuidado",
+      "es_nueva": false,
+      "anio_aparicion": 1970
+    },
+    {
+      "label": "analítica de producto digital",
+      "n": 282,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": true,
+      "anio_aparicion": 2019
+    },
+    {
+      "label": "gestión de proyectos ágiles",
+      "n": 282,
+      "grupo_esco": "S4",
+      "nombre_grupo": "Habilidades de gestión",
+      "es_nueva": false,
+      "anio_aparicion": 2010
+    },
+    {
+      "label": "toma de signos vitales",
+      "n": 280,
+      "grupo_esco": "S3",
+      "nombre_grupo": "Asistencia y cuidado",
+      "es_nueva": false,
+      "anio_aparicion": 1970
+    },
+    {
+      "label": "visualización de datos",
+      "n": 280,
+      "grupo_esco": "S2",
+      "nombre_grupo": "Habilidades de información",
+      "es_nueva": false,
+      "anio_aparicion": 2012
+    },
+    {
+      "label": "programación en JavaScript",
+      "n": 280,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2004
+    },
+    {
+      "label": "pruebas de software",
+      "n": 275,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2000
+    },
+    {
+      "label": "desarrollo de servicios web",
+      "n": 272,
+      "grupo_esco": "S5",
+      "nombre_grupo": "Trabajo con computadoras",
+      "es_nueva": false,
+      "anio_aparicion": 2008
+    }
+  ],
+  "por_familia": [
+    {
+      "familia": "Apoyo administrativo",
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "n": 409,
+          "es_nueva": false
+        },
+        {
+          "label": "archivo y gestión documental",
+          "n": 408,
+          "es_nueva": false
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 402,
+          "es_nueva": false
+        },
+        {
+          "label": "comunicación efectiva",
+          "n": 401,
+          "es_nueva": false
+        },
+        {
+          "label": "captura de datos",
+          "n": 392,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Auditoría algorítmica y ética de IA",
+      "habilidades": [
+        {
+          "label": "estadística aplicada",
+          "n": 44,
+          "es_nueva": false
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 38,
+          "es_nueva": false
+        },
+        {
+          "label": "pensamiento crítico",
+          "n": 37,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 36,
+          "es_nueva": false
+        },
+        {
+          "label": "inglés de negocios",
+          "n": 36,
+          "es_nueva": false
+        },
+        {
+          "label": "documentación de riesgos de IA",
+          "n": 27,
+          "es_nueva": true
+        },
+        {
+          "label": "auditoría algorítmica",
+          "n": 24,
+          "es_nueva": true
+        },
+        {
+          "label": "evaluación de sesgos en sistemas automatizados",
+          "n": 23,
+          "es_nueva": true
+        },
+        {
+          "label": "gobernanza de datos para IA",
+          "n": 19,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Automatización de procesos",
+      "habilidades": [
+        {
+          "label": "programación en Python",
+          "n": 100,
+          "es_nueva": false
+        },
+        {
+          "label": "análisis de requerimientos",
+          "n": 98,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 98,
+          "es_nueva": false
+        },
+        {
+          "label": "automatización de procesos",
+          "n": 95,
+          "es_nueva": false
+        },
+        {
+          "label": "automatización robótica de procesos (RPA)",
+          "n": 83,
+          "es_nueva": true
+        },
+        {
+          "label": "diseño de flujos con agentes de IA",
+          "n": 74,
+          "es_nueva": true
+        },
+        {
+          "label": "integración de sistemas mediante API",
+          "n": 71,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Ciberseguridad en la nube",
+      "habilidades": [
+        {
+          "label": "cómputo en la nube",
+          "n": 112,
+          "es_nueva": false
+        },
+        {
+          "label": "administración de servidores Linux",
+          "n": 110,
+          "es_nueva": false
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 108,
+          "es_nueva": false
+        },
+        {
+          "label": "inglés de negocios",
+          "n": 101,
+          "es_nueva": false
+        },
+        {
+          "label": "seguridad de la información",
+          "n": 98,
+          "es_nueva": false
+        },
+        {
+          "label": "seguridad de cargas de trabajo en la nube",
+          "n": 75,
+          "es_nueva": true
+        },
+        {
+          "label": "respuesta a incidentes en entornos híbridos",
+          "n": 75,
+          "es_nueva": true
+        },
+        {
+          "label": "modelado de amenazas",
+          "n": 66,
+          "es_nueva": true
+        },
+        {
+          "label": "infraestructura como código",
+          "n": 62,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Ciencia de datos",
+      "habilidades": [
+        {
+          "label": "gobernanza de datos para IA",
+          "n": 140,
+          "es_nueva": true
+        },
+        {
+          "label": "monitoreo de deriva de modelos",
+          "n": 128,
+          "es_nueva": true
+        },
+        {
+          "label": "programación en Python",
+          "n": 126,
+          "es_nueva": false
+        },
+        {
+          "label": "consultas SQL",
+          "n": 125,
+          "es_nueva": false
+        },
+        {
+          "label": "aprendizaje automático",
+          "n": 124,
+          "es_nueva": false
+        },
+        {
+          "label": "estadística aplicada",
+          "n": 122,
+          "es_nueva": false
+        },
+        {
+          "label": "inglés de negocios",
+          "n": 121,
+          "es_nueva": false
+        },
+        {
+          "label": "visualización de datos",
+          "n": 120,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Contabilidad",
+      "habilidades": [
+        {
+          "label": "elaboración de estados financieros",
+          "n": 335,
+          "es_nueva": false
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 334,
+          "es_nueva": false
+        },
+        {
+          "label": "contabilidad financiera",
+          "n": 333,
+          "es_nueva": false
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 322,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Coordinación de telemedicina",
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "n": 39,
+          "es_nueva": false
+        },
+        {
+          "label": "comunicación efectiva",
+          "n": 37,
+          "es_nueva": false
+        },
+        {
+          "label": "cuidados de enfermería",
+          "n": 37,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 34,
+          "es_nueva": false
+        },
+        {
+          "label": "gestión de expedientes clínicos electrónicos",
+          "n": 33,
+          "es_nueva": true
+        },
+        {
+          "label": "teleconsulta y acompañamiento remoto de pacientes",
+          "n": 32,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Coordinación de última milla",
+      "habilidades": [
+        {
+          "label": "gestión de inventarios",
+          "n": 88,
+          "es_nueva": false
+        },
+        {
+          "label": "atención a clientes",
+          "n": 86,
+          "es_nueva": false
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 82,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 82,
+          "es_nueva": false
+        },
+        {
+          "label": "logística y distribución",
+          "n": 78,
+          "es_nueva": false
+        },
+        {
+          "label": "integración de sistemas mediante API",
+          "n": 75,
+          "es_nueva": true
+        },
+        {
+          "label": "coordinación de operaciones con repartidores independientes",
+          "n": 68,
+          "es_nueva": true
+        },
+        {
+          "label": "optimización de ruta de última milla",
+          "n": 60,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Curación y etiquetado de datos para IA",
+      "habilidades": [
+        {
+          "label": "comunicación efectiva",
+          "n": 63,
+          "es_nueva": false
+        },
+        {
+          "label": "pensamiento crítico",
+          "n": 62,
+          "es_nueva": false
+        },
+        {
+          "label": "captura de datos",
+          "n": 62,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 59,
+          "es_nueva": false
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 55,
+          "es_nueva": false
+        },
+        {
+          "label": "etiquetado y curación de datos de entrenamiento",
+          "n": 48,
+          "es_nueva": true
+        },
+        {
+          "label": "gobernanza de datos para IA",
+          "n": 48,
+          "es_nueva": true
+        },
+        {
+          "label": "verificación de respuestas generadas por IA",
+          "n": 45,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Desarrollo de software",
+      "habilidades": [
+        {
+          "label": "integración de sistemas mediante API",
+          "n": 318,
+          "es_nueva": true
+        },
+        {
+          "label": "orquestación de contenedores",
+          "n": 290,
+          "es_nueva": true
+        },
+        {
+          "label": "control de versiones con Git",
+          "n": 287,
+          "es_nueva": false
+        },
+        {
+          "label": "gestión de proyectos ágiles",
+          "n": 282,
+          "es_nueva": false
+        },
+        {
+          "label": "consultas SQL",
+          "n": 281,
+          "es_nueva": false
+        },
+        {
+          "label": "programación en JavaScript",
+          "n": 280,
+          "es_nueva": false
+        },
+        {
+          "label": "pruebas de software",
+          "n": 275,
+          "es_nueva": false
+        },
+        {
+          "label": "desarrollo de servicios web",
+          "n": 272,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Diseño de experiencia de usuario",
+      "habilidades": [
+        {
+          "label": "análisis de métricas web",
+          "n": 169,
+          "es_nueva": false
+        },
+        {
+          "label": "investigación con usuarios",
+          "n": 164,
+          "es_nueva": false
+        },
+        {
+          "label": "comunicación efectiva",
+          "n": 162,
+          "es_nueva": false
+        },
+        {
+          "label": "diseño de interfaces de usuario",
+          "n": 159,
+          "es_nueva": false
+        },
+        {
+          "label": "diseño de experiencias conversacionales",
+          "n": 127,
+          "es_nueva": true
+        },
+        {
+          "label": "analítica de producto digital",
+          "n": 127,
+          "es_nueva": true
+        },
+        {
+          "label": "experimentación A/B a escala",
+          "n": 126,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Docencia básica",
+      "habilidades": [
+        {
+          "label": "diseño instruccional para entornos digitales",
+          "n": 288,
+          "es_nueva": true
+        },
+        {
+          "label": "planeación didáctica",
+          "n": 257,
+          "es_nueva": false
+        },
+        {
+          "label": "comunicación efectiva",
+          "n": 250,
+          "es_nueva": false
+        },
+        {
+          "label": "trabajo en equipo",
+          "n": 249,
+          "es_nueva": false
+        },
+        {
+          "label": "evaluación del aprendizaje",
+          "n": 249,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Electromovilidad y vehículos eléctricos",
+      "habilidades": [
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "n": 62,
+          "es_nueva": false
+        },
+        {
+          "label": "lectura de planos",
+          "n": 62,
+          "es_nueva": false
+        },
+        {
+          "label": "trabajo en equipo",
+          "n": 61,
+          "es_nueva": false
+        },
+        {
+          "label": "diagnóstico automotriz",
+          "n": 57,
+          "es_nueva": false
+        },
+        {
+          "label": "mantenimiento de vehículos eléctricos",
+          "n": 48,
+          "es_nueva": true
+        },
+        {
+          "label": "gestión de carga de flotas eléctricas",
+          "n": 41,
+          "es_nueva": true
+        },
+        {
+          "label": "diagnóstico de sistemas de alto voltaje",
+          "n": 40,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Enfermería",
+      "habilidades": [
+        {
+          "label": "cuidados de enfermería",
+          "n": 290,
+          "es_nueva": false
+        },
+        {
+          "label": "administración de medicamentos",
+          "n": 285,
+          "es_nueva": false
+        },
+        {
+          "label": "toma de signos vitales",
+          "n": 280,
+          "es_nueva": false
+        },
+        {
+          "label": "trabajo en equipo",
+          "n": 277,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Ingeniería de plataformas y confiabilidad",
+      "habilidades": [
+        {
+          "label": "seguridad de la información",
+          "n": 102,
+          "es_nueva": false
+        },
+        {
+          "label": "administración de servidores Linux",
+          "n": 96,
+          "es_nueva": false
+        },
+        {
+          "label": "control de versiones con Git",
+          "n": 94,
+          "es_nueva": false
+        },
+        {
+          "label": "cómputo en la nube",
+          "n": 93,
+          "es_nueva": false
+        },
+        {
+          "label": "programación en Python",
+          "n": 90,
+          "es_nueva": false
+        },
+        {
+          "label": "orquestación de contenedores",
+          "n": 63,
+          "es_nueva": true
+        },
+        {
+          "label": "ingeniería de plataformas internas",
+          "n": 60,
+          "es_nueva": true
+        },
+        {
+          "label": "observabilidad de sistemas distribuidos",
+          "n": 60,
+          "es_nueva": true
+        },
+        {
+          "label": "infraestructura como código",
+          "n": 54,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Ingeniería de prompts e IA generativa",
+      "habilidades": [
+        {
+          "label": "aprendizaje automático",
+          "n": 112,
+          "es_nueva": false
+        },
+        {
+          "label": "inglés de negocios",
+          "n": 112,
+          "es_nueva": false
+        },
+        {
+          "label": "pensamiento crítico",
+          "n": 108,
+          "es_nueva": false
+        },
+        {
+          "label": "programación en Python",
+          "n": 105,
+          "es_nueva": false
+        },
+        {
+          "label": "cómputo en la nube",
+          "n": 101,
+          "es_nueva": false
+        },
+        {
+          "label": "análisis de requerimientos",
+          "n": 96,
+          "es_nueva": false
+        },
+        {
+          "label": "generación aumentada por recuperación (RAG)",
+          "n": 80,
+          "es_nueva": true
+        },
+        {
+          "label": "ingeniería de instrucciones (prompting)",
+          "n": 60,
+          "es_nueva": true
+        },
+        {
+          "label": "afinamiento de modelos fundacionales",
+          "n": 60,
+          "es_nueva": true
+        },
+        {
+          "label": "diseño de flujos con agentes de IA",
+          "n": 57,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "habilidades": [
+        {
+          "label": "trabajo en equipo",
+          "n": 115,
+          "es_nueva": false
+        },
+        {
+          "label": "lectura de planos",
+          "n": 108,
+          "es_nueva": false
+        },
+        {
+          "label": "instalaciones eléctricas residenciales",
+          "n": 106,
+          "es_nueva": false
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "n": 104,
+          "es_nueva": false
+        },
+        {
+          "label": "dimensionamiento de sistemas de almacenamiento de energía",
+          "n": 100,
+          "es_nueva": true
+        },
+        {
+          "label": "instalación de sistemas fotovoltaicos",
+          "n": 93,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Inteligencia de negocios",
+      "habilidades": [
+        {
+          "label": "análisis de requerimientos",
+          "n": 174,
+          "es_nueva": false
+        },
+        {
+          "label": "visualización de datos",
+          "n": 160,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 156,
+          "es_nueva": false
+        },
+        {
+          "label": "consultas SQL",
+          "n": 156,
+          "es_nueva": false
+        },
+        {
+          "label": "analítica de producto digital",
+          "n": 155,
+          "es_nueva": true
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 148,
+          "es_nueva": false
+        },
+        {
+          "label": "integración de sistemas mediante API",
+          "n": 134,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Mecánica automotriz",
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "n": 191,
+          "es_nueva": false
+        },
+        {
+          "label": "lectura de planos",
+          "n": 182,
+          "es_nueva": false
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "n": 178,
+          "es_nueva": false
+        },
+        {
+          "label": "diagnóstico automotriz",
+          "n": 176,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Mercadotecnia digital y crecimiento",
+      "habilidades": [
+        {
+          "label": "mercadotecnia digital",
+          "n": 187,
+          "es_nueva": false
+        },
+        {
+          "label": "optimización para buscadores",
+          "n": 183,
+          "es_nueva": false
+        },
+        {
+          "label": "gestión de redes sociales",
+          "n": 182,
+          "es_nueva": false
+        },
+        {
+          "label": "redacción de contenidos",
+          "n": 177,
+          "es_nueva": false
+        },
+        {
+          "label": "análisis de métricas web",
+          "n": 168,
+          "es_nueva": false
+        },
+        {
+          "label": "experimentación A/B a escala",
+          "n": 123,
+          "es_nueva": true
+        },
+        {
+          "label": "automatización de mercadotecnia",
+          "n": 113,
+          "es_nueva": true
+        },
+        {
+          "label": "gestión de comercio electrónico transfronterizo",
+          "n": 111,
+          "es_nueva": true
+        },
+        {
+          "label": "gestión de mercados en línea (marketplaces)",
+          "n": 111,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Operación de modelos en producción (MLOps)",
+      "habilidades": [
+        {
+          "label": "administración de servidores Linux",
+          "n": 94,
+          "es_nueva": false
+        },
+        {
+          "label": "cómputo en la nube",
+          "n": 92,
+          "es_nueva": false
+        },
+        {
+          "label": "programación en Python",
+          "n": 92,
+          "es_nueva": false
+        },
+        {
+          "label": "aprendizaje automático",
+          "n": 91,
+          "es_nueva": false
+        },
+        {
+          "label": "control de versiones con Git",
+          "n": 86,
+          "es_nueva": false
+        },
+        {
+          "label": "orquestación de contenedores",
+          "n": 50,
+          "es_nueva": true
+        },
+        {
+          "label": "observabilidad de sistemas distribuidos",
+          "n": 50,
+          "es_nueva": true
+        },
+        {
+          "label": "orquestación de modelos en producción (MLOps)",
+          "n": 46,
+          "es_nueva": true
+        },
+        {
+          "label": "monitoreo de deriva de modelos",
+          "n": 44,
+          "es_nueva": true
+        },
+        {
+          "label": "infraestructura como código",
+          "n": 35,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Operación de máquinas herramienta",
+      "habilidades": [
+        {
+          "label": "elaboración de reportes",
+          "n": 166,
+          "es_nueva": false
+        },
+        {
+          "label": "operación de máquinas herramienta CNC",
+          "n": 159,
+          "es_nueva": false
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "n": 158,
+          "es_nueva": false
+        },
+        {
+          "label": "lectura de planos",
+          "n": 158,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Prevención de fraude digital",
+      "habilidades": [
+        {
+          "label": "estadística aplicada",
+          "n": 57,
+          "es_nueva": false
+        },
+        {
+          "label": "seguridad de la información",
+          "n": 56,
+          "es_nueva": false
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 53,
+          "es_nueva": false
+        },
+        {
+          "label": "consultas SQL",
+          "n": 51,
+          "es_nueva": false
+        },
+        {
+          "label": "identidad digital y biometría",
+          "n": 50,
+          "es_nueva": true
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 48,
+          "es_nueva": false
+        },
+        {
+          "label": "prevención de fraude digital",
+          "n": 44,
+          "es_nueva": true
+        },
+        {
+          "label": "evaluación de sesgos en sistemas automatizados",
+          "n": 41,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Recepción y atención al público",
+      "habilidades": [
+        {
+          "label": "comunicación efectiva",
+          "n": 198,
+          "es_nueva": false
+        },
+        {
+          "label": "captura de datos",
+          "n": 196,
+          "es_nueva": false
+        },
+        {
+          "label": "archivo y gestión documental",
+          "n": 185,
+          "es_nueva": false
+        },
+        {
+          "label": "atención a clientes",
+          "n": 178,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Servicios bancarios de ventanilla",
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "n": 140,
+          "es_nueva": false
+        },
+        {
+          "label": "captura de datos",
+          "n": 137,
+          "es_nueva": false
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 134,
+          "es_nueva": false
+        },
+        {
+          "label": "manejo de caja",
+          "n": 126,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Servicios de alimentos",
+      "habilidades": [
+        {
+          "label": "manejo higiénico de alimentos",
+          "n": 221,
+          "es_nueva": false
+        },
+        {
+          "label": "preparación de alimentos",
+          "n": 212,
+          "es_nueva": false
+        },
+        {
+          "label": "gestión de inventarios",
+          "n": 210,
+          "es_nueva": false
+        },
+        {
+          "label": "trabajo en equipo",
+          "n": 207,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Soldadura",
+      "habilidades": [
+        {
+          "label": "trabajo en equipo",
+          "n": 172,
+          "es_nueva": false
+        },
+        {
+          "label": "lectura de planos",
+          "n": 169,
+          "es_nueva": false
+        },
+        {
+          "label": "soldadura MIG/MAG",
+          "n": 168,
+          "es_nueva": false
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "n": 164,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Sostenibilidad y reporteo ESG",
+      "habilidades": [
+        {
+          "label": "estadística aplicada",
+          "n": 66,
+          "es_nueva": false
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "n": 63,
+          "es_nueva": false
+        },
+        {
+          "label": "elaboración de reportes",
+          "n": 62,
+          "es_nueva": false
+        },
+        {
+          "label": "inglés de negocios",
+          "n": 59,
+          "es_nueva": false
+        },
+        {
+          "label": "cumplimiento normativo",
+          "n": 57,
+          "es_nueva": false
+        },
+        {
+          "label": "reporteo de criterios ESG",
+          "n": 55,
+          "es_nueva": true
+        },
+        {
+          "label": "economía circular aplicada",
+          "n": 51,
+          "es_nueva": true
+        },
+        {
+          "label": "medición de huella de carbono",
+          "n": 50,
+          "es_nueva": true
+        }
+      ]
+    },
+    {
+      "familia": "Transporte y reparto",
+      "habilidades": [
+        {
+          "label": "logística y distribución",
+          "n": 363,
+          "es_nueva": false
+        },
+        {
+          "label": "atención a clientes",
+          "n": 360,
+          "es_nueva": false
+        },
+        {
+          "label": "conducción de vehículos de carga",
+          "n": 360,
+          "es_nueva": false
+        },
+        {
+          "label": "manejo de montacargas",
+          "n": 360,
+          "es_nueva": false
+        }
+      ]
+    },
+    {
+      "familia": "Ventas en piso",
+      "habilidades": [
+        {
+          "label": "manejo de caja",
+          "n": 415,
+          "es_nueva": false
+        },
+        {
+          "label": "atención en punto de venta",
+          "n": 402,
+          "es_nueva": false
+        },
+        {
+          "label": "comunicación efectiva",
+          "n": 402,
+          "es_nueva": false
+        },
+        {
+          "label": "atención a clientes",
+          "n": 391,
+          "es_nueva": false
+        }
+      ]
+    }
+  ],
+  "por_grupo_esco": [
+    {
+      "grupo_esco": "S1",
+      "nombre": "Comunicación, colaboración y creatividad",
+      "n": 4427
+    },
+    {
+      "grupo_esco": "S2",
+      "nombre": "Habilidades de información",
+      "n": 6562
+    },
+    {
+      "grupo_esco": "S3",
+      "nombre": "Asistencia y cuidado",
+      "n": 3120
+    },
+    {
+      "grupo_esco": "S4",
+      "nombre": "Habilidades de gestión",
+      "n": 1412
+    },
+    {
+      "grupo_esco": "S5",
+      "nombre": "Trabajo con computadoras",
+      "n": 7978
+    },
+    {
+      "grupo_esco": "S6",
+      "nombre": "Manipulación y movimiento",
+      "n": 793
+    },
+    {
+      "grupo_esco": "S7",
+      "nombre": "Construcción",
+      "n": 1146
+    },
+    {
+      "grupo_esco": "S8",
+      "nombre": "Trabajo con maquinaria y equipo especializado",
+      "n": 1506
+    }
+  ]
+}

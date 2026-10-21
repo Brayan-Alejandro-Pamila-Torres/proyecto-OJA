@@ -1,0 +1,770 @@
+[
+  {
+    "id": "ESCO-S1-001",
+    "label": "comunicación efectiva",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S1-002",
+    "label": "diseño de experiencias conversacionales",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S1-003",
+    "label": "diseño de interfaces de usuario",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 2010
+  },
+  {
+    "id": "ESCO-S1-004",
+    "label": "diseño instruccional para entornos digitales",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S1-005",
+    "label": "documentación de riesgos de IA",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": true,
+    "anio_aparicion": 2023
+  },
+  {
+    "id": "ESCO-S1-006",
+    "label": "gestión de redes sociales",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 2010
+  },
+  {
+    "id": "ESCO-S1-007",
+    "label": "inglés de negocios",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 1985
+  },
+  {
+    "id": "ESCO-S1-008",
+    "label": "mercadotecnia digital",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 2010
+  },
+  {
+    "id": "ESCO-S1-009",
+    "label": "planeación didáctica",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S1-010",
+    "label": "redacción de contenidos",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  },
+  {
+    "id": "ESCO-S1-011",
+    "label": "trabajo en equipo",
+    "grupo_esco": "S1",
+    "nombre_grupo": "Comunicación, colaboración y creatividad",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S2-001",
+    "label": "analítica de producto digital",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S2-002",
+    "label": "análisis de métricas web",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 2010
+  },
+  {
+    "id": "ESCO-S2-003",
+    "label": "análisis de requerimientos",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1998
+  },
+  {
+    "id": "ESCO-S2-004",
+    "label": "archivo y gestión documental",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S2-005",
+    "label": "auditoría algorítmica",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S2-006",
+    "label": "contabilidad financiera",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S2-007",
+    "label": "cumplimiento normativo",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1995
+  },
+  {
+    "id": "ESCO-S2-008",
+    "label": "economía circular aplicada",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S2-009",
+    "label": "elaboración de estados financieros",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S2-010",
+    "label": "elaboración de reportes",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1985
+  },
+  {
+    "id": "ESCO-S2-011",
+    "label": "estadística aplicada",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  },
+  {
+    "id": "ESCO-S2-012",
+    "label": "etiquetado y curación de datos de entrenamiento",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S2-013",
+    "label": "evaluación de modelos de lenguaje",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S2-014",
+    "label": "evaluación de sesgos en sistemas automatizados",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S2-015",
+    "label": "evaluación del aprendizaje",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S2-016",
+    "label": "experimentación A/B a escala",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S2-017",
+    "label": "gobernanza de datos para IA",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S2-018",
+    "label": "investigación con usuarios",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 2012
+  },
+  {
+    "id": "ESCO-S2-019",
+    "label": "manejo de caja",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1985
+  },
+  {
+    "id": "ESCO-S2-020",
+    "label": "medición de huella de carbono",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S2-021",
+    "label": "modelado de amenazas",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S2-022",
+    "label": "monitoreo de deriva de modelos",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S2-023",
+    "label": "pensamiento crítico",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  },
+  {
+    "id": "ESCO-S2-024",
+    "label": "prevención de fraude digital",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S2-025",
+    "label": "reporteo de criterios ESG",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S2-026",
+    "label": "verificación de respuestas generadas por IA",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": true,
+    "anio_aparicion": 2023
+  },
+  {
+    "id": "ESCO-S2-027",
+    "label": "visualización de datos",
+    "grupo_esco": "S2",
+    "nombre_grupo": "Habilidades de información",
+    "es_nueva": false,
+    "anio_aparicion": 2012
+  },
+  {
+    "id": "ESCO-S3-001",
+    "label": "administración de medicamentos",
+    "grupo_esco": "S3",
+    "nombre_grupo": "Asistencia y cuidado",
+    "es_nueva": false,
+    "anio_aparicion": 1970
+  },
+  {
+    "id": "ESCO-S3-002",
+    "label": "atención a clientes",
+    "grupo_esco": "S3",
+    "nombre_grupo": "Asistencia y cuidado",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  },
+  {
+    "id": "ESCO-S3-003",
+    "label": "atención en punto de venta",
+    "grupo_esco": "S3",
+    "nombre_grupo": "Asistencia y cuidado",
+    "es_nueva": false,
+    "anio_aparicion": 1985
+  },
+  {
+    "id": "ESCO-S3-004",
+    "label": "cuidados de enfermería",
+    "grupo_esco": "S3",
+    "nombre_grupo": "Asistencia y cuidado",
+    "es_nueva": false,
+    "anio_aparicion": 1970
+  },
+  {
+    "id": "ESCO-S3-005",
+    "label": "teleconsulta y acompañamiento remoto de pacientes",
+    "grupo_esco": "S3",
+    "nombre_grupo": "Asistencia y cuidado",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S3-006",
+    "label": "toma de signos vitales",
+    "grupo_esco": "S3",
+    "nombre_grupo": "Asistencia y cuidado",
+    "es_nueva": false,
+    "anio_aparicion": 1970
+  },
+  {
+    "id": "ESCO-S4-001",
+    "label": "coordinación de operaciones con repartidores independientes",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S4-002",
+    "label": "gestión de carga de flotas eléctricas",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": true,
+    "anio_aparicion": 2023
+  },
+  {
+    "id": "ESCO-S4-003",
+    "label": "gestión de comercio electrónico transfronterizo",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S4-004",
+    "label": "gestión de inventarios",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  },
+  {
+    "id": "ESCO-S4-005",
+    "label": "gestión de mercados en línea (marketplaces)",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S4-006",
+    "label": "gestión de proyectos ágiles",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": false,
+    "anio_aparicion": 2010
+  },
+  {
+    "id": "ESCO-S4-007",
+    "label": "logística y distribución",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  },
+  {
+    "id": "ESCO-S4-008",
+    "label": "optimización de ruta de última milla",
+    "grupo_esco": "S4",
+    "nombre_grupo": "Habilidades de gestión",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S5-001",
+    "label": "administración de servidores Linux",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2000
+  },
+  {
+    "id": "ESCO-S5-002",
+    "label": "afinamiento de modelos fundacionales",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S5-003",
+    "label": "aprendizaje automático",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2014
+  },
+  {
+    "id": "ESCO-S5-004",
+    "label": "automatización de mercadotecnia",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S5-005",
+    "label": "automatización de procesos",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2015
+  },
+  {
+    "id": "ESCO-S5-006",
+    "label": "automatización robótica de procesos (RPA)",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S5-007",
+    "label": "captura de datos",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 1995
+  },
+  {
+    "id": "ESCO-S5-008",
+    "label": "consultas SQL",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2000
+  },
+  {
+    "id": "ESCO-S5-009",
+    "label": "control de versiones con Git",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2010
+  },
+  {
+    "id": "ESCO-S5-010",
+    "label": "cómputo en la nube",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2012
+  },
+  {
+    "id": "ESCO-S5-011",
+    "label": "desarrollo de servicios web",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2008
+  },
+  {
+    "id": "ESCO-S5-012",
+    "label": "diseño de flujos con agentes de IA",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2023
+  },
+  {
+    "id": "ESCO-S5-013",
+    "label": "generación aumentada por recuperación (RAG)",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2023
+  },
+  {
+    "id": "ESCO-S5-014",
+    "label": "gestión de expedientes clínicos electrónicos",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S5-015",
+    "label": "identidad digital y biometría",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S5-016",
+    "label": "infraestructura como código",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S5-017",
+    "label": "ingeniería de instrucciones (prompting)",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S5-018",
+    "label": "ingeniería de plataformas internas",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S5-019",
+    "label": "integración de sistemas mediante API",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2018
+  },
+  {
+    "id": "ESCO-S5-020",
+    "label": "observabilidad de sistemas distribuidos",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S5-021",
+    "label": "optimización para buscadores",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2008
+  },
+  {
+    "id": "ESCO-S5-022",
+    "label": "orquestación de contenedores",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S5-023",
+    "label": "orquestación de modelos en producción (MLOps)",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S5-024",
+    "label": "programación en JavaScript",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2004
+  },
+  {
+    "id": "ESCO-S5-025",
+    "label": "programación en Python",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2005
+  },
+  {
+    "id": "ESCO-S5-026",
+    "label": "pruebas de software",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2000
+  },
+  {
+    "id": "ESCO-S5-027",
+    "label": "respuesta a incidentes en entornos híbridos",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S5-028",
+    "label": "seguridad de cargas de trabajo en la nube",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": true,
+    "anio_aparicion": 2020
+  },
+  {
+    "id": "ESCO-S5-029",
+    "label": "seguridad de la información",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 2005
+  },
+  {
+    "id": "ESCO-S5-030",
+    "label": "uso de hojas de cálculo avanzadas",
+    "grupo_esco": "S5",
+    "nombre_grupo": "Trabajo con computadoras",
+    "es_nueva": false,
+    "anio_aparicion": 1998
+  },
+  {
+    "id": "ESCO-S6-001",
+    "label": "conducción de vehículos de carga",
+    "grupo_esco": "S6",
+    "nombre_grupo": "Manipulación y movimiento",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S6-002",
+    "label": "manejo higiénico de alimentos",
+    "grupo_esco": "S6",
+    "nombre_grupo": "Manipulación y movimiento",
+    "es_nueva": false,
+    "anio_aparicion": 1995
+  },
+  {
+    "id": "ESCO-S6-003",
+    "label": "preparación de alimentos",
+    "grupo_esco": "S6",
+    "nombre_grupo": "Manipulación y movimiento",
+    "es_nueva": false,
+    "anio_aparicion": 1970
+  },
+  {
+    "id": "ESCO-S7-001",
+    "label": "dimensionamiento de sistemas de almacenamiento de energía",
+    "grupo_esco": "S7",
+    "nombre_grupo": "Construcción",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S7-002",
+    "label": "instalaciones eléctricas residenciales",
+    "grupo_esco": "S7",
+    "nombre_grupo": "Construcción",
+    "es_nueva": false,
+    "anio_aparicion": 1970
+  },
+  {
+    "id": "ESCO-S7-003",
+    "label": "instalación de sistemas fotovoltaicos",
+    "grupo_esco": "S7",
+    "nombre_grupo": "Construcción",
+    "es_nueva": true,
+    "anio_aparicion": 2019
+  },
+  {
+    "id": "ESCO-S7-004",
+    "label": "lectura de planos",
+    "grupo_esco": "S7",
+    "nombre_grupo": "Construcción",
+    "es_nueva": false,
+    "anio_aparicion": 1970
+  },
+  {
+    "id": "ESCO-S7-005",
+    "label": "soldadura MIG/MAG",
+    "grupo_esco": "S7",
+    "nombre_grupo": "Construcción",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S8-001",
+    "label": "diagnóstico automotriz",
+    "grupo_esco": "S8",
+    "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+    "es_nueva": false,
+    "anio_aparicion": 1985
+  },
+  {
+    "id": "ESCO-S8-002",
+    "label": "diagnóstico de sistemas de alto voltaje",
+    "grupo_esco": "S8",
+    "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+    "es_nueva": true,
+    "anio_aparicion": 2022
+  },
+  {
+    "id": "ESCO-S8-003",
+    "label": "manejo de montacargas",
+    "grupo_esco": "S8",
+    "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+    "es_nueva": false,
+    "anio_aparicion": 1980
+  },
+  {
+    "id": "ESCO-S8-004",
+    "label": "mantenimiento de vehículos eléctricos",
+    "grupo_esco": "S8",
+    "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+    "es_nueva": true,
+    "anio_aparicion": 2021
+  },
+  {
+    "id": "ESCO-S8-005",
+    "label": "mantenimiento preventivo de maquinaria",
+    "grupo_esco": "S8",
+    "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+    "es_nueva": false,
+    "anio_aparicion": 1985
+  },
+  {
+    "id": "ESCO-S8-006",
+    "label": "operación de máquinas herramienta CNC",
+    "grupo_esco": "S8",
+    "nombre_grupo": "Trabajo con maquinaria y equipo especializado",
+    "es_nueva": false,
+    "anio_aparicion": 1990
+  }
+]

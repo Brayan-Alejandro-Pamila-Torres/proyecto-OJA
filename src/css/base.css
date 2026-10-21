@@ -1,0 +1,251 @@
+/* ============================================================================
+   Base — reinicio, tipografía y bloques de texto
+   ========================================================================= */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  font-family: var(--fuente);
+  font-size: var(--t-cuerpo);
+  line-height: var(--interlinea);
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;               /* el scroll vive dentro de cada sección */
+}
+
+h1, h2, h3 { margin: 0; font-weight: var(--peso-fuerte); line-height: var(--interlinea-apretada); }
+p { margin: 0; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+
+:focus-visible {
+  outline: 2px solid var(--c-emergente-fuerte);
+  outline-offset: 3px;
+}
+
+.saltar {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 999;
+  padding: var(--e3) var(--e4);
+  background: var(--azul-900);
+  color: #fff;
+  text-decoration: none;
+}
+.saltar:focus { left: var(--e4); top: var(--e4); }
+
+/* ---- portada ------------------------------------------------------------- */
+
+.portada {
+  position: relative;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: var(--e9) var(--e6);
+  background: var(--fondo);
+  color: var(--tinta);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.portada__patron {
+  position: absolute;
+  inset: -10% -5%;
+  z-index: 0;
+  opacity: calc(1 - var(--salida, 0) * 0.85);
+  transform: translateY(calc(var(--salida, 0) * -14%)) scale(calc(1 + var(--salida, 0) * 0.06));
+  will-change: transform, opacity;
+}
+
+.portada__texto {
+  position: relative;
+  z-index: 1;
+  max-width: 46rem;
+  text-align: left;
+  transform: translateY(calc(var(--salida, 0) * -3rem));
+  opacity: calc(1 - var(--salida, 0) * 1.15);
+}
+
+.portada__antetitulo {
+  font-size: var(--t-detalle);
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--c-anuncio);
+  margin-bottom: var(--e5);
+}
+
+.portada__titulo {
+  font-size: var(--t-display);
+  font-weight: var(--peso-negro);
+  letter-spacing: -0.025em;
+  margin-bottom: var(--e6);
+}
+
+.portada__bajada {
+  font-size: var(--t-cuerpo-l);
+  font-weight: var(--peso-ligero);
+  max-width: 34rem;
+  color: var(--tinta-suave);
+}
+
+.portada__pie {
+  margin-top: var(--e7);
+  font-size: var(--t-detalle);
+  color: var(--tinta-suave);
+  border-top: 1px solid var(--linea);
+  padding-top: var(--e3);
+  display: inline-block;
+}
+
+.portada__pista {
+  position: absolute;
+  bottom: var(--e6);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--e2);
+  font-size: var(--t-micro);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+  opacity: calc(1 - var(--salida, 0) * 3);
+  animation: respira 2.6s var(--ease-mueve) infinite;
+}
+
+@keyframes respira {
+  0%, 100% { transform: translate(-50%, 0); }
+  50%      { transform: translate(-50%, 5px); }
+}
+
+/* ---- bloques de texto ---------------------------------------------------- */
+
+.prosa {
+  max-width: var(--ancho-texto);
+  margin: 0 auto;
+  padding: var(--e9) var(--e6);
+  font-size: var(--t-cuerpo-l);
+  font-weight: var(--peso-ligero);
+  color: var(--tinta-suave);
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity var(--dur-mueve) var(--ease-mueve),
+              transform var(--dur-mueve) var(--ease-mueve);
+}
+.prosa--visible { opacity: 1; transform: none; }
+.prosa--alta { min-height: 100%; display: flex; flex-direction: column; justify-content: center; gap: var(--e5); }
+.prosa h2 { font-size: var(--t-titulo-l); color: var(--tinta-fuerte); margin-bottom: var(--e4); }
+.prosa__nota { font-size: var(--t-detalle); color: var(--tinta-suave); letter-spacing: 0.04em; text-transform: uppercase; }
+
+@media (max-width: 700px) {
+  .portada { padding: var(--e8) var(--e5); }
+  .prosa { padding: var(--e8) var(--e5); font-size: var(--t-cuerpo); }
+}
+
+/* ---- salida de la sección: hacia dónde seguir ---------------------------- */
+
+.salida {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--e2);
+  padding: 0 var(--e6) var(--e10);
+  text-align: right;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity var(--dur-mueve) var(--ease-mueve),
+              transform var(--dur-mueve) var(--ease-mueve);
+}
+.salida--visible { opacity: 1; transform: none; }
+
+.salida__titulo { font-size: var(--t-titulo-s); font-weight: var(--peso-fuerte); color: var(--tinta-fuerte); }
+.salida__titulo b { color: var(--turquesa-800); }
+.salida__pista { font-size: var(--t-detalle); color: var(--tinta-suave); }
+.salida__pista--angosto { display: none; }
+
+.salida__flecha {
+  width: 90px;
+  height: 24px;
+  color: var(--c-anuncio);
+  margin-top: var(--e2);
+  animation: salida-señala 1.8s var(--ease-mueve) infinite;
+}
+
+/* Volver arriba sin tener que deshacer toda la sección con el scroll. Es un
+   botón de verdad —no un ancla— porque quien scrollea es el cuerpo de la
+   sección, no la ventana. */
+.al-inicio {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e2);
+  margin-top: var(--e5);
+  padding: 9px 16px 9px 13px;
+  border: 1px solid var(--linea-fuerte);
+  border-radius: 999px;
+  background: var(--fondo);
+  font: inherit;
+  font-size: var(--t-detalle);
+  color: var(--tinta-suave);
+  cursor: pointer;
+  transition:
+    border-color var(--dur-mueve) var(--ease-mueve),
+    color var(--dur-mueve) var(--ease-mueve);
+}
+.al-inicio svg { width: 15px; height: 15px; flex-shrink: 0; }
+.al-inicio:hover { border-color: var(--c-anuncio); color: var(--turquesa-800); }
+.al-inicio:focus-visible { outline: 2px solid var(--c-anuncio); outline-offset: 3px; }
+
+@keyframes salida-señala {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(10px); }
+}
+
+body.es-movil .salida {
+  align-items: center;
+  text-align: center;
+  padding-bottom: var(--e9);
+}
+body.es-movil .salida__pista--ancho { display: none; }
+body.es-movil .salida__pista--angosto { display: block; }
+body.es-movil .salida__flecha { transform: rotate(-90deg); animation-name: salida-señala-arriba; }
+
+@keyframes salida-señala-arriba {
+  0%, 100% { transform: rotate(-90deg) translateX(0); }
+  50%      { transform: rotate(-90deg) translateX(10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .salida__flecha { animation: none; }
+}
+/* ============================
+   02 · METODOLOGÍA
+   ============================ */
+
+.portada-metodologia {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+  padding: clamp(2rem, 6vw, 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.portada-metodologia h1 {
+  margin: 0;
+  color: var(--azul-900);
+  font-family: inherit;
+  font-size: clamp(3rem, 7vw, 6.5rem);
+  font-weight: 750;
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}

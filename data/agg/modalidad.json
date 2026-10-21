@@ -1,0 +1,302 @@
+{
+  "por_gran_grupo": [
+    {
+      "clave": "1",
+      "etiqueta": "Funcionarios, directores y jefes",
+      "remoto": 12,
+      "hibrido": 41,
+      "presencial": 53,
+      "total": 106
+    },
+    {
+      "clave": "2",
+      "etiqueta": "Profesionistas y técnicos",
+      "remoto": 986,
+      "hibrido": 920,
+      "presencial": 1156,
+      "total": 3062
+    },
+    {
+      "clave": "3",
+      "etiqueta": "Trabajadores auxiliares en actividades administrativas",
+      "remoto": 106,
+      "hibrido": 112,
+      "presencial": 720,
+      "total": 938
+    },
+    {
+      "clave": "4",
+      "etiqueta": "Comerciantes, empleados en ventas y agentes de ventas",
+      "remoto": 8,
+      "hibrido": 34,
+      "presencial": 421,
+      "total": 463
+    },
+    {
+      "clave": "5",
+      "etiqueta": "Trabajadores en servicios personales y vigilancia",
+      "remoto": 0,
+      "hibrido": 2,
+      "presencial": 239,
+      "total": 241
+    },
+    {
+      "clave": "7",
+      "etiqueta": "Trabajadores artesanales, en la construcción y otros oficios",
+      "remoto": 5,
+      "hibrido": 25,
+      "presencial": 747,
+      "total": 777
+    },
+    {
+      "clave": "8",
+      "etiqueta": "Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte",
+      "remoto": 0,
+      "hibrido": 9,
+      "presencial": 403,
+      "total": 412
+    }
+  ],
+  "por_familia": [
+    {
+      "clave": "Apoyo administrativo",
+      "etiqueta": "consolidada",
+      "remoto": 42,
+      "hibrido": 82,
+      "presencial": 371,
+      "total": 495
+    },
+    {
+      "clave": "Ventas en piso",
+      "etiqueta": "consolidada",
+      "remoto": 8,
+      "hibrido": 34,
+      "presencial": 421,
+      "total": 463
+    },
+    {
+      "clave": "Desarrollo de software",
+      "etiqueta": "transicion",
+      "remoto": 201,
+      "hibrido": 150,
+      "presencial": 62,
+      "total": 413
+    },
+    {
+      "clave": "Transporte y reparto",
+      "etiqueta": "consolidada",
+      "remoto": 0,
+      "hibrido": 9,
+      "presencial": 403,
+      "total": 412
+    },
+    {
+      "clave": "Contabilidad",
+      "etiqueta": "consolidada",
+      "remoto": 42,
+      "hibrido": 81,
+      "presencial": 252,
+      "total": 375
+    },
+    {
+      "clave": "Enfermería",
+      "etiqueta": "consolidada",
+      "remoto": 4,
+      "hibrido": 5,
+      "presencial": 313,
+      "total": 322
+    },
+    {
+      "clave": "Docencia básica",
+      "etiqueta": "consolidada",
+      "remoto": 15,
+      "hibrido": 19,
+      "presencial": 254,
+      "total": 288
+    },
+    {
+      "clave": "Servicios de alimentos",
+      "etiqueta": "consolidada",
+      "remoto": 0,
+      "hibrido": 2,
+      "presencial": 239,
+      "total": 241
+    },
+    {
+      "clave": "Mercadotecnia digital y crecimiento",
+      "etiqueta": "transicion",
+      "remoto": 93,
+      "hibrido": 81,
+      "presencial": 49,
+      "total": 223
+    },
+    {
+      "clave": "Recepción y atención al público",
+      "etiqueta": "consolidada",
+      "remoto": 5,
+      "hibrido": 13,
+      "presencial": 200,
+      "total": 218
+    },
+    {
+      "clave": "Mecánica automotriz",
+      "etiqueta": "consolidada",
+      "remoto": 0,
+      "hibrido": 4,
+      "presencial": 206,
+      "total": 210
+    },
+    {
+      "clave": "Inteligencia de negocios",
+      "etiqueta": "transicion",
+      "remoto": 72,
+      "hibrido": 75,
+      "presencial": 46,
+      "total": 193
+    },
+    {
+      "clave": "Soldadura",
+      "etiqueta": "consolidada",
+      "remoto": 0,
+      "hibrido": 3,
+      "presencial": 189,
+      "total": 192
+    },
+    {
+      "clave": "Diseño de experiencia de usuario",
+      "etiqueta": "transicion",
+      "remoto": 83,
+      "hibrido": 74,
+      "presencial": 33,
+      "total": 190
+    },
+    {
+      "clave": "Ciencia de datos",
+      "etiqueta": "transicion",
+      "remoto": 78,
+      "hibrido": 80,
+      "presencial": 27,
+      "total": 185
+    },
+    {
+      "clave": "Operación de máquinas herramienta",
+      "etiqueta": "consolidada",
+      "remoto": 0,
+      "hibrido": 2,
+      "presencial": 181,
+      "total": 183
+    },
+    {
+      "clave": "Ingeniería de prompts e IA generativa",
+      "etiqueta": "emergente",
+      "remoto": 85,
+      "hibrido": 60,
+      "presencial": 15,
+      "total": 160
+    },
+    {
+      "clave": "Servicios bancarios de ventanilla",
+      "etiqueta": "consolidada",
+      "remoto": 0,
+      "hibrido": 6,
+      "presencial": 146,
+      "total": 152
+    },
+    {
+      "clave": "Ciberseguridad en la nube",
+      "etiqueta": "emergente",
+      "remoto": 50,
+      "hibrido": 64,
+      "presencial": 19,
+      "total": 133
+    },
+    {
+      "clave": "Instalación de sistemas fotovoltaicos",
+      "etiqueta": "emergente",
+      "remoto": 3,
+      "hibrido": 11,
+      "presencial": 110,
+      "total": 124
+    },
+    {
+      "clave": "Ingeniería de plataformas y confiabilidad",
+      "etiqueta": "emergente",
+      "remoto": 48,
+      "hibrido": 58,
+      "presencial": 13,
+      "total": 119
+    },
+    {
+      "clave": "Operación de modelos en producción (MLOps)",
+      "etiqueta": "emergente",
+      "remoto": 54,
+      "hibrido": 53,
+      "presencial": 9,
+      "total": 116
+    },
+    {
+      "clave": "Automatización de procesos",
+      "etiqueta": "transicion",
+      "remoto": 47,
+      "hibrido": 37,
+      "presencial": 28,
+      "total": 112
+    },
+    {
+      "clave": "Coordinación de última milla",
+      "etiqueta": "emergente",
+      "remoto": 12,
+      "hibrido": 41,
+      "presencial": 53,
+      "total": 106
+    },
+    {
+      "clave": "Sostenibilidad y reporteo ESG",
+      "etiqueta": "emergente",
+      "remoto": 31,
+      "hibrido": 30,
+      "presencial": 15,
+      "total": 76
+    },
+    {
+      "clave": "Curación y etiquetado de datos para IA",
+      "etiqueta": "emergente",
+      "remoto": 59,
+      "hibrido": 11,
+      "presencial": 3,
+      "total": 73
+    },
+    {
+      "clave": "Electromovilidad y vehículos eléctricos",
+      "etiqueta": "emergente",
+      "remoto": 2,
+      "hibrido": 5,
+      "presencial": 61,
+      "total": 68
+    },
+    {
+      "clave": "Prevención de fraude digital",
+      "etiqueta": "emergente",
+      "remoto": 35,
+      "hibrido": 23,
+      "presencial": 9,
+      "total": 67
+    },
+    {
+      "clave": "Auditoría algorítmica y ética de IA",
+      "etiqueta": "emergente",
+      "remoto": 21,
+      "hibrido": 22,
+      "presencial": 5,
+      "total": 48
+    },
+    {
+      "clave": "Coordinación de telemedicina",
+      "etiqueta": "emergente",
+      "remoto": 27,
+      "hibrido": 8,
+      "presencial": 7,
+      "total": 42
+    }
+  ]
+}

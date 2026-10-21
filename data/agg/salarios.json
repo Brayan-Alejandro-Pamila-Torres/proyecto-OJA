@@ -1,0 +1,308 @@
+{
+  "por_familia": [
+    {
+      "familia": "Operación de modelos en producción (MLOps)",
+      "perfil": "emergente",
+      "n": 65,
+      "p25": 71500,
+      "p50": 89000,
+      "p75": 101750,
+      "min": 54250,
+      "max": 119000
+    },
+    {
+      "familia": "Ingeniería de plataformas y confiabilidad",
+      "perfil": "emergente",
+      "n": 64,
+      "p25": 62250,
+      "p50": 78375,
+      "p75": 96000,
+      "min": 47750,
+      "max": 121500
+    },
+    {
+      "familia": "Auditoría algorítmica y ética de IA",
+      "perfil": "emergente",
+      "n": 23,
+      "p25": 67250,
+      "p50": 77250,
+      "p75": 91875,
+      "min": 49750,
+      "max": 106250
+    },
+    {
+      "familia": "Ciberseguridad en la nube",
+      "perfil": "emergente",
+      "n": 66,
+      "p25": 61375,
+      "p50": 76000,
+      "p75": 91500,
+      "min": 45250,
+      "max": 113750
+    },
+    {
+      "familia": "Ingeniería de prompts e IA generativa",
+      "perfil": "emergente",
+      "n": 84,
+      "p25": 60062,
+      "p50": 71000,
+      "p75": 81938,
+      "min": 45000,
+      "max": 108250
+    },
+    {
+      "familia": "Ciencia de datos",
+      "perfil": "transicion",
+      "n": 115,
+      "p25": 49375,
+      "p50": 64500,
+      "p75": 76500,
+      "min": 32000,
+      "max": 94250
+    },
+    {
+      "familia": "Desarrollo de software",
+      "perfil": "transicion",
+      "n": 214,
+      "p25": 41875,
+      "p50": 54125,
+      "p75": 65438,
+      "min": 27750,
+      "max": 89750
+    },
+    {
+      "familia": "Prevención de fraude digital",
+      "perfil": "emergente",
+      "n": 40,
+      "p25": 42250,
+      "p50": 50625,
+      "p75": 60312,
+      "min": 30500,
+      "max": 77000
+    },
+    {
+      "familia": "Sostenibilidad y reporteo ESG",
+      "perfil": "emergente",
+      "n": 41,
+      "p25": 37500,
+      "p50": 47500,
+      "p75": 57500,
+      "min": 25250,
+      "max": 71750
+    },
+    {
+      "familia": "Automatización de procesos",
+      "perfil": "transicion",
+      "n": 57,
+      "p25": 34250,
+      "p50": 42500,
+      "p75": 50000,
+      "min": 26000,
+      "max": 62000
+    },
+    {
+      "familia": "Coordinación de telemedicina",
+      "perfil": "emergente",
+      "n": 25,
+      "p25": 35750,
+      "p50": 41250,
+      "p75": 47750,
+      "min": 23500,
+      "max": 55750
+    },
+    {
+      "familia": "Diseño de experiencia de usuario",
+      "perfil": "transicion",
+      "n": 114,
+      "p25": 34062,
+      "p50": 41000,
+      "p75": 50938,
+      "min": 23500,
+      "max": 68750
+    },
+    {
+      "familia": "Inteligencia de negocios",
+      "perfil": "transicion",
+      "n": 110,
+      "p25": 28750,
+      "p50": 36000,
+      "p75": 45250,
+      "min": 20500,
+      "max": 61000
+    },
+    {
+      "familia": "Mercadotecnia digital y crecimiento",
+      "perfil": "transicion",
+      "n": 140,
+      "p25": 26250,
+      "p50": 35000,
+      "p75": 43250,
+      "min": 17250,
+      "max": 59250
+    },
+    {
+      "familia": "Coordinación de última milla",
+      "perfil": "emergente",
+      "n": 61,
+      "p25": 26750,
+      "p50": 33250,
+      "p75": 38000,
+      "min": 18750,
+      "max": 48500
+    },
+    {
+      "familia": "Electromovilidad y vehículos eléctricos",
+      "perfil": "emergente",
+      "n": 52,
+      "p25": 21375,
+      "p50": 26000,
+      "p75": 30812,
+      "min": 16250,
+      "max": 40250
+    },
+    {
+      "familia": "Contabilidad",
+      "perfil": "consolidada",
+      "n": 212,
+      "p25": 19000,
+      "p50": 25625,
+      "p75": 31750,
+      "min": 13000,
+      "max": 43250
+    },
+    {
+      "familia": "Curación y etiquetado de datos para IA",
+      "perfil": "emergente",
+      "n": 54,
+      "p25": 18125,
+      "p50": 23250,
+      "p75": 26250,
+      "min": 13750,
+      "max": 33750
+    },
+    {
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "perfil": "emergente",
+      "n": 92,
+      "p25": 18500,
+      "p50": 22750,
+      "p75": 27625,
+      "min": 12500,
+      "max": 33250
+    },
+    {
+      "familia": "Operación de máquinas herramienta",
+      "perfil": "consolidada",
+      "n": 128,
+      "p25": 18000,
+      "p50": 22125,
+      "p75": 25875,
+      "min": 12500,
+      "max": 33500
+    },
+    {
+      "familia": "Enfermería",
+      "perfil": "consolidada",
+      "n": 175,
+      "p25": 15875,
+      "p50": 19750,
+      "p75": 24000,
+      "min": 11750,
+      "max": 31500
+    },
+    {
+      "familia": "Soldadura",
+      "perfil": "consolidada",
+      "n": 139,
+      "p25": 15875,
+      "p50": 19750,
+      "p75": 24125,
+      "min": 10750,
+      "max": 30250
+    },
+    {
+      "familia": "Mecánica automotriz",
+      "perfil": "consolidada",
+      "n": 153,
+      "p25": 14250,
+      "p50": 18000,
+      "p75": 22000,
+      "min": 9250,
+      "max": 28750
+    },
+    {
+      "familia": "Docencia básica",
+      "perfil": "consolidada",
+      "n": 147,
+      "p25": 14750,
+      "p50": 17500,
+      "p75": 20500,
+      "min": 9750,
+      "max": 25500
+    },
+    {
+      "familia": "Transporte y reparto",
+      "perfil": "consolidada",
+      "n": 293,
+      "p25": 14250,
+      "p50": 17250,
+      "p75": 20500,
+      "min": 9500,
+      "max": 26000
+    },
+    {
+      "familia": "Servicios de alimentos",
+      "perfil": "consolidada",
+      "n": 168,
+      "p25": 12500,
+      "p50": 15750,
+      "p75": 18000,
+      "min": 9000,
+      "max": 23500
+    },
+    {
+      "familia": "Apoyo administrativo",
+      "perfil": "consolidada",
+      "n": 354,
+      "p25": 12000,
+      "p50": 15000,
+      "p75": 17750,
+      "min": 8500,
+      "max": 23500
+    },
+    {
+      "familia": "Servicios bancarios de ventanilla",
+      "perfil": "consolidada",
+      "n": 111,
+      "p25": 12500,
+      "p50": 14500,
+      "p75": 17250,
+      "min": 10000,
+      "max": 21000
+    },
+    {
+      "familia": "Recepción y atención al público",
+      "perfil": "consolidada",
+      "n": 157,
+      "p25": 11250,
+      "p50": 13750,
+      "p75": 16000,
+      "min": 8500,
+      "max": 19500
+    },
+    {
+      "familia": "Ventas en piso",
+      "perfil": "consolidada",
+      "n": 341,
+      "p25": 10250,
+      "p50": 12500,
+      "p75": 15000,
+      "min": 7250,
+      "max": 19250
+    }
+  ],
+  "declaracion": {
+    "con_salario": 3795,
+    "sin_salario": 2204
+  }
+}

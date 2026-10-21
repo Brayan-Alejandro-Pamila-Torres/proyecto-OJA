@@ -1,0 +1,5414 @@
+{
+  "nota": "Datos sintéticos de prueba. Ver data/README.md.",
+  "total_anuncios": 5999,
+  "senales": [
+    {
+      "clave": "novedad_tareas",
+      "nombre": "Pide tareas que antes no existían"
+    },
+    {
+      "clave": "novedad_habilidades",
+      "nombre": "Pide saberes que antes no se pedían"
+    },
+    {
+      "clave": "ajuste_sinco",
+      "nombre": "No encaja del todo en ningún renglón"
+    },
+    {
+      "clave": "crecimiento_reciente",
+      "nombre": "Está creciendo rápido"
+    },
+    {
+      "clave": "dispersion_sectorial",
+      "nombre": "Aparece en sectores muy distintos"
+    }
+  ],
+  "grupos_esco": [
+    {
+      "clave": "S1",
+      "nombre": "Comunicación, colaboración y creatividad"
+    },
+    {
+      "clave": "S2",
+      "nombre": "Habilidades de información"
+    },
+    {
+      "clave": "S3",
+      "nombre": "Asistencia y cuidado"
+    },
+    {
+      "clave": "S4",
+      "nombre": "Gestión"
+    },
+    {
+      "clave": "S5",
+      "nombre": "Trabajo con computadoras"
+    },
+    {
+      "clave": "S6",
+      "nombre": "Manipulación y movimiento"
+    },
+    {
+      "clave": "S7",
+      "nombre": "Construcción"
+    },
+    {
+      "clave": "S8",
+      "nombre": "Maquinaria y equipo especializado"
+    }
+  ],
+  "modalidades": [
+    {
+      "clave": "remoto",
+      "nombre": "Remoto"
+    },
+    {
+      "clave": "hibrido",
+      "nombre": "Híbrido"
+    },
+    {
+      "clave": "presencial",
+      "nombre": "Presencial"
+    }
+  ],
+  "ocupaciones": [
+    {
+      "familia": "Auditoría algorítmica y ética de IA",
+      "titulo": "Auditor de Algoritmos",
+      "icono": "documento-lupa",
+      "perfil": "emergente",
+      "n_anuncios": 48,
+      "indice": 0.665,
+      "senales": {
+        "novedad_tareas": 0.672,
+        "novedad_habilidades": 0.447,
+        "ajuste_sinco": 0.782,
+        "crecimiento_reciente": 0.667,
+        "dispersion_sectorial": 0.963
+      },
+      "sinco": {
+        "codigo_2d": "26",
+        "nombre_2d": "Profesionistas en ciencias sociales y humanidades",
+        "codigo_4d": "2634",
+        "nombre_4d": "Especialistas en ciencias sociales y afines",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Revisar el cumplimiento normativo de sistemas automatizados de decisión",
+          "n": 42,
+          "pct": 87.5,
+          "nueva": false
+        },
+        {
+          "texto": "Diseñar políticas internas de uso de sistemas generativos",
+          "n": 40,
+          "pct": 83.3,
+          "nueva": true
+        },
+        {
+          "texto": "Capacitar a las áreas de negocio en uso responsable de IA",
+          "n": 39,
+          "pct": 81.2,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar la trazabilidad de los datos de entrenamiento",
+          "n": 39,
+          "pct": 81.2,
+          "nueva": true
+        },
+        {
+          "texto": "Elaborar reportes de riesgo para comités internos",
+          "n": 38,
+          "pct": 79.2,
+          "nueva": false
+        },
+        {
+          "texto": "Evaluar sesgos y desempeño diferenciado de modelos por grupo poblacional",
+          "n": 37,
+          "pct": 77.1,
+          "nueva": true
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 26,
+          "pct": 54.2,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 23,
+          "pct": 47.9,
+          "nueva": false
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 23,
+          "pct": 47.9,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 3,
+      "habilidades": [
+        {
+          "label": "estadística aplicada",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 44,
+          "pct": 91.7
+        },
+        {
+          "label": "cumplimiento normativo",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 38,
+          "pct": 79.2
+        },
+        {
+          "label": "pensamiento crítico",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 37,
+          "pct": 77.1
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 36,
+          "pct": 75.0
+        },
+        {
+          "label": "inglés de negocios",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 36,
+          "pct": 75.0
+        },
+        {
+          "label": "documentación de riesgos de IA",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": true,
+          "n": 27,
+          "pct": 56.2
+        },
+        {
+          "label": "auditoría algorítmica",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 24,
+          "pct": 50.0
+        },
+        {
+          "label": "evaluación de sesgos en sistemas automatizados",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 23,
+          "pct": 47.9
+        },
+        {
+          "label": "gobernanza de datos para IA",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 19,
+          "pct": 39.6
+        }
+      ],
+      "n_habilidades_distintas": 9,
+      "n_habilidades_nuevas": 4,
+      "modalidad": {
+        "remoto": 43.8,
+        "hibrido": 45.8,
+        "presencial": 10.4
+      },
+      "salario": {
+        "declara_pct": 47.9,
+        "p25": 67250,
+        "p50": 77250,
+        "p75": 91875
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 2
+        },
+        {
+          "anio": 2022,
+          "n": 1
+        },
+        {
+          "anio": 2023,
+          "n": 2
+        },
+        {
+          "anio": 2024,
+          "n": 5
+        },
+        {
+          "anio": 2025,
+          "n": 16
+        },
+        {
+          "anio": 2026,
+          "n": 22
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 2,
+        "ultimo_anio": 2026,
+        "n_ultimo": 22,
+        "multiplicador": 11.0
+      }
+    },
+    {
+      "familia": "Ingeniería de prompts e IA generativa",
+      "titulo": "Especialista en IA Generativa",
+      "icono": "cerebro",
+      "perfil": "emergente",
+      "n_anuncios": 160,
+      "indice": 0.617,
+      "senales": {
+        "novedad_tareas": 0.584,
+        "novedad_habilidades": 0.453,
+        "ajuste_sinco": 0.68,
+        "crecimiento_reciente": 0.665,
+        "dispersion_sectorial": 0.877
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2151",
+        "nombre_4d": "Desarrolladores y analistas de software y multimedia",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Desarrollo de software"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Definir barreras de seguridad para las respuestas generadas",
+          "n": 125,
+          "pct": 78.1,
+          "nueva": true
+        },
+        {
+          "texto": "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+          "n": 117,
+          "pct": 73.1,
+          "nueva": true
+        },
+        {
+          "texto": "Construir bancos de evaluación para comparar versiones de modelos",
+          "n": 115,
+          "pct": 71.9,
+          "nueva": true
+        },
+        {
+          "texto": "Integrar modelos mediante interfaces de programación",
+          "n": 103,
+          "pct": 64.4,
+          "nueva": false
+        },
+        {
+          "texto": "Medir el desempeño y el costo de las soluciones implementadas",
+          "n": 100,
+          "pct": 62.5,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar los criterios de evaluación de las respuestas del modelo",
+          "n": 99,
+          "pct": 61.9,
+          "nueva": false
+        },
+        {
+          "texto": "Diseñar y probar instrucciones para modelos de lenguaje en casos de negocio",
+          "n": 96,
+          "pct": 60.0,
+          "nueva": false
+        },
+        {
+          "texto": "Colaborar con equipos de producto para definir casos de uso de IA",
+          "n": 92,
+          "pct": 57.5,
+          "nueva": false
+        },
+        {
+          "texto": "Estimar tiempos de entrega con el equipo",
+          "n": 87,
+          "pct": 54.4,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar los desarrollos realizados",
+          "n": 79,
+          "pct": 49.4,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 11,
+      "n_tareas_nuevas": 3,
+      "habilidades": [
+        {
+          "label": "aprendizaje automático",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 112,
+          "pct": 70.0
+        },
+        {
+          "label": "inglés de negocios",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 112,
+          "pct": 70.0
+        },
+        {
+          "label": "pensamiento crítico",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 108,
+          "pct": 67.5
+        },
+        {
+          "label": "programación en Python",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 105,
+          "pct": 65.6
+        },
+        {
+          "label": "cómputo en la nube",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 101,
+          "pct": 63.1
+        },
+        {
+          "label": "análisis de requerimientos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 96,
+          "pct": 60.0
+        },
+        {
+          "label": "generación aumentada por recuperación (RAG)",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 80,
+          "pct": 50.0
+        },
+        {
+          "label": "ingeniería de instrucciones (prompting)",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 60,
+          "pct": 37.5
+        },
+        {
+          "label": "afinamiento de modelos fundacionales",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 60,
+          "pct": 37.5
+        },
+        {
+          "label": "diseño de flujos con agentes de IA",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 57,
+          "pct": 35.6
+        }
+      ],
+      "n_habilidades_distintas": 11,
+      "n_habilidades_nuevas": 5,
+      "modalidad": {
+        "remoto": 53.1,
+        "hibrido": 37.5,
+        "presencial": 9.4
+      },
+      "salario": {
+        "declara_pct": 52.5,
+        "p25": 60062,
+        "p50": 71000,
+        "p75": 81938
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 2
+        },
+        {
+          "anio": 2022,
+          "n": 3
+        },
+        {
+          "anio": 2023,
+          "n": 12
+        },
+        {
+          "anio": 2024,
+          "n": 32
+        },
+        {
+          "anio": 2025,
+          "n": 57
+        },
+        {
+          "anio": 2026,
+          "n": 54
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 2,
+        "ultimo_anio": 2026,
+        "n_ultimo": 54,
+        "multiplicador": 27.0
+      }
+    },
+    {
+      "familia": "Curación y etiquetado de datos para IA",
+      "titulo": "Especialista en Calidad de Datos de Entrenamiento",
+      "icono": "portapapeles",
+      "perfil": "emergente",
+      "n_anuncios": 73,
+      "indice": 0.548,
+      "senales": {
+        "novedad_tareas": 0.482,
+        "novedad_habilidades": 0.44,
+        "ajuste_sinco": 0.652,
+        "crecimiento_reciente": 0.484,
+        "dispersion_sectorial": 0.908
+      },
+      "sinco": {
+        "codigo_2d": "31",
+        "nombre_2d": "Trabajadores auxiliares en actividades administrativas",
+        "codigo_4d": "3113",
+        "nombre_4d": "Capturistas y operadores de equipo de cómputo",
+        "gran_grupo": "3",
+        "nombre_gran_grupo": "Trabajadores auxiliares en actividades administrativas",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Verificar la consistencia entre anotadores",
+          "n": 67,
+          "pct": 91.8,
+          "nueva": false
+        },
+        {
+          "texto": "Revisar y clasificar grandes volúmenes de texto e imágenes",
+          "n": 63,
+          "pct": 86.3,
+          "nueva": false
+        },
+        {
+          "texto": "Aplicar guías de anotación y reportar casos ambiguos",
+          "n": 59,
+          "pct": 80.8,
+          "nueva": false
+        },
+        {
+          "texto": "Validar la calidad de respuestas producidas por modelos generativos",
+          "n": 57,
+          "pct": 78.1,
+          "nueva": true
+        },
+        {
+          "texto": "Proponer mejoras a las guías de anotación a partir de casos límite",
+          "n": 53,
+          "pct": 72.6,
+          "nueva": true
+        },
+        {
+          "texto": "Atender solicitudes internas",
+          "n": 39,
+          "pct": 53.4,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener actualizados los registros del área",
+          "n": 36,
+          "pct": 49.3,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar reportes de actividades",
+          "n": 29,
+          "pct": 39.7,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 63,
+          "pct": 86.3
+        },
+        {
+          "label": "pensamiento crítico",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 62,
+          "pct": 84.9
+        },
+        {
+          "label": "captura de datos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 62,
+          "pct": 84.9
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 59,
+          "pct": 80.8
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 55,
+          "pct": 75.3
+        },
+        {
+          "label": "etiquetado y curación de datos de entrenamiento",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 48,
+          "pct": 65.8
+        },
+        {
+          "label": "gobernanza de datos para IA",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 48,
+          "pct": 65.8
+        },
+        {
+          "label": "verificación de respuestas generadas por IA",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 45,
+          "pct": 61.6
+        }
+      ],
+      "n_habilidades_distintas": 8,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 80.8,
+        "hibrido": 15.1,
+        "presencial": 4.1
+      },
+      "salario": {
+        "declara_pct": 74.0,
+        "p25": 18125,
+        "p50": 23250,
+        "p75": 26250
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 1
+        },
+        {
+          "anio": 2022,
+          "n": 3
+        },
+        {
+          "anio": 2023,
+          "n": 8
+        },
+        {
+          "anio": 2024,
+          "n": 16
+        },
+        {
+          "anio": 2025,
+          "n": 22
+        },
+        {
+          "anio": 2026,
+          "n": 23
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 1,
+        "ultimo_anio": 2026,
+        "n_ultimo": 23,
+        "multiplicador": 23.0
+      }
+    },
+    {
+      "familia": "Sostenibilidad y reporteo ESG",
+      "titulo": "Coordinador de Sostenibilidad Corporativa",
+      "icono": "planta",
+      "perfil": "emergente",
+      "n_anuncios": 76,
+      "indice": 0.537,
+      "senales": {
+        "novedad_tareas": 0.443,
+        "novedad_habilidades": 0.461,
+        "ajuste_sinco": 0.653,
+        "crecimiento_reciente": 0.419,
+        "dispersion_sectorial": 0.954
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2143",
+        "nombre_4d": "Ingenieros en ecología y ambientales",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Dar seguimiento a metas de sostenibilidad",
+          "n": 67,
+          "pct": 88.2,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar reportes para inversionistas y autoridades",
+          "n": 65,
+          "pct": 85.5,
+          "nueva": false
+        },
+        {
+          "texto": "Recopilar información ambiental y social de las operaciones",
+          "n": 64,
+          "pct": 84.2,
+          "nueva": false
+        },
+        {
+          "texto": "Preparar la divulgación bajo estándares internacionales de sostenibilidad",
+          "n": 53,
+          "pct": 69.7,
+          "nueva": true
+        },
+        {
+          "texto": "Calcular la huella de carbono de alcance 1, 2 y 3",
+          "n": 52,
+          "pct": 68.4,
+          "nueva": true
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 41,
+          "pct": 53.9,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 38,
+          "pct": 50.0,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 33,
+          "pct": 43.4,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "estadística aplicada",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 66,
+          "pct": 86.8
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 63,
+          "pct": 82.9
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 62,
+          "pct": 81.6
+        },
+        {
+          "label": "inglés de negocios",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 59,
+          "pct": 77.6
+        },
+        {
+          "label": "cumplimiento normativo",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 57,
+          "pct": 75.0
+        },
+        {
+          "label": "reporteo de criterios ESG",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 55,
+          "pct": 72.4
+        },
+        {
+          "label": "economía circular aplicada",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 51,
+          "pct": 67.1
+        },
+        {
+          "label": "medición de huella de carbono",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 50,
+          "pct": 65.8
+        }
+      ],
+      "n_habilidades_distintas": 8,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 40.8,
+        "hibrido": 39.5,
+        "presencial": 19.7
+      },
+      "salario": {
+        "declara_pct": 53.9,
+        "p25": 37500,
+        "p50": 47500,
+        "p75": 57500
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 3
+        },
+        {
+          "anio": 2022,
+          "n": 7
+        },
+        {
+          "anio": 2023,
+          "n": 9
+        },
+        {
+          "anio": 2024,
+          "n": 13
+        },
+        {
+          "anio": 2025,
+          "n": 25
+        },
+        {
+          "anio": 2026,
+          "n": 19
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 3,
+        "ultimo_anio": 2026,
+        "n_ultimo": 19,
+        "multiplicador": 6.3
+      }
+    },
+    {
+      "familia": "Electromovilidad y vehículos eléctricos",
+      "titulo": "Técnico en Vehículos Eléctricos",
+      "icono": "controles",
+      "perfil": "emergente",
+      "n_anuncios": 68,
+      "indice": 0.532,
+      "senales": {
+        "novedad_tareas": 0.472,
+        "novedad_habilidades": 0.469,
+        "ajuste_sinco": 0.578,
+        "crecimiento_reciente": 0.44,
+        "dispersion_sectorial": 0.926
+      },
+      "sinco": {
+        "codigo_2d": "72",
+        "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+        "codigo_4d": "7231",
+        "nombre_4d": "Mecánicos y ajustadores de vehículos de motor",
+        "gran_grupo": "7",
+        "nombre_gran_grupo": "Trabajadores artesanales, en la construcción y otros oficios",
+        "comparte_con": [
+          "Mecánica automotriz"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Diagnosticar fallas en sistemas eléctricos y electrónicos vehiculares",
+          "n": 58,
+          "pct": 85.3,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar mantenimiento preventivo y correctivo",
+          "n": 56,
+          "pct": 82.4,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar historiales de servicio de la flota",
+          "n": 55,
+          "pct": 80.9,
+          "nueva": false
+        },
+        {
+          "texto": "Programar la operación de la infraestructura de carga",
+          "n": 50,
+          "pct": 73.5,
+          "nueva": true
+        },
+        {
+          "texto": "Dar servicio a baterías de tracción y sistemas de alto voltaje",
+          "n": 50,
+          "pct": 73.5,
+          "nueva": true
+        },
+        {
+          "texto": "Diagnosticar fallas en el vehículo",
+          "n": 38,
+          "pct": 55.9,
+          "nueva": false
+        },
+        {
+          "texto": "Solicitar refacciones al almacén",
+          "n": 35,
+          "pct": 51.5,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar el servicio realizado",
+          "n": 30,
+          "pct": 44.1,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 62,
+          "pct": 91.2
+        },
+        {
+          "label": "lectura de planos",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 62,
+          "pct": 91.2
+        },
+        {
+          "label": "trabajo en equipo",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 61,
+          "pct": 89.7
+        },
+        {
+          "label": "diagnóstico automotriz",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 57,
+          "pct": 83.8
+        },
+        {
+          "label": "mantenimiento de vehículos eléctricos",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": true,
+          "n": 48,
+          "pct": 70.6
+        },
+        {
+          "label": "gestión de carga de flotas eléctricas",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": true,
+          "n": 41,
+          "pct": 60.3
+        },
+        {
+          "label": "diagnóstico de sistemas de alto voltaje",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": true,
+          "n": 40,
+          "pct": 58.8
+        }
+      ],
+      "n_habilidades_distintas": 7,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 2.9,
+        "hibrido": 7.4,
+        "presencial": 89.7
+      },
+      "salario": {
+        "declara_pct": 76.5,
+        "p25": 21375,
+        "p50": 26000,
+        "p75": 30812
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 1
+        },
+        {
+          "anio": 2022,
+          "n": 6
+        },
+        {
+          "anio": 2023,
+          "n": 7
+        },
+        {
+          "anio": 2024,
+          "n": 9
+        },
+        {
+          "anio": 2025,
+          "n": 23
+        },
+        {
+          "anio": 2026,
+          "n": 22
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 1,
+        "ultimo_anio": 2026,
+        "n_ultimo": 22,
+        "multiplicador": 22.0
+      }
+    },
+    {
+      "familia": "Operación de modelos en producción (MLOps)",
+      "titulo": "Ingeniero MLOps",
+      "icono": "nube",
+      "perfil": "emergente",
+      "n_anuncios": 116,
+      "indice": 0.528,
+      "senales": {
+        "novedad_tareas": 0.439,
+        "novedad_habilidades": 0.453,
+        "ajuste_sinco": 0.615,
+        "crecimiento_reciente": 0.49,
+        "dispersion_sectorial": 0.872
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2152",
+        "nombre_4d": "Administradores de sistemas y de bases de datos",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Ingeniería de plataformas y confiabilidad"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Automatizar el ciclo de entrenamiento y despliegue de modelos",
+          "n": 95,
+          "pct": 81.9,
+          "nueva": false
+        },
+        {
+          "texto": "Administrar la infraestructura de cómputo para cargas de aprendizaje automático",
+          "n": 90,
+          "pct": 77.6,
+          "nueva": false
+        },
+        {
+          "texto": "Versionar conjuntos de datos y artefactos de entrenamiento",
+          "n": 90,
+          "pct": 77.6,
+          "nueva": true
+        },
+        {
+          "texto": "Optimizar costos de procesamiento en la nube",
+          "n": 88,
+          "pct": 75.9,
+          "nueva": false
+        },
+        {
+          "texto": "Implementar tableros de monitoreo del desempeño de los modelos",
+          "n": 86,
+          "pct": 74.1,
+          "nueva": false
+        },
+        {
+          "texto": "Detectar y remediar la deriva de datos y de modelos en producción",
+          "n": 85,
+          "pct": 73.3,
+          "nueva": true
+        },
+        {
+          "texto": "Documentar la configuración de la infraestructura",
+          "n": 61,
+          "pct": 52.6,
+          "nueva": false
+        },
+        {
+          "texto": "Atender guardias de soporte",
+          "n": 59,
+          "pct": 50.9,
+          "nueva": false
+        },
+        {
+          "texto": "Vigilar la disponibilidad de los servicios",
+          "n": 57,
+          "pct": 49.1,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "administración de servidores Linux",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 94,
+          "pct": 81.0
+        },
+        {
+          "label": "cómputo en la nube",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 92,
+          "pct": 79.3
+        },
+        {
+          "label": "programación en Python",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 92,
+          "pct": 79.3
+        },
+        {
+          "label": "aprendizaje automático",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 91,
+          "pct": 78.4
+        },
+        {
+          "label": "control de versiones con Git",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 86,
+          "pct": 74.1
+        },
+        {
+          "label": "orquestación de contenedores",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 50,
+          "pct": 43.1
+        },
+        {
+          "label": "observabilidad de sistemas distribuidos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 50,
+          "pct": 43.1
+        },
+        {
+          "label": "orquestación de modelos en producción (MLOps)",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 46,
+          "pct": 39.7
+        },
+        {
+          "label": "monitoreo de deriva de modelos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 44,
+          "pct": 37.9
+        },
+        {
+          "label": "infraestructura como código",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 35,
+          "pct": 30.2
+        }
+      ],
+      "n_habilidades_distintas": 10,
+      "n_habilidades_nuevas": 5,
+      "modalidad": {
+        "remoto": 46.6,
+        "hibrido": 45.7,
+        "presencial": 7.8
+      },
+      "salario": {
+        "declara_pct": 56.0,
+        "p25": 71500,
+        "p50": 89000,
+        "p75": 101750
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 4
+        },
+        {
+          "anio": 2022,
+          "n": 5
+        },
+        {
+          "anio": 2023,
+          "n": 11
+        },
+        {
+          "anio": 2024,
+          "n": 19
+        },
+        {
+          "anio": 2025,
+          "n": 40
+        },
+        {
+          "anio": 2026,
+          "n": 37
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 4,
+        "ultimo_anio": 2026,
+        "n_ultimo": 37,
+        "multiplicador": 9.2
+      }
+    },
+    {
+      "familia": "Coordinación de telemedicina",
+      "titulo": "Especialista en Salud Digital",
+      "icono": "estetoscopio",
+      "perfil": "emergente",
+      "n_anuncios": 42,
+      "indice": 0.526,
+      "senales": {
+        "novedad_tareas": 0.491,
+        "novedad_habilidades": 0.423,
+        "ajuste_sinco": 0.673,
+        "crecimiento_reciente": 0.439,
+        "dispersion_sectorial": 0.734
+      },
+      "sinco": {
+        "codigo_2d": "22",
+        "nombre_2d": "Profesionistas en ciencias de la salud",
+        "codigo_4d": "2221",
+        "nombre_4d": "Enfermeras profesionales",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Enfermería"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Agendar y dar seguimiento a consultas a distancia",
+          "n": 35,
+          "pct": 83.3,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar la información clínica en sistemas electrónicos",
+          "n": 34,
+          "pct": 81.0,
+          "nueva": false
+        },
+        {
+          "texto": "Orientar a pacientes sobre el uso de las plataformas de atención",
+          "n": 34,
+          "pct": 81.0,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar triage y acompañamiento clínico por videoconsulta",
+          "n": 34,
+          "pct": 81.0,
+          "nueva": true
+        },
+        {
+          "texto": "Monitorear a distancia signos vitales enviados por dispositivos",
+          "n": 32,
+          "pct": 76.2,
+          "nueva": true
+        },
+        {
+          "texto": "Registrar la información del paciente",
+          "n": 25,
+          "pct": 59.5,
+          "nueva": false
+        },
+        {
+          "texto": "Explicar indicaciones al paciente y su familia",
+          "n": 21,
+          "pct": 50.0,
+          "nueva": false
+        },
+        {
+          "texto": "Comunicarse con el equipo médico tratante",
+          "n": 20,
+          "pct": 47.6,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 39,
+          "pct": 92.9
+        },
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 37,
+          "pct": 88.1
+        },
+        {
+          "label": "cuidados de enfermería",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 37,
+          "pct": 88.1
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 34,
+          "pct": 81.0
+        },
+        {
+          "label": "gestión de expedientes clínicos electrónicos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 33,
+          "pct": 78.6
+        },
+        {
+          "label": "teleconsulta y acompañamiento remoto de pacientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": true,
+          "n": 32,
+          "pct": 76.2
+        }
+      ],
+      "n_habilidades_distintas": 6,
+      "n_habilidades_nuevas": 2,
+      "modalidad": {
+        "remoto": 64.3,
+        "hibrido": 19.0,
+        "presencial": 16.7
+      },
+      "salario": {
+        "declara_pct": 59.5,
+        "p25": 35750,
+        "p50": 41250,
+        "p75": 47750
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 2
+        },
+        {
+          "anio": 2022,
+          "n": 6
+        },
+        {
+          "anio": 2023,
+          "n": 4
+        },
+        {
+          "anio": 2024,
+          "n": 6
+        },
+        {
+          "anio": 2025,
+          "n": 12
+        },
+        {
+          "anio": 2026,
+          "n": 12
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 2,
+        "ultimo_anio": 2026,
+        "n_ultimo": 12,
+        "multiplicador": 6.0
+      }
+    },
+    {
+      "familia": "Ciberseguridad en la nube",
+      "titulo": "Ingeniero de Seguridad de la Información",
+      "icono": "candado",
+      "perfil": "emergente",
+      "n_anuncios": 133,
+      "indice": 0.507,
+      "senales": {
+        "novedad_tareas": 0.472,
+        "novedad_habilidades": 0.474,
+        "ajuste_sinco": 0.528,
+        "crecimiento_reciente": 0.344,
+        "dispersion_sectorial": 0.957
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2153",
+        "nombre_4d": "Especialistas en seguridad informática",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Definir políticas de acceso y cifrado",
+          "n": 116,
+          "pct": 87.2,
+          "nueva": false
+        },
+        {
+          "texto": "Monitorear y responder a incidentes de seguridad",
+          "n": 111,
+          "pct": 83.5,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar evaluaciones de vulnerabilidades",
+          "n": 109,
+          "pct": 82.0,
+          "nueva": false
+        },
+        {
+          "texto": "Modelar amenazas sobre arquitecturas de microservicios",
+          "n": 100,
+          "pct": 75.2,
+          "nueva": true
+        },
+        {
+          "texto": "Asegurar contenedores y cargas de trabajo distribuidas en varias nubes",
+          "n": 93,
+          "pct": 69.9,
+          "nueva": true
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 64,
+          "pct": 48.1,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 62,
+          "pct": 46.6,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 61,
+          "pct": 45.9,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "cómputo en la nube",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 112,
+          "pct": 84.2
+        },
+        {
+          "label": "administración de servidores Linux",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 110,
+          "pct": 82.7
+        },
+        {
+          "label": "cumplimiento normativo",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 108,
+          "pct": 81.2
+        },
+        {
+          "label": "inglés de negocios",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 101,
+          "pct": 75.9
+        },
+        {
+          "label": "seguridad de la información",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 98,
+          "pct": 73.7
+        },
+        {
+          "label": "seguridad de cargas de trabajo en la nube",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 75,
+          "pct": 56.4
+        },
+        {
+          "label": "respuesta a incidentes en entornos híbridos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 75,
+          "pct": 56.4
+        },
+        {
+          "label": "modelado de amenazas",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 66,
+          "pct": 49.6
+        },
+        {
+          "label": "infraestructura como código",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 62,
+          "pct": 46.6
+        }
+      ],
+      "n_habilidades_distintas": 9,
+      "n_habilidades_nuevas": 4,
+      "modalidad": {
+        "remoto": 37.6,
+        "hibrido": 48.1,
+        "presencial": 14.3
+      },
+      "salario": {
+        "declara_pct": 49.6,
+        "p25": 61375,
+        "p50": 76000,
+        "p75": 91500
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 8
+        },
+        {
+          "anio": 2022,
+          "n": 9
+        },
+        {
+          "anio": 2023,
+          "n": 16
+        },
+        {
+          "anio": 2024,
+          "n": 23
+        },
+        {
+          "anio": 2025,
+          "n": 40
+        },
+        {
+          "anio": 2026,
+          "n": 37
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 8,
+        "ultimo_anio": 2026,
+        "n_ultimo": 37,
+        "multiplicador": 4.6
+      }
+    },
+    {
+      "familia": "Ingeniería de plataformas y confiabilidad",
+      "titulo": "Especialista en DevOps",
+      "icono": "red",
+      "perfil": "emergente",
+      "n_anuncios": 119,
+      "indice": 0.503,
+      "senales": {
+        "novedad_tareas": 0.482,
+        "novedad_habilidades": 0.457,
+        "ajuste_sinco": 0.575,
+        "crecimiento_reciente": 0.337,
+        "dispersion_sectorial": 0.864
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2152",
+        "nombre_4d": "Administradores de sistemas y de bases de datos",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Operación de modelos en producción (MLOps)"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Definir estándares de operación para los equipos de desarrollo",
+          "n": 102,
+          "pct": 85.7,
+          "nueva": false
+        },
+        {
+          "texto": "Atender incidentes de disponibilidad de los servicios",
+          "n": 95,
+          "pct": 79.8,
+          "nueva": false
+        },
+        {
+          "texto": "Construir y mantener la infraestructura de despliegue continuo",
+          "n": 95,
+          "pct": 79.8,
+          "nueva": false
+        },
+        {
+          "texto": "Instrumentar trazas distribuidas y objetivos de nivel de servicio",
+          "n": 91,
+          "pct": 76.5,
+          "nueva": true
+        },
+        {
+          "texto": "Desarrollar plataformas internas de autoservicio para equipos de producto",
+          "n": 90,
+          "pct": 75.6,
+          "nueva": true
+        },
+        {
+          "texto": "Vigilar la disponibilidad de los servicios",
+          "n": 66,
+          "pct": 55.5,
+          "nueva": false
+        },
+        {
+          "texto": "Atender guardias de soporte",
+          "n": 61,
+          "pct": 51.3,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar la configuración de la infraestructura",
+          "n": 58,
+          "pct": 48.7,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "seguridad de la información",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 102,
+          "pct": 85.7
+        },
+        {
+          "label": "administración de servidores Linux",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 96,
+          "pct": 80.7
+        },
+        {
+          "label": "control de versiones con Git",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 94,
+          "pct": 79.0
+        },
+        {
+          "label": "cómputo en la nube",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 93,
+          "pct": 78.2
+        },
+        {
+          "label": "programación en Python",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 90,
+          "pct": 75.6
+        },
+        {
+          "label": "orquestación de contenedores",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 63,
+          "pct": 52.9
+        },
+        {
+          "label": "ingeniería de plataformas internas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 60,
+          "pct": 50.4
+        },
+        {
+          "label": "observabilidad de sistemas distribuidos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 60,
+          "pct": 50.4
+        },
+        {
+          "label": "infraestructura como código",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 54,
+          "pct": 45.4
+        }
+      ],
+      "n_habilidades_distintas": 9,
+      "n_habilidades_nuevas": 4,
+      "modalidad": {
+        "remoto": 40.3,
+        "hibrido": 48.7,
+        "presencial": 10.9
+      },
+      "salario": {
+        "declara_pct": 53.8,
+        "p25": 62250,
+        "p50": 78375,
+        "p75": 96000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 7
+        },
+        {
+          "anio": 2022,
+          "n": 4
+        },
+        {
+          "anio": 2023,
+          "n": 11
+        },
+        {
+          "anio": 2024,
+          "n": 24
+        },
+        {
+          "anio": 2025,
+          "n": 41
+        },
+        {
+          "anio": 2026,
+          "n": 32
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 7,
+        "ultimo_anio": 2026,
+        "n_ultimo": 32,
+        "multiplicador": 4.6
+      }
+    },
+    {
+      "familia": "Coordinación de última milla",
+      "titulo": "Supervisor de Operaciones de Reparto",
+      "icono": "bicicleta",
+      "perfil": "emergente",
+      "n_anuncios": 106,
+      "indice": 0.493,
+      "senales": {
+        "novedad_tareas": 0.467,
+        "novedad_habilidades": 0.448,
+        "ajuste_sinco": 0.553,
+        "crecimiento_reciente": 0.307,
+        "dispersion_sectorial": 0.933
+      },
+      "sinco": {
+        "codigo_2d": "13",
+        "nombre_2d": "Coordinadores y jefes de área en producción, servicios y actividades administrativas",
+        "codigo_4d": "1324",
+        "nombre_4d": "Jefes de departamento de abastecimiento, distribución y afines",
+        "gran_grupo": "1",
+        "nombre_gran_grupo": "Funcionarios, directores y jefes",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Dar seguimiento a indicadores de servicio y de costo",
+          "n": 92,
+          "pct": 86.8,
+          "nueva": false
+        },
+        {
+          "texto": "Programar y supervisar rutas de entrega",
+          "n": 91,
+          "pct": 85.8,
+          "nueva": false
+        },
+        {
+          "texto": "Atender incidencias con clientes y transportistas",
+          "n": 90,
+          "pct": 84.9,
+          "nueva": false
+        },
+        {
+          "texto": "Optimizar rutas mediante plataformas de asignación dinámica",
+          "n": 80,
+          "pct": 75.5,
+          "nueva": true
+        },
+        {
+          "texto": "Coordinar redes de repartidores con esquemas de trabajo por aplicación",
+          "n": 75,
+          "pct": 70.8,
+          "nueva": true
+        },
+        {
+          "texto": "Elaborar reportes para la dirección",
+          "n": 53,
+          "pct": 50.0,
+          "nueva": false
+        },
+        {
+          "texto": "Coordinar al personal a su cargo",
+          "n": 52,
+          "pct": 49.1,
+          "nueva": false
+        },
+        {
+          "texto": "Dar seguimiento a indicadores del área",
+          "n": 48,
+          "pct": 45.3,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "gestión de inventarios",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": false,
+          "n": 88,
+          "pct": 83.0
+        },
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 86,
+          "pct": 81.1
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 82,
+          "pct": 77.4
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 82,
+          "pct": 77.4
+        },
+        {
+          "label": "logística y distribución",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": false,
+          "n": 78,
+          "pct": 73.6
+        },
+        {
+          "label": "integración de sistemas mediante API",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 75,
+          "pct": 70.8
+        },
+        {
+          "label": "coordinación de operaciones con repartidores independientes",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": true,
+          "n": 68,
+          "pct": 64.2
+        },
+        {
+          "label": "optimización de ruta de última milla",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": true,
+          "n": 60,
+          "pct": 56.6
+        }
+      ],
+      "n_habilidades_distintas": 8,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 11.3,
+        "hibrido": 38.7,
+        "presencial": 50.0
+      },
+      "salario": {
+        "declara_pct": 57.5,
+        "p25": 26750,
+        "p50": 33250,
+        "p75": 38000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 9
+        },
+        {
+          "anio": 2022,
+          "n": 5
+        },
+        {
+          "anio": 2023,
+          "n": 21
+        },
+        {
+          "anio": 2024,
+          "n": 20
+        },
+        {
+          "anio": 2025,
+          "n": 26
+        },
+        {
+          "anio": 2026,
+          "n": 25
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 9,
+        "ultimo_anio": 2026,
+        "n_ultimo": 25,
+        "multiplicador": 2.8
+      }
+    },
+    {
+      "familia": "Prevención de fraude digital",
+      "titulo": "Especialista en Identidad Digital",
+      "icono": "dinero",
+      "perfil": "emergente",
+      "n_anuncios": 67,
+      "indice": 0.485,
+      "senales": {
+        "novedad_tareas": 0.461,
+        "novedad_habilidades": 0.462,
+        "ajuste_sinco": 0.546,
+        "crecimiento_reciente": 0.321,
+        "dispersion_sectorial": 0.819
+      },
+      "sinco": {
+        "codigo_2d": "24",
+        "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+        "codigo_4d": "2412",
+        "nombre_4d": "Especialistas en finanzas y análisis de riesgo",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Coordinar la investigación de casos con áreas legales",
+          "n": 63,
+          "pct": 94.0,
+          "nueva": false
+        },
+        {
+          "texto": "Analizar patrones de transacciones sospechosas",
+          "n": 59,
+          "pct": 88.1,
+          "nueva": false
+        },
+        {
+          "texto": "Definir reglas de detección y umbrales de alerta",
+          "n": 55,
+          "pct": 82.1,
+          "nueva": false
+        },
+        {
+          "texto": "Ajustar modelos automáticos de puntaje de riesgo",
+          "n": 51,
+          "pct": 76.1,
+          "nueva": true
+        },
+        {
+          "texto": "Validar procesos de identidad digital y verificación biométrica",
+          "n": 48,
+          "pct": 71.6,
+          "nueva": true
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 37,
+          "pct": 55.2,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 32,
+          "pct": 47.8,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 30,
+          "pct": 44.8,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "estadística aplicada",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 57,
+          "pct": 85.1
+        },
+        {
+          "label": "seguridad de la información",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 56,
+          "pct": 83.6
+        },
+        {
+          "label": "cumplimiento normativo",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 53,
+          "pct": 79.1
+        },
+        {
+          "label": "consultas SQL",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 51,
+          "pct": 76.1
+        },
+        {
+          "label": "identidad digital y biometría",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 50,
+          "pct": 74.6
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 48,
+          "pct": 71.6
+        },
+        {
+          "label": "prevención de fraude digital",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 44,
+          "pct": 65.7
+        },
+        {
+          "label": "evaluación de sesgos en sistemas automatizados",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 41,
+          "pct": 61.2
+        }
+      ],
+      "n_habilidades_distintas": 8,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 52.2,
+        "hibrido": 34.3,
+        "presencial": 13.4
+      },
+      "salario": {
+        "declara_pct": 59.7,
+        "p25": 42250,
+        "p50": 50625,
+        "p75": 60312
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 2
+        },
+        {
+          "anio": 2022,
+          "n": 2
+        },
+        {
+          "anio": 2023,
+          "n": 12
+        },
+        {
+          "anio": 2024,
+          "n": 20
+        },
+        {
+          "anio": 2025,
+          "n": 16
+        },
+        {
+          "anio": 2026,
+          "n": 15
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 2,
+        "ultimo_anio": 2026,
+        "n_ultimo": 15,
+        "multiplicador": 7.5
+      }
+    },
+    {
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "titulo": "Técnico en Energía Solar Fotovoltaica",
+      "icono": "casa",
+      "perfil": "emergente",
+      "n_anuncios": 124,
+      "indice": 0.471,
+      "senales": {
+        "novedad_tareas": 0.455,
+        "novedad_habilidades": 0.425,
+        "ajuste_sinco": 0.501,
+        "crecimiento_reciente": 0.312,
+        "dispersion_sectorial": 0.916
+      },
+      "sinco": {
+        "codigo_2d": "74",
+        "nombre_2d": "Trabajadores en instalaciones y mantenimiento eléctrico",
+        "codigo_4d": "7411",
+        "nombre_4d": "Electricistas y trabajadores en instalaciones eléctricas",
+        "gran_grupo": "7",
+        "nombre_gran_grupo": "Trabajadores artesanales, en la construcción y otros oficios",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Realizar pruebas de funcionamiento y puesta en marcha",
+          "n": 106,
+          "pct": 85.5,
+          "nueva": false
+        },
+        {
+          "texto": "Instalar y conectar módulos fotovoltaicos en techos y estructuras",
+          "n": 105,
+          "pct": 84.7,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar reportes de instalación y mantenimiento",
+          "n": 105,
+          "pct": 84.7,
+          "nueva": false
+        },
+        {
+          "texto": "Dimensionar sistemas de almacenamiento en baterías para autoconsumo",
+          "n": 92,
+          "pct": 74.2,
+          "nueva": true
+        },
+        {
+          "texto": "Gestionar el trámite de interconexión a la red eléctrica",
+          "n": 84,
+          "pct": 67.7,
+          "nueva": true
+        },
+        {
+          "texto": "Cumplir con las normas de seguridad en el trabajo",
+          "n": 67,
+          "pct": 54.0,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar avances al supervisor",
+          "n": 61,
+          "pct": 49.2,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener herramienta y equipo en buen estado",
+          "n": 58,
+          "pct": 46.8,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "trabajo en equipo",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 115,
+          "pct": 92.7
+        },
+        {
+          "label": "lectura de planos",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 108,
+          "pct": 87.1
+        },
+        {
+          "label": "instalaciones eléctricas residenciales",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 106,
+          "pct": 85.5
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 104,
+          "pct": 83.9
+        },
+        {
+          "label": "dimensionamiento de sistemas de almacenamiento de energía",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": true,
+          "n": 100,
+          "pct": 80.6
+        },
+        {
+          "label": "instalación de sistemas fotovoltaicos",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": true,
+          "n": 93,
+          "pct": 75.0
+        }
+      ],
+      "n_habilidades_distintas": 6,
+      "n_habilidades_nuevas": 2,
+      "modalidad": {
+        "remoto": 2.4,
+        "hibrido": 8.9,
+        "presencial": 88.7
+      },
+      "salario": {
+        "declara_pct": 74.2,
+        "p25": 18500,
+        "p50": 22750,
+        "p75": 27625
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 4
+        },
+        {
+          "anio": 2022,
+          "n": 11
+        },
+        {
+          "anio": 2023,
+          "n": 14
+        },
+        {
+          "anio": 2024,
+          "n": 29
+        },
+        {
+          "anio": 2025,
+          "n": 40
+        },
+        {
+          "anio": 2026,
+          "n": 26
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 4,
+        "ultimo_anio": 2026,
+        "n_ultimo": 26,
+        "multiplicador": 6.5
+      }
+    },
+    {
+      "familia": "Automatización de procesos",
+      "titulo": "Especialista en RPA",
+      "icono": "crecimiento",
+      "perfil": "transicion",
+      "n_anuncios": 112,
+      "indice": 0.355,
+      "senales": {
+        "novedad_tareas": 0.109,
+        "novedad_habilidades": 0.502,
+        "ajuste_sinco": 0.409,
+        "crecimiento_reciente": 0.146,
+        "dispersion_sectorial": 0.943
+      },
+      "sinco": {
+        "codigo_2d": "25",
+        "nombre_2d": "Profesionistas en análisis de sistemas y de información",
+        "codigo_4d": "2511",
+        "nombre_4d": "Analistas de sistemas y de información",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Inteligencia de negocios"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Documentar y rediseñar procesos administrativos",
+          "n": 96,
+          "pct": 85.7,
+          "nueva": false
+        },
+        {
+          "texto": "Construir y mantener robots de software",
+          "n": 94,
+          "pct": 83.9,
+          "nueva": false
+        },
+        {
+          "texto": "Medir los ahorros generados por la automatización",
+          "n": 93,
+          "pct": 83.0,
+          "nueva": false
+        },
+        {
+          "texto": "Levantar requerimientos con las áreas usuarias",
+          "n": 64,
+          "pct": 57.1,
+          "nueva": false
+        },
+        {
+          "texto": "Presentar resultados a los solicitantes",
+          "n": 58,
+          "pct": 51.8,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar los procesos del área",
+          "n": 53,
+          "pct": 47.3,
+          "nueva": false
+        },
+        {
+          "texto": "Incorporar agentes de IA en procesos con pasos no estructurados",
+          "n": 34,
+          "pct": 30.4,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 7,
+      "n_tareas_nuevas": 1,
+      "habilidades": [
+        {
+          "label": "programación en Python",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 100,
+          "pct": 89.3
+        },
+        {
+          "label": "análisis de requerimientos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 98,
+          "pct": 87.5
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 98,
+          "pct": 87.5
+        },
+        {
+          "label": "automatización de procesos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 95,
+          "pct": 84.8
+        },
+        {
+          "label": "automatización robótica de procesos (RPA)",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 83,
+          "pct": 74.1
+        },
+        {
+          "label": "diseño de flujos con agentes de IA",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 74,
+          "pct": 66.1
+        },
+        {
+          "label": "integración de sistemas mediante API",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 71,
+          "pct": 63.4
+        }
+      ],
+      "n_habilidades_distintas": 7,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 42.0,
+        "hibrido": 33.0,
+        "presencial": 25.0
+      },
+      "salario": {
+        "declara_pct": 50.9,
+        "p25": 34250,
+        "p50": 42500,
+        "p75": 50000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 16
+        },
+        {
+          "anio": 2022,
+          "n": 10
+        },
+        {
+          "anio": 2023,
+          "n": 16
+        },
+        {
+          "anio": 2024,
+          "n": 19
+        },
+        {
+          "anio": 2025,
+          "n": 22
+        },
+        {
+          "anio": 2026,
+          "n": 29
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 16,
+        "ultimo_anio": 2026,
+        "n_ultimo": 29,
+        "multiplicador": 1.8
+      }
+    },
+    {
+      "familia": "Mercadotecnia digital y crecimiento",
+      "titulo": "Community Manager",
+      "icono": "megafono",
+      "perfil": "transicion",
+      "n_anuncios": 223,
+      "indice": 0.345,
+      "senales": {
+        "novedad_tareas": 0.265,
+        "novedad_habilidades": 0.464,
+        "ajuste_sinco": 0.307,
+        "crecimiento_reciente": 0.05,
+        "dispersion_sectorial": 0.923
+      },
+      "sinco": {
+        "codigo_2d": "24",
+        "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+        "codigo_4d": "2431",
+        "nombre_4d": "Especialistas en mercadotecnia y publicidad",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Analizar el desempeño de las campañas",
+          "n": 173,
+          "pct": 77.6,
+          "nueva": false
+        },
+        {
+          "texto": "Gestionar el calendario de contenidos",
+          "n": 165,
+          "pct": 74.0,
+          "nueva": false
+        },
+        {
+          "texto": "Coordinar proveedores creativos",
+          "n": 163,
+          "pct": 73.1,
+          "nueva": false
+        },
+        {
+          "texto": "Planear y ejecutar campañas en medios digitales",
+          "n": 149,
+          "pct": 66.8,
+          "nueva": false
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 131,
+          "pct": 58.7,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 119,
+          "pct": 53.4,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 103,
+          "pct": 46.2,
+          "nueva": false
+        },
+        {
+          "texto": "Automatizar la generación de contenido con herramientas de IA",
+          "n": 95,
+          "pct": 42.6,
+          "nueva": true
+        },
+        {
+          "texto": "Operar catálogos en mercados en línea internacionales",
+          "n": 92,
+          "pct": 41.3,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "mercadotecnia digital",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 187,
+          "pct": 83.9
+        },
+        {
+          "label": "optimización para buscadores",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 183,
+          "pct": 82.1
+        },
+        {
+          "label": "gestión de redes sociales",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 182,
+          "pct": 81.6
+        },
+        {
+          "label": "redacción de contenidos",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 177,
+          "pct": 79.4
+        },
+        {
+          "label": "análisis de métricas web",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 168,
+          "pct": 75.3
+        },
+        {
+          "label": "experimentación A/B a escala",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 123,
+          "pct": 55.2
+        },
+        {
+          "label": "automatización de mercadotecnia",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 113,
+          "pct": 50.7
+        },
+        {
+          "label": "gestión de comercio electrónico transfronterizo",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": true,
+          "n": 111,
+          "pct": 49.8
+        },
+        {
+          "label": "gestión de mercados en línea (marketplaces)",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": true,
+          "n": 111,
+          "pct": 49.8
+        }
+      ],
+      "n_habilidades_distintas": 9,
+      "n_habilidades_nuevas": 4,
+      "modalidad": {
+        "remoto": 41.7,
+        "hibrido": 36.3,
+        "presencial": 22.0
+      },
+      "salario": {
+        "declara_pct": 62.8,
+        "p25": 26250,
+        "p50": 35000,
+        "p75": 43250
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 34
+        },
+        {
+          "anio": 2022,
+          "n": 32
+        },
+        {
+          "anio": 2023,
+          "n": 43
+        },
+        {
+          "anio": 2024,
+          "n": 38
+        },
+        {
+          "anio": 2025,
+          "n": 42
+        },
+        {
+          "anio": 2026,
+          "n": 34
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 34,
+        "ultimo_anio": 2026,
+        "n_ultimo": 34,
+        "multiplicador": 1.0
+      }
+    },
+    {
+      "familia": "Ciencia de datos",
+      "titulo": "Especialista en Modelos Predictivos",
+      "icono": "linea-datos",
+      "perfil": "transicion",
+      "n_anuncios": 185,
+      "indice": 0.314,
+      "senales": {
+        "novedad_tareas": 0.155,
+        "novedad_habilidades": 0.372,
+        "ajuste_sinco": 0.308,
+        "crecimiento_reciente": 0.129,
+        "dispersion_sectorial": 0.932
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2120",
+        "nombre_4d": "Matemáticos, actuarios y estadísticos",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Preparar y depurar conjuntos de datos",
+          "n": 145,
+          "pct": 78.4,
+          "nueva": false
+        },
+        {
+          "texto": "Construir modelos predictivos a partir de datos históricos",
+          "n": 141,
+          "pct": 76.2,
+          "nueva": false
+        },
+        {
+          "texto": "Comunicar hallazgos a áreas de negocio",
+          "n": 138,
+          "pct": 74.6,
+          "nueva": false
+        },
+        {
+          "texto": "Diseñar experimentos para evaluar intervenciones",
+          "n": 132,
+          "pct": 71.4,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 101,
+          "pct": 54.6,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 91,
+          "pct": 49.2,
+          "nueva": false
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 84,
+          "pct": 45.4,
+          "nueva": false
+        },
+        {
+          "texto": "Integrar componentes de IA generativa en flujos analíticos",
+          "n": 84,
+          "pct": 45.4,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 1,
+      "habilidades": [
+        {
+          "label": "gobernanza de datos para IA",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 140,
+          "pct": 75.7
+        },
+        {
+          "label": "monitoreo de deriva de modelos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 128,
+          "pct": 69.2
+        },
+        {
+          "label": "programación en Python",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 126,
+          "pct": 68.1
+        },
+        {
+          "label": "consultas SQL",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 125,
+          "pct": 67.6
+        },
+        {
+          "label": "aprendizaje automático",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 124,
+          "pct": 67.0
+        },
+        {
+          "label": "estadística aplicada",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 122,
+          "pct": 65.9
+        },
+        {
+          "label": "inglés de negocios",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 121,
+          "pct": 65.4
+        },
+        {
+          "label": "visualización de datos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 120,
+          "pct": 64.9
+        }
+      ],
+      "n_habilidades_distintas": 8,
+      "n_habilidades_nuevas": 2,
+      "modalidad": {
+        "remoto": 42.2,
+        "hibrido": 43.2,
+        "presencial": 14.6
+      },
+      "salario": {
+        "declara_pct": 62.2,
+        "p25": 49375,
+        "p50": 64500,
+        "p75": 76500
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 11
+        },
+        {
+          "anio": 2022,
+          "n": 34
+        },
+        {
+          "anio": 2023,
+          "n": 29
+        },
+        {
+          "anio": 2024,
+          "n": 31
+        },
+        {
+          "anio": 2025,
+          "n": 49
+        },
+        {
+          "anio": 2026,
+          "n": 31
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 11,
+        "ultimo_anio": 2026,
+        "n_ultimo": 31,
+        "multiplicador": 2.8
+      }
+    },
+    {
+      "familia": "Diseño de experiencia de usuario",
+      "titulo": "Investigador UX",
+      "icono": "laptop-datos",
+      "perfil": "transicion",
+      "n_anuncios": 190,
+      "indice": 0.313,
+      "senales": {
+        "novedad_tareas": 0.138,
+        "novedad_habilidades": 0.499,
+        "ajuste_sinco": 0.255,
+        "crecimiento_reciente": 0.054,
+        "dispersion_sectorial": 0.925
+      },
+      "sinco": {
+        "codigo_2d": "27",
+        "nombre_2d": "Profesionistas en artes, diseño y comunicación",
+        "codigo_4d": "2711",
+        "nombre_4d": "Diseñadores gráficos, multimedia y de producto",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Construir prototipos interactivos",
+          "n": 143,
+          "pct": 75.3,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar pruebas de usabilidad",
+          "n": 137,
+          "pct": 72.1,
+          "nueva": false
+        },
+        {
+          "texto": "Diseñar flujos e interfaces para productos digitales",
+          "n": 137,
+          "pct": 72.1,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener el sistema de diseño",
+          "n": 133,
+          "pct": 70.0,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 96,
+          "pct": 50.5,
+          "nueva": false
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 93,
+          "pct": 48.9,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 90,
+          "pct": 47.4,
+          "nueva": false
+        },
+        {
+          "texto": "Diseñar interacciones con asistentes conversacionales",
+          "n": 76,
+          "pct": 40.0,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 1,
+      "habilidades": [
+        {
+          "label": "análisis de métricas web",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 169,
+          "pct": 88.9
+        },
+        {
+          "label": "investigación con usuarios",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 164,
+          "pct": 86.3
+        },
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 162,
+          "pct": 85.3
+        },
+        {
+          "label": "diseño de interfaces de usuario",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 159,
+          "pct": 83.7
+        },
+        {
+          "label": "diseño de experiencias conversacionales",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": true,
+          "n": 127,
+          "pct": 66.8
+        },
+        {
+          "label": "analítica de producto digital",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 127,
+          "pct": 66.8
+        },
+        {
+          "label": "experimentación A/B a escala",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 126,
+          "pct": 66.3
+        }
+      ],
+      "n_habilidades_distintas": 7,
+      "n_habilidades_nuevas": 3,
+      "modalidad": {
+        "remoto": 43.7,
+        "hibrido": 38.9,
+        "presencial": 17.4
+      },
+      "salario": {
+        "declara_pct": 60.0,
+        "p25": 34062,
+        "p50": 41000,
+        "p75": 50938
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 27
+        },
+        {
+          "anio": 2022,
+          "n": 31
+        },
+        {
+          "anio": 2023,
+          "n": 33
+        },
+        {
+          "anio": 2024,
+          "n": 36
+        },
+        {
+          "anio": 2025,
+          "n": 29
+        },
+        {
+          "anio": 2026,
+          "n": 34
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 27,
+        "ultimo_anio": 2026,
+        "n_ultimo": 34,
+        "multiplicador": 1.3
+      }
+    },
+    {
+      "familia": "Inteligencia de negocios",
+      "titulo": "Analista de Datos",
+      "icono": "barras",
+      "perfil": "transicion",
+      "n_anuncios": 193,
+      "indice": 0.287,
+      "senales": {
+        "novedad_tareas": 0.173,
+        "novedad_habilidades": 0.373,
+        "ajuste_sinco": 0.226,
+        "crecimiento_reciente": 0.047,
+        "dispersion_sectorial": 0.979
+      },
+      "sinco": {
+        "codigo_2d": "25",
+        "nombre_2d": "Profesionistas en análisis de sistemas y de información",
+        "codigo_4d": "2511",
+        "nombre_4d": "Analistas de sistemas y de información",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Automatización de procesos"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Construir tableros e informes para las áreas de negocio",
+          "n": 166,
+          "pct": 86.0,
+          "nueva": false
+        },
+        {
+          "texto": "Levantar requerimientos de información",
+          "n": 161,
+          "pct": 83.4,
+          "nueva": false
+        },
+        {
+          "texto": "Modelar y depurar fuentes de datos",
+          "n": 155,
+          "pct": 80.3,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar los procesos del área",
+          "n": 111,
+          "pct": 57.5,
+          "nueva": false
+        },
+        {
+          "texto": "Presentar resultados a los solicitantes",
+          "n": 93,
+          "pct": 48.2,
+          "nueva": false
+        },
+        {
+          "texto": "Habilitar consultas en lenguaje natural sobre los tableros",
+          "n": 91,
+          "pct": 47.2,
+          "nueva": true
+        },
+        {
+          "texto": "Levantar requerimientos con las áreas usuarias",
+          "n": 87,
+          "pct": 45.1,
+          "nueva": false
+        }
+      ],
+      "n_tareas_distintas": 7,
+      "n_tareas_nuevas": 1,
+      "habilidades": [
+        {
+          "label": "análisis de requerimientos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 174,
+          "pct": 90.2
+        },
+        {
+          "label": "visualización de datos",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 160,
+          "pct": 82.9
+        },
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 156,
+          "pct": 80.8
+        },
+        {
+          "label": "consultas SQL",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 156,
+          "pct": 80.8
+        },
+        {
+          "label": "analítica de producto digital",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": true,
+          "n": 155,
+          "pct": 80.3
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 148,
+          "pct": 76.7
+        },
+        {
+          "label": "integración de sistemas mediante API",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 134,
+          "pct": 69.4
+        }
+      ],
+      "n_habilidades_distintas": 7,
+      "n_habilidades_nuevas": 2,
+      "modalidad": {
+        "remoto": 37.3,
+        "hibrido": 38.9,
+        "presencial": 23.8
+      },
+      "salario": {
+        "declara_pct": 57.0,
+        "p25": 28750,
+        "p50": 36000,
+        "p75": 45250
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 16
+        },
+        {
+          "anio": 2022,
+          "n": 23
+        },
+        {
+          "anio": 2023,
+          "n": 39
+        },
+        {
+          "anio": 2024,
+          "n": 32
+        },
+        {
+          "anio": 2025,
+          "n": 48
+        },
+        {
+          "anio": 2026,
+          "n": 35
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 16,
+        "ultimo_anio": 2026,
+        "n_ultimo": 35,
+        "multiplicador": 2.2
+      }
+    },
+    {
+      "familia": "Desarrollo de software",
+      "titulo": "Ingeniero de Software",
+      "icono": "monitor",
+      "perfil": "transicion",
+      "n_anuncios": 413,
+      "indice": 0.251,
+      "senales": {
+        "novedad_tareas": 0.123,
+        "novedad_habilidades": 0.373,
+        "ajuste_sinco": 0.174,
+        "crecimiento_reciente": 0.044,
+        "dispersion_sectorial": 0.843
+      },
+      "sinco": {
+        "codigo_2d": "21",
+        "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+        "codigo_4d": "2151",
+        "nombre_4d": "Desarrolladores y analistas de software y multimedia",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Ingeniería de prompts e IA generativa"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Participar en revisiones de código",
+          "n": 320,
+          "pct": 77.5,
+          "nueva": false
+        },
+        {
+          "texto": "Escribir pruebas automatizadas",
+          "n": 308,
+          "pct": 74.6,
+          "nueva": false
+        },
+        {
+          "texto": "Desarrollar y mantener aplicaciones web",
+          "n": 306,
+          "pct": 74.1,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar componentes y servicios",
+          "n": 300,
+          "pct": 72.6,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar los desarrollos realizados",
+          "n": 209,
+          "pct": 50.6,
+          "nueva": false
+        },
+        {
+          "texto": "Escribir y revisar código",
+          "n": 204,
+          "pct": 49.4,
+          "nueva": false
+        },
+        {
+          "texto": "Estimar tiempos de entrega con el equipo",
+          "n": 201,
+          "pct": 48.7,
+          "nueva": false
+        },
+        {
+          "texto": "Integrar asistentes de código y componentes de IA en el flujo de desarrollo",
+          "n": 151,
+          "pct": 36.6,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 1,
+      "habilidades": [
+        {
+          "label": "integración de sistemas mediante API",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 318,
+          "pct": 77.0
+        },
+        {
+          "label": "orquestación de contenedores",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": true,
+          "n": 290,
+          "pct": 70.2
+        },
+        {
+          "label": "control de versiones con Git",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 287,
+          "pct": 69.5
+        },
+        {
+          "label": "gestión de proyectos ágiles",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": false,
+          "n": 282,
+          "pct": 68.3
+        },
+        {
+          "label": "consultas SQL",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 281,
+          "pct": 68.0
+        },
+        {
+          "label": "programación en JavaScript",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 280,
+          "pct": 67.8
+        },
+        {
+          "label": "pruebas de software",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 275,
+          "pct": 66.6
+        },
+        {
+          "label": "desarrollo de servicios web",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 272,
+          "pct": 65.9
+        }
+      ],
+      "n_habilidades_distintas": 8,
+      "n_habilidades_nuevas": 2,
+      "modalidad": {
+        "remoto": 48.7,
+        "hibrido": 36.3,
+        "presencial": 15.0
+      },
+      "salario": {
+        "declara_pct": 51.8,
+        "p25": 41875,
+        "p50": 54125,
+        "p75": 65438
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 50
+        },
+        {
+          "anio": 2022,
+          "n": 55
+        },
+        {
+          "anio": 2023,
+          "n": 80
+        },
+        {
+          "anio": 2024,
+          "n": 77
+        },
+        {
+          "anio": 2025,
+          "n": 81
+        },
+        {
+          "anio": 2026,
+          "n": 70
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 50,
+        "ultimo_anio": 2026,
+        "n_ultimo": 70,
+        "multiplicador": 1.4
+      }
+    },
+    {
+      "familia": "Docencia básica",
+      "titulo": "Profesor de Educación Básica",
+      "icono": "escuela",
+      "perfil": "consolidada",
+      "n_anuncios": 288,
+      "indice": 0.184,
+      "senales": {
+        "novedad_tareas": 0.107,
+        "novedad_habilidades": 0.316,
+        "ajuste_sinco": 0.057,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.682
+      },
+      "sinco": {
+        "codigo_2d": "23",
+        "nombre_2d": "Profesionistas en educación",
+        "codigo_4d": "2341",
+        "nombre_4d": "Profesores de educación primaria",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Comunicarse con madres, padres y tutores",
+          "n": 253,
+          "pct": 87.8,
+          "nueva": false
+        },
+        {
+          "texto": "Planear y conducir las sesiones de clase",
+          "n": 249,
+          "pct": 86.5,
+          "nueva": false
+        },
+        {
+          "texto": "Evaluar el avance de los alumnos",
+          "n": 233,
+          "pct": 80.9,
+          "nueva": false
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 148,
+          "pct": 51.4,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 141,
+          "pct": 49.0,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 138,
+          "pct": 47.9,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar evaluaciones en plataformas educativas",
+          "n": 46,
+          "pct": 16.0,
+          "nueva": true
+        },
+        {
+          "texto": "Preparar materiales y actividades para plataformas educativas en línea",
+          "n": 41,
+          "pct": 14.2,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "diseño instruccional para entornos digitales",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": true,
+          "n": 288,
+          "pct": 100.0
+        },
+        {
+          "label": "planeación didáctica",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 257,
+          "pct": 89.2
+        },
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 250,
+          "pct": 86.8
+        },
+        {
+          "label": "trabajo en equipo",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 249,
+          "pct": 86.5
+        },
+        {
+          "label": "evaluación del aprendizaje",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 249,
+          "pct": 86.5
+        }
+      ],
+      "n_habilidades_distintas": 5,
+      "n_habilidades_nuevas": 1,
+      "modalidad": {
+        "remoto": 5.2,
+        "hibrido": 6.6,
+        "presencial": 88.2
+      },
+      "salario": {
+        "declara_pct": 51.0,
+        "p25": 14750,
+        "p50": 17500,
+        "p75": 20500
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 51
+        },
+        {
+          "anio": 2022,
+          "n": 45
+        },
+        {
+          "anio": 2023,
+          "n": 57
+        },
+        {
+          "anio": 2024,
+          "n": 58
+        },
+        {
+          "anio": 2025,
+          "n": 46
+        },
+        {
+          "anio": 2026,
+          "n": 31
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 51,
+        "ultimo_anio": 2026,
+        "n_ultimo": 31,
+        "multiplicador": 0.6
+      }
+    },
+    {
+      "familia": "Recepción y atención al público",
+      "titulo": "Ejecutivo de Atención a Clientes",
+      "icono": "telefono",
+      "perfil": "consolidada",
+      "n_anuncios": 218,
+      "indice": 0.139,
+      "senales": {
+        "novedad_tareas": 0.11,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.062,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.988
+      },
+      "sinco": {
+        "codigo_2d": "32",
+        "nombre_2d": "Trabajadores de apoyo en atención al público y manejo de valores",
+        "codigo_4d": "3221",
+        "nombre_4d": "Recepcionistas y telefonistas",
+        "gran_grupo": "3",
+        "nombre_gran_grupo": "Trabajadores auxiliares en actividades administrativas",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Apoyar en tareas administrativas de la recepción",
+          "n": 189,
+          "pct": 86.7,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar citas y controlar agendas",
+          "n": 174,
+          "pct": 79.8,
+          "nueva": false
+        },
+        {
+          "texto": "Recibir y canalizar a visitantes y llamadas",
+          "n": 171,
+          "pct": 78.4,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener actualizados los registros del área",
+          "n": 118,
+          "pct": 54.1,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar reportes de actividades",
+          "n": 114,
+          "pct": 52.3,
+          "nueva": false
+        },
+        {
+          "texto": "Atender solicitudes internas",
+          "n": 101,
+          "pct": 46.3,
+          "nueva": false
+        },
+        {
+          "texto": "Administrar la agenda desde plataformas en línea",
+          "n": 33,
+          "pct": 15.1,
+          "nueva": true
+        },
+        {
+          "texto": "Atender el primer contacto por canales digitales",
+          "n": 33,
+          "pct": 15.1,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 198,
+          "pct": 90.8
+        },
+        {
+          "label": "captura de datos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 196,
+          "pct": 89.9
+        },
+        {
+          "label": "archivo y gestión documental",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 185,
+          "pct": 84.9
+        },
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 178,
+          "pct": 81.7
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 2.3,
+        "hibrido": 6.0,
+        "presencial": 91.7
+      },
+      "salario": {
+        "declara_pct": 72.0,
+        "p25": 11250,
+        "p50": 13750,
+        "p75": 16000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 31
+        },
+        {
+          "anio": 2022,
+          "n": 30
+        },
+        {
+          "anio": 2023,
+          "n": 42
+        },
+        {
+          "anio": 2024,
+          "n": 42
+        },
+        {
+          "anio": 2025,
+          "n": 46
+        },
+        {
+          "anio": 2026,
+          "n": 27
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 31,
+        "ultimo_anio": 2026,
+        "n_ultimo": 27,
+        "multiplicador": 0.9
+      }
+    },
+    {
+      "familia": "Transporte y reparto",
+      "titulo": "Operador de Camión",
+      "icono": "avion",
+      "perfil": "consolidada",
+      "n_anuncios": 412,
+      "indice": 0.139,
+      "senales": {
+        "novedad_tareas": 0.106,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.087,
+        "crecimiento_reciente": 0.015,
+        "dispersion_sectorial": 0.935
+      },
+      "sinco": {
+        "codigo_2d": "83",
+        "nombre_2d": "Conductores de transporte terrestre",
+        "codigo_4d": "8322",
+        "nombre_4d": "Conductores de camiones y camionetas de carga",
+        "gran_grupo": "8",
+        "nombre_gran_grupo": "Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Realizar entregas conforme a la ruta asignada",
+          "n": 348,
+          "pct": 84.5,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar incidencias durante el trayecto",
+          "n": 346,
+          "pct": 84.0,
+          "nueva": false
+        },
+        {
+          "texto": "Verificar la carga y la documentación de embarque",
+          "n": 338,
+          "pct": 82.0,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar incidencias al supervisor",
+          "n": 216,
+          "pct": 52.4,
+          "nueva": false
+        },
+        {
+          "texto": "Cumplir con las normas de seguridad en el trabajo",
+          "n": 205,
+          "pct": 49.8,
+          "nueva": false
+        },
+        {
+          "texto": "Llevar el registro de la operación",
+          "n": 193,
+          "pct": 46.8,
+          "nueva": false
+        },
+        {
+          "texto": "Operar aplicaciones de seguimiento de entregas en tiempo real",
+          "n": 65,
+          "pct": 15.8,
+          "nueva": true
+        },
+        {
+          "texto": "Comprobar entregas con evidencia fotográfica en la aplicación",
+          "n": 58,
+          "pct": 14.1,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "logística y distribución",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": false,
+          "n": 363,
+          "pct": 88.1
+        },
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 360,
+          "pct": 87.4
+        },
+        {
+          "label": "conducción de vehículos de carga",
+          "grupo": "S6",
+          "nombre_grupo": "Manipulación y movimiento",
+          "nueva": false,
+          "n": 360,
+          "pct": 87.4
+        },
+        {
+          "label": "manejo de montacargas",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 360,
+          "pct": 87.4
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 0.0,
+        "hibrido": 2.2,
+        "presencial": 97.8
+      },
+      "salario": {
+        "declara_pct": 71.1,
+        "p25": 14250,
+        "p50": 17250,
+        "p75": 20500
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 64
+        },
+        {
+          "anio": 2022,
+          "n": 62
+        },
+        {
+          "anio": 2023,
+          "n": 75
+        },
+        {
+          "anio": 2024,
+          "n": 81
+        },
+        {
+          "anio": 2025,
+          "n": 81
+        },
+        {
+          "anio": 2026,
+          "n": 49
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 64,
+        "ultimo_anio": 2026,
+        "n_ultimo": 49,
+        "multiplicador": 0.8
+      }
+    },
+    {
+      "familia": "Mecánica automotriz",
+      "titulo": "Hojalatero y Pintor",
+      "icono": "auto",
+      "perfil": "consolidada",
+      "n_anuncios": 210,
+      "indice": 0.136,
+      "senales": {
+        "novedad_tareas": 0.12,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.067,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.964
+      },
+      "sinco": {
+        "codigo_2d": "72",
+        "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+        "codigo_4d": "7231",
+        "nombre_4d": "Mecánicos y ajustadores de vehículos de motor",
+        "gran_grupo": "7",
+        "nombre_gran_grupo": "Trabajadores artesanales, en la construcción y otros oficios",
+        "comparte_con": [
+          "Electromovilidad y vehículos eléctricos"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Diagnosticar y reparar fallas mecánicas",
+          "n": 182,
+          "pct": 86.7,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar servicios de mantenimiento programado",
+          "n": 174,
+          "pct": 82.9,
+          "nueva": false
+        },
+        {
+          "texto": "Explicar al cliente el trabajo realizado",
+          "n": 172,
+          "pct": 81.9,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar el servicio realizado",
+          "n": 110,
+          "pct": 52.4,
+          "nueva": false
+        },
+        {
+          "texto": "Diagnosticar fallas en el vehículo",
+          "n": 105,
+          "pct": 50.0,
+          "nueva": false
+        },
+        {
+          "texto": "Solicitar refacciones al almacén",
+          "n": 96,
+          "pct": 45.7,
+          "nueva": false
+        },
+        {
+          "texto": "Consultar boletines técnicos en línea del fabricante",
+          "n": 36,
+          "pct": 17.1,
+          "nueva": true
+        },
+        {
+          "texto": "Usar equipos de diagnóstico electrónico conectados a plataformas del fabricante",
+          "n": 32,
+          "pct": 15.2,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 191,
+          "pct": 91.0
+        },
+        {
+          "label": "lectura de planos",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 182,
+          "pct": 86.7
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 178,
+          "pct": 84.8
+        },
+        {
+          "label": "diagnóstico automotriz",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 176,
+          "pct": 83.8
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 0.0,
+        "hibrido": 1.9,
+        "presencial": 98.1
+      },
+      "salario": {
+        "declara_pct": 72.9,
+        "p25": 14250,
+        "p50": 18000,
+        "p75": 22000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 38
+        },
+        {
+          "anio": 2022,
+          "n": 35
+        },
+        {
+          "anio": 2023,
+          "n": 29
+        },
+        {
+          "anio": 2024,
+          "n": 38
+        },
+        {
+          "anio": 2025,
+          "n": 39
+        },
+        {
+          "anio": 2026,
+          "n": 31
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 38,
+        "ultimo_anio": 2026,
+        "n_ultimo": 31,
+        "multiplicador": 0.8
+      }
+    },
+    {
+      "familia": "Apoyo administrativo",
+      "titulo": "Analista Administrativo",
+      "icono": "archivero",
+      "perfil": "consolidada",
+      "n_anuncios": 495,
+      "indice": 0.136,
+      "senales": {
+        "novedad_tareas": 0.113,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.063,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.959
+      },
+      "sinco": {
+        "codigo_2d": "31",
+        "nombre_2d": "Trabajadores auxiliares en actividades administrativas",
+        "codigo_4d": "3111",
+        "nombre_4d": "Auxiliares y asistentes administrativos",
+        "gran_grupo": "3",
+        "nombre_gran_grupo": "Trabajadores auxiliares en actividades administrativas",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Controlar agendas y logística de reuniones",
+          "n": 386,
+          "pct": 78.0,
+          "nueva": false
+        },
+        {
+          "texto": "Gestionar documentación y archivos de la oficina",
+          "n": 377,
+          "pct": 76.2,
+          "nueva": false
+        },
+        {
+          "texto": "Apoyar en la elaboración de reportes",
+          "n": 376,
+          "pct": 76.0,
+          "nueva": false
+        },
+        {
+          "texto": "Atender llamadas y correspondencia",
+          "n": 349,
+          "pct": 70.5,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar reportes de actividades",
+          "n": 254,
+          "pct": 51.3,
+          "nueva": false
+        },
+        {
+          "texto": "Atender solicitudes internas",
+          "n": 253,
+          "pct": 51.1,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener actualizados los registros del área",
+          "n": 245,
+          "pct": 49.5,
+          "nueva": false
+        },
+        {
+          "texto": "Atender solicitudes por chat y mensajería institucional",
+          "n": 91,
+          "pct": 18.4,
+          "nueva": true
+        },
+        {
+          "texto": "Digitalizar expedientes y archivarlos en la nube",
+          "n": 78,
+          "pct": 15.8,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 409,
+          "pct": 82.6
+        },
+        {
+          "label": "archivo y gestión documental",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 408,
+          "pct": 82.4
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 402,
+          "pct": 81.2
+        },
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 401,
+          "pct": 81.0
+        },
+        {
+          "label": "captura de datos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 392,
+          "pct": 79.2
+        }
+      ],
+      "n_habilidades_distintas": 5,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 8.5,
+        "hibrido": 16.6,
+        "presencial": 74.9
+      },
+      "salario": {
+        "declara_pct": 71.5,
+        "p25": 12000,
+        "p50": 15000,
+        "p75": 17750
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 76
+        },
+        {
+          "anio": 2022,
+          "n": 82
+        },
+        {
+          "anio": 2023,
+          "n": 86
+        },
+        {
+          "anio": 2024,
+          "n": 91
+        },
+        {
+          "anio": 2025,
+          "n": 96
+        },
+        {
+          "anio": 2026,
+          "n": 64
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 76,
+        "ultimo_anio": 2026,
+        "n_ultimo": 64,
+        "multiplicador": 0.8
+      }
+    },
+    {
+      "familia": "Contabilidad",
+      "titulo": "Auxiliar Contable",
+      "icono": "calculadora",
+      "perfil": "consolidada",
+      "n_anuncios": 375,
+      "indice": 0.133,
+      "senales": {
+        "novedad_tareas": 0.101,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.078,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.923
+      },
+      "sinco": {
+        "codigo_2d": "24",
+        "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+        "codigo_4d": "2411",
+        "nombre_4d": "Contadores y auditores",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Registrar operaciones contables y conciliaciones",
+          "n": 300,
+          "pct": 80.0,
+          "nueva": false
+        },
+        {
+          "texto": "Atender auditorías internas y externas",
+          "n": 287,
+          "pct": 76.5,
+          "nueva": false
+        },
+        {
+          "texto": "Preparar declaraciones fiscales",
+          "n": 274,
+          "pct": 73.1,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar estados financieros mensuales",
+          "n": 273,
+          "pct": 72.8,
+          "nueva": false
+        },
+        {
+          "texto": "Capacitar a personal de nuevo ingreso",
+          "n": 187,
+          "pct": 49.9,
+          "nueva": false
+        },
+        {
+          "texto": "Participar en reuniones de seguimiento",
+          "n": 185,
+          "pct": 49.3,
+          "nueva": false
+        },
+        {
+          "texto": "Documentar el trabajo realizado",
+          "n": 181,
+          "pct": 48.3,
+          "nueva": false
+        },
+        {
+          "texto": "Conciliar información con sistemas contables en la nube",
+          "n": 59,
+          "pct": 15.7,
+          "nueva": true
+        },
+        {
+          "texto": "Operar la facturación y los complementos digitales ante la autoridad fiscal",
+          "n": 56,
+          "pct": 14.9,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "elaboración de estados financieros",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 335,
+          "pct": 89.3
+        },
+        {
+          "label": "uso de hojas de cálculo avanzadas",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 334,
+          "pct": 89.1
+        },
+        {
+          "label": "contabilidad financiera",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 333,
+          "pct": 88.8
+        },
+        {
+          "label": "cumplimiento normativo",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 322,
+          "pct": 85.9
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 11.2,
+        "hibrido": 21.6,
+        "presencial": 67.2
+      },
+      "salario": {
+        "declara_pct": 56.5,
+        "p25": 19000,
+        "p50": 25625,
+        "p75": 31750
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 68
+        },
+        {
+          "anio": 2022,
+          "n": 66
+        },
+        {
+          "anio": 2023,
+          "n": 62
+        },
+        {
+          "anio": 2024,
+          "n": 75
+        },
+        {
+          "anio": 2025,
+          "n": 62
+        },
+        {
+          "anio": 2026,
+          "n": 42
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 68,
+        "ultimo_anio": 2026,
+        "n_ultimo": 42,
+        "multiplicador": 0.6
+      }
+    },
+    {
+      "familia": "Servicios de alimentos",
+      "titulo": "Cocinero de Línea",
+      "icono": "comida",
+      "perfil": "consolidada",
+      "n_anuncios": 241,
+      "indice": 0.128,
+      "senales": {
+        "novedad_tareas": 0.119,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.055,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.854
+      },
+      "sinco": {
+        "codigo_2d": "51",
+        "nombre_2d": "Trabajadores en la preparación y el servicio de alimentos",
+        "codigo_4d": "5111",
+        "nombre_4d": "Cocineros y preparadores de alimentos",
+        "gran_grupo": "5",
+        "nombre_gran_grupo": "Trabajadores en servicios personales y vigilancia",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Controlar insumos y mermas",
+          "n": 207,
+          "pct": 85.9,
+          "nueva": false
+        },
+        {
+          "texto": "Preparar los alimentos conforme a recetas y estándares",
+          "n": 200,
+          "pct": 83.0,
+          "nueva": false
+        },
+        {
+          "texto": "Cuidar la higiene y la inocuidad en la cocina",
+          "n": 192,
+          "pct": 79.7,
+          "nueva": false
+        },
+        {
+          "texto": "Cumplir con los protocolos de higiene y seguridad",
+          "n": 128,
+          "pct": 53.1,
+          "nueva": false
+        },
+        {
+          "texto": "Atender a los clientes",
+          "n": 116,
+          "pct": 48.1,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar incidencias al supervisor",
+          "n": 107,
+          "pct": 44.4,
+          "nueva": false
+        },
+        {
+          "texto": "Coordinar pedidos que llegan por varias aplicaciones",
+          "n": 41,
+          "pct": 17.0,
+          "nueva": true
+        },
+        {
+          "texto": "Preparar pedidos para plataformas de entrega a domicilio",
+          "n": 36,
+          "pct": 14.9,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "manejo higiénico de alimentos",
+          "grupo": "S6",
+          "nombre_grupo": "Manipulación y movimiento",
+          "nueva": false,
+          "n": 221,
+          "pct": 91.7
+        },
+        {
+          "label": "preparación de alimentos",
+          "grupo": "S6",
+          "nombre_grupo": "Manipulación y movimiento",
+          "nueva": false,
+          "n": 212,
+          "pct": 88.0
+        },
+        {
+          "label": "gestión de inventarios",
+          "grupo": "S4",
+          "nombre_grupo": "Gestión",
+          "nueva": false,
+          "n": 210,
+          "pct": 87.1
+        },
+        {
+          "label": "trabajo en equipo",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 207,
+          "pct": 85.9
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 0.0,
+        "hibrido": 0.8,
+        "presencial": 99.2
+      },
+      "salario": {
+        "declara_pct": 69.7,
+        "p25": 12500,
+        "p50": 15750,
+        "p75": 18000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 38
+        },
+        {
+          "anio": 2022,
+          "n": 45
+        },
+        {
+          "anio": 2023,
+          "n": 37
+        },
+        {
+          "anio": 2024,
+          "n": 45
+        },
+        {
+          "anio": 2025,
+          "n": 47
+        },
+        {
+          "anio": 2026,
+          "n": 29
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 38,
+        "ultimo_anio": 2026,
+        "n_ultimo": 29,
+        "multiplicador": 0.8
+      }
+    },
+    {
+      "familia": "Soldadura",
+      "titulo": "Soldador Industrial",
+      "icono": "rompecabezas",
+      "perfil": "consolidada",
+      "n_anuncios": 192,
+      "indice": 0.127,
+      "senales": {
+        "novedad_tareas": 0.116,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.065,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.859
+      },
+      "sinco": {
+        "codigo_2d": "72",
+        "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+        "codigo_4d": "7212",
+        "nombre_4d": "Soldadores y oxicortadores",
+        "gran_grupo": "7",
+        "nombre_gran_grupo": "Trabajadores artesanales, en la construcción y otros oficios",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Inspeccionar visualmente los cordones de soldadura",
+          "n": 166,
+          "pct": 86.5,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar uniones soldadas conforme a especificación",
+          "n": 166,
+          "pct": 86.5,
+          "nueva": false
+        },
+        {
+          "texto": "Preparar y habilitar material",
+          "n": 159,
+          "pct": 82.8,
+          "nueva": false
+        },
+        {
+          "texto": "Cumplir con las normas de seguridad en el trabajo",
+          "n": 105,
+          "pct": 54.7,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener herramienta y equipo en buen estado",
+          "n": 100,
+          "pct": 52.1,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar avances al supervisor",
+          "n": 99,
+          "pct": 51.6,
+          "nueva": false
+        },
+        {
+          "texto": "Trabajar con procedimientos de soldadura certificados digitalmente",
+          "n": 39,
+          "pct": 20.3,
+          "nueva": true
+        },
+        {
+          "texto": "Registrar el avance de obra en tableta o teléfono",
+          "n": 25,
+          "pct": 13.0,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "trabajo en equipo",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 172,
+          "pct": 89.6
+        },
+        {
+          "label": "lectura de planos",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 169,
+          "pct": 88.0
+        },
+        {
+          "label": "soldadura MIG/MAG",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 168,
+          "pct": 87.5
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 164,
+          "pct": 85.4
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 0.0,
+        "hibrido": 1.6,
+        "presencial": 98.4
+      },
+      "salario": {
+        "declara_pct": 72.4,
+        "p25": 15875,
+        "p50": 19750,
+        "p75": 24125
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 26
+        },
+        {
+          "anio": 2022,
+          "n": 37
+        },
+        {
+          "anio": 2023,
+          "n": 28
+        },
+        {
+          "anio": 2024,
+          "n": 35
+        },
+        {
+          "anio": 2025,
+          "n": 43
+        },
+        {
+          "anio": 2026,
+          "n": 23
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 26,
+        "ultimo_anio": 2026,
+        "n_ultimo": 23,
+        "multiplicador": 0.9
+      }
+    },
+    {
+      "familia": "Enfermería",
+      "titulo": "Enfermera General",
+      "icono": "hospital",
+      "perfil": "consolidada",
+      "n_anuncios": 322,
+      "indice": 0.11,
+      "senales": {
+        "novedad_tareas": 0.1,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.056,
+        "crecimiento_reciente": 0.012,
+        "dispersion_sectorial": 0.686
+      },
+      "sinco": {
+        "codigo_2d": "22",
+        "nombre_2d": "Profesionistas en ciencias de la salud",
+        "codigo_4d": "2221",
+        "nombre_4d": "Enfermeras profesionales",
+        "gran_grupo": "2",
+        "nombre_gran_grupo": "Profesionistas y técnicos",
+        "comparte_con": [
+          "Coordinación de telemedicina"
+        ]
+      },
+      "tareas": [
+        {
+          "texto": "Registrar la evolución clínica de los pacientes",
+          "n": 245,
+          "pct": 76.1,
+          "nueva": false
+        },
+        {
+          "texto": "Preparar material y equipo de curación",
+          "n": 243,
+          "pct": 75.5,
+          "nueva": false
+        },
+        {
+          "texto": "Administrar medicamentos según indicación médica",
+          "n": 239,
+          "pct": 74.2,
+          "nueva": false
+        },
+        {
+          "texto": "Brindar cuidados a pacientes hospitalizados",
+          "n": 235,
+          "pct": 73.0,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar la información del paciente",
+          "n": 168,
+          "pct": 52.2,
+          "nueva": false
+        },
+        {
+          "texto": "Comunicarse con el equipo médico tratante",
+          "n": 157,
+          "pct": 48.8,
+          "nueva": false
+        },
+        {
+          "texto": "Explicar indicaciones al paciente y su familia",
+          "n": 153,
+          "pct": 47.5,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar la atención en el expediente clínico electrónico",
+          "n": 52,
+          "pct": 16.1,
+          "nueva": true
+        },
+        {
+          "texto": "Usar dispositivos de monitoreo conectados",
+          "n": 45,
+          "pct": 14.0,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "cuidados de enfermería",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 290,
+          "pct": 90.1
+        },
+        {
+          "label": "administración de medicamentos",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 285,
+          "pct": 88.5
+        },
+        {
+          "label": "toma de signos vitales",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 280,
+          "pct": 87.0
+        },
+        {
+          "label": "trabajo en equipo",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 277,
+          "pct": 86.0
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 1.2,
+        "hibrido": 1.6,
+        "presencial": 97.2
+      },
+      "salario": {
+        "declara_pct": 54.3,
+        "p25": 15875,
+        "p50": 19750,
+        "p75": 24000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 44
+        },
+        {
+          "anio": 2022,
+          "n": 63
+        },
+        {
+          "anio": 2023,
+          "n": 66
+        },
+        {
+          "anio": 2024,
+          "n": 57
+        },
+        {
+          "anio": 2025,
+          "n": 55
+        },
+        {
+          "anio": 2026,
+          "n": 37
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 44,
+        "ultimo_anio": 2026,
+        "n_ultimo": 37,
+        "multiplicador": 0.8
+      }
+    },
+    {
+      "familia": "Operación de máquinas herramienta",
+      "titulo": "Programador de Máquinas CNC",
+      "icono": "controles",
+      "perfil": "consolidada",
+      "n_anuncios": 183,
+      "indice": 0.096,
+      "senales": {
+        "novedad_tareas": 0.096,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.087,
+        "crecimiento_reciente": 0.01,
+        "dispersion_sectorial": 0.502
+      },
+      "sinco": {
+        "codigo_2d": "72",
+        "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+        "codigo_4d": "7223",
+        "nombre_4d": "Operadores de máquinas herramienta",
+        "gran_grupo": "7",
+        "nombre_gran_grupo": "Trabajadores artesanales, en la construcción y otros oficios",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Operar y ajustar máquinas de control numérico",
+          "n": 157,
+          "pct": 85.8,
+          "nueva": false
+        },
+        {
+          "texto": "Verificar dimensiones con instrumentos de medición",
+          "n": 155,
+          "pct": 84.7,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar la producción por turno",
+          "n": 144,
+          "pct": 78.7,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar avances al supervisor",
+          "n": 94,
+          "pct": 51.4,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener herramienta y equipo en buen estado",
+          "n": 90,
+          "pct": 49.2,
+          "nueva": false
+        },
+        {
+          "texto": "Cumplir con las normas de seguridad en el trabajo",
+          "n": 85,
+          "pct": 46.4,
+          "nueva": false
+        },
+        {
+          "texto": "Reportar la producción en el sistema de planta",
+          "n": 25,
+          "pct": 13.7,
+          "nueva": true
+        },
+        {
+          "texto": "Cargar y depurar programas de maquinado generados por software CAM",
+          "n": 23,
+          "pct": 12.6,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "elaboración de reportes",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 166,
+          "pct": 90.7
+        },
+        {
+          "label": "operación de máquinas herramienta CNC",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 159,
+          "pct": 86.9
+        },
+        {
+          "label": "mantenimiento preventivo de maquinaria",
+          "grupo": "S8",
+          "nombre_grupo": "Maquinaria y equipo especializado",
+          "nueva": false,
+          "n": 158,
+          "pct": 86.3
+        },
+        {
+          "label": "lectura de planos",
+          "grupo": "S7",
+          "nombre_grupo": "Construcción",
+          "nueva": false,
+          "n": 158,
+          "pct": 86.3
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 0.0,
+        "hibrido": 1.1,
+        "presencial": 98.9
+      },
+      "salario": {
+        "declara_pct": 69.9,
+        "p25": 18000,
+        "p50": 22125,
+        "p75": 25875
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 28
+        },
+        {
+          "anio": 2022,
+          "n": 25
+        },
+        {
+          "anio": 2023,
+          "n": 32
+        },
+        {
+          "anio": 2024,
+          "n": 38
+        },
+        {
+          "anio": 2025,
+          "n": 37
+        },
+        {
+          "anio": 2026,
+          "n": 23
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 28,
+        "ultimo_anio": 2026,
+        "n_ultimo": 23,
+        "multiplicador": 0.8
+      }
+    },
+    {
+      "familia": "Ventas en piso",
+      "titulo": "Asesor de Ventas",
+      "icono": "acuerdo",
+      "perfil": "consolidada",
+      "n_anuncios": 463,
+      "indice": 0.091,
+      "senales": {
+        "novedad_tareas": 0.116,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.063,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.502
+      },
+      "sinco": {
+        "codigo_2d": "42",
+        "nombre_2d": "Empleados de ventas en establecimientos",
+        "codigo_4d": "4221",
+        "nombre_4d": "Vendedores y dependientes en establecimientos",
+        "gran_grupo": "4",
+        "nombre_gran_grupo": "Comerciantes, empleados en ventas y agentes de ventas",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Mantener el acomodo y la limpieza del área",
+          "n": 360,
+          "pct": 77.8,
+          "nueva": false
+        },
+        {
+          "texto": "Realizar cortes de caja",
+          "n": 356,
+          "pct": 76.9,
+          "nueva": false
+        },
+        {
+          "texto": "Atender y asesorar a los clientes en el punto de venta",
+          "n": 353,
+          "pct": 76.2,
+          "nueva": false
+        },
+        {
+          "texto": "Apoyar en el control de inventario del piso",
+          "n": 323,
+          "pct": 69.8,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener el orden del área de trabajo",
+          "n": 238,
+          "pct": 51.4,
+          "nueva": false
+        },
+        {
+          "texto": "Registrar las operaciones del día",
+          "n": 232,
+          "pct": 50.1,
+          "nueva": false
+        },
+        {
+          "texto": "Atender a los clientes",
+          "n": 232,
+          "pct": 50.1,
+          "nueva": false
+        },
+        {
+          "texto": "Atender pedidos en línea para recolección en tienda",
+          "n": 91,
+          "pct": 19.7,
+          "nueva": true
+        },
+        {
+          "texto": "Consultar existencias en tiempo real desde una aplicación",
+          "n": 76,
+          "pct": 16.4,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 9,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "manejo de caja",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 415,
+          "pct": 89.6
+        },
+        {
+          "label": "atención en punto de venta",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 402,
+          "pct": 86.8
+        },
+        {
+          "label": "comunicación efectiva",
+          "grupo": "S1",
+          "nombre_grupo": "Comunicación, colaboración y creatividad",
+          "nueva": false,
+          "n": 402,
+          "pct": 86.8
+        },
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 391,
+          "pct": 84.4
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 1.7,
+        "hibrido": 7.3,
+        "presencial": 90.9
+      },
+      "salario": {
+        "declara_pct": 73.7,
+        "p25": 10250,
+        "p50": 12500,
+        "p75": 15000
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 72
+        },
+        {
+          "anio": 2022,
+          "n": 82
+        },
+        {
+          "anio": 2023,
+          "n": 86
+        },
+        {
+          "anio": 2024,
+          "n": 87
+        },
+        {
+          "anio": 2025,
+          "n": 87
+        },
+        {
+          "anio": 2026,
+          "n": 49
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 72,
+        "ultimo_anio": 2026,
+        "n_ultimo": 49,
+        "multiplicador": 0.7
+      }
+    },
+    {
+      "familia": "Servicios bancarios de ventanilla",
+      "titulo": "Ejecutivo de Ventanilla",
+      "icono": "porcentaje",
+      "perfil": "consolidada",
+      "n_anuncios": 152,
+      "indice": 0.044,
+      "senales": {
+        "novedad_tareas": 0.113,
+        "novedad_habilidades": 0.0,
+        "ajuste_sinco": 0.066,
+        "crecimiento_reciente": 0.0,
+        "dispersion_sectorial": 0.014
+      },
+      "sinco": {
+        "codigo_2d": "32",
+        "nombre_2d": "Trabajadores de apoyo en atención al público y manejo de valores",
+        "codigo_4d": "3212",
+        "nombre_4d": "Cajeros, taquilleros y receptores de pagos",
+        "gran_grupo": "3",
+        "nombre_gran_grupo": "Trabajadores auxiliares en actividades administrativas",
+        "comparte_con": []
+      },
+      "tareas": [
+        {
+          "texto": "Realizar operaciones de depósito, retiro y pago de servicios",
+          "n": 129,
+          "pct": 84.9,
+          "nueva": false
+        },
+        {
+          "texto": "Cuadrar la caja al cierre del día",
+          "n": 128,
+          "pct": 84.2,
+          "nueva": false
+        },
+        {
+          "texto": "Promover productos financieros",
+          "n": 127,
+          "pct": 83.6,
+          "nueva": false
+        },
+        {
+          "texto": "Atender solicitudes internas",
+          "n": 81,
+          "pct": 53.3,
+          "nueva": false
+        },
+        {
+          "texto": "Elaborar reportes de actividades",
+          "n": 78,
+          "pct": 51.3,
+          "nueva": false
+        },
+        {
+          "texto": "Mantener actualizados los registros del área",
+          "n": 70,
+          "pct": 46.1,
+          "nueva": false
+        },
+        {
+          "texto": "Acompañar al cliente en el uso de la banca en línea",
+          "n": 30,
+          "pct": 19.7,
+          "nueva": true
+        },
+        {
+          "texto": "Orientar a clientes en el uso de la banca digital",
+          "n": 19,
+          "pct": 12.5,
+          "nueva": true
+        }
+      ],
+      "n_tareas_distintas": 8,
+      "n_tareas_nuevas": 2,
+      "habilidades": [
+        {
+          "label": "atención a clientes",
+          "grupo": "S3",
+          "nombre_grupo": "Asistencia y cuidado",
+          "nueva": false,
+          "n": 140,
+          "pct": 92.1
+        },
+        {
+          "label": "captura de datos",
+          "grupo": "S5",
+          "nombre_grupo": "Trabajo con computadoras",
+          "nueva": false,
+          "n": 137,
+          "pct": 90.1
+        },
+        {
+          "label": "cumplimiento normativo",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 134,
+          "pct": 88.2
+        },
+        {
+          "label": "manejo de caja",
+          "grupo": "S2",
+          "nombre_grupo": "Habilidades de información",
+          "nueva": false,
+          "n": 126,
+          "pct": 82.9
+        }
+      ],
+      "n_habilidades_distintas": 4,
+      "n_habilidades_nuevas": 0,
+      "modalidad": {
+        "remoto": 0.0,
+        "hibrido": 3.9,
+        "presencial": 96.1
+      },
+      "salario": {
+        "declara_pct": 73.0,
+        "p25": 12500,
+        "p50": 14500,
+        "p75": 17250
+      },
+      "serie": [
+        {
+          "anio": 2021,
+          "n": 22
+        },
+        {
+          "anio": 2022,
+          "n": 37
+        },
+        {
+          "anio": 2023,
+          "n": 29
+        },
+        {
+          "anio": 2024,
+          "n": 24
+        },
+        {
+          "anio": 2025,
+          "n": 30
+        },
+        {
+          "anio": 2026,
+          "n": 10
+        }
+      ],
+      "crecimiento": {
+        "primer_anio": 2021,
+        "n_primer": 22,
+        "ultimo_anio": 2026,
+        "n_ultimo": 10,
+        "multiplicador": 0.5
+      }
+    }
+  ],
+  "distribucion_indice": {
+    "min": 0.044,
+    "max": 0.665
+  }
+}

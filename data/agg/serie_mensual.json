@@ -1,0 +1,478 @@
+[
+  {
+    "mes": "2021-01",
+    "total": 49,
+    "emergente": 4,
+    "transicion": 9,
+    "consolidada": 36
+  },
+  {
+    "mes": "2021-02",
+    "total": 53,
+    "emergente": 1,
+    "transicion": 11,
+    "consolidada": 41
+  },
+  {
+    "mes": "2021-03",
+    "total": 68,
+    "emergente": 6,
+    "transicion": 13,
+    "consolidada": 49
+  },
+  {
+    "mes": "2021-04",
+    "total": 67,
+    "emergente": 3,
+    "transicion": 17,
+    "consolidada": 47
+  },
+  {
+    "mes": "2021-05",
+    "total": 70,
+    "emergente": 4,
+    "transicion": 12,
+    "consolidada": 54
+  },
+  {
+    "mes": "2021-06",
+    "total": 68,
+    "emergente": 7,
+    "transicion": 12,
+    "consolidada": 49
+  },
+  {
+    "mes": "2021-07",
+    "total": 73,
+    "emergente": 0,
+    "transicion": 15,
+    "consolidada": 58
+  },
+  {
+    "mes": "2021-08",
+    "total": 64,
+    "emergente": 2,
+    "transicion": 17,
+    "consolidada": 45
+  },
+  {
+    "mes": "2021-09",
+    "total": 68,
+    "emergente": 6,
+    "transicion": 14,
+    "consolidada": 48
+  },
+  {
+    "mes": "2021-10",
+    "total": 60,
+    "emergente": 2,
+    "transicion": 10,
+    "consolidada": 48
+  },
+  {
+    "mes": "2021-11",
+    "total": 60,
+    "emergente": 5,
+    "transicion": 10,
+    "consolidada": 45
+  },
+  {
+    "mes": "2021-12",
+    "total": 57,
+    "emergente": 5,
+    "transicion": 14,
+    "consolidada": 38
+  },
+  {
+    "mes": "2022-01",
+    "total": 56,
+    "emergente": 4,
+    "transicion": 16,
+    "consolidada": 36
+  },
+  {
+    "mes": "2022-02",
+    "total": 63,
+    "emergente": 4,
+    "transicion": 13,
+    "consolidada": 46
+  },
+  {
+    "mes": "2022-03",
+    "total": 73,
+    "emergente": 3,
+    "transicion": 17,
+    "consolidada": 53
+  },
+  {
+    "mes": "2022-04",
+    "total": 76,
+    "emergente": 6,
+    "transicion": 11,
+    "consolidada": 59
+  },
+  {
+    "mes": "2022-05",
+    "total": 72,
+    "emergente": 5,
+    "transicion": 16,
+    "consolidada": 51
+  },
+  {
+    "mes": "2022-06",
+    "total": 88,
+    "emergente": 7,
+    "transicion": 13,
+    "consolidada": 68
+  },
+  {
+    "mes": "2022-07",
+    "total": 79,
+    "emergente": 8,
+    "transicion": 16,
+    "consolidada": 55
+  },
+  {
+    "mes": "2022-08",
+    "total": 72,
+    "emergente": 3,
+    "transicion": 22,
+    "consolidada": 47
+  },
+  {
+    "mes": "2022-09",
+    "total": 72,
+    "emergente": 7,
+    "transicion": 17,
+    "consolidada": 48
+  },
+  {
+    "mes": "2022-10",
+    "total": 68,
+    "emergente": 6,
+    "transicion": 12,
+    "consolidada": 50
+  },
+  {
+    "mes": "2022-11",
+    "total": 71,
+    "emergente": 7,
+    "transicion": 17,
+    "consolidada": 47
+  },
+  {
+    "mes": "2022-12",
+    "total": 66,
+    "emergente": 2,
+    "transicion": 15,
+    "consolidada": 49
+  },
+  {
+    "mes": "2023-01",
+    "total": 65,
+    "emergente": 3,
+    "transicion": 6,
+    "consolidada": 56
+  },
+  {
+    "mes": "2023-02",
+    "total": 77,
+    "emergente": 7,
+    "transicion": 23,
+    "consolidada": 47
+  },
+  {
+    "mes": "2023-03",
+    "total": 73,
+    "emergente": 8,
+    "transicion": 19,
+    "consolidada": 46
+  },
+  {
+    "mes": "2023-04",
+    "total": 94,
+    "emergente": 13,
+    "transicion": 20,
+    "consolidada": 61
+  },
+  {
+    "mes": "2023-05",
+    "total": 91,
+    "emergente": 12,
+    "transicion": 23,
+    "consolidada": 56
+  },
+  {
+    "mes": "2023-06",
+    "total": 95,
+    "emergente": 12,
+    "transicion": 21,
+    "consolidada": 62
+  },
+  {
+    "mes": "2023-07",
+    "total": 93,
+    "emergente": 14,
+    "transicion": 30,
+    "consolidada": 49
+  },
+  {
+    "mes": "2023-08",
+    "total": 93,
+    "emergente": 17,
+    "transicion": 20,
+    "consolidada": 56
+  },
+  {
+    "mes": "2023-09",
+    "total": 86,
+    "emergente": 9,
+    "transicion": 19,
+    "consolidada": 58
+  },
+  {
+    "mes": "2023-10",
+    "total": 70,
+    "emergente": 10,
+    "transicion": 15,
+    "consolidada": 45
+  },
+  {
+    "mes": "2023-11",
+    "total": 78,
+    "emergente": 7,
+    "transicion": 21,
+    "consolidada": 50
+  },
+  {
+    "mes": "2023-12",
+    "total": 81,
+    "emergente": 15,
+    "transicion": 23,
+    "consolidada": 43
+  },
+  {
+    "mes": "2024-01",
+    "total": 84,
+    "emergente": 12,
+    "transicion": 17,
+    "consolidada": 55
+  },
+  {
+    "mes": "2024-02",
+    "total": 90,
+    "emergente": 17,
+    "transicion": 19,
+    "consolidada": 54
+  },
+  {
+    "mes": "2024-03",
+    "total": 86,
+    "emergente": 14,
+    "transicion": 25,
+    "consolidada": 47
+  },
+  {
+    "mes": "2024-04",
+    "total": 107,
+    "emergente": 15,
+    "transicion": 21,
+    "consolidada": 71
+  },
+  {
+    "mes": "2024-05",
+    "total": 104,
+    "emergente": 20,
+    "transicion": 16,
+    "consolidada": 68
+  },
+  {
+    "mes": "2024-06",
+    "total": 105,
+    "emergente": 22,
+    "transicion": 22,
+    "consolidada": 61
+  },
+  {
+    "mes": "2024-07",
+    "total": 105,
+    "emergente": 21,
+    "transicion": 17,
+    "consolidada": 67
+  },
+  {
+    "mes": "2024-08",
+    "total": 103,
+    "emergente": 22,
+    "transicion": 17,
+    "consolidada": 64
+  },
+  {
+    "mes": "2024-09",
+    "total": 92,
+    "emergente": 21,
+    "transicion": 26,
+    "consolidada": 45
+  },
+  {
+    "mes": "2024-10",
+    "total": 81,
+    "emergente": 22,
+    "transicion": 15,
+    "consolidada": 44
+  },
+  {
+    "mes": "2024-11",
+    "total": 81,
+    "emergente": 11,
+    "transicion": 19,
+    "consolidada": 51
+  },
+  {
+    "mes": "2024-12",
+    "total": 82,
+    "emergente": 19,
+    "transicion": 19,
+    "consolidada": 44
+  },
+  {
+    "mes": "2025-01",
+    "total": 92,
+    "emergente": 19,
+    "transicion": 25,
+    "consolidada": 48
+  },
+  {
+    "mes": "2025-02",
+    "total": 104,
+    "emergente": 30,
+    "transicion": 24,
+    "consolidada": 50
+  },
+  {
+    "mes": "2025-03",
+    "total": 98,
+    "emergente": 28,
+    "transicion": 14,
+    "consolidada": 56
+  },
+  {
+    "mes": "2025-04",
+    "total": 106,
+    "emergente": 31,
+    "transicion": 23,
+    "consolidada": 52
+  },
+  {
+    "mes": "2025-05",
+    "total": 127,
+    "emergente": 26,
+    "transicion": 29,
+    "consolidada": 72
+  },
+  {
+    "mes": "2025-06",
+    "total": 122,
+    "emergente": 41,
+    "transicion": 20,
+    "consolidada": 61
+  },
+  {
+    "mes": "2025-07",
+    "total": 129,
+    "emergente": 32,
+    "transicion": 27,
+    "consolidada": 70
+  },
+  {
+    "mes": "2025-08",
+    "total": 118,
+    "emergente": 39,
+    "transicion": 19,
+    "consolidada": 60
+  },
+  {
+    "mes": "2025-09",
+    "total": 102,
+    "emergente": 22,
+    "transicion": 17,
+    "consolidada": 63
+  },
+  {
+    "mes": "2025-10",
+    "total": 100,
+    "emergente": 32,
+    "transicion": 21,
+    "consolidada": 47
+  },
+  {
+    "mes": "2025-11",
+    "total": 93,
+    "emergente": 24,
+    "transicion": 21,
+    "consolidada": 48
+  },
+  {
+    "mes": "2025-12",
+    "total": 107,
+    "emergente": 34,
+    "transicion": 31,
+    "consolidada": 42
+  },
+  {
+    "mes": "2026-01",
+    "total": 104,
+    "emergente": 26,
+    "transicion": 29,
+    "consolidada": 49
+  },
+  {
+    "mes": "2026-02",
+    "total": 115,
+    "emergente": 34,
+    "transicion": 36,
+    "consolidada": 45
+  },
+  {
+    "mes": "2026-03",
+    "total": 113,
+    "emergente": 35,
+    "transicion": 27,
+    "consolidada": 51
+  },
+  {
+    "mes": "2026-04",
+    "total": 121,
+    "emergente": 42,
+    "transicion": 29,
+    "consolidada": 50
+  },
+  {
+    "mes": "2026-05",
+    "total": 125,
+    "emergente": 43,
+    "transicion": 20,
+    "consolidada": 62
+  },
+  {
+    "mes": "2026-06",
+    "total": 124,
+    "emergente": 42,
+    "transicion": 29,
+    "consolidada": 53
+  },
+  {
+    "mes": "2026-07",
+    "total": 149,
+    "emergente": 60,
+    "transicion": 36,
+    "consolidada": 53
+  },
+  {
+    "mes": "2026-08",
+    "total": 121,
+    "emergente": 42,
+    "transicion": 27,
+    "consolidada": 52
+  }
+]

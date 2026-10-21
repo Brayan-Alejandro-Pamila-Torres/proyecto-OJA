@@ -1,0 +1,444 @@
+/* ============================================================================
+   Escena 4 — ocupaciones que apenas nombramos
+   Tres casos presentados como la entrada de catálogo que todavía no tienen. El
+   peso está en lo que dice su descripción de puesto —tareas y habilidades— y en
+   por qué el índice las señala. El sueldo es un dato más, no un argumento.
+   ========================================================================= */
+
+.casos { position: relative; width: 100%; height: 100%; display: grid; place-items: center; }
+
+.casos__escala {
+  position: relative;
+  width: 980px;
+  height: 720px;
+  transform: translate(var(--dx, 0px), var(--dy, 0px)) scale(var(--k, 1));
+  transform-origin: center;
+  transition: transform var(--dur-escena) var(--ease-mueve);
+}
+
+/* ---- el relevo entre los dos beats ----------------------------------------
+   El beat 0 no se va: el beat 1 **lo cubre**. La capa del cierre entera —suelo
+   gris y ficha juntos— entra desde abajo conforme al scroll (`--m-panorama`) y
+   se pone delante. Las señales siguen ahí, tapadas: la llegada se ve como
+   superposición y no como sustitución.
+
+   PARA CALIBRAR: --suelo-cierre es el gris que sube; --marco-color y
+   --marco-grueso, el filete que se traza después alrededor de la ficha. */
+
+.casos {
+  --suelo-cierre: #edf1f3;
+  --marco-color: var(--c-emergente);
+  --marco-grueso: 1.5px;
+  --a: var(--a-cierre, 0);
+}
+
+.capa--senales, .capa--panorama { pointer-events: none; }
+
+/* La cortina entra como UNA PIEZA, no como un recorte que descubre.
+   Antes la lámina estaba quieta y lo que se movía era su borde: eso se lee como
+   un obturador —se descubre algo— y no como una llegada. Ahora la capa entera
+   —suelo y ficha juntos— viaja desde abajo y tapa lo anterior por estar delante.
+   Las señales no necesitan desvanecerse: quedan cubiertas, que es exactamente la
+   superposición que se buscaba.
+
+   Dónde espera mientras tanto lo dice `--parqueo`, que casos.js MIDE: tiene que
+   quedar justo por debajo del borde inferior del escenario, y ese borde no está
+   a una distancia fija del tablero —en escritorio el tablero va centrado y en
+   angosto va pegado arriba—. Con un valor fijo la lámina asomaba en móvil. */
+.capa--panorama {
+  transform: translateY(calc((1 - var(--m-panorama, 0)) * var(--parqueo, 920px)));
+  /* no se pinta hasta que la llegada empieza: ver el comentario de casos.js */
+  visibility: hidden;
+}
+.casos--llegando .capa--panorama { visibility: visible; }
+
+/* se sale del tablero a los lados para que el gris llegue a los bordes del
+   escenario; `.scrolly__fijo` tiene `overflow: clip` y la recorta */
+.cortina {
+  position: absolute;
+  inset: 0 -160px;
+  background: var(--suelo-cierre);
+  /* el canto delantero de una pieza que pasa por encima de otra */
+  box-shadow: 0 -8px 24px rgba(16, 33, 43, 0.12);
+}
+
+/* ---- beat 0: la pregunta y las cinco señales ------------------------------ */
+
+.senales { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: var(--e4); max-width: 980px; margin: 0 auto; }
+.senales__pregunta {
+  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+  font-weight: var(--peso-negro);
+  letter-spacing: -0.02em;
+  color: var(--tinta-fuerte);
+  max-width: 22ch;
+}
+.senales__bajada {
+  font-size: var(--t-cuerpo);
+  font-weight: var(--peso-ligero);
+  color: var(--tinta-suave);
+  margin: var(--e3) 0 var(--e5);
+  max-width: 46ch;
+}
+.senales__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 44px;
+  align-items: start;
+}
+
+/* Cada señal entra por partes: el número se estampa, un resaltador pasa por
+   encima del enunciado y después caen sus ejemplos, uno tras otro. El orden es
+   el argumento, así que con movimiento reducido se conserva y sólo se acorta. */
+.senal {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 14px;
+  align-items: start;
+  opacity: var(--s, 0);
+  transform: translateY(calc((1 - var(--s, 0)) * 10px));
+}
+
+.senal__n {
+  width: 28px; height: 28px;
+  border: 1.5px solid var(--c-emergente);
+  border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: 11.5px; font-weight: var(--peso-fuerte);
+  color: var(--c-emergente-fuerte);
+  background: var(--blanco);
+  transform: scale(calc(0.55 + var(--s, 0) * 0.45));
+  opacity: var(--s, 0);
+}
+
+.senal__txt {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  margin: 3px 0 0;
+  font-size: 17.5px;
+  font-weight: var(--peso-medio);
+  line-height: 1.25;
+  color: var(--tinta-fuerte);
+}
+
+/* el resaltador: pasa una vez y se va, como quien subraya al leer */
+.senal__txt::before {
+  content: '';
+  position: absolute;
+  inset: -3px -5px;
+  z-index: -1;
+  border-radius: 3px;
+  background: rgba(216, 206, 255, 0.62);
+  /* el resaltador barre con el scroll y se retira al final del tramo */
+  transform: scaleX(var(--sr, 0));
+  transform-origin: 0 50%;
+  opacity: calc(var(--sro, 0) * 0.9);
+}
+
+.senal__ejemplos {
+  list-style: none;
+  margin: 7px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ejemplo {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  padding-left: 11px;
+  border-left: 2px solid var(--lavanda-200);
+  opacity: var(--se, 0);
+  transform: translateX(calc((1 - var(--se, 0)) * -7px));
+}
+
+.ejemplo__txt { font-size: 14px; line-height: 1.35; color: var(--c-emergente-fuerte); }
+.ejemplo__fuente { font-size: 12.5px; line-height: 1.35; color: var(--tinta-suave); }
+.ejemplo__fuente::before { content: '— '; }
+
+@media (prefers-reduced-motion: reduce) {
+  .gficha > * { transition-duration: 1ms; }
+  .galeria--compuesta .gficha > * { transition-delay: calc(var(--b, 0) * 60ms); }
+  /* las señales ya no tienen transición propia: las gobierna el scroll, y con
+     movimiento reducido casos.js hace que su avance salte de 0 a 1 */
+  .senal { transform: none; }
+  .senal__n { transform: none; }
+  .ejemplo { transform: none; }
+}
+
+/* ---- beat 1: la galería ---------------------------------------------------- */
+
+.casos[data-beat='1'] .capa--panorama { pointer-events: auto; }
+
+.galeria {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--e3);
+  justify-content: center;
+  padding: 0 var(--e6);
+}
+
+/* en el morado de la sección. Se usa el tono FUERTE y no `--c-emergente`:
+   sobre fondo claro el lavanda 500 se queda en 2.6:1 de contraste y no llega al
+   mínimo para texto; el 700 pasa de 5:1. */
+.galeria__marca { font-size: var(--t-cuerpo-s); color: var(--c-emergente-fuerte); }
+.galeria__marca b { font-weight: var(--peso-fuerte); color: var(--c-emergente-fuerte); }
+
+/* ---- el marco que se traza --------------------------------------------------
+   Cuatro lados que crecen uno tras otro —arriba, derecha, abajo, izquierda—.
+   Es el gesto de enmarcar: la ficha ya estaba ahí; lo que ocurre es que se
+   señala.
+
+   Va con el RELOJ y no con el scroll: el scroll decide cuándo empieza —cuando la
+   lámina termina de llegar, `casos--marco`— y el trazo dura siempre lo mismo,
+   un segundo justo: cuatro lados de 260 ms escalonados cada 247. Atado al scroll,
+   la velocidad del trazo dependía de con cuánta fuerza empujara el lector, y un
+   trazo es un gesto con tempo propio. Al volver atrás la clase se quita y el
+   marco se recoge deprisa, listo para rearmarse. */
+
+.galeria__marco { position: relative; }
+
+.marco__lado {
+  position: absolute;
+  background: var(--marco-color);
+  pointer-events: none;
+  transition: transform 260ms var(--ease-trazo, ease);
+}
+.casos--marco .marco__lado--arriba     { transform: scaleX(1); transition-delay: 0ms; }
+.casos--marco .marco__lado--derecha    { transform: scaleY(1); transition-delay: 247ms; }
+.casos--marco .marco__lado--abajo      { transform: scaleX(1); transition-delay: 494ms; }
+.casos--marco .marco__lado--izquierda  { transform: scaleY(1); transition-delay: 741ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  /* se conserva la secuencia, comprimida: cuatro lados en 320 ms */
+  .marco__lado { transition-duration: 80ms; }
+  .casos--marco .marco__lado--derecha   { transition-delay: 80ms; }
+  .casos--marco .marco__lado--abajo     { transition-delay: 160ms; }
+  .casos--marco .marco__lado--izquierda { transition-delay: 240ms; }
+}
+.marco__lado--arriba {
+  top: calc(var(--marco-grueso) * -1); left: 0; right: 0; height: var(--marco-grueso);
+  transform: scaleX(0); transform-origin: 0 50%;
+}
+.marco__lado--derecha {
+  top: 0; bottom: 0; right: calc(var(--marco-grueso) * -1); width: var(--marco-grueso);
+  transform: scaleY(0); transform-origin: 50% 0;
+}
+.marco__lado--abajo {
+  bottom: calc(var(--marco-grueso) * -1); left: 0; right: 0; height: var(--marco-grueso);
+  transform: scaleX(0); transform-origin: 100% 50%;
+}
+.marco__lado--izquierda {
+  top: 0; bottom: 0; left: calc(var(--marco-grueso) * -1); width: var(--marco-grueso);
+  transform: scaleY(0); transform-origin: 50% 100%;
+}
+
+
+/* La ficha ocupa alto, respira y ya no se defiende con su propio marco: el que
+   se traza alrededor hace ese trabajo. */
+.gficha {
+  background: var(--blanco);
+  border-radius: var(--radio-l);
+  padding: var(--e5) var(--e6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--e4);
+}
+
+/* ---- la ficha se compone por bloques --------------------------------------
+   Dentro del marco ya trazado, el contenido entra por partes. Sólo al llegar:
+   al cambiar de pestaña el marcado se rehace y los elementos nuevos nacen ya en
+   su estado final —el navegador no anima el primer estilo de un elemento recién
+   insertado—, así que el relevo entre ejemplos es inmediato. Es deliberado. */
+.gficha > * {
+  opacity: 0;
+  transform: translateY(9px);
+  transition:
+    opacity 420ms var(--ease-mueve),
+    transform 520ms var(--ease-mueve);
+}
+.galeria--compuesta .gficha > * {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--b, 0) * 170ms + 120ms);
+}
+
+.gficha__cabeza { display: flex; align-items: flex-start; gap: var(--e4); }
+.gficha__cabeza svg { width: 38px; height: 38px; color: var(--c-emergente); flex-shrink: 0; }
+.gficha__nombre { flex: 1; min-width: 0; }
+.gficha__titulo { font-size: 25px; font-weight: var(--peso-negro); color: var(--tinta-fuerte); line-height: 1.1; letter-spacing: -0.015em; }
+.gficha__donde { font-size: 13px; line-height: 1.4; color: var(--tinta-suave); margin-top: 7px; }
+.gficha__donde b { color: var(--c-catalogo); font-weight: var(--peso-fuerte); }
+
+.gficha__mundo {
+  flex-shrink: 0;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-emergente-fuerte);
+  padding-top: 5px;
+}
+
+.gficha__cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--e4) var(--e5);
+  padding-top: var(--e4);
+  border-top: 1px solid var(--linea);
+}
+
+.gficha__cols .gficha__rot {
+  color: var(--c-emergente-fuerte);
+  font-weight: var(--peso-negro);
+}
+
+.gficha__rot {
+  font-size: 10px;
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+  margin-bottom: var(--e3);
+}
+
+.gficha__lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.gficha__lista li {
+  position: relative;
+  padding-left: 15px;
+  font-size: 14.5px;
+  line-height: 1.4;
+  color: var(--tinta);
+}
+.gficha__lista li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--c-emergente);
+}
+.gficha__lista--saberes li::before { background: var(--jade-500); }
+/* gris a propósito: esta columna es lo que la ocupación pide y ya existía. Las
+   otras dos llevan color porque son lo nuevo; ésta es el suelo sobre el que
+   está parada, y pintarla igual borraría justamente esa diferencia. */
+.gficha__lista--pedidas li::before { background: var(--linea-fuerte); }
+
+.gsaber__grupo {
+  margin-left: 7px;
+  font-size: 10.5px;
+  font-weight: var(--peso-fuerte);
+  letter-spacing: 0.06em;
+  color: var(--tinta-suave);
+}
+
+/* ---- la modalidad, con su propio espacio --------------------------------- */
+
+.gficha__modalidad { padding-top: var(--e4); border-top: 1px solid var(--linea); }
+
+.gmod { display: flex; gap: 3px; align-items: stretch; }
+.gmod__tramo {
+  flex: var(--peso, 1) 1 0;
+  min-width: 0;
+  padding: 9px 11px;
+  border-radius: var(--radio);
+  background: var(--gris-100);
+  color: var(--tinta-suave);
+  font-size: 12px;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.gmod__tramo b { display: block; font-size: 19px; font-weight: 900; letter-spacing: -0.02em; }
+.gmod__tramo[data-primera='si'] { background: #e6f1ef; color: var(--turquesa-800); }
+.gmod__tramo[data-primera='si'] b { color: var(--turquesa-800); }
+
+.gficha__modnota { margin-top: var(--e3); font-size: 13px; color: var(--tinta-suave); }
+.gficha__modnota b { color: var(--turquesa-800); font-weight: var(--peso-fuerte); }
+
+.gficha__pie {
+  display: flex; flex-wrap: wrap; gap: var(--e6);
+  padding-top: var(--e4);
+  border-top: 1px solid var(--linea);
+  font-size: 13px; color: var(--tinta-suave);
+}
+.gficha__pie b { color: var(--c-catalogo); font-weight: var(--peso-fuerte); }
+
+/* arriba a la izquierda, en el hueco que dejaron las píldoras */
+.galeria__nav { display: flex; align-items: center; gap: var(--e3); justify-content: flex-start; }
+.gnav {
+  width: 30px; height: 30px; border: 1px solid var(--linea); border-radius: 50%;
+  background: var(--blanco); color: var(--c-catalogo); font-size: 16px; line-height: 1;
+  cursor: pointer;
+}
+.gnav:hover { border-color: var(--c-emergente); color: var(--c-emergente-fuerte); }
+.gnav:focus-visible { outline: 2px solid var(--c-emergente-fuerte); outline-offset: 2px; }
+.galeria__cuenta { font-size: 11px; color: var(--tinta-suave); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 760px) {
+  /* En el teléfono cada pixel cuenta: esta ficha se diseñó en dos columnas y
+     aquí va en una, así que se aprieta el aire —paddings y huecos— antes que el
+     contenido. Sólo se recortan dos cosas, las que menos cuestan: el tercer
+     saber y la glosa de la barra de modalidad, que repite lo que la barra ya
+     dice con números. */
+  .casos { place-items: start center; }
+
+  /* ---- beat 0: las señales, en una columna ---- */
+  .senales { gap: 8px; justify-content: flex-start; padding-top: 6px; }
+  .senales__pregunta { font-size: 1.2rem; }
+  .senales__bajada { font-size: 12px; }
+  .senales__lista { grid-template-columns: 1fr; gap: 11px; }
+  .senal { grid-template-columns: 24px 1fr; gap: 10px; }
+  .senal__n { width: 24px; height: 24px; font-size: 10.5px; }
+  .senal__txt { font-size: 13.5px; }
+  .senal__ejemplos { margin-top: 4px; gap: 3px; }
+  .ejemplo { padding-left: 9px; }
+  .ejemplo__txt { font-size: 11.5px; }
+  .ejemplo__fuente { font-size: 10.5px; }
+
+  /* ---- beat 1: la llegada ---- */
+  /* Ya no hay recorte ni opacidad que corregir aquí: la capa entera viaja como
+     una pieza y eso funciona igual en angosto, donde además la ficha es más alta
+     que la pantalla y cualquier recorte habría costado información. Lo único
+     propio del móvil es la maquetación: el bloque arranca arriba y no centrado,
+     para que el titular no quede sobre el pliegue. */
+  .capa--panorama .galeria {
+    justify-content: flex-start;
+    padding: 4px var(--e4) 0;
+    gap: var(--e2);
+  }
+  .cortina { inset: -30vh -160px; }
+
+  .galeria__titulo { font-size: 18px; }
+  .galeria__invitacion { font-size: 11.5px; line-height: 1.4; }
+  .galeria__marca { font-size: 12px; }
+
+
+  .gficha { padding: var(--e3) var(--e4); gap: var(--e3); }
+  .gficha__cabeza { gap: var(--e3); }
+  .gficha__cabeza svg { width: 26px; height: 26px; }
+  .gficha__titulo { font-size: 17px; }
+  .gficha__donde { font-size: 11px; margin-top: 4px; }
+  .gficha__mundo { display: none; }
+  .gficha__cols { grid-template-columns: 1fr; gap: var(--e3); padding-top: var(--e3); }
+  .gficha__rot { margin-bottom: 6px; }
+  .gficha__lista { gap: 6px; }
+  .gficha__lista li { font-size: 12.5px; }
+  .gficha__lista--saberes li:nth-child(n+3),
+  .gficha__lista--pedidas li:nth-child(n+3) { display: none; }
+  .gficha__modalidad { padding-top: var(--e3); }
+  .gficha__modnota { display: none; }
+  .gmod__tramo { min-width: 64px; padding: 6px 8px; font-size: 10px; }
+  .gmod__tramo b { font-size: 15px; }
+  .gficha__pie { padding-top: var(--e3); gap: var(--e2) var(--e3); font-size: 10.5px; }
+}
+

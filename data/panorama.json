@@ -1,0 +1,3168 @@
+{
+ "nota": "Los repartos y porcentajes provienen del corpus sintético de prueba (5999 anuncios). Las cifras del acervo son declaradas y no se calculan aquí. Ver data/README.md.",
+ "acervo": {
+  "total": 200000,
+  "por_semana": 5000,
+  "fuente": "Acervo del proyecto, declarado por el equipo. No procede del corpus de prueba.",
+  "nota": "PENDIENTE: fijar fecha de corte del acervo."
+ },
+ "corpus": {
+  "total": 5999,
+  "modalidad": {
+   "n": 5999,
+   "pct": {
+    "presencial": 62.3,
+    "hibrido": 19.1,
+    "remoto": 18.6
+   },
+   "fiable": true
+  }
+ },
+ "entidades": [
+  {
+   "cve_ent": "09",
+   "nombre": "Ciudad de México",
+   "n": 1334,
+   "pct": 22.2
+  },
+  {
+   "cve_ent": "19",
+   "nombre": "Nuevo León",
+   "n": 746,
+   "pct": 12.4
+  },
+  {
+   "cve_ent": "14",
+   "nombre": "Jalisco",
+   "n": 582,
+   "pct": 9.7
+  },
+  {
+   "cve_ent": "15",
+   "nombre": "Estado de México",
+   "n": 512,
+   "pct": 8.5
+  },
+  {
+   "cve_ent": "22",
+   "nombre": "Querétaro",
+   "n": 312,
+   "pct": 5.2
+  },
+  {
+   "cve_ent": "11",
+   "nombre": "Guanajuato",
+   "n": 253,
+   "pct": 4.2
+  },
+  {
+   "cve_ent": "02",
+   "nombre": "Baja California",
+   "n": 243,
+   "pct": 4.1
+  },
+  {
+   "cve_ent": "21",
+   "nombre": "Puebla",
+   "n": 203,
+   "pct": 3.4
+  },
+  {
+   "cve_ent": "31",
+   "nombre": "Yucatán",
+   "n": 175,
+   "pct": 2.9
+  },
+  {
+   "cve_ent": "08",
+   "nombre": "Chihuahua",
+   "n": 159,
+   "pct": 2.7
+  },
+  {
+   "cve_ent": "30",
+   "nombre": "Veracruz",
+   "n": 154,
+   "pct": 2.6
+  },
+  {
+   "cve_ent": "05",
+   "nombre": "Coahuila",
+   "n": 149,
+   "pct": 2.5
+  },
+  {
+   "cve_ent": "24",
+   "nombre": "San Luis Potosí",
+   "n": 124,
+   "pct": 2.1
+  },
+  {
+   "cve_ent": "26",
+   "nombre": "Sonora",
+   "n": 111,
+   "pct": 1.9
+  },
+  {
+   "cve_ent": "23",
+   "nombre": "Quintana Roo",
+   "n": 102,
+   "pct": 1.7
+  },
+  {
+   "cve_ent": "01",
+   "nombre": "Aguascalientes",
+   "n": 98,
+   "pct": 1.6
+  },
+  {
+   "cve_ent": "25",
+   "nombre": "Sinaloa",
+   "n": 63,
+   "pct": 1.1
+  },
+  {
+   "cve_ent": "28",
+   "nombre": "Tamaulipas",
+   "n": 52,
+   "pct": 0.9
+  },
+  {
+   "cve_ent": "17",
+   "nombre": "Morelos",
+   "n": 46,
+   "pct": 0.8
+  },
+  {
+   "cve_ent": "16",
+   "nombre": "Michoacán",
+   "n": 42,
+   "pct": 0.7
+  }
+ ],
+ "aparte": [
+  {
+   "clave": "sin_sede",
+   "nombre": "Sin sede fija",
+   "n": 381,
+   "pct": 6.4,
+   "explica": "Se ofrece como remoto para todo el país."
+  },
+  {
+   "clave": "resto",
+   "nombre": "Resto del país",
+   "n": 158,
+   "pct": 2.6,
+   "explica": "El corpus de prueba agrupa aquí a las entidades con pocos anuncios."
+  }
+ ],
+ "entidades_sin_dato": [
+  "03",
+  "04",
+  "06",
+  "07",
+  "10",
+  "12",
+  "13",
+  "18",
+  "20",
+  "27",
+  "29",
+  "32"
+ ],
+ "grandes_grupos": [
+  {
+   "clave": "1",
+   "nombre": "Funcionarios, directores y jefes",
+   "corto": "Funcionarios y directores",
+   "presente": true,
+   "n": 106,
+   "pct": {
+    "presencial": 50.0,
+    "hibrido": 38.7,
+    "remoto": 11.3
+   },
+   "fiable": true
+  },
+  {
+   "clave": "2",
+   "nombre": "Profesionistas y técnicos",
+   "corto": "Profesionistas y técnicos",
+   "presente": true,
+   "n": 3062,
+   "pct": {
+    "presencial": 37.8,
+    "hibrido": 30.0,
+    "remoto": 32.2
+   },
+   "fiable": true
+  },
+  {
+   "clave": "3",
+   "nombre": "Trabajadores auxiliares en actividades administrativas",
+   "corto": "Auxiliares administrativos",
+   "presente": true,
+   "n": 938,
+   "pct": {
+    "presencial": 76.8,
+    "hibrido": 11.9,
+    "remoto": 11.3
+   },
+   "fiable": true
+  },
+  {
+   "clave": "4",
+   "nombre": "Comerciantes, empleados en ventas y agentes de ventas",
+   "corto": "Comercio y ventas",
+   "presente": true,
+   "n": 463,
+   "pct": {
+    "presencial": 90.9,
+    "hibrido": 7.3,
+    "remoto": 1.7
+   },
+   "fiable": true
+  },
+  {
+   "clave": "5",
+   "nombre": "Trabajadores en servicios personales y vigilancia",
+   "corto": "Servicios y vigilancia",
+   "presente": true,
+   "n": 241,
+   "pct": {
+    "presencial": 99.2,
+    "hibrido": 0.8,
+    "remoto": 0.0
+   },
+   "fiable": true
+  },
+  {
+   "clave": "6",
+   "nombre": "Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca",
+   "corto": "Agricultura y pesca",
+   "presente": false,
+   "n": 0,
+   "pct": {
+    "presencial": 0,
+    "hibrido": 0,
+    "remoto": 0
+   },
+   "fiable": false
+  },
+  {
+   "clave": "7",
+   "nombre": "Trabajadores artesanales, en la construcción y otros oficios",
+   "corto": "Oficios y construcción",
+   "presente": true,
+   "n": 777,
+   "pct": {
+    "presencial": 96.1,
+    "hibrido": 3.2,
+    "remoto": 0.6
+   },
+   "fiable": true
+  },
+  {
+   "clave": "8",
+   "nombre": "Operadores de maquinaria industrial, ensambladores, choferes y conductores",
+   "corto": "Maquinaria y transporte",
+   "presente": true,
+   "n": 412,
+   "pct": {
+    "presencial": 97.8,
+    "hibrido": 2.2,
+    "remoto": 0.0
+   },
+   "fiable": true
+  },
+  {
+   "clave": "9",
+   "nombre": "Trabajadores en actividades elementales y de apoyo",
+   "corto": "Actividades elementales",
+   "presente": false,
+   "n": 0,
+   "pct": {
+    "presencial": 0,
+    "hibrido": 0,
+    "remoto": 0
+   },
+   "fiable": false
+  }
+ ],
+ "modalidad_por_entidad": {
+  "09": {
+   "2": {
+    "n": 680,
+    "pct": {
+     "presencial": 40.3,
+     "hibrido": 34.4,
+     "remoto": 25.3
+    },
+    "fiable": true
+   },
+   "5": {
+    "n": 55,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "7": {
+    "n": 182,
+    "pct": {
+     "presencial": 96.7,
+     "hibrido": 3.3,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "3": {
+    "n": 194,
+    "pct": {
+     "presencial": 82.5,
+     "hibrido": 10.8,
+     "remoto": 6.7
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 103,
+    "pct": {
+     "presencial": 95.1,
+     "hibrido": 4.9,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "4": {
+    "n": 103,
+    "pct": {
+     "presencial": 92.2,
+     "hibrido": 6.8,
+     "remoto": 1.0
+    },
+    "fiable": true
+   },
+   "1": {
+    "n": 17,
+    "pct": {
+     "presencial": 52.9,
+     "hibrido": 41.2,
+     "remoto": 5.9
+    },
+    "fiable": false
+   }
+  },
+  "23": {
+   "2": {
+    "n": 47,
+    "pct": {
+     "presencial": 38.3,
+     "hibrido": 40.4,
+     "remoto": 21.3
+    },
+    "fiable": true
+   },
+   "4": {
+    "n": 7,
+    "pct": {
+     "presencial": 85.7,
+     "hibrido": 14.3,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 15,
+    "pct": {
+     "presencial": 93.3,
+     "hibrido": 6.7,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 13,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 9,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 6,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 5,
+    "pct": {
+     "presencial": 60.0,
+     "hibrido": 40.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "14": {
+   "4": {
+    "n": 44,
+    "pct": {
+     "presencial": 88.6,
+     "hibrido": 11.4,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "3": {
+    "n": 115,
+    "pct": {
+     "presencial": 79.1,
+     "hibrido": 11.3,
+     "remoto": 9.6
+    },
+    "fiable": true
+   },
+   "2": {
+    "n": 267,
+    "pct": {
+     "presencial": 43.8,
+     "hibrido": 34.1,
+     "remoto": 22.1
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 45,
+    "pct": {
+     "presencial": 95.6,
+     "hibrido": 4.4,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "5": {
+    "n": 25,
+    "pct": {
+     "presencial": 96.0,
+     "hibrido": 4.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 71,
+    "pct": {
+     "presencial": 95.8,
+     "hibrido": 2.8,
+     "remoto": 1.4
+    },
+    "fiable": true
+   },
+   "1": {
+    "n": 15,
+    "pct": {
+     "presencial": 46.7,
+     "hibrido": 40.0,
+     "remoto": 13.3
+    },
+    "fiable": false
+   }
+  },
+  "19": {
+   "2": {
+    "n": 360,
+    "pct": {
+     "presencial": 46.4,
+     "hibrido": 34.4,
+     "remoto": 19.2
+    },
+    "fiable": true
+   },
+   "1": {
+    "n": 11,
+    "pct": {
+     "presencial": 36.4,
+     "hibrido": 54.5,
+     "remoto": 9.1
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 109,
+    "pct": {
+     "presencial": 72.5,
+     "hibrido": 16.5,
+     "remoto": 11.0
+    },
+    "fiable": true
+   },
+   "7": {
+    "n": 99,
+    "pct": {
+     "presencial": 96.0,
+     "hibrido": 4.0,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 62,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "4": {
+    "n": 74,
+    "pct": {
+     "presencial": 94.6,
+     "hibrido": 5.4,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "5": {
+    "n": 31,
+    "pct": {
+     "presencial": 96.8,
+     "hibrido": 3.2,
+     "remoto": 0.0
+    },
+    "fiable": true
+   }
+  },
+  "05": {
+   "7": {
+    "n": 19,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 75,
+    "pct": {
+     "presencial": 42.7,
+     "hibrido": 34.7,
+     "remoto": 22.7
+    },
+    "fiable": true
+   },
+   "4": {
+    "n": 6,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 29,
+    "pct": {
+     "presencial": 79.3,
+     "hibrido": 17.2,
+     "remoto": 3.4
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 10,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 4,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 6,
+    "pct": {
+     "presencial": 33.3,
+     "hibrido": 50.0,
+     "remoto": 16.7
+    },
+    "fiable": false
+   }
+  },
+  "30": {
+   "2": {
+    "n": 87,
+    "pct": {
+     "presencial": 46.0,
+     "hibrido": 24.1,
+     "remoto": 29.9
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 9,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 22,
+    "pct": {
+     "presencial": 63.6,
+     "hibrido": 22.7,
+     "remoto": 13.6
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 21,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 4,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 10,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 1,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "02": {
+   "2": {
+    "n": 105,
+    "pct": {
+     "presencial": 41.9,
+     "hibrido": 28.6,
+     "remoto": 29.5
+    },
+    "fiable": true
+   },
+   "7": {
+    "n": 38,
+    "pct": {
+     "presencial": 94.7,
+     "hibrido": 5.3,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "1": {
+    "n": 5,
+    "pct": {
+     "presencial": 40.0,
+     "hibrido": 60.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 19,
+    "pct": {
+     "presencial": 84.2,
+     "hibrido": 10.5,
+     "remoto": 5.3
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 42,
+    "pct": {
+     "presencial": 88.1,
+     "hibrido": 7.1,
+     "remoto": 4.8
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 23,
+    "pct": {
+     "presencial": 95.7,
+     "hibrido": 4.3,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 11,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "21": {
+   "2": {
+    "n": 102,
+    "pct": {
+     "presencial": 50.0,
+     "hibrido": 27.5,
+     "remoto": 22.5
+    },
+    "fiable": true
+   },
+   "3": {
+    "n": 34,
+    "pct": {
+     "presencial": 79.4,
+     "hibrido": 14.7,
+     "remoto": 5.9
+    },
+    "fiable": true
+   },
+   "7": {
+    "n": 28,
+    "pct": {
+     "presencial": 96.4,
+     "hibrido": 3.6,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 10,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 19,
+    "pct": {
+     "presencial": 89.5,
+     "hibrido": 10.5,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 7,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 3,
+    "pct": {
+     "presencial": 66.7,
+     "hibrido": 33.3,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "22": {
+   "4": {
+    "n": 27,
+    "pct": {
+     "presencial": 81.5,
+     "hibrido": 14.8,
+     "remoto": 3.7
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 47,
+    "pct": {
+     "presencial": 83.0,
+     "hibrido": 6.4,
+     "remoto": 10.6
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 22,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 141,
+    "pct": {
+     "presencial": 44.0,
+     "hibrido": 35.5,
+     "remoto": 20.6
+    },
+    "fiable": true
+   },
+   "5": {
+    "n": 19,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 50,
+    "pct": {
+     "presencial": 96.0,
+     "hibrido": 0.0,
+     "remoto": 4.0
+    },
+    "fiable": true
+   },
+   "1": {
+    "n": 6,
+    "pct": {
+     "presencial": 66.7,
+     "hibrido": 16.7,
+     "remoto": 16.7
+    },
+    "fiable": false
+   }
+  },
+  "11": {
+   "2": {
+    "n": 111,
+    "pct": {
+     "presencial": 39.6,
+     "hibrido": 28.8,
+     "remoto": 31.5
+    },
+    "fiable": true
+   },
+   "7": {
+    "n": 37,
+    "pct": {
+     "presencial": 94.6,
+     "hibrido": 5.4,
+     "remoto": 0.0
+    },
+    "fiable": true
+   },
+   "3": {
+    "n": 45,
+    "pct": {
+     "presencial": 77.8,
+     "hibrido": 11.1,
+     "remoto": 11.1
+    },
+    "fiable": true
+   },
+   "4": {
+    "n": 28,
+    "pct": {
+     "presencial": 96.4,
+     "hibrido": 3.6,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 14,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 14,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 4,
+    "pct": {
+     "presencial": 50.0,
+     "hibrido": 50.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "08": {
+   "2": {
+    "n": 78,
+    "pct": {
+     "presencial": 39.7,
+     "hibrido": 37.2,
+     "remoto": 23.1
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 14,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 8,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 16,
+    "pct": {
+     "presencial": 75.0,
+     "hibrido": 12.5,
+     "remoto": 12.5
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 29,
+    "pct": {
+     "presencial": 96.6,
+     "hibrido": 3.4,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 11,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 3,
+    "pct": {
+     "presencial": 33.3,
+     "hibrido": 66.7,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "26": {
+   "2": {
+    "n": 53,
+    "pct": {
+     "presencial": 26.4,
+     "hibrido": 47.2,
+     "remoto": 26.4
+    },
+    "fiable": true
+   },
+   "5": {
+    "n": 6,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 16,
+    "pct": {
+     "presencial": 75.0,
+     "hibrido": 18.8,
+     "remoto": 6.2
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 15,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 8,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 7,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 6,
+    "pct": {
+     "presencial": 83.3,
+     "hibrido": 0.0,
+     "remoto": 16.7
+    },
+    "fiable": false
+   }
+  },
+  "31": {
+   "7": {
+    "n": 19,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 83,
+    "pct": {
+     "presencial": 48.2,
+     "hibrido": 32.5,
+     "remoto": 19.3
+    },
+    "fiable": true
+   },
+   "5": {
+    "n": 8,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 36,
+    "pct": {
+     "presencial": 66.7,
+     "hibrido": 19.4,
+     "remoto": 13.9
+    },
+    "fiable": true
+   },
+   "8": {
+    "n": 11,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 14,
+    "pct": {
+     "presencial": 92.9,
+     "hibrido": 7.1,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 4,
+    "pct": {
+     "presencial": 50.0,
+     "hibrido": 25.0,
+     "remoto": 25.0
+    },
+    "fiable": false
+   }
+  },
+  "24": {
+   "3": {
+    "n": 25,
+    "pct": {
+     "presencial": 80.0,
+     "hibrido": 12.0,
+     "remoto": 8.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 58,
+    "pct": {
+     "presencial": 43.1,
+     "hibrido": 34.5,
+     "remoto": 22.4
+    },
+    "fiable": true
+   },
+   "7": {
+    "n": 18,
+    "pct": {
+     "presencial": 94.4,
+     "hibrido": 5.6,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 9,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 3,
+    "pct": {
+     "presencial": 66.7,
+     "hibrido": 33.3,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 7,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 4,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "01": {
+   "7": {
+    "n": 10,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 59,
+    "pct": {
+     "presencial": 37.3,
+     "hibrido": 47.5,
+     "remoto": 15.3
+    },
+    "fiable": true
+   },
+   "3": {
+    "n": 9,
+    "pct": {
+     "presencial": 77.8,
+     "hibrido": 11.1,
+     "remoto": 11.1
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 3,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 8,
+    "pct": {
+     "presencial": 87.5,
+     "hibrido": 12.5,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 4,
+    "pct": {
+     "presencial": 75.0,
+     "hibrido": 25.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "1": {
+    "n": 5,
+    "pct": {
+     "presencial": 80.0,
+     "hibrido": 20.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "28": {
+   "8": {
+    "n": 3,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 12,
+    "pct": {
+     "presencial": 91.7,
+     "hibrido": 8.3,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 20,
+    "pct": {
+     "presencial": 40.0,
+     "hibrido": 30.0,
+     "remoto": 30.0
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 9,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 3,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 5,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "16": {
+   "8": {
+    "n": 3,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 2,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 4,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 24,
+    "pct": {
+     "presencial": 25.0,
+     "hibrido": 29.2,
+     "remoto": 45.8
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 3,
+    "pct": {
+     "presencial": 66.7,
+     "hibrido": 33.3,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 6,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "25": {
+   "2": {
+    "n": 29,
+    "pct": {
+     "presencial": 34.5,
+     "hibrido": 37.9,
+     "remoto": 27.6
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 3,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 5,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 10,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 3,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "7": {
+    "n": 13,
+    "pct": {
+     "presencial": 92.3,
+     "hibrido": 7.7,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  },
+  "17": {
+   "7": {
+    "n": 8,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "3": {
+    "n": 6,
+    "pct": {
+     "presencial": 83.3,
+     "hibrido": 16.7,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "2": {
+    "n": 27,
+    "pct": {
+     "presencial": 33.3,
+     "hibrido": 40.7,
+     "remoto": 25.9
+    },
+    "fiable": false
+   },
+   "8": {
+    "n": 2,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "4": {
+    "n": 2,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   },
+   "5": {
+    "n": 1,
+    "pct": {
+     "presencial": 100.0,
+     "hibrido": 0.0,
+     "remoto": 0.0
+    },
+    "fiable": false
+   }
+  }
+ },
+ "tablero": [
+  {
+   "cve_ent": "01",
+   "abrev": "Ags.",
+   "nombre": "Aguascalientes",
+   "sin_dato": false,
+   "n": 98,
+   "pct": 1.6,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Desarrollo de software",
+     "n": 11,
+     "pct": 11.2
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 8,
+     "pct": 8.2
+    },
+    {
+     "nombre": "Inteligencia de negocios",
+     "n": 7,
+     "pct": 7.1
+    },
+    {
+     "nombre": "Contabilidad",
+     "n": 6,
+     "pct": 6.1
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 24,
+     "pct": 24.5
+    },
+    {
+     "nombre": "integración de sistemas mediante API",
+     "n": 21,
+     "pct": 21.4
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 19,
+     "pct": 19.4
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 19,
+     "pct": 19.4
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 59,
+     "pct": 60.2
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 10,
+     "pct": 10.2
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 9,
+     "pct": 9.2
+    }
+   ],
+   "modalidad": {
+    "n": 98,
+    "pct": {
+     "presencial": 57.1,
+     "hibrido": 32.7,
+     "remoto": 10.2
+    },
+    "fiable": true
+   },
+   "salario_mediano": 24750
+  },
+  {
+   "cve_ent": "02",
+   "abrev": "BC",
+   "nombre": "Baja California",
+   "sin_dato": false,
+   "n": 243,
+   "pct": 4.1,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Transporte y reparto",
+     "n": 23,
+     "pct": 9.5
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 22,
+     "pct": 9.1
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 19,
+     "pct": 7.8
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 17,
+     "pct": 7.0
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 84,
+     "pct": 34.6
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 57,
+     "pct": 23.5
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 50,
+     "pct": 20.6
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 46,
+     "pct": 18.9
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 105,
+     "pct": 43.2
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 42,
+     "pct": 17.3
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 38,
+     "pct": 15.6
+    }
+   ],
+   "modalidad": {
+    "n": 243,
+    "pct": {
+     "presencial": 69.1,
+     "hibrido": 16.9,
+     "remoto": 14.0
+    },
+    "fiable": true
+   },
+   "salario_mediano": 18750
+  },
+  {
+   "cve_ent": "03",
+   "abrev": "BCS",
+   "nombre": "Baja California Sur",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "04",
+   "abrev": "Camp.",
+   "nombre": "Campeche",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "05",
+   "abrev": "Coah.",
+   "nombre": "Coahuila",
+   "sin_dato": false,
+   "n": 149,
+   "pct": 2.5,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Contabilidad",
+     "n": 14,
+     "pct": 9.4
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 13,
+     "pct": 8.7
+    },
+    {
+     "nombre": "Recepción y atención al público",
+     "n": 11,
+     "pct": 7.4
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 10,
+     "pct": 6.7
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 42,
+     "pct": 28.2
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 37,
+     "pct": 24.8
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 33,
+     "pct": 22.1
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 23,
+     "pct": 15.4
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 75,
+     "pct": 50.3
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 29,
+     "pct": 19.5
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 19,
+     "pct": 12.8
+    }
+   ],
+   "modalidad": {
+    "n": 149,
+    "pct": {
+     "presencial": 64.4,
+     "hibrido": 22.8,
+     "remoto": 12.8
+    },
+    "fiable": true
+   },
+   "salario_mediano": 20750
+  },
+  {
+   "cve_ent": "06",
+   "abrev": "Col.",
+   "nombre": "Colima",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "07",
+   "abrev": "Chis.",
+   "nombre": "Chiapas",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "08",
+   "abrev": "Chih.",
+   "nombre": "Chihuahua",
+   "sin_dato": false,
+   "n": 159,
+   "pct": 2.7,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Transporte y reparto",
+     "n": 14,
+     "pct": 8.8
+    },
+    {
+     "nombre": "Docencia básica",
+     "n": 11,
+     "pct": 6.9
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 11,
+     "pct": 6.9
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 11,
+     "pct": 6.9
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 45,
+     "pct": 28.3
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 39,
+     "pct": 24.5
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 37,
+     "pct": 23.3
+    },
+    {
+     "nombre": "lectura de planos",
+     "n": 24,
+     "pct": 15.1
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 78,
+     "pct": 49.1
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 29,
+     "pct": 18.2
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 16,
+     "pct": 10.1
+    }
+   ],
+   "modalidad": {
+    "n": 159,
+    "pct": {
+     "presencial": 66.0,
+     "hibrido": 21.4,
+     "remoto": 12.6
+    },
+    "fiable": true
+   },
+   "salario_mediano": 24250
+  },
+  {
+   "cve_ent": "09",
+   "abrev": "CDMX",
+   "nombre": "Ciudad de México",
+   "sin_dato": false,
+   "n": 1334,
+   "pct": 22.2,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 113,
+     "pct": 8.5
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 103,
+     "pct": 7.7
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 103,
+     "pct": 7.7
+    },
+    {
+     "nombre": "Contabilidad",
+     "n": 89,
+     "pct": 6.7
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 389,
+     "pct": 29.2
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 338,
+     "pct": 25.3
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 253,
+     "pct": 19.0
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 250,
+     "pct": 18.7
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 680,
+     "pct": 51.0
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 194,
+     "pct": 14.5
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 182,
+     "pct": 13.6
+    }
+   ],
+   "modalidad": {
+    "n": 1334,
+    "pct": {
+     "presencial": 65.0,
+     "hibrido": 21.0,
+     "remoto": 14.0
+    },
+    "fiable": true
+   },
+   "salario_mediano": 20750
+  },
+  {
+   "cve_ent": "10",
+   "abrev": "Dgo.",
+   "nombre": "Durango",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "11",
+   "abrev": "Gto.",
+   "nombre": "Guanajuato",
+   "sin_dato": false,
+   "n": 253,
+   "pct": 4.2,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Ventas en piso",
+     "n": 28,
+     "pct": 11.1
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 27,
+     "pct": 10.7
+    },
+    {
+     "nombre": "Enfermería",
+     "n": 15,
+     "pct": 5.9
+    },
+    {
+     "nombre": "Contabilidad",
+     "n": 15,
+     "pct": 5.9
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 83,
+     "pct": 32.8
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 77,
+     "pct": 30.4
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 51,
+     "pct": 20.2
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 39,
+     "pct": 15.4
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 111,
+     "pct": 43.9
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 45,
+     "pct": 17.8
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 37,
+     "pct": 14.6
+    }
+   ],
+   "modalidad": {
+    "n": 253,
+    "pct": {
+     "presencial": 67.6,
+     "hibrido": 16.6,
+     "remoto": 15.8
+    },
+    "fiable": true
+   },
+   "salario_mediano": 18250
+  },
+  {
+   "cve_ent": "12",
+   "abrev": "Gro.",
+   "nombre": "Guerrero",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "13",
+   "abrev": "Hgo.",
+   "nombre": "Hidalgo",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "14",
+   "abrev": "Jal.",
+   "nombre": "Jalisco",
+   "sin_dato": false,
+   "n": 582,
+   "pct": 9.7,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 58,
+     "pct": 10.0
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 45,
+     "pct": 7.7
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 44,
+     "pct": 7.6
+    },
+    {
+     "nombre": "Enfermería",
+     "n": 42,
+     "pct": 7.2
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 199,
+     "pct": 34.2
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 149,
+     "pct": 25.6
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 115,
+     "pct": 19.8
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 103,
+     "pct": 17.7
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 267,
+     "pct": 45.9
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 115,
+     "pct": 19.8
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 71,
+     "pct": 12.2
+    }
+   ],
+   "modalidad": {
+    "n": 582,
+    "pct": {
+     "presencial": 66.8,
+     "hibrido": 20.6,
+     "remoto": 12.5
+    },
+    "fiable": true
+   },
+   "salario_mediano": 19000
+  },
+  {
+   "cve_ent": "15",
+   "abrev": "Méx.",
+   "nombre": "Estado de México",
+   "sin_dato": false,
+   "n": 512,
+   "pct": 8.5,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 51,
+     "pct": 10.0
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 47,
+     "pct": 9.2
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 39,
+     "pct": 7.6
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 35,
+     "pct": 6.8
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 180,
+     "pct": 35.2
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 137,
+     "pct": 26.8
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 101,
+     "pct": 19.7
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 96,
+     "pct": 18.8
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 232,
+     "pct": 45.3
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 93,
+     "pct": 18.2
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 73,
+     "pct": 14.3
+    }
+   ],
+   "modalidad": {
+    "n": 512,
+    "pct": {
+     "presencial": 69.1,
+     "hibrido": 19.5,
+     "remoto": 11.3
+    },
+    "fiable": true
+   },
+   "salario_mediano": 18750
+  },
+  {
+   "cve_ent": "16",
+   "abrev": "Mich.",
+   "nombre": "Michoacán",
+   "sin_dato": false,
+   "n": 42,
+   "pct": 0.7,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Desarrollo de software",
+     "n": 9,
+     "pct": 21.4
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 3,
+     "pct": 7.1
+    },
+    {
+     "nombre": "Contabilidad",
+     "n": 3,
+     "pct": 7.1
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 3,
+     "pct": 7.1
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 11,
+     "pct": 26.2
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 11,
+     "pct": 26.2
+    },
+    {
+     "nombre": "integración de sistemas mediante API",
+     "n": 9,
+     "pct": 21.4
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 8,
+     "pct": 19.0
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 24,
+     "pct": 57.1
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 6,
+     "pct": 14.3
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 4,
+     "pct": 9.5
+    }
+   ],
+   "modalidad": {
+    "n": 42,
+    "pct": {
+     "presencial": 54.8,
+     "hibrido": 19.0,
+     "remoto": 26.2
+    },
+    "fiable": true
+   },
+   "salario_mediano": 23750
+  },
+  {
+   "cve_ent": "17",
+   "abrev": "Mor.",
+   "nombre": "Morelos",
+   "sin_dato": false,
+   "n": 46,
+   "pct": 0.8,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Operación de máquinas herramienta",
+     "n": 5,
+     "pct": 10.9
+    },
+    {
+     "nombre": "Ciencia de datos",
+     "n": 5,
+     "pct": 10.9
+    },
+    {
+     "nombre": "Mercadotecnia digital y crecimiento",
+     "n": 4,
+     "pct": 8.7
+    },
+    {
+     "nombre": "Inteligencia de negocios",
+     "n": 4,
+     "pct": 8.7
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "comunicación efectiva",
+     "n": 13,
+     "pct": 28.3
+    },
+    {
+     "nombre": "elaboración de reportes",
+     "n": 11,
+     "pct": 23.9
+    },
+    {
+     "nombre": "atención a clientes",
+     "n": 11,
+     "pct": 23.9
+    },
+    {
+     "nombre": "mantenimiento preventivo de maquinaria",
+     "n": 7,
+     "pct": 15.2
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 27,
+     "pct": 58.7
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 8,
+     "pct": 17.4
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 6,
+     "pct": 13.0
+    }
+   ],
+   "modalidad": {
+    "n": 46,
+    "pct": {
+     "presencial": 58.7,
+     "hibrido": 26.1,
+     "remoto": 15.2
+    },
+    "fiable": true
+   },
+   "salario_mediano": 24000
+  },
+  {
+   "cve_ent": "18",
+   "abrev": "Nay.",
+   "nombre": "Nayarit",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "19",
+   "abrev": "NL",
+   "nombre": "Nuevo León",
+   "sin_dato": false,
+   "n": 746,
+   "pct": 12.4,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Ventas en piso",
+     "n": 74,
+     "pct": 9.9
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 62,
+     "pct": 8.3
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 53,
+     "pct": 7.1
+    },
+    {
+     "nombre": "Enfermería",
+     "n": 49,
+     "pct": 6.6
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 231,
+     "pct": 31.0
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 194,
+     "pct": 26.0
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 152,
+     "pct": 20.4
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 129,
+     "pct": 17.3
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 360,
+     "pct": 48.3
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 109,
+     "pct": 14.6
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 99,
+     "pct": 13.3
+    }
+   ],
+   "modalidad": {
+    "n": 746,
+    "pct": {
+     "presencial": 68.0,
+     "hibrido": 21.0,
+     "remoto": 11.0
+    },
+    "fiable": true
+   },
+   "salario_mediano": 20250
+  },
+  {
+   "cve_ent": "20",
+   "abrev": "Oax.",
+   "nombre": "Oaxaca",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "21",
+   "abrev": "Pue.",
+   "nombre": "Puebla",
+   "sin_dato": false,
+   "n": 203,
+   "pct": 3.4,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 21,
+     "pct": 10.3
+    },
+    {
+     "nombre": "Contabilidad",
+     "n": 21,
+     "pct": 10.3
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 19,
+     "pct": 9.4
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 16,
+     "pct": 7.9
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 63,
+     "pct": 31.0
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 61,
+     "pct": 30.0
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 45,
+     "pct": 22.2
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 34,
+     "pct": 16.7
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 102,
+     "pct": 50.2
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 34,
+     "pct": 16.7
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 28,
+     "pct": 13.8
+    }
+   ],
+   "modalidad": {
+    "n": 203,
+    "pct": {
+     "presencial": 69.5,
+     "hibrido": 18.2,
+     "remoto": 12.3
+    },
+    "fiable": true
+   },
+   "salario_mediano": 18500
+  },
+  {
+   "cve_ent": "22",
+   "abrev": "Qro.",
+   "nombre": "Querétaro",
+   "sin_dato": false,
+   "n": 312,
+   "pct": 5.2,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Ventas en piso",
+     "n": 27,
+     "pct": 8.7
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 26,
+     "pct": 8.3
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 22,
+     "pct": 7.1
+    },
+    {
+     "nombre": "Contabilidad",
+     "n": 22,
+     "pct": 7.1
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 101,
+     "pct": 32.4
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 75,
+     "pct": 24.0
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 56,
+     "pct": 17.9
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 50,
+     "pct": 16.0
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 141,
+     "pct": 45.2
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 50,
+     "pct": 16.0
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 47,
+     "pct": 15.1
+    }
+   ],
+   "modalidad": {
+    "n": 312,
+    "pct": {
+     "presencial": 69.2,
+     "hibrido": 18.6,
+     "remoto": 12.2
+    },
+    "fiable": true
+   },
+   "salario_mediano": 20250
+  },
+  {
+   "cve_ent": "23",
+   "abrev": "Q. Roo",
+   "nombre": "Quintana Roo",
+   "sin_dato": false,
+   "n": 102,
+   "pct": 1.7,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Transporte y reparto",
+     "n": 9,
+     "pct": 8.8
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 8,
+     "pct": 7.8
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 7,
+     "pct": 6.9
+    },
+    {
+     "nombre": "Ciencia de datos",
+     "n": 6,
+     "pct": 5.9
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 37,
+     "pct": 36.3
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 20,
+     "pct": 19.6
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 17,
+     "pct": 16.7
+    },
+    {
+     "nombre": "elaboración de reportes",
+     "n": 17,
+     "pct": 16.7
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 47,
+     "pct": 46.1
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 15,
+     "pct": 14.7
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 13,
+     "pct": 12.7
+    }
+   ],
+   "modalidad": {
+    "n": 102,
+    "pct": {
+     "presencial": 67.6,
+     "hibrido": 22.5,
+     "remoto": 9.8
+    },
+    "fiable": true
+   },
+   "salario_mediano": 22000
+  },
+  {
+   "cve_ent": "24",
+   "abrev": "SLP",
+   "nombre": "San Luis Potosí",
+   "sin_dato": false,
+   "n": 124,
+   "pct": 2.1,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 12,
+     "pct": 9.7
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 9,
+     "pct": 7.3
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 9,
+     "pct": 7.3
+    },
+    {
+     "nombre": "Docencia básica",
+     "n": 8,
+     "pct": 6.5
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 44,
+     "pct": 35.5
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 32,
+     "pct": 25.8
+    },
+    {
+     "nombre": "captura de datos",
+     "n": 22,
+     "pct": 17.7
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 22,
+     "pct": 17.7
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 58,
+     "pct": 46.8
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 25,
+     "pct": 20.2
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 18,
+     "pct": 14.5
+    }
+   ],
+   "modalidad": {
+    "n": 124,
+    "pct": {
+     "presencial": 67.7,
+     "hibrido": 20.2,
+     "remoto": 12.1
+    },
+    "fiable": true
+   },
+   "salario_mediano": 17750
+  },
+  {
+   "cve_ent": "25",
+   "abrev": "Sin.",
+   "nombre": "Sinaloa",
+   "sin_dato": false,
+   "n": 63,
+   "pct": 1.1,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 6,
+     "pct": 9.5
+    },
+    {
+     "nombre": "Mecánica automotriz",
+     "n": 6,
+     "pct": 9.5
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 5,
+     "pct": 7.9
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 5,
+     "pct": 7.9
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 24,
+     "pct": 38.1
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 17,
+     "pct": 27.0
+    },
+    {
+     "nombre": "mantenimiento preventivo de maquinaria",
+     "n": 12,
+     "pct": 19.0
+    },
+    {
+     "nombre": "lectura de planos",
+     "n": 12,
+     "pct": 19.0
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 29,
+     "pct": 46.0
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 13,
+     "pct": 20.6
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 10,
+     "pct": 15.9
+    }
+   ],
+   "modalidad": {
+    "n": 63,
+    "pct": {
+     "presencial": 68.3,
+     "hibrido": 19.0,
+     "remoto": 12.7
+    },
+    "fiable": true
+   },
+   "salario_mediano": 18500
+  },
+  {
+   "cve_ent": "26",
+   "abrev": "Son.",
+   "nombre": "Sonora",
+   "sin_dato": false,
+   "n": 111,
+   "pct": 1.9,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Desarrollo de software",
+     "n": 11,
+     "pct": 9.9
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 8,
+     "pct": 7.2
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 7,
+     "pct": 6.3
+    },
+    {
+     "nombre": "Servicios de alimentos",
+     "n": 6,
+     "pct": 5.4
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 35,
+     "pct": 31.5
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 18,
+     "pct": 16.2
+    },
+    {
+     "nombre": "integración de sistemas mediante API",
+     "n": 17,
+     "pct": 15.3
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 16,
+     "pct": 14.4
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 53,
+     "pct": 47.7
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 16,
+     "pct": 14.4
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 15,
+     "pct": 13.5
+    }
+   ],
+   "modalidad": {
+    "n": 111,
+    "pct": {
+     "presencial": 60.4,
+     "hibrido": 25.2,
+     "remoto": 14.4
+    },
+    "fiable": true
+   },
+   "salario_mediano": 22000
+  },
+  {
+   "cve_ent": "27",
+   "abrev": "Tab.",
+   "nombre": "Tabasco",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "28",
+   "abrev": "Tamps.",
+   "nombre": "Tamaulipas",
+   "sin_dato": false,
+   "n": 52,
+   "pct": 0.9,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 5,
+     "pct": 9.6
+    },
+    {
+     "nombre": "Ciencia de datos",
+     "n": 5,
+     "pct": 9.6
+    },
+    {
+     "nombre": "Servicios de alimentos",
+     "n": 5,
+     "pct": 9.6
+    },
+    {
+     "nombre": "Recepción y atención al público",
+     "n": 4,
+     "pct": 7.7
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 19,
+     "pct": 36.5
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 15,
+     "pct": 28.8
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 12,
+     "pct": 23.1
+    },
+    {
+     "nombre": "captura de datos",
+     "n": 9,
+     "pct": 17.3
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 20,
+     "pct": 38.5
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 12,
+     "pct": 23.1
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 9,
+     "pct": 17.3
+    }
+   ],
+   "modalidad": {
+    "n": 52,
+    "pct": {
+     "presencial": 75.0,
+     "hibrido": 13.5,
+     "remoto": 11.5
+    },
+    "fiable": true
+   },
+   "salario_mediano": 21000
+  },
+  {
+   "cve_ent": "29",
+   "abrev": "Tlax.",
+   "nombre": "Tlaxcala",
+   "sin_dato": true
+  },
+  {
+   "cve_ent": "30",
+   "abrev": "Ver.",
+   "nombre": "Veracruz",
+   "sin_dato": false,
+   "n": 154,
+   "pct": 2.6,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Docencia básica",
+     "n": 14,
+     "pct": 9.1
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 13,
+     "pct": 8.4
+    },
+    {
+     "nombre": "Desarrollo de software",
+     "n": 11,
+     "pct": 7.1
+    },
+    {
+     "nombre": "Enfermería",
+     "n": 11,
+     "pct": 7.1
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "comunicación efectiva",
+     "n": 47,
+     "pct": 30.5
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 40,
+     "pct": 26.0
+    },
+    {
+     "nombre": "atención a clientes",
+     "n": 36,
+     "pct": 23.4
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 30,
+     "pct": 19.5
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 87,
+     "pct": 56.5
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 22,
+     "pct": 14.3
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 21,
+     "pct": 13.6
+    }
+   ],
+   "modalidad": {
+    "n": 154,
+    "pct": {
+     "presencial": 64.3,
+     "hibrido": 16.9,
+     "remoto": 18.8
+    },
+    "fiable": true
+   },
+   "salario_mediano": 20750
+  },
+  {
+   "cve_ent": "31",
+   "abrev": "Yuc.",
+   "nombre": "Yucatán",
+   "sin_dato": false,
+   "n": 175,
+   "pct": 2.9,
+   "fiable": true,
+   "ocupaciones": [
+    {
+     "nombre": "Contabilidad",
+     "n": 21,
+     "pct": 12.0
+    },
+    {
+     "nombre": "Apoyo administrativo",
+     "n": 16,
+     "pct": 9.1
+    },
+    {
+     "nombre": "Ventas en piso",
+     "n": 14,
+     "pct": 8.0
+    },
+    {
+     "nombre": "Transporte y reparto",
+     "n": 11,
+     "pct": 6.3
+    }
+   ],
+   "habilidades": [
+    {
+     "nombre": "atención a clientes",
+     "n": 58,
+     "pct": 33.1
+    },
+    {
+     "nombre": "uso de hojas de cálculo avanzadas",
+     "n": 45,
+     "pct": 25.7
+    },
+    {
+     "nombre": "comunicación efectiva",
+     "n": 44,
+     "pct": 25.1
+    },
+    {
+     "nombre": "trabajo en equipo",
+     "n": 33,
+     "pct": 18.9
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "Profesionistas y técnicos",
+     "n": 83,
+     "pct": 47.4
+    },
+    {
+     "nombre": "Auxiliares administrativos",
+     "n": 36,
+     "pct": 20.6
+    },
+    {
+     "nombre": "Oficios y construcción",
+     "n": 19,
+     "pct": 10.9
+    }
+   ],
+   "modalidad": {
+    "n": 175,
+    "pct": {
+     "presencial": 66.9,
+     "hibrido": 20.6,
+     "remoto": 12.6
+    },
+    "fiable": true
+   },
+   "salario_mediano": 19250
+  },
+  {
+   "cve_ent": "32",
+   "abrev": "Zac.",
+   "nombre": "Zacatecas",
+   "sin_dato": true
+  }
+ ],
+ "minimo_fiable": 30
+}

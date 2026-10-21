@@ -1,0 +1,942 @@
+[
+  {
+    "codigo_4d": "1324",
+    "nombre_4d": "Jefes de departamento de abastecimiento, distribución y afines",
+    "codigo_2d": "13",
+    "nombre_2d": "Coordinadores y jefes de área en producción, servicios y actividades administrativas",
+    "gran_grupo": "1",
+    "n_anuncios": 106,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Coordinación de última milla",
+        "n": 106
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Supervisor de Operaciones de Reparto",
+        "n": 40
+      },
+      {
+        "titulo": "Analista de Logística de Última Milla",
+        "n": 34
+      },
+      {
+        "titulo": "Coordinador de Última Milla",
+        "n": 32
+      }
+    ],
+    "indice_emergencia_promedio": 0.493,
+    "indice_emergencia_max": 0.634
+  },
+  {
+    "codigo_4d": "2120",
+    "nombre_4d": "Matemáticos, actuarios y estadísticos",
+    "codigo_2d": "21",
+    "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+    "gran_grupo": "2",
+    "n_anuncios": 185,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Ciencia de datos",
+        "n": 185
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Especialista en Modelos Predictivos",
+        "n": 60
+      },
+      {
+        "titulo": "Analista de Datos Senior",
+        "n": 46
+      },
+      {
+        "titulo": "Científico de Datos",
+        "n": 40
+      },
+      {
+        "titulo": "Data Scientist",
+        "n": 39
+      }
+    ],
+    "indice_emergencia_promedio": 0.314,
+    "indice_emergencia_max": 0.459
+  },
+  {
+    "codigo_4d": "2143",
+    "nombre_4d": "Ingenieros en ecología y ambientales",
+    "codigo_2d": "21",
+    "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+    "gran_grupo": "2",
+    "n_anuncios": 76,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Sostenibilidad y reporteo ESG",
+        "n": 76
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Coordinador de Sostenibilidad Corporativa",
+        "n": 25
+      },
+      {
+        "titulo": "Especialista ESG",
+        "n": 20
+      },
+      {
+        "titulo": "Analista de Sostenibilidad",
+        "n": 18
+      },
+      {
+        "titulo": "Analista de Huella de Carbono",
+        "n": 13
+      }
+    ],
+    "indice_emergencia_promedio": 0.537,
+    "indice_emergencia_max": 0.688
+  },
+  {
+    "codigo_4d": "2151",
+    "nombre_4d": "Desarrolladores y analistas de software y multimedia",
+    "codigo_2d": "21",
+    "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+    "gran_grupo": "2",
+    "n_anuncios": 573,
+    "n_titulos_distintos": 9,
+    "n_familias_distintas": 2,
+    "familias": [
+      {
+        "familia": "Desarrollo de software",
+        "n": 413
+      },
+      {
+        "familia": "Ingeniería de prompts e IA generativa",
+        "n": 160
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Ingeniero de Software",
+        "n": 115
+      },
+      {
+        "titulo": "Programador Backend",
+        "n": 105
+      },
+      {
+        "titulo": "Desarrollador Full Stack",
+        "n": 102
+      },
+      {
+        "titulo": "Desarrollador Frontend",
+        "n": 91
+      },
+      {
+        "titulo": "Especialista en IA Generativa",
+        "n": 35
+      },
+      {
+        "titulo": "Especialista en Modelos de Lenguaje",
+        "n": 33
+      },
+      {
+        "titulo": "Ingeniero de IA Generativa",
+        "n": 31
+      },
+      {
+        "titulo": "Ingeniero de Prompts",
+        "n": 31
+      }
+    ],
+    "indice_emergencia_promedio": 0.353,
+    "indice_emergencia_max": 0.795
+  },
+  {
+    "codigo_4d": "2152",
+    "nombre_4d": "Administradores de sistemas y de bases de datos",
+    "codigo_2d": "21",
+    "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+    "gran_grupo": "2",
+    "n_anuncios": 235,
+    "n_titulos_distintos": 8,
+    "n_familias_distintas": 2,
+    "familias": [
+      {
+        "familia": "Ingeniería de plataformas y confiabilidad",
+        "n": 119
+      },
+      {
+        "familia": "Operación de modelos en producción (MLOps)",
+        "n": 116
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Especialista en DevOps",
+        "n": 36
+      },
+      {
+        "titulo": "Ingeniero MLOps",
+        "n": 35
+      },
+      {
+        "titulo": "Platform Engineer",
+        "n": 31
+      },
+      {
+        "titulo": "Ingeniero de Machine Learning",
+        "n": 30
+      },
+      {
+        "titulo": "Especialista en MLOps",
+        "n": 30
+      },
+      {
+        "titulo": "Ingeniero de Plataformas",
+        "n": 29
+      },
+      {
+        "titulo": "Ingeniero de Confiabilidad de Sitio",
+        "n": 23
+      },
+      {
+        "titulo": "Ingeniero de Plataformas de IA",
+        "n": 21
+      }
+    ],
+    "indice_emergencia_promedio": 0.516,
+    "indice_emergencia_max": 0.675
+  },
+  {
+    "codigo_4d": "2153",
+    "nombre_4d": "Especialistas en seguridad informática",
+    "codigo_2d": "21",
+    "nombre_2d": "Profesionistas en ciencias exactas, ingeniería y tecnologías de la información",
+    "gran_grupo": "2",
+    "n_anuncios": 133,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Ciberseguridad en la nube",
+        "n": 133
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Ingeniero de Seguridad de la Información",
+        "n": 38
+      },
+      {
+        "titulo": "Especialista en DevSecOps",
+        "n": 35
+      },
+      {
+        "titulo": "Analista de Seguridad Cloud",
+        "n": 32
+      },
+      {
+        "titulo": "Especialista en Ciberseguridad en la Nube",
+        "n": 28
+      }
+    ],
+    "indice_emergencia_promedio": 0.507,
+    "indice_emergencia_max": 0.664
+  },
+  {
+    "codigo_4d": "2221",
+    "nombre_4d": "Enfermeras profesionales",
+    "codigo_2d": "22",
+    "nombre_2d": "Profesionistas en ciencias de la salud",
+    "gran_grupo": "2",
+    "n_anuncios": 364,
+    "n_titulos_distintos": 7,
+    "n_familias_distintas": 2,
+    "familias": [
+      {
+        "familia": "Enfermería",
+        "n": 322
+      },
+      {
+        "familia": "Coordinación de telemedicina",
+        "n": 42
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Enfermera General",
+        "n": 119
+      },
+      {
+        "titulo": "Auxiliar de Enfermería",
+        "n": 107
+      },
+      {
+        "titulo": "Enfermero Titulado",
+        "n": 96
+      },
+      {
+        "titulo": "Especialista en Salud Digital",
+        "n": 14
+      },
+      {
+        "titulo": "Coordinador de Telemedicina",
+        "n": 11
+      },
+      {
+        "titulo": "Enfermero de Teleconsulta",
+        "n": 9
+      },
+      {
+        "titulo": "Coordinador de Programas de Salud Remota",
+        "n": 8
+      }
+    ],
+    "indice_emergencia_promedio": 0.158,
+    "indice_emergencia_max": 0.622
+  },
+  {
+    "codigo_4d": "2341",
+    "nombre_4d": "Profesores de educación primaria",
+    "codigo_2d": "23",
+    "nombre_2d": "Profesionistas en educación",
+    "gran_grupo": "2",
+    "n_anuncios": 288,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Docencia básica",
+        "n": 288
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Profesor de Educación Básica",
+        "n": 102
+      },
+      {
+        "titulo": "Docente de Primaria",
+        "n": 96
+      },
+      {
+        "titulo": "Maestro de Grupo",
+        "n": 90
+      }
+    ],
+    "indice_emergencia_promedio": 0.184,
+    "indice_emergencia_max": 0.357
+  },
+  {
+    "codigo_4d": "2411",
+    "nombre_4d": "Contadores y auditores",
+    "codigo_2d": "24",
+    "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+    "gran_grupo": "2",
+    "n_anuncios": 375,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Contabilidad",
+        "n": 375
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Auxiliar Contable",
+        "n": 109
+      },
+      {
+        "titulo": "Contador de Costos",
+        "n": 95
+      },
+      {
+        "titulo": "Analista Contable",
+        "n": 88
+      },
+      {
+        "titulo": "Contador General",
+        "n": 83
+      }
+    ],
+    "indice_emergencia_promedio": 0.133,
+    "indice_emergencia_max": 0.272
+  },
+  {
+    "codigo_4d": "2412",
+    "nombre_4d": "Especialistas en finanzas y análisis de riesgo",
+    "codigo_2d": "24",
+    "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+    "gran_grupo": "2",
+    "n_anuncios": 67,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Prevención de fraude digital",
+        "n": 67
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Especialista en Identidad Digital",
+        "n": 23
+      },
+      {
+        "titulo": "Analista de Riesgo Digital",
+        "n": 22
+      },
+      {
+        "titulo": "Analista Antifraude",
+        "n": 13
+      },
+      {
+        "titulo": "Especialista en Prevención de Fraude",
+        "n": 9
+      }
+    ],
+    "indice_emergencia_promedio": 0.485,
+    "indice_emergencia_max": 0.635
+  },
+  {
+    "codigo_4d": "2431",
+    "nombre_4d": "Especialistas en mercadotecnia y publicidad",
+    "codigo_2d": "24",
+    "nombre_2d": "Profesionistas en ciencias económico-administrativas",
+    "gran_grupo": "2",
+    "n_anuncios": 223,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Mercadotecnia digital y crecimiento",
+        "n": 223
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Community Manager",
+        "n": 67
+      },
+      {
+        "titulo": "Coordinador de Mercadotecnia Digital",
+        "n": 59
+      },
+      {
+        "titulo": "Especialista en Growth Marketing",
+        "n": 54
+      },
+      {
+        "titulo": "Especialista en Comercio Electrónico",
+        "n": 43
+      }
+    ],
+    "indice_emergencia_promedio": 0.345,
+    "indice_emergencia_max": 0.526
+  },
+  {
+    "codigo_4d": "2511",
+    "nombre_4d": "Analistas de sistemas y de información",
+    "codigo_2d": "25",
+    "nombre_2d": "Profesionistas en análisis de sistemas y de información",
+    "gran_grupo": "2",
+    "n_anuncios": 305,
+    "n_titulos_distintos": 6,
+    "n_familias_distintas": 2,
+    "familias": [
+      {
+        "familia": "Inteligencia de negocios",
+        "n": 193
+      },
+      {
+        "familia": "Automatización de procesos",
+        "n": 112
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Analista de Datos",
+        "n": 71
+      },
+      {
+        "titulo": "Desarrollador BI",
+        "n": 69
+      },
+      {
+        "titulo": "Analista de Business Intelligence",
+        "n": 53
+      },
+      {
+        "titulo": "Especialista en RPA",
+        "n": 46
+      },
+      {
+        "titulo": "Desarrollador de Automatizaciones",
+        "n": 36
+      },
+      {
+        "titulo": "Analista de Automatización de Procesos",
+        "n": 30
+      }
+    ],
+    "indice_emergencia_promedio": 0.312,
+    "indice_emergencia_max": 0.496
+  },
+  {
+    "codigo_4d": "2634",
+    "nombre_4d": "Especialistas en ciencias sociales y afines",
+    "codigo_2d": "26",
+    "nombre_2d": "Profesionistas en ciencias sociales y humanidades",
+    "gran_grupo": "2",
+    "n_anuncios": 48,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Auditoría algorítmica y ética de IA",
+        "n": 48
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Auditor de Algoritmos",
+        "n": 14
+      },
+      {
+        "titulo": "Especialista en Gobernanza de IA",
+        "n": 12
+      },
+      {
+        "titulo": "Analista de Riesgos de Inteligencia Artificial",
+        "n": 12
+      },
+      {
+        "titulo": "Especialista en Ética de IA",
+        "n": 10
+      }
+    ],
+    "indice_emergencia_promedio": 0.665,
+    "indice_emergencia_max": 0.762
+  },
+  {
+    "codigo_4d": "2711",
+    "nombre_4d": "Diseñadores gráficos, multimedia y de producto",
+    "codigo_2d": "27",
+    "nombre_2d": "Profesionistas en artes, diseño y comunicación",
+    "gran_grupo": "2",
+    "n_anuncios": 190,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Diseño de experiencia de usuario",
+        "n": 190
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Investigador UX",
+        "n": 54
+      },
+      {
+        "titulo": "Diseñador de Experiencia Conversacional",
+        "n": 49
+      },
+      {
+        "titulo": "Diseñador UX/UI",
+        "n": 45
+      },
+      {
+        "titulo": "Diseñador de Producto Digital",
+        "n": 42
+      }
+    ],
+    "indice_emergencia_promedio": 0.313,
+    "indice_emergencia_max": 0.493
+  },
+  {
+    "codigo_4d": "3111",
+    "nombre_4d": "Auxiliares y asistentes administrativos",
+    "codigo_2d": "31",
+    "nombre_2d": "Trabajadores auxiliares en actividades administrativas",
+    "gran_grupo": "3",
+    "n_anuncios": 495,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Apoyo administrativo",
+        "n": 495
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Analista Administrativo",
+        "n": 176
+      },
+      {
+        "titulo": "Auxiliar Administrativo",
+        "n": 173
+      },
+      {
+        "titulo": "Asistente Administrativo",
+        "n": 146
+      }
+    ],
+    "indice_emergencia_promedio": 0.136,
+    "indice_emergencia_max": 0.294
+  },
+  {
+    "codigo_4d": "3113",
+    "nombre_4d": "Capturistas y operadores de equipo de cómputo",
+    "codigo_2d": "31",
+    "nombre_2d": "Trabajadores auxiliares en actividades administrativas",
+    "gran_grupo": "3",
+    "n_anuncios": 73,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Curación y etiquetado de datos para IA",
+        "n": 73
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Especialista en Calidad de Datos de Entrenamiento",
+        "n": 19
+      },
+      {
+        "titulo": "Especialista en Curación de Datos",
+        "n": 18
+      },
+      {
+        "titulo": "Analista de Etiquetado de Datos",
+        "n": 18
+      },
+      {
+        "titulo": "Revisor de Contenido para IA",
+        "n": 18
+      }
+    ],
+    "indice_emergencia_promedio": 0.548,
+    "indice_emergencia_max": 0.683
+  },
+  {
+    "codigo_4d": "3212",
+    "nombre_4d": "Cajeros, taquilleros y receptores de pagos",
+    "codigo_2d": "32",
+    "nombre_2d": "Trabajadores de apoyo en atención al público y manejo de valores",
+    "gran_grupo": "3",
+    "n_anuncios": 152,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Servicios bancarios de ventanilla",
+        "n": 152
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Ejecutivo de Ventanilla",
+        "n": 61
+      },
+      {
+        "titulo": "Promotor de Servicios Bancarios",
+        "n": 47
+      },
+      {
+        "titulo": "Cajero Bancario",
+        "n": 44
+      }
+    ],
+    "indice_emergencia_promedio": 0.044,
+    "indice_emergencia_max": 0.217
+  },
+  {
+    "codigo_4d": "3221",
+    "nombre_4d": "Recepcionistas y telefonistas",
+    "codigo_2d": "32",
+    "nombre_2d": "Trabajadores de apoyo en atención al público y manejo de valores",
+    "gran_grupo": "3",
+    "n_anuncios": 218,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Recepción y atención al público",
+        "n": 218
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Ejecutivo de Atención a Clientes",
+        "n": 78
+      },
+      {
+        "titulo": "Recepcionista",
+        "n": 74
+      },
+      {
+        "titulo": "Anfitrión de Recepción",
+        "n": 66
+      }
+    ],
+    "indice_emergencia_promedio": 0.139,
+    "indice_emergencia_max": 0.313
+  },
+  {
+    "codigo_4d": "4221",
+    "nombre_4d": "Vendedores y dependientes en establecimientos",
+    "codigo_2d": "42",
+    "nombre_2d": "Empleados de ventas en establecimientos",
+    "gran_grupo": "4",
+    "n_anuncios": 463,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Ventas en piso",
+        "n": 463
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Asesor de Ventas",
+        "n": 164
+      },
+      {
+        "titulo": "Promotor de Ventas",
+        "n": 156
+      },
+      {
+        "titulo": "Vendedor de Piso",
+        "n": 143
+      }
+    ],
+    "indice_emergencia_promedio": 0.091,
+    "indice_emergencia_max": 0.253
+  },
+  {
+    "codigo_4d": "5111",
+    "nombre_4d": "Cocineros y preparadores de alimentos",
+    "codigo_2d": "51",
+    "nombre_2d": "Trabajadores en la preparación y el servicio de alimentos",
+    "gran_grupo": "5",
+    "n_anuncios": 241,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Servicios de alimentos",
+        "n": 241
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Cocinero de Línea",
+        "n": 92
+      },
+      {
+        "titulo": "Cocinero",
+        "n": 76
+      },
+      {
+        "titulo": "Auxiliar de Cocina",
+        "n": 73
+      }
+    ],
+    "indice_emergencia_promedio": 0.128,
+    "indice_emergencia_max": 0.29
+  },
+  {
+    "codigo_4d": "7212",
+    "nombre_4d": "Soldadores y oxicortadores",
+    "codigo_2d": "72",
+    "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+    "gran_grupo": "7",
+    "n_anuncios": 192,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Soldadura",
+        "n": 192
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Soldador Industrial",
+        "n": 80
+      },
+      {
+        "titulo": "Soldador",
+        "n": 61
+      },
+      {
+        "titulo": "Soldador de Estructuras",
+        "n": 51
+      }
+    ],
+    "indice_emergencia_promedio": 0.127,
+    "indice_emergencia_max": 0.256
+  },
+  {
+    "codigo_4d": "7223",
+    "nombre_4d": "Operadores de máquinas herramienta",
+    "codigo_2d": "72",
+    "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+    "gran_grupo": "7",
+    "n_anuncios": 183,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Operación de máquinas herramienta",
+        "n": 183
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Programador de Máquinas CNC",
+        "n": 65
+      },
+      {
+        "titulo": "Operador de Torno CNC",
+        "n": 63
+      },
+      {
+        "titulo": "Operador de CNC",
+        "n": 55
+      }
+    ],
+    "indice_emergencia_promedio": 0.096,
+    "indice_emergencia_max": 0.274
+  },
+  {
+    "codigo_4d": "7231",
+    "nombre_4d": "Mecánicos y ajustadores de vehículos de motor",
+    "codigo_2d": "72",
+    "nombre_2d": "Trabajadores en la fabricación y el mantenimiento de productos metálicos y maquinaria",
+    "gran_grupo": "7",
+    "n_anuncios": 278,
+    "n_titulos_distintos": 6,
+    "n_familias_distintas": 2,
+    "familias": [
+      {
+        "familia": "Mecánica automotriz",
+        "n": 210
+      },
+      {
+        "familia": "Electromovilidad y vehículos eléctricos",
+        "n": 68
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Hojalatero y Pintor",
+        "n": 85
+      },
+      {
+        "titulo": "Mecánico Automotriz",
+        "n": 64
+      },
+      {
+        "titulo": "Técnico de Servicio Automotriz",
+        "n": 61
+      },
+      {
+        "titulo": "Técnico en Vehículos Eléctricos",
+        "n": 25
+      },
+      {
+        "titulo": "Especialista en Electromovilidad",
+        "n": 23
+      },
+      {
+        "titulo": "Técnico de Mantenimiento de Flota Eléctrica",
+        "n": 20
+      }
+    ],
+    "indice_emergencia_promedio": 0.233,
+    "indice_emergencia_max": 0.654
+  },
+  {
+    "codigo_4d": "7411",
+    "nombre_4d": "Electricistas y trabajadores en instalaciones eléctricas",
+    "codigo_2d": "74",
+    "nombre_2d": "Trabajadores en instalaciones y mantenimiento eléctrico",
+    "gran_grupo": "7",
+    "n_anuncios": 124,
+    "n_titulos_distintos": 4,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Instalación de sistemas fotovoltaicos",
+        "n": 124
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Técnico en Energía Solar Fotovoltaica",
+        "n": 35
+      },
+      {
+        "titulo": "Supervisor de Instalaciones Solares",
+        "n": 33
+      },
+      {
+        "titulo": "Técnico Instalador de Paneles Solares",
+        "n": 30
+      },
+      {
+        "titulo": "Instalador de Sistemas Fotovoltaicos",
+        "n": 26
+      }
+    ],
+    "indice_emergencia_promedio": 0.471,
+    "indice_emergencia_max": 0.612
+  },
+  {
+    "codigo_4d": "8322",
+    "nombre_4d": "Conductores de camiones y camionetas de carga",
+    "codigo_2d": "83",
+    "nombre_2d": "Conductores de transporte terrestre",
+    "gran_grupo": "8",
+    "n_anuncios": 412,
+    "n_titulos_distintos": 3,
+    "n_familias_distintas": 1,
+    "familias": [
+      {
+        "familia": "Transporte y reparto",
+        "n": 412
+      }
+    ],
+    "titulos_top": [
+      {
+        "titulo": "Operador de Camión",
+        "n": 151
+      },
+      {
+        "titulo": "Conductor de Reparto Local",
+        "n": 141
+      },
+      {
+        "titulo": "Chofer Repartidor",
+        "n": 120
+      }
+    ],
+    "indice_emergencia_promedio": 0.139,
+    "indice_emergencia_max": 0.303
+  }
+]

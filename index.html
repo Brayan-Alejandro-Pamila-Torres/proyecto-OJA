@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ocupaciones que apenas nombramos · INEGI</title>
+<meta name="description" content="Qué revelan los anuncios de empleo en internet sobre las ocupaciones que todavía no están en el catálogo oficial.">
+<link rel="stylesheet" href="src/css/tokens.css">
+<link rel="stylesheet" href="src/css/base.css">
+<link rel="stylesheet" href="src/css/shell.css">
+<link rel="stylesheet" href="src/css/scrolly.css">
+<link rel="stylesheet" href="src/css/patron.css">
+<link rel="stylesheet" href="src/css/apertura.css">
+<link rel="stylesheet" href="src/css/tareas.css">
+<link rel="stylesheet" href="src/css/anuncios.css">
+<link rel="stylesheet" href="src/css/casos.css">
+<link rel="stylesheet" href="src/css/resultados.css">
+<link rel="stylesheet" href="src/css/modo-referencia.css">
+</head>
+<body>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<nav class="barra-movil" aria-label="Secciones">
+  <button class="barra-movil__btn" data-ir="intro" aria-current="true">00 / Introducción</button>
+  <button class="barra-movil__btn" data-ir="resultados">01 / Resultados</button>
+  <button class="barra-movil__btn" data-ir="metodologia">02 / Metodología</button>
+</nav>
+
+<div class="libro" id="libro">
+
+  <!-- ============================ 00 · INTRODUCCIÓN ============================ -->
+  <section class="seccion" data-seccion="intro" data-indice="0" aria-label="Introducción">
+    <button class="lomo" data-ir="intro" aria-label="Ir a la sección 00, Introducción">
+      <span class="lomo__txt" aria-hidden="true">00 / Introducción</span>
+    </button>
+
+    <div class="seccion__cuerpo" data-raiz-scroll id="contenido">
+
+      <!-- portada -->
+      <header class="portada" data-fondo="hondo">
+        <div class="portada__patron" data-patron aria-hidden="true"></div>
+        <div class="portada__texto">
+          <p class="portada__antetitulo">Anuncios de empleo en internet</p>
+          <h1 class="portada__titulo">Ocupaciones<br>que apenas<br>nombramos</h1>
+          <p class="portada__bajada">
+            El catálogo oficial ordena el trabajo del país. Los anuncios de empleo
+            cuentan, todos los días, lo que el catálogo aún no alcanza a nombrar.
+          </p>
+          <p class="portada__pie" data-conteo>Cargando datos…</p>
+        </div>
+        <div class="portada__pista" aria-hidden="true">
+          <span>Desliza</span>
+          <svg viewBox="0 0 16 24" width="16" height="24"><path d="M8 2v18M2 14l6 6 6-6"
+            fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+            stroke-linejoin="round"/></svg>
+        </div>
+      </header>
+
+      <!-- ESCENA 1 · La pregunta y el catálogo -->
+      <div class="progreso" data-progreso>
+        <div class="progreso__pista"><div class="progreso__relleno" data-progreso-relleno></div></div>
+
+        <div class="scrolly" data-escena="apertura">
+          <div class="scrolly__fijo">
+            <div class="apertura" data-lienzo data-beat="0">
+
+              <div class="apertura__pregunta" data-pregunta>
+                <p class="apertura__ante">La pregunta que se hace en cada encuesta de empleo</p>
+                <h2 class="apertura__titulo">¿En qué trabaja usted?</h2>
+              </div>
+
+              <div class="apertura__tablero" data-tablero>
+                <div class="tablero__escala" data-escala>
+                  <div class="capa capa--renglones" data-renglones></div>
+                  <div class="capa capa--respuestas" data-respuestas></div>
+                  <div class="capa capa--tiempo" data-tiempo></div>
+                  <div class="capa capa--cierre" data-cierre></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="beats">
+            <div class="beat" data-pos="sin"></div>
+
+            <div class="beat" data-pos="derecha"><div class="tarjeta">
+              <h2>La gente contesta con sus palabras.</h2>
+              <p>Cada quien nombra su trabajo como lo vive. Nadie responde con un código.</p>
+            </div></div>
+
+            <div class="beat" data-pos="pie"><div class="tarjeta">
+              <h2>Para poder contarlas, cada respuesta recibe un código.</h2>
+              <p>Ese es el catálogo nacional de ocupaciones: la lista que ordena las formas
+                de trabajar del país y permite medirlas.</p>
+            </div></div>
+
+            <div class="beat" data-pos="pie"><div class="tarjeta">
+              <h2>El catálogo se actualiza cada varios años. El mercado no espera.</h2>
+              <p>Entre una versión y la siguiente caben una pandemia y la llegada de la IA
+                generativa. Los trabajos que nacieron de esos cambios todavía no tienen
+                renglón propio.</p>
+            </div></div>
+
+            <div class="beat" data-pos="pie"><div class="tarjeta">
+              <h2>Y hay respuestas que no encuentran su renglón.</h2>
+              <p>Cuando un trabajo no tiene un lugar propio en la lista, se guarda en el
+                más parecido.</p>
+            </div></div>
+          </div>
+          <div class="beats__cola"></div>
+        </div>
+      </div>
+
+      <!-- ESCENA 2 · La clasificación se basa en tareas -->
+      <div class="progreso" data-progreso>
+        <div class="progreso__pista"><div class="progreso__relleno" data-progreso-relleno></div></div>
+
+        <div class="scrolly" data-escena="tareas">
+          <div class="scrolly__fijo">
+            <div class="tareas" data-lienzo data-beat="0">
+              <div class="tareas__escala" data-escala>
+                <div class="capa capa--columnas" data-columnas></div>
+                <svg class="capa capa--hilos" data-hilos aria-hidden="true"></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="beats">
+            <div class="beat" data-pos="derecha"><div class="tarjeta">
+              <h2>Un catálogo no clasifica por el nombre del puesto, sino por lo que la
+                persona hace.</h2>
+              <p>Estas dos ocupaciones comparten renglón. Quien decide si son el mismo trabajo
+                son sus <b>tareas</b>: las que más aparecen en sus anuncios.</p>
+            </div></div>
+
+            <div class="beat" data-pos="derecha"><div class="tarjeta">
+              <h2 data-titulo-comunes>Casi no hacen lo mismo.</h2>
+              <p data-texto-comunes></p>
+            </div></div>
+
+            <div class="beat" data-pos="derecha"><div class="tarjeta">
+              <h2>Cuando entran suficientes tareas nuevas, el trabajo deja de ser el mismo.</h2>
+              <p>Eso es lo que da origen a una ocupación nueva: no un nombre distinto, sino un
+                conjunto distinto de tareas.</p>
+            </div></div>
+          </div>
+          <div class="beats__cola"></div>
+        </div>
+      </div>
+
+      <!-- ESCENA 3 · De dónde salen los anuncios -->
+      <div class="progreso" data-progreso>
+        <div class="progreso__pista"><div class="progreso__relleno" data-progreso-relleno></div></div>
+
+        <div class="scrolly" data-escena="anuncios">
+          <div class="scrolly__fijo">
+            <div class="anuncios" data-lienzo data-beat="0">
+              <div class="anuncios__escala" data-escala>
+                <div class="capa capa--lluvia" data-lluvia></div>
+                <div class="capa capa--extraccion" data-extraccion></div>
+                <div class="capa capa--composicion" data-composicion></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="beats">
+            <div class="beat" data-pos="pie"><div class="tarjeta">
+              <h2>Todos los días se publican vacantes en internet.</h2>
+              <p data-texto-lluvia></p>
+            </div></div>
+
+            <div class="beat" data-pos="pie"><div class="tarjeta">
+              <h2>Son texto libre. Hay que volverlos datos comparables.</h2>
+              <p>Un modelo de lenguaje lee cada anuncio y saca de él <b>los mismos campos</b>,
+                sea del mundo que sea: tareas, saberes, modalidad, sueldo y requisitos.</p>
+              <p class="tarjeta__nota">Lo que produce se revisa contra muestras clasificadas
+                a mano.</p>
+            </div></div>
+
+            <div class="beat" data-pos="pie"><div class="tarjeta">
+              <h2>Pero no son una encuesta.</h2>
+              <p>Los anuncios en internet no son una muestra del país: sólo ven una parte del
+                trabajo, y siempre la misma. Sirven para <b>complementar</b> la estadística
+                oficial, no para sustituirla.</p>
+            </div></div>
+          </div>
+          <div class="beats__cola"></div>
+        </div>
+      </div>
+
+      <!-- ESCENA 4 · Ocupaciones que apenas nombramos -->
+      <div class="progreso" data-progreso>
+        <div class="progreso__pista"><div class="progreso__relleno" data-progreso-relleno></div></div>
+
+        <div class="scrolly" data-escena="casos">
+          <div class="scrolly__fijo">
+            <div class="casos" data-lienzo data-beat="0">
+              <div class="casos__escala" data-escala>
+                <div class="capa capa--senales" data-senales></div>
+                <div class="capa capa--panorama" data-panorama></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="beats">
+            <div class="beat" data-pos="sin"></div>
+
+            <div class="beat" data-pos="sin"></div>
+          </div>
+          <div class="beats__cola"></div>
+        </div>
+      </div>
+
+      <section class="prosa">
+        <p>Eso es lo que traen los anuncios. En la siguiente sección se pueden explorar:
+          qué ocupaciones aparecen, con qué habilidades, en qué modalidad y con qué sueldo.</p>
+      </section>
+
+      <aside class="salida" data-salida>
+        <p class="salida__titulo">Sigue en <b>Resultados</b></p>
+        <p class="salida__pista salida__pista--ancho">Pulsa la cinta de la derecha</p>
+        <p class="salida__pista salida__pista--angosto">Pulsa «01 / Resultados» arriba</p>
+        <svg class="salida__flecha" viewBox="0 0 90 24" aria-hidden="true">
+          <path d="M2 12h74M68 4l10 8-10 8" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <button class="al-inicio" data-al-inicio type="button">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" fill="none" stroke="currentColor"
+                  stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Regresar al inicio
+        </button>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- ============================== 01 · DETALLES ============================== -->
+  <section class="seccion" data-seccion="resultados" data-indice="1" aria-label="Resultados">
+    <button class="lomo" data-ir="resultados" aria-label="Ir a la sección 01, Resultados">
+      <span class="lomo__txt" aria-hidden="true">01 / Resultados</span>
+    </button>
+
+    <div class="seccion__cuerpo" data-raiz-scroll>
+      <div class="resultados" data-resultados>
+
+        <div class="progreso progreso--seccion" data-progreso>
+          <div class="progreso__pista"><div class="progreso__relleno" data-progreso-relleno></div></div>
+        </div>
+
+        <!-- R1 y R2 van dentro de un mismo tramo: los globos del contador viajan
+             hasta el mapa, y ese vuelo necesita un elemento que abarque los dos
+             módulos para poder medir el avance del scroll de punta a punta. -->
+        <div class="tramo-vuelo" data-tramo-vuelo>
+
+        <!-- ===================== R1 · el acervo ====================== -->
+        <section class="modulo modulo--centro" id="acervo">
+          <div class="lienzo lienzo--acervo" data-acervo></div>
+        </section>
+
+        <!-- ===================== R2 · el reparto ===================== -->
+        <section class="modulo modulo--lado" id="reparto">
+          <div class="entrada entrada--lado">
+            <h3 class="modulo__titulo">Dónde se publican</h3>
+            <p>Ese montón no está repartido por igual. Cada globo cae en la entidad
+              donde se ofrece el trabajo, y su cola señala el sitio.</p>
+            <p>Cuatro entidades se quedan con más de la mitad. En el otro extremo hay
+              estados que no llegan al uno por ciento, y eso no quiere decir que ahí se
+              trabaje menos: quiere decir que ahí se <b>publica</b> menos por esta vía.
+              El mapa de los anuncios es el mapa de dónde se busca personal en internet,
+              no el del empleo del país.</p>
+            <p class="entrada__pie" data-nota-mapa></p>
+          </div>
+          <div class="lienzo lienzo--mapa" data-mapa></div>
+        </section>
+
+        </div><!-- /tramo-vuelo -->
+
+        <!-- =============== R3 · el tablero por entidad =============== -->
+        <section class="modulo" id="tablero">
+          <div class="entrada entrada--arriba">
+            <h3 class="modulo__titulo">Entidad por entidad</h3>
+            <p>El mapa dice cuánto. Esta ficha dice <b>qué</b>: en qué se contrata, qué
+              piden y cómo se trabaja en cada entidad. Las abreviaturas son las del INEGI.</p>
+          </div>
+          <div class="lienzo lienzo--tablero" data-tablero></div>
+        </section>
+
+        <!-- ================= R4 · el explorador ====================== -->
+        <section class="modulo" id="explorador">
+          <h3 class="modulo__titulo">Explorador de ocupaciones</h3>
+          <!-- El buscador va pegado al título, antes que nada: es lo primero que
+               alguien intenta al llegar a una lista de treinta renglones. -->
+          <label class="filtro filtro--buscar">
+            <span class="filtro__et">Buscar</span>
+            <input type="search" data-buscar placeholder="nombre de la ocupación">
+          </label>
+          <div class="explorador" data-explorador>
+            <div class="explorador__lista">
+              <p class="lista__nota">
+                Las <b data-n-ocupaciones></b> familias ocupacionales del corpus, ordenadas por
+                su índice. Elige una para ver su ficha completa.
+              </p>
+              <p class="lista__conteo" data-conteo-lista></p>
+              <ul class="lista" data-lista></ul>
+            </div>
+            <div class="explorador__ficha" data-ficha-detalle></div>
+          </div>
+        </section>
+
+        <footer class="resultados__pie">
+          <p>Los datos de esta sección son sintéticos y sirven para probar la herramienta.
+            La metodología y las fuentes reales se documentan aparte.</p>
+        </footer>
+
+      </div>
+    </div>
+  </section>
+<!-- ============================ 02 · METODOLOGÍA ============================ -->
+<section
+  class="seccion"
+  data-seccion="metodologia"
+  data-indice="2"
+  aria-label="Metodología"
+>
+  <button
+    class="lomo"
+    data-ir="metodologia"
+    aria-label="Ir a la sección 02, Metodología"
+  >
+    <span class="lomo__txt" aria-hidden="true">02 / Metodología</span>
+  </button>
+
+  <div class="seccion__cuerpo" data-raiz-scroll>
+    <header class="portada-metodologia">
+      <h1>Metodología</h1>
+    </header>
+  </div>
+</section>
+</div>
+
+
+<script src="src/vendor/d3.v7.min.js"></script>
+<script src="src/vendor/topojson-client.min.js"></script>
+<script type="module" src="src/js/main.js"></script>
+</body>
+</html>

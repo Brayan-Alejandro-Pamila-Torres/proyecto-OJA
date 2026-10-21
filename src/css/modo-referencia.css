@@ -1,0 +1,70 @@
+/* ============================================================================
+   Modo referencia — sólo activo con `html.ref` (`?ref` en la dirección o Alt+R)
+   No debe alterar la maquetación: rotula con ::before sobre un elemento al que
+   sólo se le añade `position: relative`, que no cambia el flujo, y marca el
+   contorno con `outline`, que tampoco ocupa espacio.
+   ========================================================================= */
+
+.ref { --ref-tinta: #3f27b5; --ref-papel: #f4f1ff; }
+
+.ref [data-ref] { outline: 1px dashed rgba(63, 39, 181, 0.45); outline-offset: 1px; }
+.ref .ref--anclado { position: relative; }
+
+.ref [data-ref]::before {
+  content: attr(data-ref);
+  position: absolute;
+  top: 0; left: 0;
+  transform: translateY(-100%);
+  z-index: 9000;
+  background: var(--ref-papel);
+  color: var(--ref-tinta);
+  border: 1px solid var(--ref-tinta);
+  padding: 1px 5px;
+  font: 600 10px/1.5 ui-monospace, "SFMono-Regular", Menlo, monospace;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* los beats ocupan toda la altura: su rótulo va dentro, no volando arriba */
+.ref .beat[data-ref]::before { transform: none; }
+
+/* ---- indicador de posición ----------------------------------------------- */
+
+.ref-hud {
+  position: fixed;
+  left: 12px; bottom: 12px;
+  z-index: 9500;
+  width: 16rem;
+  background: var(--ref-papel, #f4f1ff);
+  border: 1px solid var(--ref-tinta, #3f27b5);
+  box-shadow: 0 6px 20px rgb(0 0 0 / .16);
+  padding: 10px 12px;
+  font: 400 12px/1.45 ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color: var(--ref-tinta, #3f27b5);
+}
+.ref-hud[hidden] { display: none; }
+
+.ref-hud__seccion { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
+.ref-hud__donde { font-size: 15px; font-weight: 700; margin-top: 2px; }
+.ref-hud__cita { margin-top: 4px; opacity: .8; font-style: italic; }
+
+.ref-hud__pie { display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.ref-hud__pie button {
+  font: inherit; font-weight: 700; cursor: pointer;
+  background: var(--ref-tinta, #3f27b5); color: #fff;
+  border: 0; padding: 4px 8px;
+}
+.ref-hud__pie button:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+.ref-hud__tecla { font-size: 10px; opacity: .65; }
+
+@media (max-width: 760px) {
+  .ref-hud { width: auto; right: 12px; }
+  .ref [data-ref]::before { font-size: 9px; }
+}
+
+/* quien pidió menos movimiento no quiere que el indicador salte al aparecer */
+@media (prefers-reduced-motion: no-preference) {
+  .ref-hud { animation: ref-entra .18s ease-out; }
+  @keyframes ref-entra { from { opacity: 0; transform: translateY(6px); } }
+}

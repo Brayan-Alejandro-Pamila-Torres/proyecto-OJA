@@ -1,0 +1,1098 @@
+{
+  "nota": "Datos sintéticos de prueba. Ver data/README.md.",
+  "cobertura": {
+    "fuente": "PENDIENTE: sustituir por ENOE. Valores redondos, ilustrativos.",
+    "total": 100,
+    "grupos": [
+      {
+        "clave": "formal",
+        "n": 40,
+        "visible": true,
+        "nombre": "Trabajo asalariado formal",
+        "nota": "lo que un anuncio en internet alcanza a ver"
+      },
+      {
+        "clave": "informal",
+        "n": 25,
+        "visible": false,
+        "nombre": "Trabajo asalariado informal",
+        "nota": "rara vez se anuncia en internet"
+      },
+      {
+        "clave": "cuenta_propia",
+        "n": 25,
+        "visible": false,
+        "nombre": "Trabajo por cuenta propia",
+        "nota": "no hay vacante que anunciar"
+      },
+      {
+        "clave": "campo",
+        "n": 5,
+        "visible": false,
+        "nombre": "Trabajo agropecuario",
+        "nota": "se contrata en el lugar, no en una plataforma"
+      },
+      {
+        "clave": "sin_pago",
+        "n": 5,
+        "visible": false,
+        "nombre": "Trabajo sin pago",
+        "nota": "no pasa por el mercado laboral"
+      }
+    ]
+  },
+  "total": 5999,
+  "periodo": {
+    "desde": "2021-01",
+    "hasta": "2026-08",
+    "meses": 68
+  },
+  "promedio_mensual": 88,
+  "plataformas": [
+    {
+      "nombre": "Plataforma A",
+      "n": 1757,
+      "porcentaje": 29.3
+    },
+    {
+      "nombre": "Plataforma B",
+      "n": 1450,
+      "porcentaje": 24.2
+    },
+    {
+      "nombre": "Plataforma C",
+      "n": 1241,
+      "porcentaje": 20.7
+    },
+    {
+      "nombre": "Plataforma D",
+      "n": 896,
+      "porcentaje": 14.9
+    },
+    {
+      "nombre": "Plataforma E",
+      "n": 655,
+      "porcentaje": 10.9
+    }
+  ],
+  "grandes_grupos": [
+    {
+      "codigo": "2",
+      "nombre": "Profesionistas y técnicos",
+      "n": 3062,
+      "porcentaje": 51.0
+    },
+    {
+      "codigo": "3",
+      "nombre": "Trabajadores auxiliares en actividades administrativas",
+      "n": 938,
+      "porcentaje": 15.6
+    },
+    {
+      "codigo": "7",
+      "nombre": "Trabajadores artesanales, en la construcción y otros oficios",
+      "n": 777,
+      "porcentaje": 13.0
+    },
+    {
+      "codigo": "4",
+      "nombre": "Comerciantes, empleados en ventas y agentes de ventas",
+      "n": 463,
+      "porcentaje": 7.7
+    },
+    {
+      "codigo": "8",
+      "nombre": "Operadores de maquinaria industrial, ensambladores, choferes y conductores de transporte",
+      "n": 412,
+      "porcentaje": 6.9
+    },
+    {
+      "codigo": "5",
+      "nombre": "Trabajadores en servicios personales y vigilancia",
+      "n": 241,
+      "porcentaje": 4.0
+    },
+    {
+      "codigo": "1",
+      "nombre": "Funcionarios, directores y jefes",
+      "n": 106,
+      "porcentaje": 1.8
+    }
+  ],
+  "serie_mensual": [
+    {
+      "mes": "2021-01",
+      "total": 49
+    },
+    {
+      "mes": "2021-02",
+      "total": 53
+    },
+    {
+      "mes": "2021-03",
+      "total": 68
+    },
+    {
+      "mes": "2021-04",
+      "total": 67
+    },
+    {
+      "mes": "2021-05",
+      "total": 70
+    },
+    {
+      "mes": "2021-06",
+      "total": 68
+    },
+    {
+      "mes": "2021-07",
+      "total": 73
+    },
+    {
+      "mes": "2021-08",
+      "total": 64
+    },
+    {
+      "mes": "2021-09",
+      "total": 68
+    },
+    {
+      "mes": "2021-10",
+      "total": 60
+    },
+    {
+      "mes": "2021-11",
+      "total": 60
+    },
+    {
+      "mes": "2021-12",
+      "total": 57
+    },
+    {
+      "mes": "2022-01",
+      "total": 56
+    },
+    {
+      "mes": "2022-02",
+      "total": 63
+    },
+    {
+      "mes": "2022-03",
+      "total": 73
+    },
+    {
+      "mes": "2022-04",
+      "total": 76
+    },
+    {
+      "mes": "2022-05",
+      "total": 72
+    },
+    {
+      "mes": "2022-06",
+      "total": 88
+    },
+    {
+      "mes": "2022-07",
+      "total": 79
+    },
+    {
+      "mes": "2022-08",
+      "total": 72
+    },
+    {
+      "mes": "2022-09",
+      "total": 72
+    },
+    {
+      "mes": "2022-10",
+      "total": 68
+    },
+    {
+      "mes": "2022-11",
+      "total": 71
+    },
+    {
+      "mes": "2022-12",
+      "total": 66
+    },
+    {
+      "mes": "2023-01",
+      "total": 65
+    },
+    {
+      "mes": "2023-02",
+      "total": 77
+    },
+    {
+      "mes": "2023-03",
+      "total": 73
+    },
+    {
+      "mes": "2023-04",
+      "total": 94
+    },
+    {
+      "mes": "2023-05",
+      "total": 91
+    },
+    {
+      "mes": "2023-06",
+      "total": 95
+    },
+    {
+      "mes": "2023-07",
+      "total": 93
+    },
+    {
+      "mes": "2023-08",
+      "total": 93
+    },
+    {
+      "mes": "2023-09",
+      "total": 86
+    },
+    {
+      "mes": "2023-10",
+      "total": 70
+    },
+    {
+      "mes": "2023-11",
+      "total": 78
+    },
+    {
+      "mes": "2023-12",
+      "total": 81
+    },
+    {
+      "mes": "2024-01",
+      "total": 84
+    },
+    {
+      "mes": "2024-02",
+      "total": 90
+    },
+    {
+      "mes": "2024-03",
+      "total": 86
+    },
+    {
+      "mes": "2024-04",
+      "total": 107
+    },
+    {
+      "mes": "2024-05",
+      "total": 104
+    },
+    {
+      "mes": "2024-06",
+      "total": 105
+    },
+    {
+      "mes": "2024-07",
+      "total": 105
+    },
+    {
+      "mes": "2024-08",
+      "total": 103
+    },
+    {
+      "mes": "2024-09",
+      "total": 92
+    },
+    {
+      "mes": "2024-10",
+      "total": 81
+    },
+    {
+      "mes": "2024-11",
+      "total": 81
+    },
+    {
+      "mes": "2024-12",
+      "total": 82
+    },
+    {
+      "mes": "2025-01",
+      "total": 92
+    },
+    {
+      "mes": "2025-02",
+      "total": 104
+    },
+    {
+      "mes": "2025-03",
+      "total": 98
+    },
+    {
+      "mes": "2025-04",
+      "total": 106
+    },
+    {
+      "mes": "2025-05",
+      "total": 127
+    },
+    {
+      "mes": "2025-06",
+      "total": 122
+    },
+    {
+      "mes": "2025-07",
+      "total": 129
+    },
+    {
+      "mes": "2025-08",
+      "total": 118
+    },
+    {
+      "mes": "2025-09",
+      "total": 102
+    },
+    {
+      "mes": "2025-10",
+      "total": 100
+    },
+    {
+      "mes": "2025-11",
+      "total": 93
+    },
+    {
+      "mes": "2025-12",
+      "total": 107
+    },
+    {
+      "mes": "2026-01",
+      "total": 104
+    },
+    {
+      "mes": "2026-02",
+      "total": 115
+    },
+    {
+      "mes": "2026-03",
+      "total": 113
+    },
+    {
+      "mes": "2026-04",
+      "total": 121
+    },
+    {
+      "mes": "2026-05",
+      "total": 125
+    },
+    {
+      "mes": "2026-06",
+      "total": 124
+    },
+    {
+      "mes": "2026-07",
+      "total": 149
+    },
+    {
+      "mes": "2026-08",
+      "total": 121
+    }
+  ],
+  "riqueza": {
+    "tareas_por_anuncio": 4.8,
+    "habilidades_por_anuncio": 4.5,
+    "con_salario_pct": 63.3,
+    "modalidad": {
+      "presencial": 62.3,
+      "hibrido": 19.1,
+      "remoto": 18.6
+    }
+  },
+  "lluvia": [
+    {
+      "titulo": "Especialista en DevOps",
+      "icono": "red",
+      "perfil": "emergente",
+      "sector": "Servicios de tecnologías de la información",
+      "entidad": "Quintana Roo",
+      "modalidad": "Híbrido",
+      "contrato": "Por proyecto u obra determinada",
+      "sueldo": "$59,000 – $75,500",
+      "escolaridad": "Licenciatura",
+      "experiencia": 1,
+      "fecha": "28 de julio",
+      "plataforma": "Plataforma E"
+    },
+    {
+      "titulo": "Ejecutivo de Atención a Clientes",
+      "icono": "telefono",
+      "perfil": "consolidada",
+      "sector": "Servicios profesionales",
+      "entidad": "Tamaulipas",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$12,500 – $14,500",
+      "escolaridad": "Bachillerato",
+      "experiencia": 4,
+      "fecha": "8 de noviembre",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Operador de Camión",
+      "icono": "avion",
+      "perfil": "consolidada",
+      "sector": "Transporte",
+      "entidad": "Querétaro",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$10,000 – $12,500",
+      "escolaridad": "Bachillerato",
+      "experiencia": 6,
+      "fecha": "13 de diciembre",
+      "plataforma": "Plataforma E"
+    },
+    {
+      "titulo": "Analista Administrativo",
+      "icono": "archivero",
+      "perfil": "consolidada",
+      "sector": "Servicios profesionales",
+      "entidad": "México",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": "$14,000 – $17,000",
+      "escolaridad": "Técnico superior universitario",
+      "experiencia": 1,
+      "fecha": "18 de abril",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Técnico en Energía Solar Fotovoltaica",
+      "icono": "casa",
+      "perfil": "emergente",
+      "sector": "Construcción",
+      "entidad": "Puebla",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$13,500 – $16,000",
+      "escolaridad": "Secundaria",
+      "experiencia": 1,
+      "fecha": "26 de febrero",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Ingeniero de Software",
+      "icono": "monitor",
+      "perfil": "transicion",
+      "sector": "Comercio electrónico",
+      "entidad": "San Luis Potosí",
+      "modalidad": "Remoto",
+      "contrato": "Tiempo completo",
+      "sueldo": "$43,000 – $48,500",
+      "escolaridad": "Licenciatura",
+      "experiencia": 1,
+      "fecha": "12 de junio",
+      "plataforma": "Plataforma C"
+    },
+    {
+      "titulo": "Especialista en IA Generativa",
+      "icono": "cerebro",
+      "perfil": "emergente",
+      "sector": "Servicios financieros",
+      "entidad": "Ciudad de México",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": "$63,000 – $73,000",
+      "escolaridad": "Licenciatura",
+      "experiencia": 6,
+      "fecha": "26 de noviembre",
+      "plataforma": "Plataforma C"
+    },
+    {
+      "titulo": "Supervisor de Operaciones de Reparto",
+      "icono": "bicicleta",
+      "perfil": "emergente",
+      "sector": "Transporte",
+      "entidad": "Baja California",
+      "modalidad": "Presencial",
+      "contrato": "Por proyecto u obra determinada",
+      "sueldo": "$31,500 – $41,500",
+      "escolaridad": "Licenciatura",
+      "experiencia": 2,
+      "fecha": "8 de octubre",
+      "plataforma": "Plataforma B"
+    },
+    {
+      "titulo": "Especialista en Identidad Digital",
+      "icono": "dinero",
+      "perfil": "emergente",
+      "sector": "Servicios financieros",
+      "entidad": "Nacional (remoto)",
+      "modalidad": "Remoto",
+      "contrato": "Tiempo completo",
+      "sueldo": "$51,000 – $61,000",
+      "escolaridad": "Licenciatura",
+      "experiencia": 6,
+      "fecha": "19 de febrero",
+      "plataforma": "Plataforma C"
+    },
+    {
+      "titulo": "Profesor de Educación Básica",
+      "icono": "escuela",
+      "perfil": "consolidada",
+      "sector": "Educación",
+      "entidad": "Ciudad de México",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$20,500 – $24,000",
+      "escolaridad": "Licenciatura",
+      "experiencia": 8,
+      "fecha": "17 de octubre",
+      "plataforma": "Plataforma B"
+    },
+    {
+      "titulo": "Especialista en Modelos Predictivos",
+      "icono": "linea-datos",
+      "perfil": "transicion",
+      "sector": "Servicios financieros",
+      "entidad": "San Luis Potosí",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Maestría",
+      "experiencia": 0,
+      "fecha": "17 de septiembre",
+      "plataforma": "Plataforma B"
+    },
+    {
+      "titulo": "Ejecutivo de Ventanilla",
+      "icono": "porcentaje",
+      "perfil": "consolidada",
+      "sector": "Servicios financieros",
+      "entidad": "Sonora",
+      "modalidad": "Presencial",
+      "contrato": "Por proyecto u obra determinada",
+      "sueldo": "$14,500 – $18,000",
+      "escolaridad": "Técnico superior universitario",
+      "experiencia": 2,
+      "fecha": "22 de marzo",
+      "plataforma": "Plataforma E"
+    },
+    {
+      "titulo": "Enfermera General",
+      "icono": "hospital",
+      "perfil": "consolidada",
+      "sector": "Sector público",
+      "entidad": "Nuevo León",
+      "modalidad": "Presencial",
+      "contrato": "Por honorarios",
+      "sueldo": "$18,000 – $20,500",
+      "escolaridad": "Licenciatura",
+      "experiencia": 2,
+      "fecha": "12 de noviembre",
+      "plataforma": "Plataforma D"
+    },
+    {
+      "titulo": "Asesor de Ventas",
+      "icono": "acuerdo",
+      "perfil": "consolidada",
+      "sector": "Comercio al por menor",
+      "entidad": "Nuevo León",
+      "modalidad": "Presencial",
+      "contrato": "Medio tiempo",
+      "sueldo": null,
+      "escolaridad": "Secundaria",
+      "experiencia": 4,
+      "fecha": "16 de diciembre",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Community Manager",
+      "icono": "megafono",
+      "perfil": "transicion",
+      "sector": "Servicios financieros",
+      "entidad": "Chihuahua",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Licenciatura",
+      "experiencia": 0,
+      "fecha": "4 de julio",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Auditor de Algoritmos",
+      "icono": "documento-lupa",
+      "perfil": "emergente",
+      "sector": "Sector público",
+      "entidad": "Coahuila",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Licenciatura",
+      "experiencia": 0,
+      "fecha": "10 de octubre",
+      "plataforma": "Plataforma D"
+    },
+    {
+      "titulo": "Hojalatero y Pintor",
+      "icono": "auto",
+      "perfil": "consolidada",
+      "sector": "Comercio al por menor",
+      "entidad": "Ciudad de México",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$22,000 – $28,000",
+      "escolaridad": "Bachillerato",
+      "experiencia": 8,
+      "fecha": "25 de febrero",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Especialista en RPA",
+      "icono": "crecimiento",
+      "perfil": "transicion",
+      "sector": "Servicios financieros",
+      "entidad": "Aguascalientes",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Licenciatura",
+      "experiencia": 5,
+      "fecha": "16 de julio",
+      "plataforma": "Plataforma D"
+    },
+    {
+      "titulo": "Ingeniero de Seguridad de la Información",
+      "icono": "candado",
+      "perfil": "emergente",
+      "sector": "Servicios de tecnologías de la información",
+      "entidad": "Jalisco",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Licenciatura",
+      "experiencia": 5,
+      "fecha": "13 de febrero",
+      "plataforma": "Plataforma C"
+    },
+    {
+      "titulo": "Especialista en Salud Digital",
+      "icono": "estetoscopio",
+      "perfil": "emergente",
+      "sector": "Salud",
+      "entidad": "Ciudad de México",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": "$39,500 – $51,500",
+      "escolaridad": "Maestría",
+      "experiencia": 3,
+      "fecha": "5 de mayo",
+      "plataforma": "Plataforma C"
+    },
+    {
+      "titulo": "Investigador UX",
+      "icono": "laptop-datos",
+      "perfil": "transicion",
+      "sector": "Consultoría",
+      "entidad": "Sinaloa",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Licenciatura",
+      "experiencia": 3,
+      "fecha": "3 de marzo",
+      "plataforma": "Plataforma C"
+    },
+    {
+      "titulo": "Auxiliar Contable",
+      "icono": "calculadora",
+      "perfil": "consolidada",
+      "sector": "Servicios profesionales",
+      "entidad": "Jalisco",
+      "modalidad": "Remoto",
+      "contrato": "Por honorarios",
+      "sueldo": "$28,000 – $32,000",
+      "escolaridad": "Licenciatura",
+      "experiencia": 8,
+      "fecha": "12 de febrero",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Programador de Máquinas CNC",
+      "icono": "controles",
+      "perfil": "consolidada",
+      "sector": "Manufactura",
+      "entidad": "Jalisco",
+      "modalidad": "Presencial",
+      "contrato": "Por proyecto u obra determinada",
+      "sueldo": "$21,000 – $25,500",
+      "escolaridad": "Secundaria",
+      "experiencia": 2,
+      "fecha": "11 de mayo",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Cocinero de Línea",
+      "icono": "comida",
+      "perfil": "consolidada",
+      "sector": "Comercio al por menor",
+      "entidad": "Ciudad de México",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Secundaria",
+      "experiencia": 2,
+      "fecha": "27 de noviembre",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Coordinador de Sostenibilidad Corporativa",
+      "icono": "planta",
+      "perfil": "emergente",
+      "sector": "Manufactura",
+      "entidad": "México",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": "$35,000 – $40,000",
+      "escolaridad": "Licenciatura",
+      "experiencia": 6,
+      "fecha": "22 de octubre",
+      "plataforma": "Plataforma D"
+    },
+    {
+      "titulo": "Técnico en Vehículos Eléctricos",
+      "icono": "controles",
+      "perfil": "emergente",
+      "sector": "Manufactura",
+      "entidad": "Querétaro",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$32,000 – $38,000",
+      "escolaridad": "Carrera técnica",
+      "experiencia": 1,
+      "fecha": "11 de julio",
+      "plataforma": "Plataforma D"
+    },
+    {
+      "titulo": "Ingeniero MLOps",
+      "icono": "nube",
+      "perfil": "emergente",
+      "sector": "Servicios de tecnologías de la información",
+      "entidad": "Chihuahua",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": null,
+      "escolaridad": "Licenciatura",
+      "experiencia": 2,
+      "fecha": "5 de junio",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Analista de Datos",
+      "icono": "barras",
+      "perfil": "transicion",
+      "sector": "Comercio al por menor",
+      "entidad": "Morelos",
+      "modalidad": "Híbrido",
+      "contrato": "Tiempo completo",
+      "sueldo": "$27,500 – $37,000",
+      "escolaridad": "Licenciatura",
+      "experiencia": 3,
+      "fecha": "24 de mayo",
+      "plataforma": "Plataforma D"
+    },
+    {
+      "titulo": "Especialista en Calidad de Datos de Entrenamiento",
+      "icono": "portapapeles",
+      "perfil": "emergente",
+      "sector": "Servicios de tecnologías de la información",
+      "entidad": "Jalisco",
+      "modalidad": "Remoto",
+      "contrato": "Tiempo completo",
+      "sueldo": "$14,500 – $19,500",
+      "escolaridad": "Técnico superior universitario",
+      "experiencia": 8,
+      "fecha": "23 de septiembre",
+      "plataforma": "Plataforma A"
+    },
+    {
+      "titulo": "Soldador Industrial",
+      "icono": "rompecabezas",
+      "perfil": "consolidada",
+      "sector": "Construcción",
+      "entidad": "Yucatán",
+      "modalidad": "Presencial",
+      "contrato": "Tiempo completo",
+      "sueldo": "$14,500 – $17,500",
+      "escolaridad": "Secundaria",
+      "experiencia": 4,
+      "fecha": "28 de abril",
+      "plataforma": "Plataforma D"
+    }
+  ],
+  "ejemplos": [
+    {
+      "titulo": "Especialista en Modelos de Lenguaje",
+      "familia": "Ingeniería de prompts e IA generativa",
+      "icono": "cerebro",
+      "plataforma": "Plataforma A",
+      "fecha": "2025-08-17",
+      "descripcion": "Empresa del sector manufactura solicita Especialista en Modelos de Lenguaje para su operación en Jalisco. Responsabilidades: colaborar con equipos de producto para definir casos de uso de ia; diseñar cadenas de agentes que resuelven tareas de varios pasos; construir bancos de evaluación para comparar versiones de modelos; integrar modelos mediante interfaces de programación. Requisitos: licenciatura concluida, 8 años de experiencia en posiciones similares, inglés intermedio o avanzado, conocimientos en programación en Python, análisis de requerimientos, pensamiento crítico. Ofrecemos: esquema totalmente remoto, sueldo mensual de 59,000 a 79,000 pesos, seguro de gastos médicos menores, vales de despensa.",
+      "extraccion": {
+        "campos": [
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Colaborar con equipos de producto para definir casos de uso de IA",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              125,
+              190
+            ]
+          },
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Diseñar cadenas de agentes que resuelven tareas de varios pasos",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              192,
+              255
+            ]
+          },
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Construir bancos de evaluación para comparar versiones de modelos",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              257,
+              322
+            ]
+          },
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Integrar modelos mediante interfaces de programación",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              324,
+              376
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "estudios",
+            "texto": "Licenciatura",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              390,
+              402
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "experiencia",
+            "texto": "8 años de experiencia",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              414,
+              435
+            ]
+          },
+          {
+            "grupo": "habilidades",
+            "tipo": "habilidad",
+            "texto": "programación en Python",
+            "etiqueta": "S5",
+            "origen": "texto",
+            "tramo": [
+              508,
+              530
+            ]
+          },
+          {
+            "grupo": "habilidades",
+            "tipo": "habilidad",
+            "texto": "análisis de requerimientos",
+            "etiqueta": "S2",
+            "origen": "texto",
+            "tramo": [
+              532,
+              558
+            ]
+          },
+          {
+            "grupo": "habilidades",
+            "tipo": "habilidad",
+            "texto": "pensamiento crítico",
+            "etiqueta": "S2",
+            "origen": "texto",
+            "tramo": [
+              560,
+              579
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "modalidad",
+            "texto": "Trabajo remoto",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              611,
+              617
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "sueldo",
+            "texto": "$59,000 – $79,000 al mes",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              637,
+              658
+            ]
+          }
+        ],
+        "n_extraidos": 11
+      }
+    },
+    {
+      "titulo": "Supervisor de Instalaciones Solares",
+      "familia": "Instalación de sistemas fotovoltaicos",
+      "icono": "casa",
+      "plataforma": "Plataforma B",
+      "fecha": "2025-02-17",
+      "descripcion": "Empresa del sector energía solicita Supervisor de Instalaciones Solares para su operación en Nuevo León. Responsabilidades: gestionar el trámite de interconexión a la red eléctrica; elaborar reportes de instalación y mantenimiento; cumplir con las normas de seguridad en el trabajo; reportar avances al supervisor. Requisitos: carrera técnica concluida, 1 años de experiencia en posiciones similares, conocimientos en mantenimiento preventivo de maquinaria, trabajo en equipo, instalaciones eléctricas residenciales. Ofrecemos: trabajo presencial, sueldo mensual de 25,500 a 32,500 pesos, vales de despensa, capacitación continua.",
+      "extraccion": {
+        "campos": [
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Gestionar el trámite de interconexión a la red eléctrica",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              124,
+              180
+            ]
+          },
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Elaborar reportes de instalación y mantenimiento",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              182,
+              230
+            ]
+          },
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Cumplir con las normas de seguridad en el trabajo",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              232,
+              281
+            ]
+          },
+          {
+            "grupo": "tareas",
+            "tipo": "tarea",
+            "texto": "Reportar avances al supervisor",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              283,
+              313
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "estudios",
+            "texto": "Carrera técnica",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              327,
+              342
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "experiencia",
+            "texto": "1 año de experiencia",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              354,
+              375
+            ]
+          },
+          {
+            "grupo": "habilidades",
+            "tipo": "habilidad",
+            "texto": "mantenimiento preventivo de maquinaria",
+            "etiqueta": "S8",
+            "origen": "texto",
+            "tramo": [
+              418,
+              456
+            ]
+          },
+          {
+            "grupo": "habilidades",
+            "tipo": "habilidad",
+            "texto": "trabajo en equipo",
+            "etiqueta": "S1",
+            "origen": "texto",
+            "tramo": [
+              458,
+              475
+            ]
+          },
+          {
+            "grupo": "habilidades",
+            "tipo": "habilidad",
+            "texto": "instalaciones eléctricas residenciales",
+            "etiqueta": "S7",
+            "origen": "texto",
+            "tramo": [
+              477,
+              515
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "modalidad",
+            "texto": "Presencial",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              536,
+              546
+            ]
+          },
+          {
+            "grupo": "condiciones",
+            "tipo": "sueldo",
+            "texto": "$25,500 – $32,500 al mes",
+            "etiqueta": null,
+            "origen": "texto",
+            "tramo": [
+              566,
+              587
+            ]
+          }
+        ],
+        "n_extraidos": 11
+      }
+    }
+  ]
+}

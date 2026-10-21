@@ -1,0 +1,28 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# Editores
+.vscode/
+.idea/
